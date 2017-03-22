@@ -5,6 +5,7 @@ Please note that this is *NOT designed for end users*, but for programmers in mi
 This project acts as a backbone for my Tamil-Catholic-Lectionary project.
 The code is modular, easy to read and added necessary comments for easy usage. 
 
+## Points to Note
 For each day the name of the feast (if any) acts as a unique identifier for that feast. For a weekday (with no feast) a code is generated in the following syntax: `<SEASON CODE><WEEK NUMBER>-<DAY NUMBER><DAY NAME>`
 
 * `SEASON CODE` can be one of the following:
