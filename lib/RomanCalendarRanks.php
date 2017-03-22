@@ -143,6 +143,11 @@ class RomanCalendarRanks {
 			'Commomeration' => 14
 	);
 	
+	/**
+	 * Get rank of a given dayCode
+	 * @param unknown $dayCode
+	 * @return number
+	 */
 	function getRank($dayCode) {
 		
 		$keys = array_keys ( $this->RomanCalendarRanks );

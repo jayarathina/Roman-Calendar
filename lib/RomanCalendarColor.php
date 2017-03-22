@@ -6,7 +6,9 @@
  *
  */
 class RomanCalendarColor {
+
 	private $RCYr;
+
 	function __construct(RomanCalendarYear $RCYear) {
 		$this->RCYr = $RCYear;
 		
@@ -28,15 +30,21 @@ class RomanCalendarColor {
 		}
 	}
 
-
+	/**
+	 * Get color for a particular feast type or code
+	 * 
+	 * @param unknown $feastCode        	
+	 * @param unknown $feastType        	
+	 * @return string
+	 */
 	private function getColor($feastCode, $feastType = null) {
 		$feastClr = '*-*';
 		
-	//	echo $feastType;
-	//	die();
+		// echo $feastType;
+		// die();
 		
-		//$feastCode = explode('-', $feastCode)[0];
-		$feastType = explode('-', $feastType)[0];
+		// $feastCode = explode('-', $feastCode)[0];
+		$feastType = explode ( '-', $feastType ) [0];
 		
 		$feastClrr = [
 				// The proper color for Solemnities is white except Pentecost and Peter and Paul (Jun 29) in which cases it is red

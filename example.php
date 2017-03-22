@@ -9,12 +9,15 @@ include_once ('Lib/RomanCalendar.php');
 	</head>
 <body>
 
-<pre>
 <?php 
 
+//Test Cases
+//2019 Immaculate conception on sunday
+//2018 annunciaion during holy week
+//1967 st joseph during holy week
+
 $CalcGen = new RomanCalendar(2016);
-//2019 immacula
-//2018 annuncia
-//1967 st joseph
+
+$CalcGen->printYearHTML();
+
 ?>
-</pre>

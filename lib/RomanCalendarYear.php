@@ -93,28 +93,6 @@ class RomanCalendarYear {
 		
 		echo '<hr/>';
 	}
-	
-	function printYear() {
-		$rows = '';
-		
-		foreach ( $this->fullYear as $month => $value ) {
-			foreach ( $value as $days => $feasts ) {
-				$tempDt2 = new DateTime ( "{$this->currentYear}-$month-$days" );
-				
-				foreach ( $feasts as $fet ) {
-					$rows .= '<tr>';
-					$rows .= '<td>' . $tempDt2->format ( 'j F Y' ) . '</td>';
-					$rows .= '<td>' . $fet ['code'] . '</td>';
-					$rows .= '<td>' . $fet ['rank'] . '</td>';
-					$rows .= '</tr>';
-				}
-			}
-		}
-		
-		echo "<table>$rows</table>";
-	}
-
-
 
 
 	/**
