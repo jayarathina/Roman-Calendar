@@ -138,6 +138,9 @@ class RomanCalendar {
 		}
 	}
 
+	/**
+	 * This is a sample function to generate a HTML output. You can use it as a sample and build from there.
+	 */
 	function printYearHTML() {
 		
 		$rows = '';
@@ -154,7 +157,7 @@ class RomanCalendar {
 					}
 					
 					$type = isset($fet ['type'])?' ('.$fet ['type'].')':'';
-					$rows .=  '<span class="ColD'.$fet ['color'].'">-</span><span class="Col'.$fet ['color'].'"> '.$fet ['code'].$type.'</span><br/>';
+					$rows .=  '<span class="ColD'.$fet ['color'].'">&nbsp;&nbsp;</span><span class="Col'.$fet ['color'].'"> '.$fet ['code'].$type.'</span><br/>';
 				}
 				$rows .= '</td></tr>';
 			}
