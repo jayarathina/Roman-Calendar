@@ -15,8 +15,9 @@ include_once ('Lib/RomanCalendar.php');
 //2019 Immaculate conception on sunday
 //2018 annunciaion during holy week
 //1967 st joseph during holy week
+//2017 St. Joseph during lent sunday
 
-$CalcGen = new RomanCalendar(2016);
+$CalcGen = new RomanCalendar();
 
 $CalcGen->printYearHTML();
 

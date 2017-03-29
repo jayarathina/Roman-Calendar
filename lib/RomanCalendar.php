@@ -14,7 +14,7 @@ class RomanCalendar {
 	
 	public $rcy;
 
-	function __construct($year, $settingsFileName = 'settings.ini') {
+	function __construct($year=null, $settingsFileName = 'settings.ini') {
 		$currentYear = is_numeric ( $year ) ? $year : date ( "Y" );
 		$calcConfig = parse_ini_file ( $settingsFileName );
 		
@@ -138,6 +138,9 @@ class RomanCalendar {
 		}
 	}
 
+	/**
+	 * This is a sample function to generate a HTML output. You can use it as a sample and build from there.
+	 */
 	function printYearHTML() {
 		
 		$rows = '';
@@ -152,9 +155,8 @@ class RomanCalendar {
 					if(! isset($fet ['color'])){
 						print_r($fet);
 					}
-					
 					$type = isset($fet ['type'])?' ('.$fet ['type'].')':'';
-					$rows .=  '<span class="ColD'.$fet ['color'].'">-</span><span class="Col'.$fet ['color'].'"> '.$fet ['code'].$type.'</span><br/>';
+					$rows .=  '<span class="ColD'.$fet ['color'].'">&nbsp;&nbsp;</span><span class="Col'.$fet ['color'].'"> '.$fet ['code'].$type.'</span><br/>';
 				}
 				$rows .= '</td></tr>';
 			}
