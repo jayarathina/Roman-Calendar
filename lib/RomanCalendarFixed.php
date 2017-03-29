@@ -102,9 +102,9 @@ class RomanCalendarFixed {
 			$currentDayRank = $currentDay [0] ['rank'];
 			
 			if ($currentDayRank > 5) {
-				// TODO Optional memorials that occour between Dec17-Dec24, Dec-25-Jan1 or during Lent will become commomeration
-				// If a fixed date Memorial or Optional Memorial falls within the Lenten season, it is reduced in rank to a Commemoration.
 				if (preg_match ( "/^[LW|AW05]/", $currentDay [0] ['code'] ) === 1) {
+					// TODO Optional memorials that occour between Dec17-Dec24, Dec-25-Jan1 or during Lent will become commomeration
+					// If a fixed date Memorial or Optional Memorial falls within the Lenten season, it is reduced in rank to a Commemoration.
 					$memoryDate ['feast_type'] = 'Commomeration';
 				}
 				
