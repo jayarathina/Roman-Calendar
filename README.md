@@ -1,6 +1,7 @@
 # Roman-Calendar
 This is a Roman Catholic Liturgical Calendar Generator in PHP. It generates the Catholic Liturgical Calendar (Solemnities, Feasts, Memory, Optional Memory etc., for a particular year). This project acts as a backbone for my [Tamil-Catholic-Lectionary project](https://github.com/jayarathina/Tamil-Catholic-Lectionary). (I decided to separate these both because verse subdivisions (Not the actual readings) in lectionary differ based on the translation used. Hence it would be better if a separate project was started for Tamil Language)
-##Features of this library include:
+
+## Features of this library include:
 - Ability to add local calendars (Using JSON).
 - Created with programmers in mind, so that programmers can easily embed or extend it in their own website.
 - Designed to modular, easy to read with necessary comments for clarity. 
@@ -21,7 +22,7 @@ For each day the name of the feast (if any) acts as a unique identifier for that
 * `OW04-0Sun` represents Ordinary Week Four Sunday
 * `LW03-4Thu` represents Lent Week Three Thursday
 
-##Known Issues
+## Known Issues
 * Only one local calendar (Probably your country) can be added as of now. For more than one local calendar (Probably a religious Society and a country - more than one solemnity clashes with each other) the result is undetermined.
 
 ## Suggestions or Comments
