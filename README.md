@@ -5,6 +5,7 @@ This is a Roman Catholic Liturgical Calendar Generator in PHP. It generates the 
 - This is created with programmers in mind, so that programmers can easily embed or extend it in their own website.
 - The code is designed to modular, easy to read with necessary comments for clarity. 
 - It is designed in a way that it can be easily translated into any language. (English Translation of the raw data is provided in the HTML representation of the data.)
+
 ## Points to Note
 For each day the name of the feast (if any) acts as a unique identifier for that feast. For a weekday (with no feast) a code is generated in the following syntax: `<SEASON CODE><WEEK NUMBER>-<DAY NUMBER><DAY NAME>`. They stand for the following:
 * `SEASON CODE` can be one of the following:
@@ -19,7 +20,9 @@ For each day the name of the feast (if any) acts as a unique identifier for that
 ### For example: 
 * `OW04-0Sun` represents Ordinary Week Four Sunday
 * `LW04-4Thu` represents Lent Week Five Thursday
+
 ##Known Issues
 * Though only one local calendar is possible as of now, The result for more than one local calendar is undetermined
+
 ## Suggestions or Comments
 If you find any bug or suggest any improvement, please feel free to raise a pull request or contact me 
