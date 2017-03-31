@@ -20,7 +20,7 @@ class RomanCalendarFixed {
 
 	/**
 	 * Adds the given Solemnity to RomanCalendarYear variable
-	 * 
+	 *
 	 * @param array $FeastList        	
 	 */
 	function addSolemnityToYear($FeastList) {

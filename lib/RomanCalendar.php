@@ -11,10 +11,10 @@ require_once 'lib/RomanCalendarMovable.php';
 require_once 'lib/RomanCalendarYear.php';
 require_once 'lib/RomanCalendarColor.php';
 class RomanCalendar {
-	
+
 	public $rcy;
 
-	function __construct($year=null, $settingsFileName = 'settings.ini') {
+	function __construct($year = null, $settingsFileName = 'settings.ini') {
 		$currentYear = is_numeric ( $year ) ? $year : date ( "Y" );
 		$calcConfig = parse_ini_file ( $settingsFileName );
 		
@@ -27,8 +27,7 @@ class RomanCalendar {
 			$feastDeatils = $this->getDataFromDAT ( $calcConfig ['feastsListLoc'] . $calName . '.json' );
 			new RomanCalendarFixed ( $this->rcy, $feastDeatils, $calName );
 		}
-		$this->genFixes ( );
-		
+		$this->genFixes ();
 		new RomanCalendarColor ( $this->rcy );
 		// print_r ( $this->rcy->fullYear );
 	}
@@ -56,7 +55,6 @@ class RomanCalendar {
 	 *        	to save data as JSON
 	 */
 	function getDataFromDB($calendar = 'calendar', $fileName) {
-		
 		$database = new medoo ( array (
 				'database_type' => 'mysql',
 				'database_name' => 'liturgy_romancalendar',
@@ -65,7 +63,7 @@ class RomanCalendar {
 				'password' => '',
 				'charset' => 'utf8' 
 		) );
-		//Prefix 'general' is added to table name to avoid unnecessary securtiy risk
+		// Prefix 'general' is added to table name to avoid unnecessary securtiy risk
 		$FeastList = $database->select ( 'general' . $calendar, array (
 				'feast_month',
 				'feast_date',
@@ -103,7 +101,9 @@ class RomanCalendar {
 		$mnt = $feastImmaculateHeart->format ( 'n' );
 		$dy = $feastImmaculateHeart->format ( 'j' );
 		
-		$this->rcy->addFeastToDate ( $mnt, $dy, 'OW00-ImmaculateHeart', 'Mem' );
+		if ($this->rcy->fullYear [$mnt] [$dy] [0] ['rank'] > 5) {
+			$this->rcy->addFeastToDate ( $mnt, $dy, 'OW00-ImmaculateHeart', 'Mem' );
+		}
 		
 		foreach ( $this->rcy->fullYear as $monthVal => $dateList ) {
 			foreach ( $dateList as $datVal => $dayFeastList ) {
@@ -137,33 +137,4 @@ class RomanCalendar {
 			}
 		}
 	}
-
-	/**
-	 * This is a sample function to generate a HTML output. You can use it as a sample and build from there.
-	 */
-	function printYearHTML() {
-		
-		$rows = '';
-	
-		foreach ( $this->rcy->fullYear as $month => $value ) {
-			foreach ( $value as $days => $feasts ) {
-				$tempDt2 = new DateTime ( $this->rcy->__get('currentYear') . "-$month-$days" );
-				$rows .= '<tr>';
-				$rows .= '<td>' . $tempDt2->format ( 'd F Y' ) . '</td><td>';
-				foreach ( $feasts as $fet ) {
-					
-					if(! isset($fet ['color'])){
-						print_r($fet);
-					}
-					$type = isset($fet ['type'])?' ('.$fet ['type'].')':'';
-					$rows .=  '<span class="ColD'.$fet ['color'].'">&nbsp;&nbsp;</span><span class="Col'.$fet ['color'].'"> '.$fet ['code'].$type.'</span><br/>';
-				}
-				$rows .= '</td></tr>';
-			}
-		}
-		echo "<table>$rows</table>";
-	}
-	
-	
-	
 }

@@ -25,7 +25,7 @@ For each day the name of the feast (if any) acts as a unique identifier for that
 
 ## Known Issues
 * Only one local calendar (Probably your country) can be added as of now. For more than one local calendar (Probably a religious Society and a country - more than one solemnity clashes with each other) the result is undetermined.
-* Not backward compatible. (That is if a new feast is added to the calendar this year. Previous year calendars generated will have that feast too. For example commemoration of St. Mary Magdalene raised to a Feast by Pope Francis in 2016 [ref](http://en.radiovaticana.va/news/2016/06/10/commemoration_of_st_mary_magdalene_raised_to_a_feast/1236157), if you generate calendar for the year 2008, it will be representaed as a feast then too)
+* Not backward compatible. (That is if a new feast is added to the calendar this year. Previous year calendars generated will have that feast too. For example commemoration of St. Mary Magdalene raised to a Feast by Pope Francis in 2016 ([ref](http://en.radiovaticana.va/news/2016/06/10/commemoration_of_st_mary_magdalene_raised_to_a_feast/1236157), if you generate calendar for the year 2008, it will be representaed as a feast then too))
 
 ## Suggestions or Comments
 If you find any bug or suggest any improvement, please feel free to raise a pull request or contact me.

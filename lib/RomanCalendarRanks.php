@@ -1,9 +1,10 @@
 <?php
 class RomanCalendarRanks {
+
 	/**
 	 * Table of Liturgical Days According To Their Order of Precedence
-	 * 
-	 * 							I
+	 *
+	 * I
 	 *
 	 * 1. Easter triduum of the Lord's passion and resurrection
 	 *
@@ -21,7 +22,7 @@ class RomanCalendarRanks {
 	 * 4.3 Solemnity of the titular saint of a particular church
 	 * 4.4 Solemnity of the titular saint, founder, or principal patron of an order or congregation
 	 *
-	 * 							II
+	 * II
 	 *
 	 * 5. Feasts of the Lord in the general calendar
 	 *
@@ -40,8 +41,8 @@ class RomanCalendarRanks {
 	 * 9.1 Weekdays of Advent from December 17 to December 24 inclusive
 	 * 9.2 Days within the octave of Christmas
 	 * 9.3 Weekdays of Lent
-	 * 
-	 * 							III
+	 *
+	 * III
 	 *
 	 * 10. Obligatory memorials in the general calendar
 	 *
@@ -60,19 +61,17 @@ class RomanCalendarRanks {
 	 *
 	 * Concurrent Celebrations
 	 *
-	 *     If several celebrations fall on the same day, the one that holds the higher rank according to the above table is observed. 
-	 *     A solemnity, however, which is impeded by a liturgical day that takes precedence over it should be transferred to the 
-	 *     closest day which is not a day listed in nos. 1-8 in the table of precedence, the rule of no. 5 remaining in effect.
-	 *     Other celebrations are omitted that year.
-	 *     
+	 * If several celebrations fall on the same day, the one that holds the higher rank according to the above table is observed.
+	 * A solemnity, however, which is impeded by a liturgical day that takes precedence over it should be transferred to the
+	 * closest day which is not a day listed in nos. 1-8 in the table of precedence, the rule of no. 5 remaining in effect.
+	 * Other celebrations are omitted that year.
+	 *
 	 * Optional memorials (may be observed even on the days in no. 9)
 	 * In the same manner obligatory memorials may be celebrated as optional memorials if they happen to fall on the Lenten weekdays.
-	 * 
 	 */
-	
-	private $RomanCalendarRanks = array( 
+	private $RomanCalendarRanks = array (
 			// Easter Tridum
-			'EW01-0Sun' => 1, //Easter
+			'EW01-0Sun' => 1, // Easter
 			'LW06-6Sat' => 1.1,
 			'LW06-5Fri' => 1.1,
 			'LW06-4Thu' => 1.1,
@@ -125,9 +124,9 @@ class RomanCalendarRanks {
 			'AW05' => 9.1, // Weekdays of Advent from December 17 to December 24 inclusive
 			'CW01' => 9.2, // Days within the octave of Christmas - Jan 1 is ranked as solemnity
 			'LW' => 9.3, // Weekdays of Lent
-
+			
 			'Mem' => 10, // Obligatory memorials in the general calendar
-
+			             
 			// Obligatory memorials of Particular Calendar
 			'Mem-SecondaryPatron' => 11.1, // Memorial of a secondary patron of the place, diocese, region or province, country, or more extensive territory; or of an order, congregation, or religious province
 			'Mem-OwnChurch' => 11.2, // Obligatory memorials proper to one's own church
@@ -140,23 +139,23 @@ class RomanCalendarRanks {
 			'EW' => 13.3, // Weekdays of the Easter season from Monday after the octave of Easter until the Saturday before Pentecost inclusive
 			'OW' => 13.4, // Weekdays in ordinary time
 			
-			'Commomeration' => 14
+			'Commomeration' => 14 
 	);
-	
+
 	/**
 	 * Get rank of a given dayCode
-	 * @param unknown $dayCode
+	 *
+	 * @param unknown $dayCode        	
 	 * @return number
 	 */
 	function getRank($dayCode) {
-		
 		$keys = array_keys ( $this->RomanCalendarRanks );
-		foreach ( $keys as $str ){
-			if (preg_match ( "/^$str/", $dayCode ) === 1 ) {
+		foreach ( $keys as $str ) {
+			if (preg_match ( "/^$str/", $dayCode ) === 1) {
 				return $this->RomanCalendarRanks [$str];
 			}
 		}
-		die( 'ERROR: Invalid Feast Code : ' . $dayCode); // This should never happen
+		die ( 'ERROR: Invalid Feast Code : ' . $dayCode ); // This should never happen
 	}
 }
 
