@@ -1,6 +1,7 @@
 <?php
 header('Content-Type: text/html; charset=utf-8');
 include_once ('Lib/RomanCalendar.php');
+include_once ('Lib/RomanCalendarRenderHTML.php');
 ?>
 <html>
 	<head>
@@ -9,16 +10,18 @@ include_once ('Lib/RomanCalendar.php');
 	</head>
 <body>
 
-<?php 
+<?php
 
-//Test Cases
-//2019 Immaculate conception on sunday
-//2018 annunciaion during holy week
-//1967 st joseph during holy week
-//2017 St. Joseph during lent sunday
+// Test Cases
+// 2019 Immaculate conception on sunday
+// 2018 annunciaion during holy week
+// 1967 st joseph during holy week
+// 2017 St. Joseph during lent sunday
+$CalcGen = new RomanCalendar ();
 
-$CalcGen = new RomanCalendar();
+$rcYr = $CalcGen->rcy;
 
-$CalcGen->printYearHTML();
+$rHTML = new RomanCalendarRenderHTML ();
+$rHTML->printYearHTML ( $rcYr );
 
 ?>
