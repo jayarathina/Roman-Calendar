@@ -5,11 +5,14 @@
  *
  */
 class RomanCalendarYear {
+
 	public $fullYear;
+
 	private $currentYear, $calcConfig;
+
 	private $adventStart, $christmastide1Start, $epiphanyDate, $christmastide2Start, $lentStart, $eastertideStarts, $ordinaryTime1Starts, $ordinaryTime2Starts;
+
 	function __construct($year = null, $settings) {
-		
 		$this->currentYear = is_numeric ( $year ) ? $year : date ( "Y" );
 		
 		$this->calcConfig = $settings;
@@ -20,7 +23,7 @@ class RomanCalendarYear {
 		}
 		$this->generateSeasonLimits ();
 	}
-	
+
 	/**
 	 * Sets the start dates of various seasons of the liturgical year.
 	 */
@@ -68,14 +71,14 @@ class RomanCalendarYear {
 		$this->ordinaryTime2Starts = clone $this->eastertideStarts;
 		$this->ordinaryTime2Starts->modify ( '+50 days' );
 	}
-	
+
 	/**
 	 * Function to get season limits dates
 	 */
 	public function __get($name) {
 		return isset ( $this->$name ) ? $this->$name : null;
 	}
-	
+
 	/**
 	 * Test Function for checking the generated season's dates
 	 */
@@ -94,7 +97,6 @@ class RomanCalendarYear {
 		echo '<hr/>';
 	}
 
-
 	/**
 	 * Tag a given date and month with its code and append it to current date.
 	 * (If there is more than one commomeration)
@@ -110,16 +112,13 @@ class RomanCalendarYear {
 		$dayFeast = array ();
 		
 		$dayRanks = new RomanCalendarRanks ();
-	
+		
 		$dayFeast ['code'] = $cd;
 		$dayFeast ['rank'] = $dayRanks->getRank ( $type );
 		$dayFeast ['type'] = $type;
-	
+		
 		array_push ( $this->fullYear [$mth] [$day], $dayFeast );
 	}
-	
-	
-
 
 	/**
 	 * Tag a given date and month with its code
@@ -132,33 +131,30 @@ class RomanCalendarYear {
 	 *        	- Rank of the day
 	 */
 	function setDayCode($mth, $day, $cd, $type) {
-		
 		$dayRanks = new RomanCalendarRanks ();
 		
 		$rnk = $dayRanks->getRank ( $type );
-	
+		
 		if (sizeof ( $this->fullYear [$mth] [$day] ) > 1) {
-				
+			
 			foreach ( $this->fullYear [$mth] [$day] as $val ) {
 				if ($val ['rank'] <= $rnk) {
 					die ( 'More than one feast is here; Delete it first b4 setting it' );
 				}
 			}
-				
+			
 			$this->fullYear [$mth] [$day] = array ();
 			$this->fullYear [$mth] [$day] [0] ['rank'] = 100;
 		}
-	
+		
 		if ($mth == 11 && $day == 2) {
 			$type = 'All Souls';
 		}
-	
+		
 		$this->fullYear [$mth] [$day] [0] ['code'] = $cd;
 		$this->fullYear [$mth] [$day] [0] ['rank'] = $rnk;
 		$this->fullYear [$mth] [$day] [0] ['type'] = $type;
 	}
-	
-
 }
 
 ?>

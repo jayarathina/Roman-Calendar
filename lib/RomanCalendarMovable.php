@@ -215,7 +215,7 @@ class RomanCalendarMovable {
 		switch ($this->RCYr->fullYear [$mth] [$day] [0] ['rank']) {
 			case 1 :
 			case 2 :
-			case 2.4:
+			case 2.4 :
 			case 3 :
 			case 4.1 :
 			case 4.2 :
