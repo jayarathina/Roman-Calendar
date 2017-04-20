@@ -5,18 +5,17 @@
  */
 require_once 'mods/medoo.php';
 
-require_once 'lib/RomanCalendarRanks.php';
-require_once 'lib/RomanCalendarFixed.php';
-require_once 'lib/RomanCalendarMovable.php';
-require_once 'lib/RomanCalendarYear.php';
-require_once 'lib/RomanCalendarColor.php';
+require_once 'RomanCalendarRanks.php';
+require_once 'RomanCalendarFixed.php';
+require_once 'RomanCalendarMovable.php';
+require_once 'RomanCalendarYear.php';
+require_once 'RomanCalendarColor.php';
 class RomanCalendar {
 
 	public $rcy;
 
-	function __construct($year = null, $settingsFileName = 'settings.ini') {
+	function __construct($year = null, $calcConfig) {
 		$currentYear = is_numeric ( $year ) ? $year : date ( "Y" );
-		$calcConfig = parse_ini_file ( $settingsFileName );
 		
 		$this->rcy = new RomanCalendarYear ( $currentYear, $calcConfig ['feastSettings'] );
 		
