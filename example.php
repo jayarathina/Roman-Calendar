@@ -17,7 +17,7 @@ include_once ('Lib/RomanCalendarRenderHTML.php');
 // 2018 annunciaion during holy week
 // 1967 st joseph during holy week
 // 2017 St. Joseph during lent sunday
-$CalcGen = new RomanCalendar ();
+$CalcGen = new RomanCalendar (null, parse_ini_file ( 'settings.ini' ) );
 
 $rcYr = $CalcGen->rcy;
 
