@@ -2,55 +2,55 @@
     {
         "feast_month": 1,
         "feast_date": 3,
-        "feast_code": "Saint Kuriakose Elias Chavara, priest",
+        "feast_code": "IN Saint Kuriakose Elias Chavara, priest",
         "feast_type": "OpMem"
     },
     {
         "feast_month": 1,
         "feast_date": 16,
-        "feast_code": "Saint Joseph Vaz, priest",
+        "feast_code": "IN Saint Joseph Vaz, priest",
         "feast_type": "OpMem"
     },
     {
         "feast_month": 2,
         "feast_date": 4,
-        "feast_code": "Saint John de Brito, priest and martyr",
+        "feast_code": "IN Saint John de Brito, priest and martyr",
         "feast_type": "Feast-PrincipalPartron-Place"
     },
     {
         "feast_month": 2,
         "feast_date": 6,
-        "feast_code": "Saint Gonsalo Garcia, martyr",
+        "feast_code": "IN Saint Gonsalo Garcia, martyr",
         "feast_type": "Feast-PrincipalPartron-Place"
     },
     {
         "feast_month": 6,
         "feast_date": 8,
-        "feast_code": "Blessed Maria Theresa Chiramel, virgin",
+        "feast_code": "IN Blessed Maria Theresa Chiramel, virgin",
         "feast_type": "OpMem"
     },
     {
         "feast_month": 7,
         "feast_date": 3,
-        "feast_code": "Saint Thomas the Apostle",
+        "feast_code": "IN Saint Thomas the Apostle",
         "feast_type": "Solemnity-PrincipalPartron-Place"
     },
     {
         "feast_month": 7,
         "feast_date": 28,
-        "feast_code": "Saint Alphonsa of the Immaculate Conception (Alphonsa Muttathupadathu), virgin",
+        "feast_code": "IN Saint Alphonsa of the Immaculate Conception (Alphonsa Muttathupadathu), virgin",
         "feast_type": "OpMem"
     },
     {
         "feast_month": 9,
         "feast_date": 5,
-        "feast_code": "Saint Teresa of Calcutta, virgin",
+        "feast_code": "IN Saint Teresa of Calcutta, virgin",
         "feast_type": "OpMem"
     },
     {
         "feast_month": 12,
         "feast_date": 3,
-        "feast_code": "Saint Francis Xavier, priest",
+        "feast_code": "IN Saint Francis Xavier, priest",
         "feast_type": "Solemnity-PrincipalPartron-Place"
     }
 ]
