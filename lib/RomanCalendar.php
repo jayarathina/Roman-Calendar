@@ -56,7 +56,7 @@ class RomanCalendar {
 	function getDataFromDB($calendar = 'calendar', $fileName) {
 		$database = new medoo ( array (
 				'database_type' => 'mysql',
-				'database_name' => 'liturgy_romancalendar',
+				'database_name' => 'liturgy_lectionary',
 				'server' => 'localhost',
 				'username' => 'root',
 				'password' => '',
