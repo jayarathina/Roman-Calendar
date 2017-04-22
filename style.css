@@ -1,46 +1,56 @@
 table {
-  width: 100%;
+	width: 100%;
 }
 
-table, th, td{
-	border:1px solid #000;
-	border-collapse:collapse;
+table, th, td {
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+
+td.dt, td.Col{
+	width: 0.1% !important;
+}
+
+td.dayTitle {
+	width: 250px !important;
 }
 
 .Colred {
-  background-color: #FFE4E4;
-}
-.ColDred {
-  background-color: #CC0000;
+	background-color: #FFE4E4;
 }
 
+.ColDred {
+	background-color: #CC0000;
+}
 
 .Colgreen {
-  background-color: #F0F8DB;
+	background-color: #F0F8DB;
 }
+
 .ColDgreen {
-  background-color: #669900;
+	background-color: #669900;
 }
 
 .Colwhite {
-  background-color: #FFF6DF;
+	background-color: #FFF6DF;
 }
+
 .ColDwhite {
-  background-color: #FFBD21;
+	background-color: #FFBD21;
 }
 
-
-.Colpurple  {
-  background-color: #F5EAFA;
+.Colpurple {
+	background-color: #F5EAFA;
 }
+
 .ColDpurple {
-  background-color: #9933CC;
+	background-color: #9933CC;
 }
 
 .Colrose {
-  background-color: #FFE6F6;
+	background-color: #FFE6F6;
 }
 
 .ColDrose {
-  background-color: #C9368F;
+	background-color: #C9368F;
 }

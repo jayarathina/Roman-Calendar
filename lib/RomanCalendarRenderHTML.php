@@ -21,13 +21,14 @@ class RomanCalendarRenderHTML {
 		foreach ( $this->rcy->fullYear as $month => $value ) {
 			foreach ( $value as $days => $feasts ) {
 				$tempDt2 = new DateTime ( $rcy->__get ( 'currentYear' ) . "-$month-$days" );
-				$rows .= '<tr>';
-				$rows .= '<td>' . $tempDt2->format ( 'd F Y' ) . '</td><td>';
+				
 				foreach ( $feasts as $fet ) {
+					$rows .= '<tr class="Col' . $fet ['color'] . '">';
+					$rows .= '<td class="dt">' . $tempDt2->format ( 'd M' ) . '</td>';
 					$type = isset ( $fet ['type'] ) ? ' (' . $fet ['type'] . ')' : '';
-					$rows .= '<span class="ColD' . $fet ['color'] . '">&nbsp;&nbsp;</span><span class="Col' . $fet ['color'] . '"> ' . $fet ['name'] . $type . '</span><br/>';
+					$rows .= '<td class="col ColD' . $fet ['color'] . '"></td><td class="dayTitle">' . $fet ['name'] . $type . '</td>';
+					$rows .= '</tr>';
 				}
-				$rows .= '</td></tr>';
 			}
 		}
 		echo "<table>$rows</table>";
@@ -62,6 +63,7 @@ class RomanCalendarRenderHTML {
 		// @formatter:on
 		
 		$RomanCalendarRanks = array (
+				'CW02-0Sun' => 'Second Sunday after Christmas',
 				'CW03-Epiphany' => 'The Epiphany of the Lord',
 				'CW04-Baptism' => 'The Baptism of the Lord',
 				
@@ -107,7 +109,7 @@ class RomanCalendarRenderHTML {
 						$fTitle = 'Christmas Weekday: January 0' . substr ( $dayCode, - 1 );
 						break;
 					case 3 : // After Epiphany
-						if ($this->rcy->calcConfig ['EPIPHANY_ON_A_SUNDAY']) {
+						if ($this->rcy->calcConfig ['feastSettings'] ['EPIPHANY_ON_A_SUNDAY']) {
 							$fTitle = $dayEnglishFull [substr ( $dayCode, - 1 )] . ' after Epiphany';
 						} else {
 							$fTitle = 'Christmas Weekday: January 0' . (6 + substr ( $dayCode, - 1 ));
