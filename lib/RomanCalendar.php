@@ -3,7 +3,7 @@
  * RomanCalendar 3.0
  * @author Br. Jayarathina Madharasan SDR
  */
-require_once 'mods/medoo.php';
+require_once 'mods/Medoo.php';
 
 require_once 'RomanCalendarRanks.php';
 require_once 'RomanCalendarFixed.php';
@@ -17,7 +17,7 @@ class RomanCalendar {
 	function __construct($year = null, $calcConfig) {
 		$currentYear = is_numeric ( $year ) ? $year : date ( "Y" );
 		
-		$this->rcy = new RomanCalendarYear ( $currentYear, $calcConfig ['feastSettings'] );
+		$this->rcy = new RomanCalendarYear ( $currentYear, $calcConfig);
 		
 		new RomanCalendarMovable ( $this->rcy );
 		
@@ -54,7 +54,7 @@ class RomanCalendar {
 	 *        	to save data as JSON
 	 */
 	function getDataFromDB($calendar = 'calendar', $fileName) {
-		$database = new medoo ( array (
+		$database = new Medoo ( array (
 				'database_type' => 'mysql',
 				'database_name' => 'liturgy_lectionary',
 				'server' => 'localhost',
