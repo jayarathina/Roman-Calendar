@@ -10,7 +10,6 @@ require_once 'RomanCalendarFixed.php';
 require_once 'RomanCalendarMovable.php';
 require_once 'RomanCalendarYear.php';
 require_once 'RomanCalendarColor.php';
-
 class RomanCalendar {
 
 	public $rcy;
@@ -23,8 +22,8 @@ class RomanCalendar {
 		new RomanCalendarMovable ( $this->rcy );
 		
 		foreach ( $calcConfig ['calendars'] as $calName ) {
-			$feastDeatils = $this->getDataFromDB ( $calName, $calcConfig ['feastsListLoc'] . $calName . '.json' );
-			//$feastDeatils = $this->getDataFromDAT ( $calcConfig ['feastsListLoc'] . $calName . '.json' );
+			// $feastDeatils = $this->getDataFromDB ( $calName, $calcConfig ['feastsListLoc'] . $calName . '.json' );
+			$feastDeatils = $this->getDataFromDAT ( $calcConfig ['feastsListLoc'] . $calName . '.json' );
 			new RomanCalendarFixed ( $this->rcy, $feastDeatils, $calName );
 		}
 		$this->genFixes ();
