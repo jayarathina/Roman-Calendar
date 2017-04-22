@@ -83,12 +83,12 @@ class RomanCalendarColor {
 				'All Souls' => 'purple' 
 		];
 		
-		if (stripos ( $feastCode, 'martyr' ) !== false) {
-			$feastClr = $feastClrr ['martyr'];
-		} elseif (array_key_exists ( $feastCode, $feastClrr )) {
+		if (array_key_exists ( $feastCode, $feastClrr )) {
 			$feastClr = $feastClrr [$feastCode];
 		} elseif (array_key_exists ( $feastType, $feastClrr )) {
 			$feastClr = $feastClrr [$feastType];
+		}elseif (stripos ( $feastCode, 'martyr' ) !== false) {
+			$feastClr = $feastClrr ['martyr'];
 		} else {
 			switch (substr ( $feastCode, 0, 2 )) {
 				case 'AW' :
