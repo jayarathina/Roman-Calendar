@@ -3,13 +3,14 @@
  * RomanCalendar 3.0
  * @author Br. Jayarathina Madharasan SDR
  */
-require_once 'mods/medoo.php';
+require_once 'mods/Medoo.php';
 
 require_once 'RomanCalendarRanks.php';
 require_once 'RomanCalendarFixed.php';
 require_once 'RomanCalendarMovable.php';
 require_once 'RomanCalendarYear.php';
 require_once 'RomanCalendarColor.php';
+
 class RomanCalendar {
 
 	public $rcy;
@@ -22,8 +23,8 @@ class RomanCalendar {
 		new RomanCalendarMovable ( $this->rcy );
 		
 		foreach ( $calcConfig ['calendars'] as $calName ) {
-			// $feastDeatils = $this->getDataFromDB ( $calName, $calcConfig ['feastsListLoc'] . $calName . '.json' );
-			$feastDeatils = $this->getDataFromDAT ( $calcConfig ['feastsListLoc'] . $calName . '.json' );
+			$feastDeatils = $this->getDataFromDB ( $calName, $calcConfig ['feastsListLoc'] . $calName . '.json' );
+			//$feastDeatils = $this->getDataFromDAT ( $calcConfig ['feastsListLoc'] . $calName . '.json' );
 			new RomanCalendarFixed ( $this->rcy, $feastDeatils, $calName );
 		}
 		$this->genFixes ();
@@ -54,7 +55,7 @@ class RomanCalendar {
 	 *        	to save data as JSON
 	 */
 	function getDataFromDB($calendar = 'calendar', $fileName) {
-		$database = new medoo ( array (
+		$database = new Medoo ( array (
 				'database_type' => 'mysql',
 				'database_name' => 'liturgy_lectionary',
 				'server' => 'localhost',

@@ -1,17 +1,15 @@
 # Roman-Calendar
-This is a Roman Catholic Liturgical Calendar Generator in PHP. This project acts as a backbone for my [Tamil-Catholic-Lectionary project](https://github.com/jayarathina/Tamil-Catholic-Lectionary). I decided to separate these two projects because:
-- There are no open source library available that has dealt with every single caveat of computing a liturgical year.
-- Verse subdivisions (not the actual readings) in lectionary differ based on the translation used. Hence I felt it would be better if a separate project was started for Tamil Language)
+This is a Roman Catholic Liturgical Calendar Generator in PHP. I decided to separate these two projects because there are no open source libraries available that has dealt with every single caveat of computing a liturgical year. This project acts as a backbone for my [Tamil-Catholic-Lectionary project](https://github.com/jayarathina/Tamil-Catholic-Lectionary).
 
 ## Features of this library include:
-- Solemnities, Feasts, Memory, Optional Memory etc., for a particular year with proper liturgical colors are generated.
-- Ability to add local calendars (Using JSON or database).
-- Created with programmers in mind, so that programmers can easily embed or extend it in their own website.
-- Designed to be modular, easy to read with necessary comments for clarity. 
+- Solemnities, Feasts, Memory, Optional Memory etc., for a particular year with **proper liturgical colors** are generated.
+- Ability to **add local calendars** (Using JSON or database).
+- Created with programmers in mind, so that programmers can **easily extend and build upon this**.
+- Easy to read with **necessary comments for clarity**. 
 - Can be easily translated into any language. (English Translation of the raw data is provided in the HTML representation of the data. See: [RomanCalendarRenderHTML.php](lib/RomanCalendarRenderHTML.php)
 
 ## Dependencies
-* This is purely a PHP poject. The entire project is implemented using JSON flat file as data source. But _If_ you want to use a database (See getDataFromDB() in [RomanCalendar.php](lib/RomanCalendar.php)), the Medoo library is required. It is found under mods folder. Sample DB structure is found at [liturgy_lectionary.sql](mysql/liturgy_lectionary.sql)
+This is a PHP poject. The project uses JSON flat file as data source. But _If_ you want to use a database (See getDataFromDB() in [RomanCalendar.php](lib/RomanCalendar.php)), the [Medoo library](http://medoo.in) is required. Sample DB structure is found at [liturgy_lectionary.sql](mysql/liturgy_lectionary.sql)
 
 ## Points to Note
 For each day the name of the feast (if any) acts as a unique identifier for that feast. For a weekday (with no feast) a code is generated in the following syntax: `<SEASON CODE><WEEK NUMBER>-<DAY NUMBER><DAY NAME>`. They stand for the following:
