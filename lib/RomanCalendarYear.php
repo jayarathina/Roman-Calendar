@@ -39,7 +39,7 @@ class RomanCalendarYear {
 		
 		$baptismDate = new DateTime ();
 		
-		if ($this->calcConfig ['EPIPHANY_ON_A_SUNDAY'] == true) {
+		if ($this->calcConfig ['feastSettings'] ['EPIPHANY_ON_A_SUNDAY'] == true) {
 			
 			// Epiphany is celebrated on the Sunday occurring from Jan. 2 through Jan. 8 (Both inclusive).
 			$this->epiphanyDate = new DateTime ( $curYear . '-01-01' );

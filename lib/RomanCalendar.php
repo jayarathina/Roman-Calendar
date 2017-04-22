@@ -17,7 +17,7 @@ class RomanCalendar {
 	function __construct($year = null, $calcConfig) {
 		$currentYear = is_numeric ( $year ) ? $year : date ( "Y" );
 		
-		$this->rcy = new RomanCalendarYear ( $currentYear, $calcConfig ['feastSettings'] );
+		$this->rcy = new RomanCalendarYear ( $currentYear, $calcConfig);
 		
 		new RomanCalendarMovable ( $this->rcy );
 		

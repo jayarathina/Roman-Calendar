@@ -84,7 +84,7 @@ class RomanCalendarMovable {
 		while ( $tempDate < $this->epiphanyDate ) { // Days before Epiphany - CW02
 			if ($tempDate->format ( 'w' ) == 0) {
 				// If a Sunday occurs during this period, it is called the "Second Sunday of Christmas".
-				$this->setDayCode ( $tempDate, $code . '02-Sun' );
+				$this->setDayCode ( $tempDate, $code . '02-0Sun' );
 			} else {
 				$this->setDayCode ( $tempDate, $code . $tempDate->format ( '02-Mj' ) );
 			}
@@ -128,7 +128,7 @@ class RomanCalendarMovable {
 		$this->fillInWeek ( $this->eastertideStarts, $this->ordinaryTime2Starts, 'EW' );
 		
 		$tempDate = clone $this->eastertideStarts;
-		($this->calcConfig ['ASCENSION_ON_A_SUNDAY'] == true) ? $tempDate->modify ( '+42 days' ) : $tempDate->modify ( '+39 days' );
+		($this->calcConfig  ['feastSettings'] ['ASCENSION_ON_A_SUNDAY'] == true) ? $tempDate->modify ( '+42 days' ) : $tempDate->modify ( '+39 days' );
 		$this->setDayCode ( $tempDate, 'EW07-Ascension' );
 		
 		$tempDate = clone $this->eastertideStarts;
@@ -161,7 +161,7 @@ class RomanCalendarMovable {
 		$tempDate1->modify ( 'next sunday' );
 		$this->setDayCode ( $tempDate1, 'OW00-Trinity' );
 		
-		($this->calcConfig ['CORPUSCHRISTI_ON_A_SUNDAY'] == true) ? $tempDate1->modify ( 'next sunday' ) : $tempDate1->modify ( 'next thursday' );
+		($this->calcConfig  ['feastSettings'] ['CORPUSCHRISTI_ON_A_SUNDAY'] == true) ? $tempDate1->modify ( 'next sunday' ) : $tempDate1->modify ( 'next thursday' );
 		$this->setDayCode ( $tempDate1, 'OW00-CorpusChristi' );
 		
 		$tempDate1->modify ( 'next monday' ); // We are first moving to monday then to next friday because if corpuschristi falls on a thuresday, next friday would be the next day, which is not the correct date for sacred heart
