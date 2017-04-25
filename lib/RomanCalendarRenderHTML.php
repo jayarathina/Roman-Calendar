@@ -17,7 +17,7 @@ class RomanCalendarRenderHTML {
 		
 		$this->setDayNames ();
 		
-		$rows = '';
+		$rows = '<tr> <th colspan="3">' . $rcy->currentYear . '</th> </tr>';
 		foreach ( $this->rcy->fullYear as $month => $value ) {
 			foreach ( $value as $days => $feasts ) {
 				$tempDt2 = new DateTime ( $rcy->__get ( 'currentYear' ) . "-$month-$days" );
@@ -48,7 +48,7 @@ class RomanCalendarRenderHTML {
 					if (preg_match ( "/^[C|L|E|O|A]W\d{2}-/", $singleFeas ['code'] ) === 1) {
 						$this->rcy->fullYear [$monthVal] [$datVal] [$feastIndex] ['name'] = $this->getSingleTitle ( $singleFeas ['code'] );
 					} else {
-						// Get from database if different language
+						// Localization has to be done here. Depending upon the requirement, get data even from database.
 						$this->rcy->fullYear [$monthVal] [$datVal] [$feastIndex] ['name'] = $singleFeas ['code'];
 					}
 				}
@@ -155,12 +155,9 @@ class RomanCalendarRenderHTML {
 	function ordinalSuffix($number, $ss = 0) {
 		if ($number % 100 > 10 && $number % 100 < 14) {
 			$os = 'th';
-		} 
-
-		elseif ($number == 0) {
+		} elseif ($number == 0) {
 			$os = '';
 		} else {
-			
 			switch (substr ( $number, - 1, 1 )) {
 				case "1" :
 					$os = 'st';
