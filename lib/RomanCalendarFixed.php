@@ -51,7 +51,6 @@ class RomanCalendarFixed {
 				} elseif ($feastDet ['feast_date'] == 25 && (preg_match ( "/^LW06|EW01/", $currentDay [0] ['code'] ) === 1)) {
 					// If Annunciation falls during Holy Week or within the Octave of Easter, it is transferred to the Monday of the Second Week of Easter.
 					// 2008, 2013, 2016
-					
 					$tempDate = new DateTime ( $this->RCYr->__get ( 'currentYear' ) . '-03-21' );
 					$tempDate->modify ( '+ ' . easter_days ( $this->RCYr->__get ( 'currentYear' ) ) . ' days' ); // Easter Date
 					$tempDate->modify ( '+ 8 days' );

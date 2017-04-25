@@ -18,11 +18,16 @@ class RomanCalendar {
 		$currentYear = is_numeric ( $year ) ? $year : date ( "Y" );
 		
 		$this->rcy = new RomanCalendarYear ( $currentYear, $calcConfig );
-		
 		new RomanCalendarMovable ( $this->rcy );
 		
+		$dirName = $this->rcy->calcConfig ['feastsListLoc'] . $this->rcy->currentYear;
+		if (! is_dir ( $dirName )) {
+			mkdir ( $dirName, 0644 );
+		}
+		
 		foreach ( $calcConfig ['calendars'] as $calName ) {
-			$filename = $calcConfig ['feastsListLoc'] . $this->rcy->currentYear . '_' . $calName . '.json';
+			$filename = $dirName . '/' . $calName . '.json';
+			
 			if (! file_exists ( $filename )) { // If the JSON does not exist in the specified path, then create it from DB
 				if ($this->createJSONFromDB ( $calName, $filename ) === FALSE) {
 					die ( 'Error in writing JSON file' );
@@ -33,7 +38,6 @@ class RomanCalendar {
 		}
 		$this->genFixes ();
 		new RomanCalendarColor ( $this->rcy );
-		// print_r ( $this->rcy->fullYear );
 	}
 
 	/**
