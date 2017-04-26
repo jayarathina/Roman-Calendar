@@ -39,14 +39,10 @@ class RomanCalendarColor {
 	 */
 	private function getColor($feastCode, $feastType = null) {
 		$feastClr = '*-*';
+		$feastType = explode ( '-', $feastType );
+		$feastType = $feastType [0];
 		
-		// echo $feastType;
-		// die();
-		
-		// $feastCode = explode('-', $feastCode)[0];
-		$feastType = explode ( '-', $feastType ) [0];
-		
-		$feastClrr = [
+		$feastClrr = array(
 				// The proper color for Solemnities is white except Pentecost and Peter and Paul (Jun 29) in which cases it is red
 				'Solemnity' => 'white',
 				'Saints Peter and Paul, Apostles' => 'red',
@@ -81,7 +77,7 @@ class RomanCalendarColor {
 				// The proper color of a Commemoration is the color of the season. As Commemorations only occur during Lent, their proper color is purple.
 				'Commomeration' => 'purple',
 				'All Souls' => 'purple' 
-		];
+		);
 		
 		if (array_key_exists ( $feastCode, $feastClrr )) {
 			$feastClr = $feastClrr [$feastCode];

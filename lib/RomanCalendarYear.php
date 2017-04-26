@@ -6,9 +6,7 @@
  */
 class RomanCalendarYear {
 
-	public $fullYear;
-
-	private $currentYear, $calcConfig;
+	public $fullYear, $currentYear, $calcConfig;
 
 	private $adventStart, $christmastide1Start, $epiphanyDate, $christmastide2Start, $lentStart, $eastertideStarts, $ordinaryTime1Starts, $ordinaryTime2Starts;
 

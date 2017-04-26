@@ -51,7 +51,6 @@ class RomanCalendarFixed {
 				} elseif ($feastDet ['feast_date'] == 25 && (preg_match ( "/^LW06|EW01/", $currentDay [0] ['code'] ) === 1)) {
 					// If Annunciation falls during Holy Week or within the Octave of Easter, it is transferred to the Monday of the Second Week of Easter.
 					// 2008, 2013, 2016
-					
 					$tempDate = new DateTime ( $this->RCYr->__get ( 'currentYear' ) . '-03-21' );
 					$tempDate->modify ( '+ ' . easter_days ( $this->RCYr->__get ( 'currentYear' ) ) . ' days' ); // Easter Date
 					$tempDate->modify ( '+ 8 days' );
@@ -103,7 +102,7 @@ class RomanCalendarFixed {
 			
 			if ($currentDayRank > 5) {
 				if (preg_match ( "/^[LW|AW05]/", $currentDay [0] ['code'] ) === 1) {
-					// TODO Optional memorials that occour between Dec17-Dec24, Dec-25-Jan1 or during Lent will become commomeration
+					// Optional memorials that occour between Dec17-Dec24, Dec-25-Jan1 or during Lent will become commomeration
 					// If a fixed date Memorial or Optional Memorial falls within the Lenten season, it is reduced in rank to a Commemoration.
 					$memoryDate ['feast_type'] = 'Commomeration';
 				}

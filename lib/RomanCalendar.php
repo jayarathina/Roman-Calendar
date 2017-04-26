@@ -17,18 +17,27 @@ class RomanCalendar {
 	function __construct($year = null, $calcConfig) {
 		$currentYear = is_numeric ( $year ) ? $year : date ( "Y" );
 		
-		$this->rcy = new RomanCalendarYear ( $currentYear, $calcConfig);
-		
+		$this->rcy = new RomanCalendarYear ( $currentYear, $calcConfig );
 		new RomanCalendarMovable ( $this->rcy );
 		
+		$dirName = $this->rcy->calcConfig ['feastsListLoc'] . $this->rcy->currentYear;
+		if (! is_dir ( $dirName )) {
+			mkdir ( $dirName, 0644 );
+		}
+		
 		foreach ( $calcConfig ['calendars'] as $calName ) {
-			// $feastDeatils = $this->getDataFromDB ( $calName, $calcConfig ['feastsListLoc'] . $calName . '.json' );
-			$feastDeatils = $this->getDataFromDAT ( $calcConfig ['feastsListLoc'] . $calName . '.json' );
+			$filename = $dirName . '/' . $calName . '.json';
+			
+			if (! file_exists ( $filename )) { // If the JSON does not exist in the specified path, then create it from DB
+				if ($this->createJSONFromDB ( $calName, $filename ) === FALSE) {
+					die ( 'Error in writing JSON file' );
+				}
+			}
+			$feastDeatils = $this->getDataFromDAT ( $filename );
 			new RomanCalendarFixed ( $this->rcy, $feastDeatils, $calName );
 		}
 		$this->genFixes ();
 		new RomanCalendarColor ( $this->rcy );
-		// print_r ( $this->rcy->fullYear );
 	}
 
 	/**
@@ -44,16 +53,15 @@ class RomanCalendar {
 	}
 
 	/**
-	 * Get feast details from mysql database.
-	 * This function gets data from database and saved it to a JSON file.
-	 * Later it calls getDataFromDAT to return the feast details.
+	 * Get feast details from mysql database and creates JSON file in the path specified.
+	 * Call this function if you have changed the database and want to refresh the JSON file.
 	 *
 	 * @param string $calendar
 	 *        	Table name
 	 * @param unknown $fileName
 	 *        	to save data as JSON
 	 */
-	function getDataFromDB($calendar = 'calendar', $fileName) {
+	function createJSONFromDB($calendar = 'calendar', $fileName) {
 		$database = new Medoo ( array (
 				'database_type' => 'mysql',
 				'database_name' => 'liturgy_lectionary',
@@ -63,6 +71,7 @@ class RomanCalendar {
 				'charset' => 'utf8' 
 		) );
 		// Prefix 'general' is added to table name to avoid unnecessary securtiy risk
+		// Change it to whatever prefix you want it to be.
 		$FeastList = $database->select ( 'general' . $calendar, array (
 				'feast_month',
 				'feast_date',
@@ -74,62 +83,42 @@ class RomanCalendar {
 						'feast_date' => 'ASC' 
 				) 
 		) );
-		
 		$t = json_encode ( $FeastList, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT | JSON_NUMERIC_CHECK );
-		
-		file_put_contents ( $fileName, $t );
-		return $this->getDataFromDAT ( $fileName );
+		return file_put_contents ( $fileName, $t );
 	}
 
 	/**
-	 * General fixes that are not done anywhere else like:
-	 * - If a fixed date Memorial or Optional Memorial falls within the Lenten season, it is reduced in rank to a Commemoration.
-	 * - in years when a memorial coincides with another obligatory memorial both must be considered optional for that year.
+	 * General fixes that are not done anywhere else:
+	 * - Set Immaculate Heart of Mary – Memorial; This is the only moving celebration that has to be set seperately because
+	 * in years when this memorial coincides with another obligatory memorial,
+	 * as happened in 2014 [28 June, Saint Irenaeus] and 2015 [13 June, Saint Anthony of Padua], both must be considered optional for that year.
+	 *
+	 * - The above guidance from the Congregation for Divine Worship and the Discipline of the Sacraments gives rise to the following rule:
+	 * "In years when a memorial coincides with another obligatory memorial both must be considered optional for that year."
 	 */
 	function genFixes() {
-		/**
-		 * Immaculate Heart of Mary – Memorial
-		 * This is the only moving celebration that has to be set seperately because
-		 * in years when this memorial coincides with another obligatory memorial, as happened in
-		 * 2014 [28 June, Saint Irenaeus] and 2015 [13 June, Saint Anthony of Padua],
-		 * both must be considered optional for that year.
-		 */
 		$feastImmaculateHeart = clone $this->rcy->eastertideStarts;
 		$feastImmaculateHeart->modify ( '+69 day' );
 		
 		$mnt = $feastImmaculateHeart->format ( 'n' );
 		$dy = $feastImmaculateHeart->format ( 'j' );
 		
-		if ($this->rcy->fullYear [$mnt] [$dy] [0] ['rank'] > 5) {
+		if ($this->rcy->fullYear [$mnt] [$dy] [0] ['rank'] > 5) { // Some local calendar solemnity might occour
 			$this->rcy->addFeastToDate ( $mnt, $dy, 'OW00-ImmaculateHeart', 'Mem' );
 		}
 		
 		foreach ( $this->rcy->fullYear as $monthVal => $dateList ) {
 			foreach ( $dateList as $datVal => $dayFeastList ) {
-				
 				$memoryCount = 0;
-				
 				foreach ( $dayFeastList as $singleFeast ) {
-					
-					if (! isset ( $singleFeast ['type'] ))
-						continue;
-					
-					if (strcmp ( $singleFeast ['type'], 'Mem' ) === 0) {
+					if (isset ( $singleFeast ['type'] ) && strcmp ( $singleFeast ['type'], 'Mem' ) === 0) {
 						$memoryCount ++;
-						if ($memoryCount > 1)
+						if ($memoryCount > 1) {
+							foreach ( $dayFeastList as $feastIndex => $singleFeast ) {
+								if (isset ( $singleFeast ['type'] ) && strcmp ( $singleFeast ['type'], 'Mem' ) === 0)
+									$this->rcy->fullYear [$monthVal] [$datVal] [$feastIndex] ['type'] = 'OpMem';
+							}
 							break;
-					}
-				}
-				
-				if ($memoryCount > 1) {
-					
-					foreach ( $dayFeastList as $feastIndex => $singleFeast ) {
-						
-						if (! isset ( $singleFeast ['type'] ))
-							continue;
-						
-						if (strcmp ( $singleFeast ['type'], 'Mem' ) === 0) {
-							$this->rcy->fullYear [$monthVal] [$datVal] [$feastIndex] ['type'] = 'OpMem';
 						}
 					}
 				}
