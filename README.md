@@ -1,5 +1,5 @@
 # Roman-Calendar
-This is a Roman Catholic Liturgical Calendar Generator in PHP. I decided to separate these two projects because there are no open source libraries available that has dealt with every single caveat of computing a liturgical year. This project acts as a backbone for my [Tamil-Catholic-Lectionary project](https://github.com/jayarathina/Tamil-Catholic-Lectionary).
+This is a Roman Catholic Liturgical Calendar Generator in PHP. I decided to start a new project because there are no open source libraries available that has dealt with every single caveat of computing a liturgical year. This project acts as a backbone for my [Tamil-Catholic-Lectionary project](https://github.com/jayarathina/Tamil-Catholic-Lectionary).
 
 ## Features of this library include:
 - Solemnities, Feasts, Memory, Optional Memory etc., for a particular year with **proper liturgical colors** are generated.
