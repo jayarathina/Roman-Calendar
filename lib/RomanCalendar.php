@@ -99,12 +99,17 @@ class RomanCalendar {
 	function genFixes() {
 		$feastImmaculateHeart = clone $this->rcy->eastertideStarts;
 		$feastImmaculateHeart->modify ( '+69 day' );
-		
 		$mnt = $feastImmaculateHeart->format ( 'n' );
 		$dy = $feastImmaculateHeart->format ( 'j' );
-		
 		if ($this->rcy->fullYear [$mnt] [$dy] [0] ['rank'] > 5) { // Some local calendar solemnity might occour
 			$this->rcy->addFeastToDate ( $mnt, $dy, 'OW00-ImmaculateHeart', 'Mem' );
+		}
+
+		$memMaryMotherofChurch = clone $this->rcy->ordinaryTime2Starts;
+		$mnt = $memMaryMotherofChurch->format ( 'n' );
+		$dy = $memMaryMotherofChurch->format ( 'j' );
+		if ($this->rcy->fullYear [$mnt] [$dy] [0] ['rank'] > 5) { // Some local calendar solemnity might occour
+			$this->rcy->addFeastToDate ( $mnt, $dy, 'OW00-MaryMotherofChurch', 'Mem' );
 		}
 		
 		foreach ( $this->rcy->fullYear as $monthVal => $dateList ) {
