@@ -14,15 +14,12 @@ class RomanCalendarColor {
 		
 		foreach ( $this->RCYr->fullYear as $mnthNo => $mnth ) {
 			foreach ( $mnth as $dateNo => $dats ) {
-				
 				$lastfeastCol = '';
-				
 				foreach ( $dats as $ids => $singleFeasts ) {
 					$cd = $dats [$ids] ['code'];
 					$tp = (isset ( $dats [$ids] ['type'] )) ? $dats [$ids] ['type'] : null;
-					
 					if ($tp !== 'OpMem') { // The proper color of an Optional Memorial is the color of the season.
-						$lastfeastCol = $this->getColor ( $cd, $tp );
+							$lastfeastCol = $this->getColor ( $cd, $tp );
 					}
 					$this->RCYr->fullYear [$mnthNo] [$dateNo] [$ids] ['color'] = $lastfeastCol;
 				}
@@ -83,9 +80,6 @@ class RomanCalendarColor {
 			$feastClr = $feastClrr [$feastCode];
 		} elseif (array_key_exists ( $feastType, $feastClrr )) {
 			$feastClr = $feastClrr [$feastType];
-		}
-		if (stripos ( $feastCode, 'martyr' ) !== false) {
-			$feastClr = $feastClrr ['martyr'];
 		} else {
 			switch (substr ( $feastCode, 0, 2 )) {
 				case 'AW' :
@@ -100,6 +94,10 @@ class RomanCalendarColor {
 					$feastClr = 'green';
 					break;
 			}
+		}
+		
+		if (stripos ( $feastCode, 'martyr' ) !== false) {
+			$feastClr = $feastClrr ['martyr'];
 		}
 		
 		return $feastClr;
