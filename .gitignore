@@ -1,5 +1,6 @@
 .metadata
-dat/
+
+
 bin/
 tmp/
 *.tmp

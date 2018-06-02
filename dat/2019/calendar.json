@@ -1,0 +1,1280 @@
+[
+    {
+        "feast_month": 1,
+        "feast_date": 1,
+        "feast_code": "Blessed Virgin Mary, the Mother of God",
+        "feast_type": "Solemnity"
+    },
+    {
+        "feast_month": 1,
+        "feast_date": 2,
+        "feast_code": "Saints Basil the Great and Gregory Nazianzen, bishops and doctors",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 1,
+        "feast_date": 3,
+        "feast_code": "The Most Holy Name of Jesus",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 1,
+        "feast_date": 7,
+        "feast_code": "Saint Raymond of Penyafort, priest",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 1,
+        "feast_date": 13,
+        "feast_code": "Saint Hilary of Poitiers, bishop and doctor",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 1,
+        "feast_date": 17,
+        "feast_code": "Saint Anthony of Egypt, abbot",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 1,
+        "feast_date": 20,
+        "feast_code": "Saint Fabian, pope and martyr",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 1,
+        "feast_date": 20,
+        "feast_code": "Saint Sebastian, martyr",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 1,
+        "feast_date": 21,
+        "feast_code": "Saint Agnes, virgin and martyr",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 1,
+        "feast_date": 22,
+        "feast_code": "Saint Vincent, deacon and martyr",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 1,
+        "feast_date": 24,
+        "feast_code": "Saint Francis de Sales, bishop and doctor",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 1,
+        "feast_date": 25,
+        "feast_code": "The Conversion of Saint Paul, apostle",
+        "feast_type": "Feast"
+    },
+    {
+        "feast_month": 1,
+        "feast_date": 26,
+        "feast_code": "Saints Timothy and Titus, bishops",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 1,
+        "feast_date": 27,
+        "feast_code": "Saint Angela Merici, virgin",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 1,
+        "feast_date": 28,
+        "feast_code": "Saint Thomas Aquinas, priest and doctor",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 1,
+        "feast_date": 31,
+        "feast_code": "Saint John Bosco, priest",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 2,
+        "feast_date": 2,
+        "feast_code": "Presentation of the Lord",
+        "feast_type": "Feast-Lord"
+    },
+    {
+        "feast_month": 2,
+        "feast_date": 3,
+        "feast_code": "Saint Ansgar, bishop",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 2,
+        "feast_date": 3,
+        "feast_code": "Saint Blase, bishop and martyr",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 2,
+        "feast_date": 5,
+        "feast_code": "Saint Agatha, virgin and martyr",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 2,
+        "feast_date": 6,
+        "feast_code": "Saints Paul Miki and companions, martyrs",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 2,
+        "feast_date": 8,
+        "feast_code": "Saint Jerome Emiliani, priest",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 2,
+        "feast_date": 8,
+        "feast_code": "Saint Josephine Bakhita, virgin",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 2,
+        "feast_date": 10,
+        "feast_code": "Saint Scholastica, virgin",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 2,
+        "feast_date": 11,
+        "feast_code": "Our Lady of Lourdes",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 2,
+        "feast_date": 14,
+        "feast_code": "Saints Cyril, monk, and Methodius, bishop",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 2,
+        "feast_date": 17,
+        "feast_code": "Seven Holy Founders of the Servite Order",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 2,
+        "feast_date": 21,
+        "feast_code": "Saint Peter Damian, bishop and doctor of the Church",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 2,
+        "feast_date": 22,
+        "feast_code": "Chair of Saint Peter, apostle",
+        "feast_type": "Feast"
+    },
+    {
+        "feast_month": 2,
+        "feast_date": 23,
+        "feast_code": "Saint Polycarp, bishop and martyr",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 3,
+        "feast_date": 4,
+        "feast_code": "Saint Casimir",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 3,
+        "feast_date": 7,
+        "feast_code": "Saints Perpetua and Felicity, martyrs",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 3,
+        "feast_date": 8,
+        "feast_code": "Saint John of God, religious",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 3,
+        "feast_date": 9,
+        "feast_code": "Saint Frances of Rome, religious",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 3,
+        "feast_date": 17,
+        "feast_code": "Saint Patrick, bishop",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 3,
+        "feast_date": 18,
+        "feast_code": "Saint Cyril of Jerusalem, bishop and doctor",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 3,
+        "feast_date": 19,
+        "feast_code": "Saint Joseph Husband of the Blessed Virgin Mary",
+        "feast_type": "Solemnity"
+    },
+    {
+        "feast_month": 3,
+        "feast_date": 23,
+        "feast_code": "Saint Turibius of Mogrovejo, bishop",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 3,
+        "feast_date": 25,
+        "feast_code": "Annunciation of the Lord",
+        "feast_type": "Solemnity"
+    },
+    {
+        "feast_month": 4,
+        "feast_date": 2,
+        "feast_code": "Saint Francis of Paola, hermit",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 4,
+        "feast_date": 4,
+        "feast_code": "Saint Isidore, bishop and doctor of the Church",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 4,
+        "feast_date": 5,
+        "feast_code": "Saint Vincent Ferrer, priest",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 4,
+        "feast_date": 7,
+        "feast_code": "Saint John Baptist de la Salle, priest",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 4,
+        "feast_date": 11,
+        "feast_code": "Saint Stanislaus, bishop and martyr",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 4,
+        "feast_date": 13,
+        "feast_code": "Saint Martin I, pope and martyr",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 4,
+        "feast_date": 21,
+        "feast_code": "Saint Anselm of Canterbury, bishop and doctor of the Church",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 4,
+        "feast_date": 23,
+        "feast_code": "Saint Adalbert, bishop and martyr",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 4,
+        "feast_date": 23,
+        "feast_code": "Saint George, martyr",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 4,
+        "feast_date": 24,
+        "feast_code": "Saint Fidelis of Sigmaringen, priest and martyr",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 4,
+        "feast_date": 25,
+        "feast_code": "Saint Mark the Evangelist",
+        "feast_type": "Feast"
+    },
+    {
+        "feast_month": 4,
+        "feast_date": 28,
+        "feast_code": "Saint Louis Grignon de Montfort, priest",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 4,
+        "feast_date": 28,
+        "feast_code": "Saint Peter Chanel, priest and martyr",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 4,
+        "feast_date": 29,
+        "feast_code": "Saint Catherine of Siena, virgin and doctor of the Church",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 4,
+        "feast_date": 30,
+        "feast_code": "Saint Pius V, pope",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 5,
+        "feast_date": 1,
+        "feast_code": "Saint Joseph the Worker",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 5,
+        "feast_date": 2,
+        "feast_code": "Saint Athanasius, bishop and doctor",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 5,
+        "feast_date": 3,
+        "feast_code": "Saints Philip and James, Apostles",
+        "feast_type": "Feast"
+    },
+    {
+        "feast_month": 5,
+        "feast_date": 12,
+        "feast_code": "Saint Pancras, martyr",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 5,
+        "feast_date": 12,
+        "feast_code": "Saints Nereus and Achilleus, martyrs",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 5,
+        "feast_date": 13,
+        "feast_code": "Our Lady of Fatima",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 5,
+        "feast_date": 14,
+        "feast_code": "Saint Matthias the Apostle",
+        "feast_type": "Feast"
+    },
+    {
+        "feast_month": 5,
+        "feast_date": 18,
+        "feast_code": "Saint John I, pope and martyr",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 5,
+        "feast_date": 20,
+        "feast_code": "Saint Bernardine of Siena, priest",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 5,
+        "feast_date": 21,
+        "feast_code": "Saint Christopher Magallanes and companions, martyrs",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 5,
+        "feast_date": 22,
+        "feast_code": "Saint Rita of Cascia",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 5,
+        "feast_date": 25,
+        "feast_code": "Saint Bede the Venerable, priest and doctor",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 5,
+        "feast_date": 25,
+        "feast_code": "Saint Gregory VII, pope",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 5,
+        "feast_date": 25,
+        "feast_code": "Saint Mary Magdalene de Pazzi, virgin",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 5,
+        "feast_date": 26,
+        "feast_code": "Saint Philip Neri, priest",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 5,
+        "feast_date": 27,
+        "feast_code": "Saint Augustine (Austin) of Canterbury, bishop",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 5,
+        "feast_date": 31,
+        "feast_code": "Visitation of the Blessed Virgin Mary",
+        "feast_type": "Feast"
+    },
+    {
+        "feast_month": 6,
+        "feast_date": 1,
+        "feast_code": "Saint Justin Martyr",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 6,
+        "feast_date": 2,
+        "feast_code": "Saints Marcellinus and Peter, martyrs",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 6,
+        "feast_date": 3,
+        "feast_code": "Saints Charles Lwanga and companions, martyrs",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 6,
+        "feast_date": 5,
+        "feast_code": "Saint Boniface, bishop and martyr",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 6,
+        "feast_date": 6,
+        "feast_code": "Saint Norbert, bishop",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 6,
+        "feast_date": 9,
+        "feast_code": "Saint Ephrem, deacon and doctor",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 6,
+        "feast_date": 11,
+        "feast_code": "Saint Barnabas the Apostle",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 6,
+        "feast_date": 13,
+        "feast_code": "Saint Anthony of Padua, priest and doctor",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 6,
+        "feast_date": 19,
+        "feast_code": "Saint Romuald, abbot",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 6,
+        "feast_date": 21,
+        "feast_code": "Saint Aloysius Gonzaga, religious",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 6,
+        "feast_date": 22,
+        "feast_code": "Saint Paulinus of Nola, bishop",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 6,
+        "feast_date": 22,
+        "feast_code": "Saints John Fisher, bishop and martyr and Thomas More, martyr",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 6,
+        "feast_date": 24,
+        "feast_code": "Birth of Saint John the Baptist",
+        "feast_type": "Solemnity"
+    },
+    {
+        "feast_month": 6,
+        "feast_date": 27,
+        "feast_code": "Saint Cyril of Alexandria, bishop and doctor",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 6,
+        "feast_date": 28,
+        "feast_code": "Saint Irenaeus, bishop and martyr",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 6,
+        "feast_date": 29,
+        "feast_code": "Saints Peter and Paul, Apostles",
+        "feast_type": "Solemnity"
+    },
+    {
+        "feast_month": 6,
+        "feast_date": 30,
+        "feast_code": "First Martyrs of the Church of Rome",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 7,
+        "feast_date": 3,
+        "feast_code": "Saint Thomas the Apostle",
+        "feast_type": "Feast"
+    },
+    {
+        "feast_month": 7,
+        "feast_date": 4,
+        "feast_code": "Saint Elizabeth of Portugal",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 7,
+        "feast_date": 5,
+        "feast_code": "Saint Anthony Zaccaria, priest",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 7,
+        "feast_date": 6,
+        "feast_code": "Saint Maria Goretti, virgin and martyr",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 7,
+        "feast_date": 9,
+        "feast_code": "Saint Augustine Zhao Rong and companions, martyrs",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 7,
+        "feast_date": 11,
+        "feast_code": "Saint Benedict, abbot",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 7,
+        "feast_date": 13,
+        "feast_code": "Saint Henry",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 7,
+        "feast_date": 14,
+        "feast_code": "Saint Camillus de Lellis, priest",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 7,
+        "feast_date": 15,
+        "feast_code": "Saint Bonaventure, bishop and doctor",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 7,
+        "feast_date": 16,
+        "feast_code": "Our Lady of Mount Carmel",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 7,
+        "feast_date": 20,
+        "feast_code": "Saint Apollinaris, bishop and martyr",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 7,
+        "feast_date": 21,
+        "feast_code": "Saint Lawrence of Brindisi, priest and doctor",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 7,
+        "feast_date": 22,
+        "feast_code": "Saint Mary Magdalene",
+        "feast_type": "Feast"
+    },
+    {
+        "feast_month": 7,
+        "feast_date": 23,
+        "feast_code": "Saint Birgitta, religious",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 7,
+        "feast_date": 24,
+        "feast_code": "Saint Sharbel Makhluf, hermit",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 7,
+        "feast_date": 25,
+        "feast_code": "Saint James, apostle",
+        "feast_type": "Feast"
+    },
+    {
+        "feast_month": 7,
+        "feast_date": 26,
+        "feast_code": "Saints Joachim and Anne",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 7,
+        "feast_date": 29,
+        "feast_code": "Saint Martha",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 7,
+        "feast_date": 30,
+        "feast_code": "Saint Peter Chrysologus, bishop and doctor",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 7,
+        "feast_date": 31,
+        "feast_code": "Saint Ignatius of Loyola, priest",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 8,
+        "feast_date": 1,
+        "feast_code": "Saint Alphonsus Maria de Liguori, bishop and doctor of the Church",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 8,
+        "feast_date": 2,
+        "feast_code": "Saint Eusebius of Vercelli, bishop",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 8,
+        "feast_date": 2,
+        "feast_code": "Saint Peter Julian Eymard, priest",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 8,
+        "feast_date": 4,
+        "feast_code": "Saint Jean Vianney (the Curé of Ars), priest",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 8,
+        "feast_date": 5,
+        "feast_code": "Dedication of the Basilica of Saint Mary Major",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 8,
+        "feast_date": 6,
+        "feast_code": "Transfiguration of the Lord",
+        "feast_type": "Feast-Lord"
+    },
+    {
+        "feast_month": 8,
+        "feast_date": 7,
+        "feast_code": "Saint Cajetan, priest",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 8,
+        "feast_date": 7,
+        "feast_code": "Saint Sixtus II, pope, and companions, martyrs",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 8,
+        "feast_date": 8,
+        "feast_code": "Saint Dominic, priest",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 8,
+        "feast_date": 9,
+        "feast_code": "Saint Teresa Benedicta of the Cross (Edith Stein), virgin and martyr",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 8,
+        "feast_date": 10,
+        "feast_code": "Saint Lawrence, deacon and martyr",
+        "feast_type": "Feast"
+    },
+    {
+        "feast_month": 8,
+        "feast_date": 11,
+        "feast_code": "Saint Clare, virgin",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 8,
+        "feast_date": 12,
+        "feast_code": "Saint Jane Frances de Chantal, religious",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 8,
+        "feast_date": 13,
+        "feast_code": "Saints Pontian, pope, and Hippolytus, priest, martyrs",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 8,
+        "feast_date": 14,
+        "feast_code": "Saint Maximilian Mary Kolbe, priest and martyr",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 8,
+        "feast_date": 15,
+        "feast_code": "Assumption of the Blessed Virgin Mary",
+        "feast_type": "Solemnity"
+    },
+    {
+        "feast_month": 8,
+        "feast_date": 16,
+        "feast_code": "Saint Stephen of Hungary",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 8,
+        "feast_date": 19,
+        "feast_code": "Saint John Eudes, priest",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 8,
+        "feast_date": 20,
+        "feast_code": "Saint Bernard of Clairvaux, abbot and doctor of the Church",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 8,
+        "feast_date": 21,
+        "feast_code": "Saint Pius X, pope",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 8,
+        "feast_date": 22,
+        "feast_code": "Queenship of Blessed Virgin Mary",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 8,
+        "feast_date": 23,
+        "feast_code": "Saint Rose of Lima, virgin",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 8,
+        "feast_date": 24,
+        "feast_code": "Saint Bartholomew the Apostle",
+        "feast_type": "Feast"
+    },
+    {
+        "feast_month": 8,
+        "feast_date": 25,
+        "feast_code": "Saint Joseph of Calasanz, priest",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 8,
+        "feast_date": 25,
+        "feast_code": "Saint Louis",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 8,
+        "feast_date": 27,
+        "feast_code": "Saint Monica",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 8,
+        "feast_date": 28,
+        "feast_code": "Saint Augustine of Hippo, bishop and doctor of the Church",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 8,
+        "feast_date": 29,
+        "feast_code": "The Beheading of Saint John the Baptist, martyr",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 9,
+        "feast_date": 3,
+        "feast_code": "Saint Gregory the Great, pope and doctor",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 9,
+        "feast_date": 8,
+        "feast_code": "Birth of the Blessed Virgin Mary",
+        "feast_type": "Feast"
+    },
+    {
+        "feast_month": 9,
+        "feast_date": 9,
+        "feast_code": "Saint Peter Claver, priest",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 9,
+        "feast_date": 12,
+        "feast_code": "Holy Name of the Blessed Virgin Mary",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 9,
+        "feast_date": 13,
+        "feast_code": "Saint John Chrysostom, bishop and doctor",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 9,
+        "feast_date": 14,
+        "feast_code": "Exaltation of the Holy Cross",
+        "feast_type": "Feast-Lord"
+    },
+    {
+        "feast_month": 9,
+        "feast_date": 15,
+        "feast_code": "Our Lady of Sorrows",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 9,
+        "feast_date": 16,
+        "feast_code": "Saints Cornelius, pope, and Cyprian, bishop, martyrs",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 9,
+        "feast_date": 17,
+        "feast_code": "Saint Robert Bellarmine, bishop and doctor",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 9,
+        "feast_date": 19,
+        "feast_code": "Saint Januarius, bishop and martyr",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 9,
+        "feast_date": 20,
+        "feast_code": "Saint Andrew Kim Taegon, priest, and Paul Chong Hasang and companions, martyrs",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 9,
+        "feast_date": 21,
+        "feast_code": "Saint Matthew the Evangelist, Apostle, Evangelist",
+        "feast_type": "Feast"
+    },
+    {
+        "feast_month": 9,
+        "feast_date": 23,
+        "feast_code": "Saint Pio of Pietrelcina (Padre Pio), priest",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 9,
+        "feast_date": 26,
+        "feast_code": "Saints Cosmas and Damian, martyrs",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 9,
+        "feast_date": 27,
+        "feast_code": "Saint Vincent de Paul, priest",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 9,
+        "feast_date": 28,
+        "feast_code": "Saint Wenceslaus, martyr",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 9,
+        "feast_date": 28,
+        "feast_code": "Saints Lawrence Ruiz and companions, martyrs",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 9,
+        "feast_date": 29,
+        "feast_code": "Saints Michael, Gabriel and Raphael, Archangels",
+        "feast_type": "Feast"
+    },
+    {
+        "feast_month": 9,
+        "feast_date": 30,
+        "feast_code": "Saint Jerome, priest and doctor",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 10,
+        "feast_date": 1,
+        "feast_code": "Saint Thérèse of the Child Jesus, virgin and doctor",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 10,
+        "feast_date": 2,
+        "feast_code": "Guardian Angels",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 10,
+        "feast_date": 4,
+        "feast_code": "Saint Francis of Assisi",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 10,
+        "feast_date": 6,
+        "feast_code": "Saint Bruno, priest",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 10,
+        "feast_date": 7,
+        "feast_code": "Our Lady of the Rosary",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 10,
+        "feast_date": 9,
+        "feast_code": "Saint Denis and companions, martyrs",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 10,
+        "feast_date": 9,
+        "feast_code": "Saint John Leonardi, priest",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 10,
+        "feast_date": 11,
+        "feast_code": "Saint John XXIII, pope",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 10,
+        "feast_date": 14,
+        "feast_code": "Saint Callistus I, pope and martyr",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 10,
+        "feast_date": 15,
+        "feast_code": "Saint Teresa of Jesus, virgin and doctor",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 10,
+        "feast_date": 16,
+        "feast_code": "Saint Hedwig, religious",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 10,
+        "feast_date": 16,
+        "feast_code": "Saint Margaret Mary Alacoque, virgin",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 10,
+        "feast_date": 17,
+        "feast_code": "Saint Ignatius of Antioch, bishop and martyr",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 10,
+        "feast_date": 18,
+        "feast_code": "Saint Luke the Evangelist",
+        "feast_type": "Feast"
+    },
+    {
+        "feast_month": 10,
+        "feast_date": 19,
+        "feast_code": "Saint Paul of the Cross, priest",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 10,
+        "feast_date": 19,
+        "feast_code": "Saints Jean de Brébeuf, Isaac Jogues, priests and martyrs; and their companions, martyrs",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 10,
+        "feast_date": 22,
+        "feast_code": "Saint John Paul II, pope",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 10,
+        "feast_date": 23,
+        "feast_code": "Saint John of Capistrano, priest",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 10,
+        "feast_date": 24,
+        "feast_code": "Saint Anthony Mary Claret, bishop",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 10,
+        "feast_date": 28,
+        "feast_code": "Saint Simon and Saint Jude, apostles",
+        "feast_type": "Feast"
+    },
+    {
+        "feast_month": 11,
+        "feast_date": 1,
+        "feast_code": "All Saints",
+        "feast_type": "Solemnity"
+    },
+    {
+        "feast_month": 11,
+        "feast_date": 2,
+        "feast_code": "All Souls",
+        "feast_type": "Solemnity"
+    },
+    {
+        "feast_month": 11,
+        "feast_date": 3,
+        "feast_code": "Saint Martin de Porres, religious",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 11,
+        "feast_date": 4,
+        "feast_code": "Saint Charles Borromeo, bishop",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 11,
+        "feast_date": 9,
+        "feast_code": "Dedication of the Lateran basilica",
+        "feast_type": "Feast"
+    },
+    {
+        "feast_month": 11,
+        "feast_date": 10,
+        "feast_code": "Saint Leo the Great, pope and doctor",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 11,
+        "feast_date": 11,
+        "feast_code": "Saint Martin of Tours, bishop",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 11,
+        "feast_date": 12,
+        "feast_code": "Saint Josaphat, bishop and martyr",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 11,
+        "feast_date": 15,
+        "feast_code": "Saint Albert the Great, bishop and doctor",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 11,
+        "feast_date": 16,
+        "feast_code": "Saint Gertrude the Great, virgin",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 11,
+        "feast_date": 16,
+        "feast_code": "Saint Margaret of Scotland",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 11,
+        "feast_date": 17,
+        "feast_code": "Saint Elizabeth of Hungary, religious",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 11,
+        "feast_date": 18,
+        "feast_code": "Dedication of the basilicas of Saints Peter and Paul, Apostles",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 11,
+        "feast_date": 21,
+        "feast_code": "Presentation of the Blessed Virgin Mary",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 11,
+        "feast_date": 22,
+        "feast_code": "Saint Cecilia",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 11,
+        "feast_date": 23,
+        "feast_code": "Saint Clement I, pope and martyr",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 11,
+        "feast_date": 23,
+        "feast_code": "Saint Columban, religious",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 11,
+        "feast_date": 24,
+        "feast_code": "Saint Andrew Dung-Lac and his companions, martyrs",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 11,
+        "feast_date": 25,
+        "feast_code": "Saint Catherine of Alexandria",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 11,
+        "feast_date": 30,
+        "feast_code": "Saint Andrew the Apostle",
+        "feast_type": "Feast"
+    },
+    {
+        "feast_month": 12,
+        "feast_date": 3,
+        "feast_code": "Saint Francis Xavier, priest",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 12,
+        "feast_date": 4,
+        "feast_code": "Saint John Damascene, priest and doctor",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 12,
+        "feast_date": 6,
+        "feast_code": "Saint Nicholas, bishop",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 12,
+        "feast_date": 7,
+        "feast_code": "Saint Ambrose, bishop and doctor",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 12,
+        "feast_date": 8,
+        "feast_code": "Immaculate Conception of the Blessed Virgin Mary",
+        "feast_type": "Solemnity"
+    },
+    {
+        "feast_month": 12,
+        "feast_date": 9,
+        "feast_code": "Saint Juan Diego",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 12,
+        "feast_date": 11,
+        "feast_code": "Saint Damasus I, pope",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 12,
+        "feast_date": 12,
+        "feast_code": "Our Lady of Guadalupe",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 12,
+        "feast_date": 13,
+        "feast_code": "Saint Lucy of Syracuse, virgin and martyr",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 12,
+        "feast_date": 14,
+        "feast_code": "Saint John of the Cross, priest and doctor",
+        "feast_type": "Mem"
+    },
+    {
+        "feast_month": 12,
+        "feast_date": 21,
+        "feast_code": "Saint Peter Canisius, priest and doctor",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 12,
+        "feast_date": 23,
+        "feast_code": "Saint John of Kanty, priest",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 12,
+        "feast_date": 25,
+        "feast_code": "Nativity of the Lord",
+        "feast_type": "Solemnity"
+    },
+    {
+        "feast_month": 12,
+        "feast_date": 26,
+        "feast_code": "Saint Stephen, the first martyr",
+        "feast_type": "Feast"
+    },
+    {
+        "feast_month": 12,
+        "feast_date": 27,
+        "feast_code": "Saint John the Apostle and evangelist",
+        "feast_type": "Feast"
+    },
+    {
+        "feast_month": 12,
+        "feast_date": 28,
+        "feast_code": "Holy Innocents, martyrs",
+        "feast_type": "Feast"
+    },
+    {
+        "feast_month": 12,
+        "feast_date": 29,
+        "feast_code": "Saint Thomas Becket, bishop and martyr",
+        "feast_type": "OpMem"
+    },
+    {
+        "feast_month": 12,
+        "feast_date": 31,
+        "feast_code": "Saint Sylvester I, pope",
+        "feast_type": "OpMem"
+    }
+]
