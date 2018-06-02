@@ -20,7 +20,7 @@ include_once ('Lib/RomanCalendarRenderHTML.php');
 // 2014 Immaculate Hrt coincided with Saint Irenaeus, 28 June
 // 2015 Immaculate Hrt coincided with Saint Anthony of Padua, 13 June
 
-$CalcGen = new RomanCalendar (2019, parse_ini_file ( 'settings.ini' ) );
+$CalcGen = new RomanCalendar (2018, parse_ini_file ( 'settings.ini' ) );
 
 $rcYr = $CalcGen->rcy;
 
