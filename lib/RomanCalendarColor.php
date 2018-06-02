@@ -21,9 +21,9 @@ class RomanCalendarColor {
 					$cd = $dats [$ids] ['code'];
 					$tp = (isset ( $dats [$ids] ['type'] )) ? $dats [$ids] ['type'] : null;
 					
-					if ($tp !== 'OpMem') // The proper color of an Optional Memorial is the color of the season.
+					if ($tp !== 'OpMem') { // The proper color of an Optional Memorial is the color of the season.
 						$lastfeastCol = $this->getColor ( $cd, $tp );
-					
+					}
 					$this->RCYr->fullYear [$mnthNo] [$dateNo] [$ids] ['color'] = $lastfeastCol;
 				}
 			}
@@ -42,7 +42,7 @@ class RomanCalendarColor {
 		$feastType = explode ( '-', $feastType );
 		$feastType = $feastType [0];
 		
-		$feastClrr = array(
+		$feastClrr = array (
 				// The proper color for Solemnities is white except Pentecost and Peter and Paul (Jun 29) in which cases it is red
 				'Solemnity' => 'white',
 				'Saints Peter and Paul, Apostles' => 'red',
@@ -83,7 +83,8 @@ class RomanCalendarColor {
 			$feastClr = $feastClrr [$feastCode];
 		} elseif (array_key_exists ( $feastType, $feastClrr )) {
 			$feastClr = $feastClrr [$feastType];
-		}elseif (stripos ( $feastCode, 'martyr' ) !== false) {
+		}
+		if (stripos ( $feastCode, 'martyr' ) !== false) {
 			$feastClr = $feastClrr ['martyr'];
 		} else {
 			switch (substr ( $feastCode, 0, 2 )) {
