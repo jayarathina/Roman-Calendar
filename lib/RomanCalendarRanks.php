@@ -144,8 +144,7 @@ class RomanCalendarRanks {
 
 	/**
 	 * Get rank of a given dayCode
-	 *
-	 * @param unknown $dayCode        	
+	 * @param string $dayCode        	
 	 * @return number
 	 */
 	function getRank($dayCode) {

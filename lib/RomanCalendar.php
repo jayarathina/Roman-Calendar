@@ -43,7 +43,7 @@ class RomanCalendar {
 	/**
 	 * Get feast details from JSON file
 	 *
-	 * @param unknown $fileName
+	 * @param string $fileName
 	 *        	- JSON File name
 	 * @return array (jason decoded)
 	 */
@@ -58,7 +58,7 @@ class RomanCalendar {
 	 *
 	 * @param string $calendar
 	 *        	Table name
-	 * @param unknown $fileName
+	 * @param string $fileName
 	 *        	to save data as JSON
 	 */
 	function createJSONFromDB($calendar = 'calendar', $fileName) {

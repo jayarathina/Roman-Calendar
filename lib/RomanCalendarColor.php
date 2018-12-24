@@ -30,8 +30,8 @@ class RomanCalendarColor {
 	/**
 	 * Get color for a particular feast type or code
 	 *
-	 * @param unknown $feastCode        	
-	 * @param unknown $feastType        	
+	 * @param string $feastCode        	
+	 * @param string $feastType        	
 	 * @return string
 	 */
 	private function getColor($feastCode, $feastType = null) {
