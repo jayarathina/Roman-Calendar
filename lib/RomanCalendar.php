@@ -3,6 +3,7 @@
  * RomanCalendar 3.0
  * @author Br. Jayarathina Madharasan SDR
  */
+use Medoo\Medoo;
 require_once 'mods/Medoo.php';
 
 require_once 'RomanCalendarRanks.php';
@@ -11,9 +12,7 @@ require_once 'RomanCalendarMovable.php';
 require_once 'RomanCalendarYear.php';
 require_once 'RomanCalendarColor.php';
 class RomanCalendar {
-
 	public $rcy;
-
 	function __construct($year = null, $calcConfig) {
 		$currentYear = is_numeric ( $year ) ? $year : date ( "Y" );
 		
@@ -39,7 +38,7 @@ class RomanCalendar {
 		$this->genFixes ();
 		new RomanCalendarColor ( $this->rcy );
 	}
-
+	
 	/**
 	 * Get feast details from JSON file
 	 *
@@ -51,7 +50,7 @@ class RomanCalendar {
 		$txtCnt = file_get_contents ( $fileName );
 		return json_decode ( $txtCnt, true );
 	}
-
+	
 	/**
 	 * Get feast details from mysql database and creates JSON file in the path specified.
 	 * Call this function if you have changed the database and want to refresh the JSON file.
@@ -86,7 +85,7 @@ class RomanCalendar {
 		$t = json_encode ( $FeastList, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT | JSON_NUMERIC_CHECK );
 		return file_put_contents ( $fileName, $t );
 	}
-
+	
 	/**
 	 * General fixes that are not done anywhere else:
 	 * - Set Immaculate Heart of Mary – Memorial; This is the only moving celebration that has to be set seperately because
@@ -104,7 +103,7 @@ class RomanCalendar {
 		if ($this->rcy->fullYear [$mnt] [$dy] [0] ['rank'] > 5) { // Some local calendar solemnity might occour
 			$this->rcy->addFeastToDate ( $mnt, $dy, 'OW00-ImmaculateHeart', 'Mem' );
 		}
-
+		
 		$memMaryMotherofChurch = clone $this->rcy->ordinaryTime2Starts;
 		$mnt = $memMaryMotherofChurch->format ( 'n' );
 		$dy = $memMaryMotherofChurch->format ( 'j' );

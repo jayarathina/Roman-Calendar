@@ -9,9 +9,7 @@
  * 
  */
 class RomanCalendarRenderHTML {
-
 	private $rcy;
-
 	function printYearHTML(RomanCalendarYear $rcy) {
 		$this->rcy = $rcy;
 		
@@ -33,7 +31,7 @@ class RomanCalendarRenderHTML {
 		}
 		echo "<table>$rows</table>";
 	}
-
+	
 	/**
 	 * Set names in the place of codes.
 	 * This has to be language specific. Here an english language example is given.
@@ -55,7 +53,6 @@ class RomanCalendarRenderHTML {
 			}
 		}
 	}
-
 	function getSingleTitle($dayCode) {
 		
 		// @formatter:off
@@ -82,7 +79,6 @@ class RomanCalendarRenderHTML {
 				'OW00-SacredHeart' => 'The Most Sacred Heart Of Jesus',
 				'OW00-ImmaculateHeart' => 'Immaculate Heart of the Blessed Virgin Mary',
 				'OW00-MaryMotherofChurch' => 'Mary, Mother of the Church',
-				
 				
 				'CW01-HolyFamily' => 'The Holy Family of Jesus, Mary And Joseph' 
 		);
@@ -144,11 +140,11 @@ class RomanCalendarRenderHTML {
 		}
 		return $fTitle;
 	}
-
+	
 	/**
 	 *
 	 * @return number with ordinal suffix
-	 * @param int $number        	
+	 * @param int $number
 	 * @param int $ss
 	 *        	Turn super script on/off
 	 * @return string

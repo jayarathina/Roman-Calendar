@@ -7,9 +7,7 @@
  * TODO All of the date vars should be DateTimeImmutable() class. Change this when PHP 5.5 gets more than 80% market share
  */
 class RomanCalendarMovable {
-
 	private $dayRanks, $RCYr;
-
 	function __construct(RomanCalendarYear $RCYear) {
 		$this->RCYr = $RCYear;
 		
@@ -23,11 +21,10 @@ class RomanCalendarMovable {
 		$this->generateOrdinaryTime1 ();
 		$this->generateOrdinaryTime2 ();
 	}
-
 	public function __get($name) {
 		return $this->RCYr->__get ( $name );
 	}
-
+	
 	/**
 	 * Function to Generate Advent season
 	 */
@@ -46,7 +43,7 @@ class RomanCalendarMovable {
 			$AW05->modify ( '+1 day' );
 		}
 	}
-
+	
 	/**
 	 * Function to generate Christmas season from December 25 - 31
 	 */
@@ -68,7 +65,7 @@ class RomanCalendarMovable {
 		
 		$this->setDayCode ( $HolyFamilyDate, $code . '-HolyFamily' );
 	}
-
+	
 	/**
 	 * Function to generate Christmas season from Jan 1 - Baptism
 	 */
@@ -106,21 +103,21 @@ class RomanCalendarMovable {
 			$tempDate->modify ( '+1 day' );
 		}
 	}
-
+	
 	/**
 	 * Function to generate Ordinary season before lent
 	 */
 	private function generateOrdinaryTime1() {
 		$this->fillInWeek ( $this->ordinaryTime1Starts, $this->lentStart, 'OW', 1 );
 	}
-
+	
 	/**
 	 * Function to generate Lent
 	 */
 	private function generateLent() {
 		$this->fillInWeek ( $this->lentStart, $this->eastertideStarts, 'LW' );
 	}
-
+	
 	/**
 	 * Function to generate Pascha
 	 */
@@ -128,14 +125,14 @@ class RomanCalendarMovable {
 		$this->fillInWeek ( $this->eastertideStarts, $this->ordinaryTime2Starts, 'EW' );
 		
 		$tempDate = clone $this->eastertideStarts;
-		($this->calcConfig  ['feastSettings'] ['ASCENSION_ON_A_SUNDAY'] == true) ? $tempDate->modify ( '+42 days' ) : $tempDate->modify ( '+39 days' );
+		($this->calcConfig ['feastSettings'] ['ASCENSION_ON_A_SUNDAY'] == true) ? $tempDate->modify ( '+42 days' ) : $tempDate->modify ( '+39 days' );
 		$this->setDayCode ( $tempDate, 'EW07-Ascension' );
 		
 		$tempDate = clone $this->eastertideStarts;
 		$tempDate->modify ( '+49 days' );
 		$this->setDayCode ( $tempDate, 'EW08-Pentecost' );
 	}
-
+	
 	/**
 	 * Function to generate Ordinary season after Easter
 	 */
@@ -161,7 +158,7 @@ class RomanCalendarMovable {
 		$tempDate1->modify ( 'next sunday' );
 		$this->setDayCode ( $tempDate1, 'OW00-Trinity' );
 		
-		($this->calcConfig  ['feastSettings'] ['CORPUSCHRISTI_ON_A_SUNDAY'] == true) ? $tempDate1->modify ( 'next sunday' ) : $tempDate1->modify ( 'next thursday' );
+		($this->calcConfig ['feastSettings'] ['CORPUSCHRISTI_ON_A_SUNDAY'] == true) ? $tempDate1->modify ( 'next sunday' ) : $tempDate1->modify ( 'next thursday' );
 		$this->setDayCode ( $tempDate1, 'OW00-CorpusChristi' );
 		
 		$tempDate1->modify ( 'next monday' ); // We are first moving to monday then to next friday because if corpuschristi falls on a thuresday, next friday would be the next day, which is not the correct date for sacred heart
@@ -169,7 +166,7 @@ class RomanCalendarMovable {
 		
 		$this->setDayCode ( $tempDate1, 'OW00-SacredHeart' );
 	}
-
+	
 	/**
 	 * To fill in the week code with proper season prefix from $startDate till a day before $endDate specified.
 	 *
@@ -196,7 +193,7 @@ class RomanCalendarMovable {
 			$startDt->modify ( '+1 day' );
 		}
 	}
-
+	
 	/**
 	 * Tag a given date with its code
 	 *

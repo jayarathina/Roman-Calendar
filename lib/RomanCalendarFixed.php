@@ -6,9 +6,7 @@
  * 
  */
 class RomanCalendarFixed {
-
 	private $dayRanks, $RCYr, $calName;
-
 	function __construct(RomanCalendarYear $RCYear, $feastList, $calName) {
 		$this->RCYr = $RCYear;
 		$this->dayRanks = new RomanCalendarRanks ();
@@ -17,11 +15,11 @@ class RomanCalendarFixed {
 		$this->addFeastToYear ( $feastList );
 		$this->addMemoryToYear ( $feastList );
 	}
-
+	
 	/**
 	 * Adds the given Solemnity to RomanCalendarYear variable
 	 *
-	 * @param array $FeastList        	
+	 * @param array $FeastList
 	 */
 	function addSolemnityToYear($FeastList) {
 		foreach ( $FeastList as $feastDet ) {
@@ -38,7 +36,6 @@ class RomanCalendarFixed {
 			} else {
 				// If a fixed date Solemnity occurs on a Sunday of Lent or Advent, the Solemnity is transferred to the following Monday.
 				// This affects Joseph, Husband of Mary (Mar 19), Annunciation (Mar 25), and Immaculate Conception (Dec 8).
-				
 				$tempDate = new DateTime ( $this->RCYr->__get ( 'currentYear' ) . '-' . $feastDet ['feast_month'] . '-' . $feastDet ['feast_date'] );
 				
 				if ($feastDet ['feast_date'] == 19 && preg_match ( "/^LW06/", $currentDay [0] ['code'] ) === 1) {
@@ -57,7 +54,6 @@ class RomanCalendarFixed {
 				} elseif ($tempDate->format ( 'w' ) == 0) { // Make sure it is a sunday
 					$tempDate->modify ( '+ 1 days' );
 				} else {
-					
 					print_r ( $feastDet );
 					print_r ( $currentDay );
 					
@@ -70,7 +66,7 @@ class RomanCalendarFixed {
 			}
 		}
 	}
-
+	
 	/**
 	 * Adds the given Feast to RomanCalendarYear variable.
 	 * Feast type (feast_type) could be either feast or Feasts of the Lord
@@ -87,7 +83,7 @@ class RomanCalendarFixed {
 			} // else Feast is supressed
 		}
 	}
-
+	
 	/**
 	 * Adds the given Memory or optional memory to RomanCalendarYear variable.
 	 */

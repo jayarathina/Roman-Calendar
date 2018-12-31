@@ -5,11 +5,8 @@
  *
  */
 class RomanCalendarYear {
-
 	public $fullYear, $currentYear, $calcConfig;
-
 	private $adventStart, $christmastide1Start, $epiphanyDate, $christmastide2Start, $lentStart, $eastertideStarts, $ordinaryTime1Starts, $ordinaryTime2Starts;
-
 	function __construct($year = null, $settings) {
 		$this->currentYear = is_numeric ( $year ) ? $year : date ( "Y" );
 		
@@ -21,12 +18,11 @@ class RomanCalendarYear {
 		}
 		$this->generateSeasonLimits ();
 	}
-
+	
 	/**
 	 * Sets the start dates of various seasons of the liturgical year.
 	 */
 	private function generateSeasonLimits() {
-		$fullYear = &$this->fullYear;
 		$curYear = $this->currentYear;
 		
 		$this->adventStart = new DateTime ( "last thu of Nov $curYear" ); // Next sunday is advent week 1
@@ -69,14 +65,14 @@ class RomanCalendarYear {
 		$this->ordinaryTime2Starts = clone $this->eastertideStarts;
 		$this->ordinaryTime2Starts->modify ( '+50 days' );
 	}
-
+	
 	/**
 	 * Function to get season limits dates
 	 */
 	public function __get($name) {
 		return isset ( $this->$name ) ? $this->$name : null;
 	}
-
+	
 	/**
 	 * Test Function for checking the generated season's dates
 	 */
@@ -94,7 +90,7 @@ class RomanCalendarYear {
 		
 		echo '<hr/>';
 	}
-
+	
 	/**
 	 * Tag a given date and month with its code and append it to current date.
 	 * (If there is more than one commomeration)
@@ -117,7 +113,7 @@ class RomanCalendarYear {
 		
 		array_push ( $this->fullYear [$mth] [$day], $dayFeast );
 	}
-
+	
 	/**
 	 * Tag a given date and month with its code
 	 *

@@ -6,9 +6,7 @@
  *
  */
 class RomanCalendarColor {
-
 	private $RCYr;
-
 	function __construct(RomanCalendarYear $RCYear) {
 		$this->RCYr = $RCYear;
 		
@@ -19,19 +17,19 @@ class RomanCalendarColor {
 					$cd = $dats [$ids] ['code'];
 					$tp = (isset ( $dats [$ids] ['type'] )) ? $dats [$ids] ['type'] : null;
 					if ($tp !== 'OpMem') { // The proper color of an Optional Memorial is the color of the season.
-							$lastfeastCol = $this->getColor ( $cd, $tp );
+						$lastfeastCol = $this->getColor ( $cd, $tp );
 					}
 					$this->RCYr->fullYear [$mnthNo] [$dateNo] [$ids] ['color'] = $lastfeastCol;
 				}
 			}
 		}
 	}
-
+	
 	/**
 	 * Get color for a particular feast type or code
 	 *
-	 * @param string $feastCode        	
-	 * @param string $feastType        	
+	 * @param string $feastCode
+	 * @param string $feastType
 	 * @return string
 	 */
 	private function getColor($feastCode, $feastType = null) {

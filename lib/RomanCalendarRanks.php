@@ -1,6 +1,6 @@
 <?php
 class RomanCalendarRanks {
-
+	
 	/**
 	 * Table of Liturgical Days According To Their Order of Precedence
 	 *
@@ -141,10 +141,11 @@ class RomanCalendarRanks {
 			
 			'Commomeration' => 14 
 	);
-
+	
 	/**
 	 * Get rank of a given dayCode
-	 * @param string $dayCode        	
+	 * 
+	 * @param string $dayCode
 	 * @return number
 	 */
 	function getRank($dayCode) {
