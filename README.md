@@ -12,7 +12,7 @@ This is a Roman Catholic Liturgical Calendar Generator in PHP. I decided to star
 This is a PHP poject. The project uses JSON flat file as data source. But _If_ you want to use a database (See getDataFromDB() in [RomanCalendar.php](lib/RomanCalendar.php)), the [Medoo library](http://medoo.in) is required. Sample DB structure is found at [liturgy_lectionary.sql](mysql/liturgy_lectionary.sql) which have Tamil data used for translation. You can build upon it to tanslate other languages.
 
 ## Points to Note
-For each day the name of the feast (if any) acts as a unique identifier for that feast. For a weekday (with no feast) a code is generated in the following syntax: `<SEASON CODE><WEEK NUMBER>-<DAY NUMBER><DAY NAME>`. They stand for the following:
+For each day the name of the feast (if any) acts as a unique identifier for that feast. For a ferial weekday (with no feast) a code is generated in the following syntax: `<SEASON CODE><WEEK NUMBER>-<DAY NUMBER><DAY NAME>`. They stand for the following:
 * `SEASON CODE` can be one of the following:
   * EW – Easter Week
   * OW – Ordinary Week
@@ -27,8 +27,8 @@ For each day the name of the feast (if any) acts as a unique identifier for that
 * `LW03-4Thu` represents Lent Week Three Thursday
 
 ## Known Issues
-* Only one local calendar (Probably your country) can be added as of now. For more than one local calendar (Probably a religious Society and a country - more than one solemnity clashes with each other) the result is undetermined.
-* Not backward compatible. (That is if a new feast is added to the calendar this year. Previous year calendars generated will have that feast too. For example commemoration of St. Mary Magdalene raised to a Feast by Pope Francis only in 2016 ([ref](http://en.radiovaticana.va/news/2016/06/10/commemoration_of_st_mary_magdalene_raised_to_a_feast/1236157)), but if you generate calendar for the year 2008, it will be marked as a feast then too)
+* Only one local calendar can be added as of now without clashes. If more than one local calendar (A religious Society and a Country) then there is a posibility of more than one solemnity clashes with each other. In that case, the result is undetermined. This will be fixed in the future if need arises.
+* This library is Not backward compatible. (That is if a new feast is added to the calendar this year. Previous year calendars generated will have that feast too. For example commemoration of St. Mary Magdalene raised to a Feast by Pope Francis only in 2016 ([ref](http://en.radiovaticana.va/news/2016/06/10/commemoration_of_st_mary_magdalene_raised_to_a_feast/1236157)), but if you generate calendar for the year 2008, it will be marked as a feast then too)
 
 ## Suggestions or Comments
 If you find any bug or suggest any improvement, please feel free to raise a pull request or contact me.
