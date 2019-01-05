@@ -4,7 +4,8 @@
  * @author Br. Jayarathina Madharasan SDR
  */
 use Medoo\Medoo;
-require_once 'mods/Medoo.php';
+require_once 'lib/Medoo.php';
+require_once 'lib/dbConfig.php';
 
 require_once 'RomanCalendarRanks.php';
 require_once 'RomanCalendarFixed.php';
@@ -63,10 +64,10 @@ class RomanCalendar {
 	function createJSONFromDB($calendar = 'calendar', $fileName) {
 		$database = new Medoo ( array (
 				'database_type' => 'mysql',
-				'database_name' => 'liturgy_lectionary',
+				'database_name' => DB_NAME,
 				'server' => 'localhost',
-				'username' => 'root',
-				'password' => '',
+				'username' => DB_USER,
+				'password' => DB_PASSWORD,
 				'charset' => 'utf8' 
 		) );
 		// Prefix 'general' is added to table name to avoid unnecessary securtiy risk
