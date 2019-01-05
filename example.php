@@ -1,7 +1,7 @@
 <?php
 header('Content-Type: text/html; charset=utf-8');
-include_once ('Lib/RomanCalendar.php');
-include_once ('Lib/RomanCalendarRenderHTML.php');
+include_once ('lib/RomanCalendar/RomanCalendar.php');
+include_once ('lib/RomanCalendar/RomanCalendarRenderHTML.php');
 ?>
 <html>
 	<head>
