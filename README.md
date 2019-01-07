@@ -11,6 +11,11 @@ This is a Roman Catholic Liturgical Calendar Generator in PHP. I decided to star
 ## Dependencies
 This is a PHP poject. The project uses JSON flat file as data source. But _If_ you want to use a database (See getDataFromDB() in [RomanCalendar.php](lib/RomanCalendar.php)), the [Medoo library](http://medoo.in) is required. Sample DB structure is found at [liturgy_lectionary.sql](mysql/liturgy_lectionary.sql) which have Tamil data used for translation. You can build upon it to tanslate other languages. Database username and password are to be set in [dbConfig.php](lib/dbConfig.php).
 
+##Requirements
+* PHP 5.4+ and PDO extension (Installed by default)
+* SQL database, preferably MySQL (but works with many others too)
+* The [Medoo library](http://medoo.in) - Included
+
 ## Points to Note
 For each day the name of the feast (if any) acts as a unique identifier for that feast. For a ferial weekday (with no feast) a code is generated in the following syntax: `<SEASON CODE><WEEK NUMBER>-<DAY NUMBER><DAY NAME>`. They stand for the following:
 * `SEASON CODE` can be one of the following:
