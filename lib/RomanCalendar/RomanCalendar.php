@@ -22,7 +22,7 @@ class RomanCalendar {
 		
 		$dirName = $this->rcy->calcConfig ['feastsListLoc'] . $this->rcy->currentYear;
 		if (! is_dir ( $dirName )) {
-			mkdir ( $dirName, 0644 );
+			mkdir ( $dirName, 0744 );
 		}
 		
 		foreach ( $calcConfig ['calendars'] as $calName ) {
