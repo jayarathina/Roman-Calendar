@@ -76,7 +76,7 @@ class RomanCalendarRenderHTML {
 				
 				'OW00-Trinity' => 'The Most Holy Trinity',
 				'OW00-CorpusChristi' => 'The Most Holy Body and Blood of Christ (Corpus Christi)',
-				'OW00-SacredHeart' => 'The Most Sacred Heart Of Jesus',
+				'OW00-SacredHeart' => 'The Most Sacred Heart of Jesus',
 				'OW00-ImmaculateHeart' => 'Immaculate Heart of the Blessed Virgin Mary',
 				'OW00-MaryMotherofChurch' => 'Mary, Mother of the Church',
 				

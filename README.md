@@ -13,8 +13,8 @@ This is a PHP poject. The project uses JSON flat file as data source. But _If_ y
 
 ## Requirements
 * PHP 5.4+ and PDO extension (Installed by default)
-* SQL database, preferably MySQL (but works with many others too)
-* The [Medoo library](http://medoo.in) - Included
+* SQL database, preferably MySQL (but works with many other SQL databases too)
+* The [Medoo library](http://medoo.in) - Included here in the library
 
 ## Points to Note
 For each day the name of the feast (if any) acts as a unique identifier for that feast. For a ferial weekday (with no feast) a code is generated in the following syntax: `<SEASON CODE><WEEK NUMBER>-<DAY NUMBER><DAY NAME>`. They stand for the following:

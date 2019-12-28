@@ -3,8 +3,6 @@
 /**
  * RomanCalendar 3.0
  * @author Br. Jayarathina Madharasan SDR
- *
- * TODO All of the date vars should be DateTimeImmutable() class. Change this when PHP 5.5 gets more than 80% market share
  */
 class RomanCalendarMovable {
 	private $dayRanks, $RCYr;
