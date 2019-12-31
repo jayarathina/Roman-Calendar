@@ -40,12 +40,12 @@ class RomanCalendar {
 			}
 			$this->genFixes ();
 			new RomanCalendarColor ( $this->rcy );
-			
+
 			$txtCnt = json_encode ( $this->rcy, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT | JSON_NUMERIC_CHECK );
 			file_put_contents ( $dirName . '/'.$currentYear.'.json', $txtCnt );
 		}else{
 			$txtCnt = file_get_contents ( $filename );
-			$this->rcy = json_decode ( $txtCnt, true );
+			$this->rcy = json_decode ( $txtCnt, false );
 		}
 	}
 	
@@ -77,7 +77,7 @@ class RomanCalendar {
 				'server' => 'localhost',
 				'username' => DB_USER,
 				'password' => DB_PASSWORD,
-				'charset' => 'utf8'
+				'charset' => 'utf8' 
 		] );
 		// Prefix 'general' is added to table name to avoid unnecessary securtiy risk
 		// Change it to whatever prefix you want it to be.
@@ -85,11 +85,11 @@ class RomanCalendar {
 				'feast_month',
 				'feast_date',
 				'feast_code',
-				'feast_type'
+				'feast_type' 
 		], [
 				'ORDER' => [
 						'feast_month' => 'ASC',
-						'feast_date' => 'ASC'
+						'feast_date' => 'ASC' 
 				]
 		] );
 		$t = json_encode ( $FeastList, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT | JSON_NUMERIC_CHECK );
