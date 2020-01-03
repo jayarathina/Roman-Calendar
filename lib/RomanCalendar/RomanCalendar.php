@@ -25,28 +25,19 @@ class RomanCalendar {
 			mkdir ( $dirName, 0744 );
 		}
 		
-		
-		$filename = $dirName . '/'.$currentYear.'.json';
-		
-		if (! file_exists ( $filename )) {
-			foreach ( $calcConfig ['calendars'] as $calName ) {
-				$filename = $dirName . '/' . $calName . '.json';
-				
+		foreach ( $calcConfig ['calendars'] as $calName ) {
+			$filename = $dirName . '/' . $calName . '.json';
+			
+			if (! file_exists ( $filename )) { // If the JSON does not exist in the specified path, then create it from DB
 				if ($this->createJSONFromDB ( $calName, $filename ) === FALSE) {
 					die ( 'Error in writing JSON file' );
 				}
-				$feastDeatils = $this->getDataFromDAT ( $filename );
-				new RomanCalendarFixed ( $this->rcy, $feastDeatils, $calName );
 			}
-			$this->genFixes ();
-			new RomanCalendarColor ( $this->rcy );
-
-			$txtCnt = json_encode ( $this->rcy, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT | JSON_NUMERIC_CHECK );
-			file_put_contents ( $dirName . '/'.$currentYear.'.json', $txtCnt );
-		}else{
-			$txtCnt = file_get_contents ( $filename );
-			$this->rcy = json_decode ( $txtCnt, false );
+			$feastDeatils = $this->getDataFromDAT ( $filename );
+			new RomanCalendarFixed ( $this->rcy, $feastDeatils, $calName );
 		}
+		$this->genFixes ();
+		new RomanCalendarColor ( $this->rcy );
 	}
 	
 	/**
