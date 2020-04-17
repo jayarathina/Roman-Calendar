@@ -5,11 +5,9 @@
  * @author Br. Jayarathina Madharasan SDR
  */
 class RomanCalendarMovable {
-	private $dayRanks, $RCYr;
+	private $RCYr;
 	function __construct(RomanCalendarYear $RCYear) {
 		$this->RCYr = $RCYear;
-		
-		$this->dayRanks = new RomanCalendarRanks ();
 		
 		$this->generateAdvent ();
 		$this->generateChristmastide2 ();
@@ -204,8 +202,10 @@ class RomanCalendarMovable {
 		$mth = $cDate->format ( 'n' );
 		$day = $cDate->format ( 'j' );
 		
+		$dayRanks = new RomanCalendarRanks ();
+		
 		$this->RCYr->fullYear [$mth] [$day] [0] ['code'] = $cd;
-		$this->RCYr->fullYear [$mth] [$day] [0] ['rank'] = $this->dayRanks->getRank ( $cd );
+		$this->RCYr->fullYear [$mth] [$day] [0] ['rank'] = $dayRanks->getRank ( $cd );
 		
 		switch ($this->RCYr->fullYear [$mth] [$day] [0] ['rank']) {
 			case 1 :

@@ -5,10 +5,9 @@
  * @author Br. Jayarathina Madharasan SDR
  */
 class RomanCalendarFixed {
-	private $dayRanks, $RCYr, $calName;
+	private $RCYr, $calName;
 	function __construct(RomanCalendarYear $RCYear, $feastList, $calName) {
 		$this->RCYr = $RCYear;
-		$this->dayRanks = new RomanCalendarRanks ();
 		$this->calName = $calName;
 		$this->addSolemnityToYear ( $feastList );
 		$this->addFeastToYear ( $feastList );
@@ -25,7 +24,8 @@ class RomanCalendarFixed {
 			if (preg_match ( "/^Solemnity/", $feastDet ['feast_type'] ) !== 1)
 				continue;
 			
-			$feastRank = $this->dayRanks->getRank ( $feastDet ['feast_type'] );
+			$dayRanks = new RomanCalendarRanks ();
+			$feastRank = $dayRanks->getRank ( $feastDet ['feast_type'] );
 			
 			$currentDay = $this->RCYr->fullYear [$feastDet ['feast_month']] [$feastDet ['feast_date']];
 			$currentDayRank = $currentDay [0] ['rank'];
@@ -79,8 +79,8 @@ class RomanCalendarFixed {
 		foreach ( $FeastList as $feastDet ) {
 			if (preg_match ( "/^Feast/", $feastDet ['feast_type'] ) !== 1)
 				continue;
-			
-			$feastRank = $this->dayRanks->getRank ( $feastDet ['feast_type'] );
+			$dayRanks = new RomanCalendarRanks ();
+			$feastRank = $dayRanks->getRank ( $feastDet ['feast_type'] );
 			$currentDayRank = $this->RCYr->fullYear [$feastDet ['feast_month']] [$feastDet ['feast_date']] [0] ['rank'];
 			if ($feastRank < $currentDayRank) {
 				$this->RCYr->setDayCode ( $feastDet ['feast_month'], $feastDet ['feast_date'], $feastDet ['feast_code'], $feastDet ['feast_type'] );

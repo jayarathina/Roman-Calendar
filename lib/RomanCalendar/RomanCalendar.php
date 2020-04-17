@@ -62,7 +62,7 @@ class RomanCalendar {
 	 *        	to save data as JSON
 	 */
 	function createJSONFromDB($calendar = 'calendar', $fileName) {
-		$database = new Medoo ( [
+		$database = new Medoo ( [ 
 				'database_type' => 'mysql',
 				'database_name' => DB_NAME,
 				'server' => 'localhost',
@@ -72,16 +72,16 @@ class RomanCalendar {
 		] );
 		// Prefix 'general' is added to table name to avoid unnecessary securtiy risk
 		// Change it to whatever prefix you want it to be.
-		$FeastList = $database->select ( 'general' . $calendar, [
+		$FeastList = $database->select ( 'general' . $calendar, [ 
 				'feast_month',
 				'feast_date',
 				'feast_code',
 				'feast_type' 
-		], [
-				'ORDER' => [
+		], [ 
+				'ORDER' => [ 
 						'feast_month' => 'ASC',
 						'feast_date' => 'ASC' 
-				]
+				] 
 		] );
 		$t = json_encode ( $FeastList, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT | JSON_NUMERIC_CHECK );
 		return file_put_contents ( $fileName, $t );
