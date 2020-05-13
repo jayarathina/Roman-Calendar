@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 11, 2020 at 01:32 PM
+-- Generation Time: May 13, 2020 at 03:26 PM
 -- Server version: 10.1.38-MariaDB
 -- PHP Version: 7.3.2
 
@@ -248,7 +248,7 @@ INSERT INTO `generalcalendar` (`feast_month`, `feast_date`, `feast_code`, `feast
 (12, 14, 'Saint John of the Cross, priest and doctor', 'சிலுவையின் புனித யோவான் - மறைப்பணியாளர், மறைவல்லுநர்', 'Mem'),
 (12, 21, 'Saint Peter Canisius, priest and doctor', 'புனித பீட்டர் கனீசியு - மறைப்பணியாளர், மறைவல்லுநர்', 'OpMem'),
 (12, 23, 'Saint John of Kanty, priest', 'கான்டி நகர் புனித யோவான் - மறைப்பணியாளர்', 'OpMem'),
-(12, 25, 'Nativity of the Lord', 'கர்த்தரின் பிறப்பு', 'Solemnity'),
+(12, 25, 'Nativity of the Lord', 'கிறிஸ்து பிறப்பு', 'Solemnity'),
 (12, 26, 'Saint Stephen, the first martyr', 'புனித ஸ்தேவான் - முதல் மறைச்சாட்சி', 'Feast'),
 (12, 27, 'Saint John the Apostle and evangelist', 'புனித யோவான் - திருத்தூதர், நற்செய்தியாளர்', 'Feast'),
 (12, 28, 'Holy Innocents, martyrs', 'புனித மாசில்லாக் குழந்தைகள் - மறைச்சாட்சியர்', 'Feast'),
