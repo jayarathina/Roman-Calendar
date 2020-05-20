@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 13, 2020 at 03:26 PM
+-- Generation Time: May 20, 2020 at 08:52 AM
 -- Server version: 10.1.38-MariaDB
 -- PHP Version: 7.3.2
 
@@ -199,6 +199,7 @@ INSERT INTO `generalcalendar` (`feast_month`, `feast_date`, `feast_code`, `feast
 (10, 1, 'Saint Thérèse of the Child Jesus, virgin and doctor', 'குழந்தை இயேசுவின் புனித தெரேசா - கன்னியர்', 'Mem'),
 (10, 2, 'Guardian Angels', 'தூய காவல் தூதர்கள்', 'Mem'),
 (10, 4, 'Saint Francis of Assisi', 'அசிசி நகர் புனித பிரான்சிஸ்', 'Mem'),
+(10, 5, 'Saint Maria Faustina Kowalska, virgin', 'புனித மரியா பவுஸ்தீனா கோவால்ஸ்கா', 'OpMem'),
 (10, 6, 'Saint Bruno, priest', 'புனித புரூனோ - மறைப்பணியாளர்', 'OpMem'),
 (10, 7, 'Our Lady of the Rosary', 'தூய செபமாலை அன்னை', 'Mem'),
 (10, 9, 'Saint Denis and companions, martyrs', 'புனிதர்கள் ஆயர் தியோனியுசு, தோழர்கள் - மறைச்சாட்சியர்', 'OpMem'),
