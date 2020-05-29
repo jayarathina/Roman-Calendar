@@ -150,7 +150,7 @@ class RomanCalendarMovable {
 		
 		// First Calculate the Week Number
 		$tempDate1 = clone $this->ordinaryTime2Starts;
-		$tempDate1->modify ( 'next sunday' ); // Sunday after pentacost
+		$tempDate1->modify ( 'next sunday' ); // Sunday after pentecost
 		
 		$tempDate2 = clone $this->adventStart;
 		$tempDate2->modify ( 'last sunday' ); // Last sunday of ordinary season
@@ -215,10 +215,8 @@ class RomanCalendarMovable {
 		$mth = $cDate->format ( 'n' );
 		$day = $cDate->format ( 'j' );
 		
-		$dayRanks = new RomanCalendarRanks ();
-		
 		$this->RCYr->fullYear [$mth] [$day] [0] ['code'] = $cd;
-		$this->RCYr->fullYear [$mth] [$day] [0] ['rank'] = $dayRanks->getRank ( $cd );
+		$this->RCYr->fullYear [$mth] [$day] [0] ['rank'] = RomanCalendarRanks::getRank ( $cd );
 		
 		switch ($this->RCYr->fullYear [$mth] [$day] [0] ['rank']) {
 			case 1 :
