@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 20, 2020 at 08:52 AM
+-- Generation Time: May 29, 2020 at 11:08 AM
 -- Server version: 10.1.38-MariaDB
 -- PHP Version: 7.3.2
 
@@ -33,7 +33,7 @@ CREATE TABLE `generalcalendar` (
   `feast_date` tinyint(2) NOT NULL,
   `feast_code` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `feast_ta` text COLLATE utf8_unicode_ci NOT NULL,
-  `feast_type` enum('Solemnity','Feast-Lord','Feast','Mem','OpMem','Solemnity-Lord') COLLATE utf8_unicode_ci NOT NULL
+  `feast_type` enum('Solemnity','Solemnity-Lord','Feast-Lord','Feast','Mem-Mary','Mem','OpMem') COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
@@ -169,7 +169,7 @@ INSERT INTO `generalcalendar` (`feast_month`, `feast_date`, `feast_code`, `feast
 (8, 19, 'Saint John Eudes, priest', 'புனித ஜான் யூட்ஸ் - மறைப்பணியாளர்', 'OpMem'),
 (8, 20, 'Saint Bernard of Clairvaux, abbot and doctor of the Church', 'புனித பெர்நார்ட் - ஆதீனத் தலைவர், மறைவல்லுநர்', 'Mem'),
 (8, 21, 'Saint Pius X, pope', 'புனித பத்தாம் பயஸ் - திருத்தந்தை', 'Mem'),
-(8, 22, 'Queenship of Blessed Virgin Mary', 'அரசியான தூய கன்னி மரியா', 'Mem'),
+(8, 22, 'Queenship of Blessed Virgin Mary', 'அரசியான தூய கன்னி மரியா', 'Mem-Mary'),
 (8, 23, 'Saint Rose of Lima, virgin', 'லீமா நகர் புனித ரோசா - கன்னியர்', 'OpMem'),
 (8, 24, 'Saint Bartholomew the Apostle', 'புனித பர்த்தலமேயு - திருத்தூதர்', 'Feast'),
 (8, 25, 'Saint Joseph of Calasanz, priest', 'கலசான்ஸ் நகர் புனித யோசேப்பு - மறைப்பணியாளர்', 'OpMem'),
@@ -183,7 +183,7 @@ INSERT INTO `generalcalendar` (`feast_month`, `feast_date`, `feast_code`, `feast
 (9, 12, 'Holy Name of the Blessed Virgin Mary', 'மரியாவின் திருப்பெயர்', 'OpMem'),
 (9, 13, 'Saint John Chrysostom, bishop and doctor', 'புனித யோவான் கிறிசோஸ்தோம் - ஆயர்', 'Mem'),
 (9, 14, 'Exaltation of the Holy Cross', 'திருச்சிலுவையின் மகிமை', 'Feast-Lord'),
-(9, 15, 'Our Lady of Sorrows', 'புனித மரியாவின் துயரங்கள் (தூய வியாகுல அன்னை)', 'Mem'),
+(9, 15, 'Our Lady of Sorrows', 'புனித மரியாவின் துயரங்கள் (தூய வியாகுல அன்னை)', 'Mem-Mary'),
 (9, 16, 'Saints Cornelius, pope, and Cyprian, bishop, martyrs', 'புனிதர்கள் திருத்தந்தை கொர்னேலியு, ஆயர் சிப்பிரியன் - மறைச்சாட்சியர்', 'Mem'),
 (9, 17, 'Saint Robert Bellarmine, bishop and doctor', 'புனித ராபர்ட் பெல்லார்மின் - ஆயர், மறைவல்லுநர்', 'OpMem'),
 (9, 19, 'Saint Januarius, bishop and martyr', 'புனித சனுவாரியு - ஆயர், மறைச்சாட்சி', 'OpMem'),
