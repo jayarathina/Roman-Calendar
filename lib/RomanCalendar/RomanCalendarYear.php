@@ -103,11 +103,9 @@ class RomanCalendarYear {
 	 *        	- Rank of the day
 	 */
 	function addFeastToDate($mth, $day, $cd, $type) {
-		$dayRanks = new RomanCalendarRanks ();
-		
 		$dayFeast = array ();
 		$dayFeast ['code'] = $cd;
-		$dayFeast ['rank'] = $dayRanks->getRank ( $type );
+		$dayFeast ['rank'] = RomanCalendarRanks::getRank ( $type );
 		$dayFeast ['type'] = $type;
 		
 		array_push ( $this->fullYear [$mth] [$day], $dayFeast );
@@ -124,8 +122,7 @@ class RomanCalendarYear {
 	 *        	- Rank of the day
 	 */
 	function setDayCode($mth, $day, $cd, $type) {
-		$dayRanks = new RomanCalendarRanks ();
-		$rnk = $dayRanks->getRank ( $type );
+		$rnk = RomanCalendarRanks::getRank ( $type );
 		
 		if (sizeof ( $this->fullYear [$mth] [$day] ) > 1) {
 			
