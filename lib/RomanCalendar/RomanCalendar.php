@@ -34,7 +34,7 @@ class RomanCalendar {
 				}
 			}
 			$feastDeatils = $this->getDataFromDAT ( $filename );
-			new RomanCalendarFixed ( $this->rcy, $feastDeatils, $calName );
+			new RomanCalendarFixed ( $this->rcy, $feastDeatils );
 		}
 		$this->genFixes ();
 		new RomanCalendarColor ( $this->rcy );
@@ -90,27 +90,48 @@ class RomanCalendar {
 	/**
 	 * General fixes that are not done anywhere else:
 	 * - Set Immaculate Heart of Mary – Memorial; This is the only moving celebration that has to be set seperately because
-	 * in years when this memorial coincides with another obligatory memorial,
-	 * as happened in 2014 [28 June, Saint Irenaeus] and 2015 [13 June, Saint Anthony of Padua], both must be considered optional for that year.
-	 *
-	 * - The above guidance from the Congregation for Divine Worship and the Discipline of the Sacraments gives rise to the following rule:
-	 * "In years when a memorial coincides with another obligatory memorial both must be considered optional for that year."
 	 */
 	function genFixes() {
+		$feastDeatils = [ ];
+		
 		$feastImmaculateHeart = clone $this->rcy->eastertideStarts;
 		$feastImmaculateHeart->modify ( '+69 day' );
 		$mnt = $feastImmaculateHeart->format ( 'n' );
 		$dy = $feastImmaculateHeart->format ( 'j' );
+		
 		if ($this->rcy->fullYear [$mnt] [$dy] [0] ['rank'] > 5) { // Some local calendar solemnity might occour
-			$this->rcy->addFeastToDate ( $mnt, $dy, 'OW00-ImmaculateHeart', 'Mem' );
+			array_push ( $feastDeatils, [ 
+					'feast_month' => $mnt,
+					'feast_date' => $dy,
+					'feast_code' => 'OW00-ImmaculateHeart',
+					'feast_type' => 'Mem' //Not set as Mem-Mary because it has a specific exception. See below.
+			] );
 		}
 		
 		$memMaryMotherofChurch = clone $this->rcy->ordinaryTime2Starts;
 		$mnt = $memMaryMotherofChurch->format ( 'n' );
 		$dy = $memMaryMotherofChurch->format ( 'j' );
 		if ($this->rcy->fullYear [$mnt] [$dy] [0] ['rank'] > 5) { // Some local calendar solemnity might occour
-			$this->rcy->addFeastToDate ( $mnt, $dy, 'OW00-MaryMotherofChurch', 'Mem' );
+			array_push ( $feastDeatils, [ 
+					'feast_month' => $mnt,
+					'feast_date' => $dy,
+					'feast_code' => 'OW00-MaryMotherofChurch',
+					'feast_type' => 'Mem-Mary' 
+			] );
 		}
+		// Add to calendar
+		new RomanCalendarFixed ( $this->rcy, $feastDeatils );
+		
+		/**
+		 * In years when Immaculate Heart memorial coincides with another obligatory memorial,
+		 * as happened in 2014 [28 June, Saint Irenaeus] and 2015 [13 June, Saint Anthony of Padua], both must be considered optional for that year.
+		 *
+		 * The above guidance from the Congregation for Divine Worship and the Discipline of the Sacraments gives rise to the following rule:
+		 * "In years when a memorial coincides with another obligatory memorial both must be considered optional for that year."
+		 *
+		 * This does not apply to other Memorials of BVM, as following the liturgical tradition of pre-eminence amongst persons, 
+		 * the Memorial of the Blessed Virgin Mary is to prevail. (This logic is set in RomanCalendarFixed->addMemoryToYear)
+		 */
 		
 		foreach ( $this->rcy->fullYear as $monthVal => $dateList ) {
 			foreach ( $dateList as $datVal => $dayFeastList ) {
