@@ -5,10 +5,9 @@
  * @author Br. Jayarathina Madharasan SDR
  */
 class RomanCalendarFixed {
-	private $RCYr, $calName;
-	function __construct(RomanCalendarYear $RCYear, $feastList, $calName) {
+	private $RCYr;
+	function __construct(RomanCalendarYear $RCYear, $feastList) {
 		$this->RCYr = $RCYear;
-		$this->calName = $calName;
 		$this->addSolemnityToYear ( $feastList );
 		$this->addFeastToYear ( $feastList );
 		$this->addMemoryToYear ( $feastList );
@@ -24,8 +23,7 @@ class RomanCalendarFixed {
 			if (preg_match ( "/^Solemnity/", $feastDet ['feast_type'] ) !== 1)
 				continue;
 			
-			$dayRanks = new RomanCalendarRanks ();
-			$feastRank = $dayRanks->getRank ( $feastDet ['feast_type'] );
+			$feastRank = RomanCalendarRanks::getRank ( $feastDet ['feast_type'] );
 			
 			$currentDay = $this->RCYr->fullYear [$feastDet ['feast_month']] [$feastDet ['feast_date']];
 			$currentDayRank = $currentDay [0] ['rank'];
@@ -79,8 +77,7 @@ class RomanCalendarFixed {
 		foreach ( $FeastList as $feastDet ) {
 			if (preg_match ( "/^Feast/", $feastDet ['feast_type'] ) !== 1)
 				continue;
-			$dayRanks = new RomanCalendarRanks ();
-			$feastRank = $dayRanks->getRank ( $feastDet ['feast_type'] );
+			$feastRank = RomanCalendarRanks::getRank ( $feastDet ['feast_type'] );
 			$currentDayRank = $this->RCYr->fullYear [$feastDet ['feast_month']] [$feastDet ['feast_date']] [0] ['rank'];
 			if ($feastRank < $currentDayRank) {
 				$this->RCYr->setDayCode ( $feastDet ['feast_month'], $feastDet ['feast_date'], $feastDet ['feast_code'], $feastDet ['feast_type'] );
@@ -97,18 +94,31 @@ class RomanCalendarFixed {
 			if (preg_match ( "/^(Op)?Mem/", $memoryDate ['feast_type'] ) !== 1)
 				continue;
 			
-			$currentDay = $this->RCYr->fullYear [$memoryDate ['feast_month']] [$memoryDate ['feast_date']];
+			$currentDay = &$this->RCYr->fullYear [$memoryDate ['feast_month']] [$memoryDate ['feast_date']];
 			$currentDayRank = $currentDay [0] ['rank'];
 			
-			if ($currentDayRank > 5) {
-				if (preg_match ( "/^[LW|AW05]/", $currentDay [0] ['code'] ) === 1) {
-					// Optional memorials that occour between Dec17-Dec24, Dec-25-Jan1 or during Lent will become commomeration
-					// If a fixed date Memorial or Optional Memorial falls within the Lenten season, it is reduced in rank to a Commemoration.
-					$memoryDate ['feast_type'] = 'Commomeration';
-				}
+			if ($currentDayRank <= 5) // Feasts and Solemnities
+				continue;
+			
+			if (isset ( $currentDay [1] ['type'] )) {
+				$feastAddedRank = RomanCalendarRanks::getRank ( $currentDay [1] ['type'] );
+				$feastYetToAddRank = RomanCalendarRanks::getRank ( $memoryDate ['feast_type'] );
 				
-				$this->RCYr->addFeastToDate ( $memoryDate ['feast_month'], $memoryDate ['feast_date'], $memoryDate ['feast_code'], $memoryDate ['feast_type'] );
+				// clash between mem and mem-Mary
+				// following the liturgical tradition of pre-eminence amongst persons, the Memorial of the Blessed Virgin Mary is to prevail
+				if ($feastAddedRank == 10.2 && $feastYetToAddRank == 10.1) {
+					unset ( $currentDay [1] );
+					$currentDay = array_values ( $currentDay );
+				}
 			}
+			
+			if (preg_match ( "/^[LW|AW05]/", $currentDay [0] ['code'] ) === 1) {
+				// Optional memorials that occour between Dec17-Dec24, Dec-25-Jan1 or during Lent will become commomeration
+				// If a fixed date Memorial or Optional Memorial falls within the Lenten season, it is reduced in rank to a Commemoration.
+				$memoryDate ['feast_type'] = 'Commomeration';
+			}
+
+			$this->RCYr->addFeastToDate ( $memoryDate ['feast_month'], $memoryDate ['feast_date'], $memoryDate ['feast_code'], $memoryDate ['feast_type'] );
 		}
 	}
 }
