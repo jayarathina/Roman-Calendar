@@ -97,7 +97,7 @@ class RomanCalendarFixed {
 			$currentDay = &$this->RCYr->fullYear [$memoryDate ['feast_month']] [$memoryDate ['feast_date']];
 			$currentDayRank = $currentDay [0] ['rank'];
 			
-			if ($currentDayRank <= 5) // Feasts and Solemnities
+			if ($currentDayRank <= 9) // Feasts and Solemnities
 				continue;
 			
 			if (isset ( $currentDay [1] ['type'] )) {
