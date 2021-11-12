@@ -51,12 +51,23 @@ class RomanCalendarFixed {
 					$tempDate = new DateTime ( $this->RCYr->__get ( 'currentYear' ) . '-03-21' );
 					$tempDate->modify ( '+ ' . easter_days ( $this->RCYr->__get ( 'currentYear' ) ) . ' days' ); // Easter Date
 					$tempDate->modify ( '+ 8 days' );
+				} elseif ($feastDet['feast_code'] == 'Birth of Saint John the Baptist' && $currentDay [0] ['code'] == 'OW00-SacredHeart' && $this->RCYr->__get ( 'currentYear' ) == 2022 ){
+				    // Nativity of St. John the Baptist and the Feast of the Sacred Heart clashes in 2022.
+				    // CFD has determined that on June 24 the Sacred Heart should be celebrated,
+				    // and the Nativity of St. John the Baptist on the 23rd
+				    // This seems to be an ad hoc exception from the general rules.
+				    // Usually transfer is being made to the day following if available.
+				    // See http://www.cultodivino.va/content/cultodivino/it/documenti/responsa-ad-dubia/2020/de-calendario-liturgico-2022.html
+				    $tempDate->modify ( '- 1 days' );
+				    $currentDay_ = $this->RCYr->fullYear [$tempDate->format ( 'n' )] [$tempDate->format ( 'j' )];
 				} else {
+
 					// Other solemnities that clash
 					// - with Sundays of Lent or Advent or Eastertide
-					// - with each other [General Calendar: 24 June 2022, Birth of St. John the Baptist and Sacred Heart]
+					// - with each other [General Calendar: 24 June 2022, Birth of St. John the Baptist and Sacred Heart](This case is addressed in previous 'else' section)
 					// - Particular Calendar (Rank 4) and General Calendar
 					// These should be moved to the nearest ferial day
+
 					do {
 						// Go to next day and check for its rank
 						$tempDate->modify ( '+ 1 days' );
