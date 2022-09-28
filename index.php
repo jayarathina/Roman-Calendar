@@ -5,7 +5,7 @@ include_once ('lib/RomanCalendar/RomanCalendarRenderHTML.php');
 ?>
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="css/RomanCalendar.css?<?=rand()?>">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	</head>
 <body>
@@ -20,11 +20,15 @@ include_once ('lib/RomanCalendar/RomanCalendarRenderHTML.php');
 // 2014 Immaculate Hrt coincided with Saint Irenaeus, 28 June
 // 2015 Immaculate Hrt coincided with Saint Anthony of Padua, 13 June
 
-$CalcGen = new RomanCalendar (date("Y"), parse_ini_file ( 'settings.ini' ) );
+$year = $_GET ['year'] ?? date ( "Y" );
 
-$rcYr = $CalcGen->rcy;
+$filename = 'dat/' . $year . '/calendar.json';
+
+if (! file_exists ( $filename )) { // If the JSON does not exist in the specified path, then generate it
+	$CalcGen = new RomanCalendar ($year);
+}
 
 $rHTML = new RomanCalendarRenderHTML ();
-$rHTML->printYearHTML ( $rcYr );
+$rHTML->printYearHTML ( $year );
 
 ?>

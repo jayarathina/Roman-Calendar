@@ -98,12 +98,12 @@ class RomanCalendarRanks {
 				'EW01' => 2.4, // Easter Octave EW02-0Sun is ranked above
 				               
 				// Solemnities of the Lord, the Blessed Virgin Mary, and saints listed in the general calendar and All Souls Day
-				'Solemnity' => 3,
-				'OW00-Trinity' => 3, // Trinity Sunday
-				'OW00-CorpusChristi' => 3, // Corpus Christi
-				'OW00-SacredHeart' => 3, // Sacred Heart
-				'OW34-0Sun' => 3, // Christ the King
-				'All Souls' => 3.1,
+				'Solemnity' => 3.1,
+				'OW00-Trinity' => 3.1, // Trinity Sunday
+				'OW00-CorpusChristi' => 3.1, // Corpus Christi
+				'OW00-SacredHeart' => 3.1, // Sacred Heart
+				'OW34-0Sun' => 3.1, // Christ the King
+				'All Souls' => 3.2,
 				
 				// Solemities of Particular Calendars
 				'Solemnity-PrincipalPartron-Place' => 4.1, // Principal Patron of a town, city or a similar place

@@ -1,30 +1,32 @@
 <?php
 
 /**
- * RomanCalendar 3.0
+ * RomanCalendar 4.0
  * @author Br. Jayarathina Madharasan SDR
  *
  */
 class RomanCalendarColor {
-	private $RCYr;
-	function __construct(RomanCalendarYear $RCYear) {
-		$this->RCYr = $RCYear;
-		
-		foreach ( $this->RCYr->fullYear as $mnthNo => $mnth ) {
-			foreach ( $mnth as $dateNo => $dats ) {
-				$lastfeastCol = '';
-				foreach ( $dats as $ids => $singleFeasts ) {
-					$cd = $dats [$ids] ['code'];
-					$tp = (isset ( $dats [$ids] ['type'] )) ? $dats [$ids] ['type'] : null;
-					if ($tp !== 'OpMem') { // The proper color of an Optional Memorial is the color of the season.
-						$lastfeastCol = $this->getColor ( $cd, $tp );
+	private $fullYear;
+
+	function colourizeYear($fullYear) {
+		$this->fullYear = $fullYear;
+
+		for($mnth = 1; $mnth <= 12; $mnth ++) {
+			foreach ( $this->fullYear [$mnth] as $date => $feasts ) {
+				foreach ( $feasts as $key => $singleFeast ) {
+					if ($key == 'other') {
+						foreach ( $singleFeast as $key_other => $other ) {
+							$this->fullYear [$mnth] [$date] [$key] [$key_other] ['color'] = $this->getColor ( $other ['code'], $other ['type'] ?? null);
+						}
+					} else {
+						$this->fullYear [$mnth] [$date] [$key] ['color'] = $this->getColor ( $singleFeast ['code'], $singleFeast ['type'] ?? null);
 					}
-					$this->RCYr->fullYear [$mnthNo] [$dateNo] [$ids] ['color'] = $lastfeastCol;
 				}
 			}
 		}
+		return $this->fullYear;
 	}
-	
+
 	/**
 	 * Get color for a particular feast type or code
 	 *
@@ -33,10 +35,10 @@ class RomanCalendarColor {
 	 * @return string
 	 */
 	private function getColor($feastCode, $feastType = null) {
-		$feastClr = '*-*';
-		$feastType = explode ( '-', $feastType );
+		$feastType = explode ( '-', $feastType , 2);
 		$feastType = $feastType [0];
-		
+
+		//@formatter:off
 		$feastClrr = array (
 				// The proper color for Solemnities is white except Pentecost and Peter and Paul (Jun 29) in which cases it is red
 				'Solemnity' => 'white',
@@ -54,6 +56,7 @@ class RomanCalendarColor {
 				// The proper color of a Feast or a Memorial is white except for martyrs in which case it is red
 				'Feast' => 'white',
 				'Mem' => 'white',
+				'OpMem' => 'white',
 				'martyr' => 'red',
 				
 				// Some exceptions for feasts
@@ -67,18 +70,14 @@ class RomanCalendarColor {
 				'LW06-5Fri' => 'red', // Good Friday
 				'LW06-6Sat' => 'white', // Easter Vigil
 				                        
-				// 'OpMem' => '*' //The proper color of an Optional Memorial is the color of the season.
-				                        
 				// The proper color of a Commemoration is the color of the season. As Commemorations only occur during Lent, their proper color is purple.
 				'Commomeration' => 'purple',
 				'All Souls' => 'purple' 
 		);
-		
-		if (array_key_exists ( $feastCode, $feastClrr )) {
-			$feastClr = $feastClrr [$feastCode];
-		} elseif (array_key_exists ( $feastType, $feastClrr )) {
-			$feastClr = $feastClrr [$feastType];
-		} else {
+		// @formatter:on
+		$feastClr = $feastClrr [$feastCode] ?? $feastClrr [$feastType] ?? null;
+
+		if (is_null ( $feastClr )) {
 			switch (substr ( $feastCode, 0, 2 )) {
 				case 'AW' :
 				case 'LW' :
@@ -91,12 +90,19 @@ class RomanCalendarColor {
 				case 'OW' :
 					$feastClr = 'green';
 					break;
+				default:
+					$feastClr = null;
+					break;
 			}
 		}
-		if (! array_key_exists ( $feastCode, $feastClrr )) // Feast is not in $feastClrr
-			if (stripos ( $feastCode, 'martyr' ) !== false || stripos ( $feastCode, 'apostle' ) !== false || stripos ( $feastCode, 'evangelist' ) !== false) // martyr and apostle are red. Except, St. John, excluded via $feastClrr
+		// Even if feast is set above, we replace it with the color for martyr below, unless explicitly set for a particular feast in above array
+		if (! array_key_exists ( $feastCode, $feastClrr )) { 
+			$feastCode_ = strtolower ( $feastCode ); // str_contains is case sensitive, hence strtolower is required
+			if (str_contains ( $feastCode_, 'martyr' ) || str_contains ( $feastCode_, 'apostle' ) || str_contains ( $feastCode_, 'evangelist' )) {
+				// martyr and apostle are red. Except, St. John, excluded via $feastClrr
 				$feastClr = $feastClrr ['martyr'];
-		
+			}
+		}
 		return $feastClr;
 	}
 }
