@@ -202,36 +202,13 @@ class RomanCalendarMovable extends RomanCalendarYear {
 		$this->fullYear [$mth] [$day] [0] ['code'] = $cd;
 		$this->fullYear [$mth] [$day] [0] ['rank'] = RomanCalendarRanks::getRank ( $cd );
 		
-//TODO For PHP 8.0 'match'
-// 		$this->fullYear [$mth] [$day] [0] ['type'] = match($this->fullYear [$mth] [$day] [0] ['rank']){
-// 			1, 2, 2.4, 3.1, 4.1, 4.2, 4.3 => 'Solemnity',
-// 			5 => 'Feast-Lord',
-// 			7 => 'Feast',
-// 			default => false
-// 		};
-// 		if ($this->fullYear [$mth] [$day] [0] ['type'] === false)
-// 			unset ( $this->fullYear [$mth] [$day] [0] ['type'] );
-
-		switch ($this->fullYear [$mth] [$day] [0] ['rank']) {
-			case 1 :
-			case 2 :
-			case 2.4 :
-			case 3.1 :
-			case 4.1 :
-			case 4.2 :
-			case 4.3 :
-				$this->fullYear [$mth] [$day] [0] ['type'] = 'Solemnity';
-				break;
-
-			case 5 :
-				$this->fullYear [$mth] [$day] [0] ['type'] = 'Feast-Lord';
-				break;
-
-			case 7 :
-				$this->fullYear [$mth] [$day] [0] ['type'] = 'Feast';
-				break;
-			default :
-				break;
-		}
+		$this->fullYear [$mth] [$day] [0] ['type'] = match($this->fullYear [$mth] [$day] [0] ['rank']){
+			1, 2, 2.4, 3.1, 4.1, 4.2, 4.3 => 'Solemnity',
+			5 => 'Feast-Lord',
+			7 => 'Feast',
+			default => false
+		};
+		if ($this->fullYear [$mth] [$day] [0] ['type'] === false)
+			unset ( $this->fullYear [$mth] [$day] [0] ['type'] );
 	}
 }

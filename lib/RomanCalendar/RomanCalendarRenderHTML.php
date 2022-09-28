@@ -1,5 +1,4 @@
 <?php
-
 /**
  * RomanCalendar 4.0
  * @author Br. Jayarathina Madharasan SDR
@@ -102,7 +101,8 @@ class RomanCalendarRenderHTML {
 				'OW00-ImmaculateHeart' => 'Immaculate Heart of the Blessed Virgin Mary',
 				'OW00-MaryMotherofChurch' => 'Mary, Mother of the Church',
 				
-				'CW01-HolyFamily' => 'The Holy Family of Jesus, Mary And Joseph' 
+				'CW01-HolyFamily' => 'The Holy Family of Jesus, Mary And Joseph',
+				'Sat-Mem-Mary' => 'Saturday Memorial of the Blessed Virgin Mary'
 		];
 		// @formatter:on
 
