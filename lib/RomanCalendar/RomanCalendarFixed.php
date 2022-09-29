@@ -244,8 +244,7 @@ class RomanCalendarFixed extends RomanCalendarMovable
 		$day = $currDate->format('j');
 
 		$temp = $this->fullYear[$mth][$day];
-		$this->fullYear[$mth][$day] = [];
-		$this->fullYear[$mth][$day][0] = $feastDet;
+		$this->fullYear[$mth][$day] = [0 => $feastDet];
 
 		$this->addOtherFeast($currDate, $temp);
 	}
