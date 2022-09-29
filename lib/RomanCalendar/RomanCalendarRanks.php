@@ -155,11 +155,9 @@ class RomanCalendarRanks {
 		$keys = array_keys ( $RomanCalendarRanks );
 		foreach ( $keys as $str ) {
 			if(str_starts_with($dayCode, $str)){
-				return $RomanCalendarRanks [$str] . '*';
+				return $RomanCalendarRanks [$str];
 			}
 		}
 		die ( 'ERROR: Invalid Feast Code : ' . $dayCode ); // This should never happen
 	}
 }
-
-?>
