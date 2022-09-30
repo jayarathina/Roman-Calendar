@@ -172,9 +172,9 @@ class RomanCalendarMovable extends RomanCalendarYear
 	/**
 	 * To fill in the week code with proper season prefix from $startDate till a day before $endDate specified.
 	 *
-	 * @param DateTime $startDate
+	 * @param DateTime | DateTimeImmutable $startDate
 	 *        	- Start of the season
-	 * @param DateTime $endDate
+	 * @param DateTime | DateTimeImmutable $endDate
 	 *        	- Start of the next season. Only dates before this day will be tagged. (i.e., this day will not be tagged).
 	 * @param String $code
 	 *        	- The season code. (AW-Advent, CW-Christmas, LW-Lent, EW-Easter, OW-Ordinary)
