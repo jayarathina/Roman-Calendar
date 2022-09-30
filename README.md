@@ -15,7 +15,7 @@ This project acts as a backbone for my [Tamil Lectionary](https://github.com/jay
 * SQL database, preferably MySQL (but works with many other SQL databases too)
 * The [Medoo library](http://medoo.in) (included in the package)
 
-## Flow
+## Before Starting
 
 Specific settings like the Solemnities of Epiphany, Ascension and Corpus Christi can be set in [config.php](lib/config.php).
 
@@ -32,6 +32,8 @@ You can add separate tables for each of your local calendars and place the table
 The tables have a column with Tamil data used for translation. You can use it as a sample to translate into any other language.
 
 ## Structure of JSON Generated
+The JSON is created in the [dat folder](dat/) with the year subfolder.
+
 The content of the JSON file that is generated is of two-dimensional array. Outer most key has the month number and next has the day number. Which is followed by individual feast descriptions. The following is a sample for January 3rd.
 ```JSON
 {
