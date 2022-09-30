@@ -1,15 +1,16 @@
 .dot {
   display: inline-block;
-  background: #456BD9;
   border: 1px solid #0F1C3F;
   border-radius: 50%;
   height: 12px;
   width: 12px;
   margin-left:5px;
+  vertical-align: text-bottom;
 }
 
 table {
-	width: 100%;
+	max-width: 550px;
+	margin: auto;
 }
 
 table, th, td {
@@ -17,30 +18,27 @@ table, th, td {
 	border-collapse: collapse;
 }
 
-td.dt, td.Col{
+td.dt{
 	width: 0.1% !important;
+	text-align: center;
 }
 
-td.dayTitle {
-	width: 250px !important;
-}
-
-.ColDred {
+.Colred {
 	background-color: #CC0000;
 }
 
-.ColDgreen {
+.Colgreen {
 	background-color: #669900;
 }
 
-.ColDwhite {
+.Colwhite {
 	background-color: #FFBD21;
 }
 
-.ColDpurple {
+.Colpurple {
 	background-color: #9933CC;
 }
 
-.ColDrose {
+.Colrose {
 	background-color: #C9368F;
 }

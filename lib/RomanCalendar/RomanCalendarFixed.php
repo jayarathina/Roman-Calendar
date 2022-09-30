@@ -265,8 +265,9 @@ class RomanCalendarFixed extends RomanCalendarMovable
 		$mth = $currDate->format('n');
 		$day = $currDate->format('j');
 
-		if (str_starts_with($this->fullYear[$mth][$day][0]['code'], 'CW01'))
+		if (str_starts_with($feastDet[0]['code'], 'CW01')){
 			return;
+		}
 
 		if (isset($feastDet['other'])) {
 			$feastDet += $feastDet['other'];

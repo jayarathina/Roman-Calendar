@@ -9,11 +9,9 @@ require_once 'lib/config.php';
 
 require_once 'RomanCalendarFixed.php';
 require_once 'RomanCalendarColor.php';
-class RomanCalendar extends RomanCalendarFixed
-{
+class RomanCalendar extends RomanCalendarFixed {
 
-	function __construct($currentYear)
-	{
+	function __construct($currentYear) {
 		parent::__construct($currentYear);
 
 		$calCol = new RomanCalendarColor();
@@ -25,8 +23,6 @@ class RomanCalendar extends RomanCalendarFixed
 		}
 
 		$t = json_encode($this->fullYear, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT | JSON_NUMERIC_CHECK);
-		$filename = $dirName . '/calendar.json';
-
-		return file_put_contents($filename, $t);
+		file_put_contents($dirName . '/calendar.json', $t);
 	}
 }
