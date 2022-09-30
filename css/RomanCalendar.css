@@ -1,5 +1,16 @@
+.dot {
+  display: inline-block;
+  border: 1px solid #0F1C3F;
+  border-radius: 50%;
+  height: 12px;
+  width: 12px;
+  margin-left:5px;
+  vertical-align: text-bottom;
+}
+
 table {
-	width: 100%;
+	max-width: 550px;
+	margin: auto;
 }
 
 table, th, td {
@@ -7,50 +18,27 @@ table, th, td {
 	border-collapse: collapse;
 }
 
-td.dt, td.Col{
+td.dt{
 	width: 0.1% !important;
-}
-
-td.dayTitle {
-	width: 250px !important;
+	text-align: center;
 }
 
 .Colred {
-	background-color: #FFE4E4;
-}
-
-.ColDred {
 	background-color: #CC0000;
 }
 
 .Colgreen {
-	background-color: #F0F8DB;
-}
-
-.ColDgreen {
 	background-color: #669900;
 }
 
 .Colwhite {
-	background-color: #FFF6DF;
-}
-
-.ColDwhite {
 	background-color: #FFBD21;
 }
 
 .Colpurple {
-	background-color: #F5EAFA;
-}
-
-.ColDpurple {
 	background-color: #9933CC;
 }
 
 .Colrose {
-	background-color: #FFE6F6;
-}
-
-.ColDrose {
 	background-color: #C9368F;
 }

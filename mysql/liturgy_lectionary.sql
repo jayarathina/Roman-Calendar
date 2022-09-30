@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.5
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 29, 2020 at 11:08 AM
--- Server version: 10.1.38-MariaDB
--- PHP Version: 7.3.2
+-- Generation Time: Sep 29, 2022 at 03:51 PM
+-- Server version: 10.4.24-MariaDB
+-- PHP Version: 8.1.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -33,7 +32,7 @@ CREATE TABLE `generalcalendar` (
   `feast_date` tinyint(2) NOT NULL,
   `feast_code` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `feast_ta` text COLLATE utf8_unicode_ci NOT NULL,
-  `feast_type` enum('Solemnity','Solemnity-Lord','Feast-Lord','Feast','Mem-Mary','Mem','OpMem') COLLATE utf8_unicode_ci NOT NULL
+  `feast_type` enum('Solemnity','Feast-Lord','Feast','Mem-Mary','Mem','OpMem') COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
@@ -71,6 +70,7 @@ INSERT INTO `generalcalendar` (`feast_month`, `feast_date`, `feast_code`, `feast
 (2, 21, 'Saint Peter Damian, bishop and doctor of the Church', 'புனித பீட்டர் தமியான் - ஆயர், மறைவல்லுநர்', 'OpMem'),
 (2, 22, 'Chair of Saint Peter, apostle', 'திருத்தூதர் பேதுருவின் தலைமைப் பீடம்', 'Feast'),
 (2, 23, 'Saint Polycarp, bishop and martyr', 'புனித பொலிக்கார்ப்பு - ஆயர், மறைச்சாட்சி', 'Mem'),
+(2, 27, 'Saint Gregory of Narek, abbot and doctor of the Church', 'நாரெக் நகர் புனித கிரகோரியார் - ஆதீனத் தலைவர், மறைவல்லுநர்', 'OpMem'),
 (3, 4, 'Saint Casimir', 'புனித கசிமீர்', 'OpMem'),
 (3, 7, 'Saints Perpetua and Felicity, martyrs', 'புனிதையர் பெர்பெத்துவா, பெலிசித்தா - மறைச்சாட்சியர்', 'Mem'),
 (3, 8, 'Saint John of God, religious', 'புனித இறை யோவான் - துறவி', 'OpMem'),
@@ -98,6 +98,7 @@ INSERT INTO `generalcalendar` (`feast_month`, `feast_date`, `feast_code`, `feast
 (5, 1, 'Saint Joseph the Worker', 'தொழிலாளரான புனித யோசேப்பு', 'OpMem'),
 (5, 2, 'Saint Athanasius, bishop and doctor', 'புனித அத்தனாசியு - ஆயர், மறைவல்லுநர்', 'Mem'),
 (5, 3, 'Saints Philip and James, Apostles', 'புனிதர்கள் பிலிப்பு, யாக்கோபு - திருத்தூதர்கள்', 'Feast'),
+(5, 10, 'Saint John of Avila, priest and doctor', 'அவிலா நகர் புனித யோவான் - மறைப்பணியாளர், மறைவல்லுநர்', 'OpMem'),
 (5, 12, 'Saint Pancras, martyr', 'புனித பங்கிராஸ் - மறைச்சாட்சி', 'OpMem'),
 (5, 12, 'Saints Nereus and Achilleus, martyrs', 'புனிதர்கள் நெரேயு, அக்கிலேயு - மறைச்சாட்சியர்', 'OpMem'),
 (5, 13, 'Our Lady of Fatima', 'தூய பாத்திமா அன்னை', 'OpMem'),
@@ -111,6 +112,7 @@ INSERT INTO `generalcalendar` (`feast_month`, `feast_date`, `feast_code`, `feast
 (5, 25, 'Saint Mary Magdalene de Pazzi, virgin', 'பாசி நகர் புனித மகதலா மரியா - கன்னியர்', 'OpMem'),
 (5, 26, 'Saint Philip Neri, priest', 'புனித பிலிப்பு நேரி - மறைப்பணியாளர்', 'Mem'),
 (5, 27, 'Saint Augustine (Austin) of Canterbury, bishop', 'கான்றர்பரி நகர் புனித அகுஸ்தீன் - ஆயர்', 'OpMem'),
+(5, 29, 'Saint Paul VI, pope', 'புனித ஆறாம் பவுல், திருத்தந்தை', 'OpMem'),
 (5, 31, 'Visitation of the Blessed Virgin Mary', 'தூய கன்னி மரியா எலிசபெத்தைச் சந்தித்தல்', 'Feast'),
 (6, 1, 'Saint Justin Martyr', 'புனித ஜஸ்டின் - மறைச்சாட்சி', 'Mem'),
 (6, 2, 'Saints Marcellinus and Peter, martyrs', 'புனிதர்கள் மார்சலின், பீட்டர் - மறைச்சாட்சியர்', 'OpMem'),
@@ -146,7 +148,7 @@ INSERT INTO `generalcalendar` (`feast_month`, `feast_date`, `feast_code`, `feast
 (7, 24, 'Saint Sharbel Makhluf, hermit', 'புனித சார்பெல் மாக்லுப் - மறைப்பணியாளர்', 'OpMem'),
 (7, 25, 'Saint James, apostle', 'புனித யாக்கோபு - திருத்தூதர்', 'Feast'),
 (7, 26, 'Saints Joachim and Anne', 'புனிதர்கள் சுவக்கீம், அன்னா - தூய மரியாவின் பெற்றோர்', 'Mem'),
-(7, 29, 'Saint Martha', 'புனித மார்த்தா', 'Mem'),
+(7, 29, 'Saints Martha, Mary and Lazarus', 'புனிதர்கள் மார்த்தா, மரியா, இலாசர்', 'Mem'),
 (7, 30, 'Saint Peter Chrysologus, bishop and doctor', 'புனித பீட்டர் கிறிசோலோகு - ஆயர், மறைவல்லுநர்', 'OpMem'),
 (7, 31, 'Saint Ignatius of Loyola, priest', 'புனித லொயோலா இஞ்ஞாசி - மறைப்பணியாளர்', 'Mem'),
 (8, 1, 'Saint Alphonsus Maria de Liguori, bishop and doctor of the Church', 'புனித அல்போன்ஸ் மரிய லிகோரி - ஆயர், மறைவல்லுநர்', 'Mem'),
@@ -185,11 +187,12 @@ INSERT INTO `generalcalendar` (`feast_month`, `feast_date`, `feast_code`, `feast
 (9, 14, 'Exaltation of the Holy Cross', 'திருச்சிலுவையின் மகிமை', 'Feast-Lord'),
 (9, 15, 'Our Lady of Sorrows', 'புனித மரியாவின் துயரங்கள் (தூய வியாகுல அன்னை)', 'Mem-Mary'),
 (9, 16, 'Saints Cornelius, pope, and Cyprian, bishop, martyrs', 'புனிதர்கள் திருத்தந்தை கொர்னேலியு, ஆயர் சிப்பிரியன் - மறைச்சாட்சியர்', 'Mem'),
+(9, 17, 'Saint Hildegard of Bingen, Virgin and Doctor', 'பிங்கென் நகர் புனித ஹில்டெகார்ட் - கன்னியர், மறைவல்லுநர்', 'OpMem'),
 (9, 17, 'Saint Robert Bellarmine, bishop and doctor', 'புனித ராபர்ட் பெல்லார்மின் - ஆயர், மறைவல்லுநர்', 'OpMem'),
 (9, 19, 'Saint Januarius, bishop and martyr', 'புனித சனுவாரியு - ஆயர், மறைச்சாட்சி', 'OpMem'),
 (9, 20, 'Saint Andrew Kim Taegon, priest, and Paul Chong Hasang and companions, martyrs', 'புனிதர்கள் மறைப்பணியாளர் ஆன்ரு கிம் தே கோன், பவுல் சோங் காசாங், தோழர்கள் - மறைச்சாட்சியர்', 'Mem'),
 (9, 21, 'Saint Matthew the Evangelist, Apostle, Evangelist', 'புனித மத்தேயு - திருத்தூதர், நற்செய்தியாளர்', 'Feast'),
-(9, 23, 'Saint Pio of Pietrelcina (Padre Pio), priest', 'புனித பியோ, மறைப்பணியாளர்', 'OpMem'),
+(9, 23, 'Saint Pio of Pietrelcina (Padre Pio), priest', 'புனித பியோ, மறைப்பணியாளர்', 'Mem'),
 (9, 26, 'Saints Cosmas and Damian, martyrs', 'புனிதர்கள் கோஸ்மாஸ், தமியான் - மறைச்சாட்சியர்', 'OpMem'),
 (9, 27, 'Saint Vincent de Paul, priest', 'புனித வின்சென்ட் தே பவுல் - மறைப்பணியாளர்', 'Mem'),
 (9, 28, 'Saint Wenceslaus, martyr', 'புனித வென்செஸ்லாஸ் - மறைச்சாட்சி', 'OpMem'),
@@ -230,7 +233,7 @@ INSERT INTO `generalcalendar` (`feast_month`, `feast_date`, `feast_code`, `feast
 (11, 16, 'Saint Margaret of Scotland', 'ஸ்காட்லாந்து புனித மார்கரீத்', 'OpMem'),
 (11, 17, 'Saint Elizabeth of Hungary, religious', 'அங்கேரி புனித எலிசபெத்து - துறவி', 'Mem'),
 (11, 18, 'Dedication of the basilicas of Saints Peter and Paul, Apostles', 'திருத்தூதர்கள் பேதுரு, பவுல் பேராலயங்களின் நேர்ந்தளிப்பு', 'OpMem'),
-(11, 21, 'Presentation of the Blessed Virgin Mary', 'தூய கன்னி மரியாவைக் காணிக்கையாக அர்ப்பணித்தல்', 'Mem'),
+(11, 21, 'Presentation of the Blessed Virgin Mary', 'தூய கன்னி மரியாவைக் காணிக்கையாக அர்ப்பணித்தல்', 'Mem-Mary'),
 (11, 22, 'Saint Cecilia', 'புனித செசிலியா - கன்னியர், மறைச்சாட்சி', 'Mem'),
 (11, 23, 'Saint Clement I, pope and martyr', 'புனித முதலாம் கிளமெண்ட், திருத்தந்தை, மறைச்சாட்சி', 'OpMem'),
 (11, 23, 'Saint Columban, religious', 'புனித கொலும்பன் - ஆதீனத் தலைவர்', 'OpMem'),
@@ -243,6 +246,7 @@ INSERT INTO `generalcalendar` (`feast_month`, `feast_date`, `feast_code`, `feast
 (12, 7, 'Saint Ambrose, bishop and doctor', 'புனித அம்புரோஸ் - ஆயர், மறைவல்லுநர்', 'Mem'),
 (12, 8, 'Immaculate Conception of the Blessed Virgin Mary', 'தூய கன்னி மரியாவின் அமலோற்பவம்', 'Solemnity'),
 (12, 9, 'Saint Juan Diego', 'புனித ஜான் தியேகோ', 'OpMem'),
+(12, 10, 'Our Lady of Loreto', 'லொரேட்டோ அன்னை', 'OpMem'),
 (12, 11, 'Saint Damasus I, pope', 'புனித முதலாம் தமசுஸ் - திருத்தந்தை', 'OpMem'),
 (12, 12, 'Our Lady of Guadalupe', 'புனித குவாதெலுப் அன்னை', 'OpMem'),
 (12, 13, 'Saint Lucy of Syracuse, virgin and martyr', 'புனித லூசியா - கன்னியர், மறைச்சாட்சி', 'Mem'),
@@ -276,7 +280,7 @@ CREATE TABLE `generalcalendar__india` (
 
 INSERT INTO `generalcalendar__india` (`feast_month`, `feast_date`, `feast_code`, `feast_ta`, `feast_type`) VALUES
 (1, 3, 'IN Saint Kuriakose Elias Chavara, priest', 'புனித குரியாக்கோஸ் எலியாஸ் சவரா - மறைப்பணியாளர்', 'OpMem'),
-(1, 14, 'IN Blessed Devasahayam Pillai, martyr', 'முத்தி. தேவசகாயம் பிள்ளை, மறைச்சாட்சி', 'OpMem'),
+(1, 14, 'IN Saint Devasahayam Pillai, martyr', 'புனித தேவசகாயம் பிள்ளை, மறைச்சாட்சி', 'OpMem'),
 (1, 16, 'IN Saint Joseph Vaz, priest', 'புனித ஜோசப் வாஸ் - மறைப்பணியாளர்', 'Mem'),
 (2, 4, 'IN Saint John de Brito, priest and martyr', 'புனித ஜான் தெ பிரிட்டோ (அருளானந்தர்) - மறைப்பணியாளர், மறைச்சாட்சி', 'Mem'),
 (2, 6, 'IN Saint Gonsalo Garcia, martyr', 'புனித கொன்சாலோ கார்சியா - மறைச்சாட்சி', 'Mem'),
