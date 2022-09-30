@@ -5,12 +5,10 @@
  * @author Br. Jayarathina Madharasan SDR
  *
  */
-class RomanCalendarColor
-{
+class RomanCalendarColor {
 	private $fullYear;
 
-	function colourizeYear($fullYear)
-	{
+	function colourizeYear($fullYear) {
 		$this->fullYear = $fullYear;
 
 		for ($mnth = 1; $mnth <= 12; $mnth++) {
@@ -36,8 +34,7 @@ class RomanCalendarColor
 	 * @param string $feastType
 	 * @return string
 	 */
-	private function getColor($feastCode, $feastType = null)
-	{
+	private function getColor($feastCode, $feastType = null) {
 		$feastType = explode('-', $feastType, 2);
 		$feastType = $feastType[0];
 
@@ -84,7 +81,7 @@ class RomanCalendarColor
 			'OW' => 'green',
 			default => null
 		}
-		?? null;
+			?? null;
 
 		// Even if feast is set above, we replace it with the color for martyr below, 
 		// unless explicitly set for a particular feast in above array

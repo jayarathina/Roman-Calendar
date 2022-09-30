@@ -5,8 +5,7 @@
  * @author Br. Jayarathina Madharasan SDR
  */
 require_once 'RomanCalendarYear.php';
-class RomanCalendarMovable extends RomanCalendarYear
-{
+class RomanCalendarMovable extends RomanCalendarYear {
 
 	/*
 	 * For each day the name of the feast (if any) acts as a unique identifier for that feast. For a ferial weekday (with no feast) a code is generated in the following syntax: `<SEASON CODE><WEEK NUMBER>-<DAY NUMBER><DAY NAME>`. They stand for the following:
@@ -19,8 +18,7 @@ class RomanCalendarMovable extends RomanCalendarYear
 	 * `WEEK NUMBER` is the number of week in that season. (Length is 2 chars). This may have some special cases like the days between Ash Wednesday and first Sunday of lent is counted as week 0 of lent. Similarly days between Dec 17 and Dec 24 is counted as week 5 of Advent. Similar rule applies to the weeks before and after epiphany too. This is done for easier calculation purposes, since for these days week number does not appear in the title of the day.
 	 * `DAY NUMBER DAY NAME` gives the number and three letter abbreviation of the weekday within that week. (0Sun, 1Mon, 2Tue etc.,). This is to help in sorting and readability.
 	 */
-	function __construct($currentYear)
-	{
+	function __construct($currentYear) {
 		parent::__construct($currentYear);
 
 		$this->generateAdvent();
@@ -35,8 +33,7 @@ class RomanCalendarMovable extends RomanCalendarYear
 	/**
 	 * Function to Generate Advent season
 	 */
-	private function generateAdvent()
-	{
+	private function generateAdvent() {
 		$code = 'AW';
 
 		// We are filling upto the christmas (and not just upto 17 dec) because sundays have to be filled properly. There can be atmost two sundays after dec 16.
@@ -55,8 +52,7 @@ class RomanCalendarMovable extends RomanCalendarYear
 	/**
 	 * Function to generate Christmas season from December 25 - 31
 	 */
-	private function generateChristmastide1()
-	{
+	private function generateChristmastide1() {
 		$code = 'CW01';
 
 		// Days after (not including) Christmas till 31 Dec
@@ -73,8 +69,7 @@ class RomanCalendarMovable extends RomanCalendarYear
 	/**
 	 * Function to generate Christmas season from Jan 1 - Baptism
 	 */
-	private function generateChristmastide2()
-	{
+	private function generateChristmastide2() {
 		$code = 'CW';
 
 		$this->setDayCode($this->epiphanyDate, $code . '03-Epiphany');
@@ -109,24 +104,21 @@ class RomanCalendarMovable extends RomanCalendarYear
 	/**
 	 * Function to generate Ordinary season before lent
 	 */
-	private function generateOrdinaryTime1()
-	{
+	private function generateOrdinaryTime1() {
 		$this->fillInWeek($this->ordinaryTime1Starts, $this->lentStart, 'OW', 1);
 	}
 
 	/**
 	 * Function to generate Lent
 	 */
-	private function generateLent()
-	{
+	private function generateLent() {
 		$this->fillInWeek($this->lentStart, $this->eastertideStarts, 'LW');
 	}
 
 	/**
 	 * Function to generate Pascha
 	 */
-	private function generateEastertide()
-	{
+	private function generateEastertide() {
 		$this->fillInWeek($this->eastertideStarts, $this->ordinaryTime2Starts, 'EW');
 
 		if (ASCENSION_ON_A_SUNDAY) {
@@ -141,8 +133,7 @@ class RomanCalendarMovable extends RomanCalendarYear
 	/**
 	 * Function to generate Ordinary season after Easter
 	 */
-	private function generateOrdinaryTime2()
-	{
+	private function generateOrdinaryTime2() {
 		$code = 'OW';
 
 		// First Calculate the Week Number
@@ -181,8 +172,7 @@ class RomanCalendarMovable extends RomanCalendarYear
 	 * @param int $wk
 	 *        	- The serial number for the first week in the specified range. Will be useful especially for ordinary season 2
 	 */
-	private function fillInWeek($startDate, $endDate, $code, $wk = 0)
-	{
+	private function fillInWeek($startDate, $endDate, $code, $wk = 0) {
 		$startDt = DateTime::createFromImmutable($startDate);
 		$endDt = DateTime::createFromImmutable($endDate);
 
@@ -205,8 +195,7 @@ class RomanCalendarMovable extends RomanCalendarYear
 	 * @param string $cd
 	 *        	- Tag
 	 */
-	private function setDayCode($cDate, $cd)
-	{
+	private function setDayCode($cDate, $cd) {
 		$mth = $cDate->format('n');
 		$day = $cDate->format('j');
 

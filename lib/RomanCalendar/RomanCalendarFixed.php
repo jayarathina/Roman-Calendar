@@ -11,11 +11,9 @@ require_once 'lib/config.php';
 require_once 'lib/Medoo.php';
 require_once 'RomanCalendarMovable.php';
 require_once 'RomanCalendarRanks.php';
-class RomanCalendarFixed extends RomanCalendarMovable
-{
+class RomanCalendarFixed extends RomanCalendarMovable {
 
-	function __construct($currentYear)
-	{
+	function __construct($currentYear) {
 		parent::__construct($currentYear);
 
 		$database = new Medoo(DB_PARAM);
@@ -73,8 +71,7 @@ class RomanCalendarFixed extends RomanCalendarMovable
 	 *
 	 * @param array $FeastList
 	 */
-	function addSolemnityToYear($FeastList)
-	{
+	function addSolemnityToYear($FeastList) {
 		foreach ($FeastList as $feastDet) {
 
 			if ($feastDet['feast_month'] == 11 && $feastDet['feast_date'] == 2) {
@@ -138,8 +135,7 @@ class RomanCalendarFixed extends RomanCalendarMovable
 	 *
 	 * @param array $FeastList
 	 */
-	function addFeastToYear($FeastList)
-	{
+	function addFeastToYear($FeastList) {
 		foreach ($FeastList as $feastDet) {
 			$currDate = new DateTime($this->currentYear . '-' . $feastDet['feast_month'] . '-' . $feastDet['feast_date']);
 			$currentDayRank = $this->fullYear[$feastDet['feast_month']][$feastDet['feast_date']][0]['rank'];
@@ -159,8 +155,7 @@ class RomanCalendarFixed extends RomanCalendarMovable
 	 *
 	 * @param array $FeastList
 	 */
-	function addMemoryToYear($memoryList)
-	{
+	function addMemoryToYear($memoryList) {
 		foreach ($memoryList as $feastDet) {
 
 			$currentDay = &$this->fullYear[$feastDet['feast_month']][$feastDet['feast_date']];
@@ -238,8 +233,7 @@ class RomanCalendarFixed extends RomanCalendarMovable
 	 * @param array $feastDet
 	 *        	- New feast to be added
 	 */
-	function pushDayCode($currDate, $feastDet)
-	{
+	function pushDayCode($currDate, $feastDet) {
 		$mth = $currDate->format('n');
 		$day = $currDate->format('j');
 
@@ -257,15 +251,14 @@ class RomanCalendarFixed extends RomanCalendarMovable
 	 * @param array $feastDet
 	 *        	- New feast to be added
 	 */
-	function addOtherFeast($currDate, $feastDet)
-	{
+	function addOtherFeast($currDate, $feastDet) {
 		if (empty($feastDet))
 			return;
 
 		$mth = $currDate->format('n');
 		$day = $currDate->format('j');
 
-		if (str_starts_with($feastDet[0]['code'], 'CW01')){
+		if (str_starts_with($feastDet[0]['code'], 'CW01')) {
 			return;
 		}
 

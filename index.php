@@ -26,7 +26,8 @@ include_once('lib/RomanCalendar/RomanCalendarRenderHTML.php');
 
 	$filename = 'dat/' . $year . '/calendar.json';
 
-	if (!file_exists($filename)) { // If the JSON does not exist in the specified path, then generate it
+	// If the JSON does not exist in the specified path, then generate it
+	if (!file_exists($filename)) {
 		$CalcGen = new RomanCalendar($year);
 	}
 

@@ -6,13 +6,11 @@
  *
  */
 
-class RomanCalendarYear
-{
+class RomanCalendarYear {
 	public $fullYear, $currentYear;
 	protected $adventStart, $christmastide1Start, $epiphanyDate, $christmastide2Start, $lentStart, $eastertideStarts, $ordinaryTime1Starts, $ordinaryTime2Starts;
 
-	function __construct($year)
-	{
+	function __construct($year) {
 		// Years between 1900-2099
 		$this->currentYear = (preg_match("/^(19|20)\d{2}$/", $year) == 1) ? $year : date("Y");
 		$this->fullYear = [];
@@ -28,8 +26,7 @@ class RomanCalendarYear
 	/**
 	 * Sets the start dates of various seasons of the liturgical year.
 	 */
-	private function generateSeasonLimits()
-	{
+	private function generateSeasonLimits() {
 		$curYear = $this->currentYear;
 
 		// Sunday after last thur of Nov is Advent
@@ -63,8 +60,7 @@ class RomanCalendarYear
 	/**
 	 * Test Function for checking the generated season's dates
 	 */
-	public function printDates()
-	{
+	public function printDates() {
 		echo '<hr/>' . $this->currentYear;
 
 		echo "<br/>christmastide2Start \t-> " . $this->christmastide2Start->format('jS F Y');
