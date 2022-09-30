@@ -31,10 +31,45 @@ You can add separate tables for each of your local calendars and place the table
 
 The tables have a column with Tamil data used for translation. You can use it as a sample to translate into any other language.
 
-## Points to Note
-For each day the name of the feast act as a unique identifier for that feast. It is usually the name of the feast/saint celebrated on that day. 
+## Structure of JSON Generated
+The content of the JSON file that is generated is of two-dimensional array. Outer most key has the month number and next has the day number. Which is followed by individual feast descriptions. The following is a sample for January 3rd.
+```JSON
+{
+    "1": {
+        "3": [
+            {
+                "code": "CW03-Day1",
+                "rank": 13.2,
+                "color": "white"
+            }
+        ],
+    }
+}
+```
 
-But for a ferial weekday a code is generated in the following syntax: `<SEASON CODE><WEEK NUMBER>-<DAY NUMBER><DAY NAME>`. They stand for the following:
+The feast description contains three values for ferial days. Others may have fourth value `rank` for example the value for January 01 will be:
+```JSON
+{
+    "1": {
+        "1": [
+            {
+                "code": "Blessed Virgin Mary, the Mother of God",
+                "rank": 3.1,
+                "type": "Solemnity",
+                "color": "white"
+            }
+        ],
+.....
+```
+There can also be a special `other` key that contains feast/memorials that are supressed that year.
+
+The following are the data keys:
+- `code` - Acts as a unique identifier for that feast. It is usually the name of the feast/saint celebrated on that day. See below for how it is generated for ferial days.
+- `rank` - Computed rank for that feast. Used to determine priority. (See [RomanCalendarRanks.php](lib/RomanCalendar/RomanCalendarRanks.php) for more details.)
+- ` type ` - Type of celebration. Solemnity, Feast, memory and other.
+- `color` - Mass vestament colour for that celebration
+
+For a ferial weekday a code is generated in the following syntax: `<SEASON CODE><WEEK NUMBER>-<DAY NUMBER><DAY NAME>`. They stand for the following:
 * `SEASON CODE` can be one of the following:
   * EW – Easter Week
   * OW – Ordinary Week
