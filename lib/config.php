@@ -2,12 +2,11 @@
 
 //DB Connection
 const DB_PARAM = [
-	'database_type' => 'mysql',
-	'database_name' => 'liturgy_breviary',
-	'server' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'charset' => 'utf8'
+    'type' => 'mysql',
+    'host' => 'localhost',
+    'database' => 'liturgy_breviary',
+    'username' => 'root',
+    'password' => ''
 ];
 
 
