@@ -103,7 +103,7 @@ class RomanCalendarRenderHTML {
 			'OW00-MaryMotherofChurch' => 'Mary, Mother of the Church',
 
 			'CW01-HolyFamily' => 'The Holy Family of Jesus, Mary And Joseph',
-			'Sat-Mem-Mary' => 'Saturday Memorial of the Blessed Virgin Mary'
+			'Mem-Mary-Sat' => 'Saturday Memorial of the Blessed Virgin Mary'
 		];
 
 		$fTitle = $RomanCalendarRanks[$dayCode] ?? null;

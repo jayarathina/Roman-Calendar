@@ -60,7 +60,7 @@ class RomanCalendarFixed extends RomanCalendarMovable {
 				if (isset($this->fullYear[$mth][$day][1]['rank']) && $this->fullYear[$mth][$day][1]['rank'] <= $rk)
 					continue;
 
-				$feastList[] = ['feast_month' => $mth, 'feast_date' => $day, 'feast_code' => 'Sat-Mem-Mary', 'feast_type' => 'OpMem'];
+				$feastList[] = ['feast_month' => $mth, 'feast_date' => $day, 'feast_code' => 'Mem-Mary-Sat', 'feast_type' => 'OpMem'];
 			} while ($tempDate < $OS_limits[$i][1]);
 		}
 		$this->addMemoryToYear($feastList);

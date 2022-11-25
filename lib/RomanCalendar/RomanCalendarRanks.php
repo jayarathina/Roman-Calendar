@@ -46,6 +46,7 @@
  * 10. Obligatory memorials
  * 10.1 Obligatory memorials of Blessed Virgin Mary in the general calendar (following the liturgical tradition of pre-eminence amongst persons, if there is a clash, the Memorial of BVM is to prevail)
  * 10.2 Other Obligatory memorials in the general calendar
+ * 10.3 Memorials of the Blessed Virgin Mary on Saturday
  *
  * 11. Proper obligatory memorials, namely:
  * 11.1 Memorial of a secondary patron of the place, diocese, region or province, country, or more extensive territory; or of an order, congregation, or religious province
@@ -137,6 +138,7 @@ class RomanCalendarRanks {
 
 			'Mem-Mary' => 10.1, // Obligatory memorials of BVM in the general calendar
 			'Mem' => 10.2, // Obligatory memorials in the general calendar
+			'Mem-Mary-Sat' => 10.3, // Memorials of BVM on Saturday
 
 			// Obligatory memorials of Particular Calendar
 			'Mem-SecondaryPatron' => 11.1, // Memorial of a secondary patron of the place, diocese, region or province, country, or more extensive territory; or of an order, congregation, or religious province
@@ -153,12 +155,13 @@ class RomanCalendarRanks {
 			'Commomeration' => 14
 		);
 
-		$keys = array_keys($RomanCalendarRanks);
-		foreach ($keys as $str) {
-			if (str_starts_with($dayCode, $str)) {
-				return $RomanCalendarRanks[$str];
+		$keys = array_keys ( $RomanCalendarRanks );
+		foreach ( $keys as $str ) {
+			//The keys are regular expressions. So str_starts_with will not work
+			if (preg_match ( "/^$str/", $dayCode ) === 1) {
+				return $RomanCalendarRanks [$str];
 			}
 		}
-		die('ERROR: Invalid Feast Code : ' . $dayCode); // This should never happen
+		die ( 'ERROR: Invalid Feast Code : ' . $dayCode ); // This should never happen
 	}
 }
