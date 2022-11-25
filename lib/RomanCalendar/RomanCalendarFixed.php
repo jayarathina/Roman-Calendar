@@ -252,25 +252,29 @@ class RomanCalendarFixed extends RomanCalendarMovable {
 	 *        	- New feast to be added
 	 */
 	function addOtherFeast($currDate, $feastDet) {
-		if (empty($feastDet))
-			return;
 
-		$mth = $currDate->format('n');
-		$day = $currDate->format('j');
+		if (empty($feastDet))	return;
 
-		if (str_starts_with($feastDet[0]['code'], 'CW01')) {
-			return;
-		}
-
-		if (isset($feastDet['other'])) {
-			$feastDet += $feastDet['other'];
+		//Christmas Week no supression
+		if (str_starts_with($feastDet[0]['code'], 'CW01-')) return;
+		
+		//The Feast to be added to 'other' has 'other' in itself
+		if(isset($feastDet['other'])){
+			foreach ($feastDet['other'] as $value) {
+				$feastDet []= $value;
+			}
 			unset($feastDet['other']);
 		}
 
+		$mth = $currDate->format('n');
+		$day = $currDate->format('j');
 		if (!isset($this->fullYear[$mth][$day]['other'])) {
 			$this->fullYear[$mth][$day]['other'] = [];
 		}
 
-		$this->fullYear[$mth][$day]['other'] += $feastDet;
+		foreach ($feastDet as $value) {
+			$this->fullYear[$mth][$day]['other'] []= $value;
+		}
+
 	}
 }

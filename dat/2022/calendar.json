@@ -1996,6 +1996,12 @@
                     "code": "OW14-0Sun",
                     "rank": 6,
                     "color": "green"
+                },
+                {
+                    "code": "Saint Thomas the Apostle",
+                    "rank": 7,
+                    "type": "Feast",
+                    "color": "red"
                 }
             ]
         },
