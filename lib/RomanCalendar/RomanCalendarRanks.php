@@ -142,6 +142,7 @@
 		'Mem-Other' => 11.3, // Obligatory memorials listed in the calendar of a diocese, order, or congregation
 
 		'OpMem' => 12.1, // Optional memorials, may be observed even on the days in no. 9.
+		'OpMem-Commomeration' => 12.1, // Optional memorials, may be observed even on the days in no. 9.
 
 		'AW' => 12.2, // Weekdays of Advent up to December 16 inclusive
 		'CW' => 12.3, // Weekdays of the Christmas season from January 2 until the Saturday after Epiphany
