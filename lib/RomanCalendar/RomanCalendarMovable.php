@@ -208,7 +208,8 @@ class RomanCalendarMovable extends RomanCalendarYear {
 			7 => 'Feast',
 			default => false
 		};
-		if ($this->fullYear[$mth][$day][0]['type'] === false)
+		//Good Friday & Holy Saurday are not Solemnities
+		if ($this->fullYear[$mth][$day][0]['type'] === false || in_array($cd, ['LW06-5Fri', 'LW06-6Sat']) )
 			unset($this->fullYear[$mth][$day][0]['type']);
 	}
 }
