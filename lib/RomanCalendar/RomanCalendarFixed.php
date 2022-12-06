@@ -210,7 +210,7 @@ class RomanCalendarFixed extends RomanCalendarMovable {
 
 				// Optional memorials that occour between Dec17-Dec24, Dec-25-Jan1 or during Lent will become commomeration
 				$newFeast['type'] = 'OpMem-Commomeration';
-				$newFeast['rank'] = $this->rcr->getRank('OpMem');
+				$newFeast['rank'] = $this->rcr->getRank('OpMem-Commomeration');
 
 				$currentDay[] = $newFeast;
 			} else {
