@@ -200,7 +200,7 @@ class RomanCalendarMovable extends RomanCalendarYear {
 		$day = $cDate->format('j');
 
 		$this->fullYear[$mth][$day][0]['code'] = $cd;
-		$this->fullYear[$mth][$day][0]['rank'] = RomanCalendarRanks::getRank($cd);
+		$this->fullYear[$mth][$day][0]['rank'] = (new RomanCalendarRanks)->getRank($cd);
 
 		$this->fullYear[$mth][$day][0]['type'] = match ($this->fullYear[$mth][$day][0]['rank']) {
 			1, 2, 2.4, 3.1, 4.1, 4.2, 4.3 => 'Solemnity',

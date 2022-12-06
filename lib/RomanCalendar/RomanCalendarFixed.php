@@ -12,9 +12,11 @@ require_once 'lib/Medoo.php';
 require_once 'RomanCalendarMovable.php';
 require_once 'RomanCalendarRanks.php';
 class RomanCalendarFixed extends RomanCalendarMovable {
+	private RomanCalendarRanks $rcr;
 
 	function __construct($currentYear) {
 		parent::__construct($currentYear);
+		$this->rcr = new RomanCalendarRanks();
 
 		$database = new Medoo(DB_PARAM);
 
@@ -46,7 +48,7 @@ class RomanCalendarFixed extends RomanCalendarMovable {
 
 		$OS_limits = [[$this->ordinaryTime1Starts, $this->lentStart], [$this->ordinaryTime2Starts, $this->adventStart]];
 		$feastList = [];
-		$rk = RomanCalendarRanks::getRank('OpMem');
+		$rk = $this->rcr->getRank('OpMem');
 
 		for ($i = 0; $i < sizeof($OS_limits); $i++) {
 			$tempDate = DateTime::createFromImmutable($OS_limits[$i][0]);
@@ -60,7 +62,7 @@ class RomanCalendarFixed extends RomanCalendarMovable {
 				if (isset($this->fullYear[$mth][$day][1]['rank']) && $this->fullYear[$mth][$day][1]['rank'] <= $rk)
 					continue;
 
-				$feastList[] = ['feast_month' => $mth, 'feast_date' => $day, 'feast_code' => 'Mem-Mary-Sat', 'feast_type' => 'OpMem'];
+				$feastList[] = ['feast_month' => $mth, 'feast_date' => $day, 'feast_code' => 'Mem-Mary-Sat', 'feast_type' => 'Mem-Mary-Sat'];
 			} while ($tempDate < $OS_limits[$i][1]);
 		}
 		$this->addMemoryToYear($feastList);
@@ -78,7 +80,7 @@ class RomanCalendarFixed extends RomanCalendarMovable {
 				$feastDet['feast_type'] = 'All Souls';
 			}
 
-			$feastRank = RomanCalendarRanks::getRank($feastDet['feast_type']);
+			$feastRank = $this->rcr->getRank($feastDet['feast_type']);
 
 			$currentDay = $this->fullYear[$feastDet['feast_month']][$feastDet['feast_date']];
 			$currentDayRank = (!empty($currentDay)) ? $currentDay[0]['rank'] : 50;
@@ -140,7 +142,7 @@ class RomanCalendarFixed extends RomanCalendarMovable {
 			$currDate = new DateTime($this->currentYear . '-' . $feastDet['feast_month'] . '-' . $feastDet['feast_date']);
 			$currentDayRank = $this->fullYear[$feastDet['feast_month']][$feastDet['feast_date']][0]['rank'];
 
-			$newFeast = ['code' => $feastDet['feast_code'], 'rank' => RomanCalendarRanks::getRank($feastDet['feast_type']), 'type' => $feastDet['feast_type']];
+			$newFeast = ['code' => $feastDet['feast_code'], 'rank' => $this->rcr->getRank($feastDet['feast_type']), 'type' => $feastDet['feast_type']];
 
 			if ($newFeast['rank'] < $currentDayRank) {
 				$this->pushDayCode($currDate, $newFeast);
@@ -156,18 +158,14 @@ class RomanCalendarFixed extends RomanCalendarMovable {
 	 * @param array $FeastList
 	 */
 	function addMemoryToYear($memoryList) {
+
 		foreach ($memoryList as $feastDet) {
-
 			$currentDay = &$this->fullYear[$feastDet['feast_month']][$feastDet['feast_date']];
-
-			$newFeast = ['code' => $feastDet['feast_code'], 'rank' => RomanCalendarRanks::getRank($feastDet['feast_type']), 'type' => $feastDet['feast_type']];
-
-			if (preg_match("/^[LW|AW05]/", $currentDay[0]['code']) === 1) {
-				// Optional memorials that occour between Dec17-Dec24, Dec-25-Jan1 or during Lent will become commomeration
-				// If a fixed date Memorial or Optional Memorial falls within the Lenten season, it is reduced in rank to a Commemoration.
-				$newFeast['type'] = 'OpMem-Commomeration';
-			}
-
+			$newFeast = [
+				'code' => $feastDet['feast_code'],
+				'rank' => $this->rcr->getRank($feastDet['feast_type']),
+				'type' => $feastDet['feast_type']
+			];
 
 			$other = [];
 
@@ -175,7 +173,6 @@ class RomanCalendarFixed extends RomanCalendarMovable {
 			// following the liturgical tradition of pre-eminence amongst persons,
 			// the Memorial of the Blessed Virgin Mary is to prevail
 			if ((isset($currentDay[1])) && $currentDay[1]['rank'] == 10.2 && $newFeast['rank'] == 10.1) {
-
 				if ($newFeast['code'] === 'OW00-ImmaculateHeart') {
 					/*
 					 * Exception:
@@ -186,22 +183,19 @@ class RomanCalendarFixed extends RomanCalendarMovable {
 					 * https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20000630_memoria-immaculati-cordis-mariae-virginis_lt.html
 					 */
 					$currentDay[1]['type'] = 'OpMem';
-					$currentDay[1]['rank'] = RomanCalendarRanks::getRank('OpMem');
+					$currentDay[1]['rank'] = $this->rcr->getRank('OpMem');
 
 					$newFeast['type'] = 'OpMem';
-					$newFeast['rank'] = RomanCalendarRanks::getRank('OpMem');
+					$newFeast['rank'] = $this->rcr->getRank('OpMem');
 				} else {
 					$other[] = $currentDay[1];
 					unset($currentDay[1]);
 				}
 			}
 
-			// clash between mem and opMem
-			// eg. May 05, 2015 May Mother of God clashes with multiple opMem
 			foreach ($currentDay as $key => $value) {
 				if ($key == 0 || $key == 'other')
 					continue;
-
 				if ($newFeast['rank'] < $currentDay[$key]['rank']) {
 					$other[] = $currentDay[$key];
 					unset($currentDay[$key]);
@@ -211,9 +205,12 @@ class RomanCalendarFixed extends RomanCalendarMovable {
 			if ($newFeast['rank'] < $currentDay[0]['rank']) {
 				$currentDay[] = $newFeast;
 			} elseif (intval($currentDay[0]['rank']) == 9) {
-				//GILH 238 When any [obligatory memorials] happen to fall during Lent in a given year, they are treated as optional memorials.
+				//GILH 238 When any [obligatory memorials] happen to fall during Lent in a given year,
+				// they are treated as optional memorials.
+
+				// Optional memorials that occour between Dec17-Dec24, Dec-25-Jan1 or during Lent will become commomeration
 				$newFeast['type'] = 'OpMem-Commomeration';
-				$newFeast['rank'] = RomanCalendarRanks::getRank('OpMem');
+				$newFeast['rank'] = $this->rcr->getRank('OpMem');
 
 				$currentDay[] = $newFeast;
 			} else {
