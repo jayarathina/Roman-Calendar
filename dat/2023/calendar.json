@@ -8,25 +8,22 @@
                 "color": "white"
             }
         ],
-        "2": {
-            "0": {
-                "code": "CW03-Epiphany",
-                "rank": 2,
-                "type": "Solemnity",
+        "2": [
+            {
+                "code": "CW02-Jan2",
+                "rank": 12.3,
                 "color": "white"
             },
-            "other": [
-                {
-                    "code": "Saints Basil the Great and Gregory Nazianzen, bishops and doctors",
-                    "rank": 10.2,
-                    "type": "Mem",
-                    "color": "white"
-                }
-            ]
-        },
+            {
+                "code": "Saints Basil the Great and Gregory Nazianzen, bishops and doctors",
+                "rank": 10.2,
+                "type": "Mem",
+                "color": "white"
+            }
+        ],
         "3": [
             {
-                "code": "CW03-Day1",
+                "code": "CW02-Jan3",
                 "rank": 12.3,
                 "color": "white"
             },
@@ -45,28 +42,28 @@
         ],
         "4": [
             {
-                "code": "CW03-Day2",
+                "code": "CW02-Jan4",
                 "rank": 12.3,
                 "color": "white"
             }
         ],
         "5": [
             {
-                "code": "CW03-Day3",
+                "code": "CW02-Jan5",
                 "rank": 12.3,
                 "color": "white"
             }
         ],
         "6": [
             {
-                "code": "CW03-Day4",
+                "code": "CW02-Jan6",
                 "rank": 12.3,
                 "color": "white"
             }
         ],
         "7": [
             {
-                "code": "CW03-Day5",
+                "code": "CW02-Jan7",
                 "rank": 12.3,
                 "color": "white"
             },
@@ -79,8 +76,9 @@
         ],
         "8": [
             {
-                "code": "CW03-Day6",
-                "rank": 12.3,
+                "code": "CW03-Epiphany",
+                "rank": 2,
+                "type": "Solemnity",
                 "color": "white"
             }
         ],
@@ -94,28 +92,28 @@
         ],
         "10": [
             {
-                "code": "OW01-1Mon",
+                "code": "OW01-2Tue",
                 "rank": 12.5,
                 "color": "green"
             }
         ],
         "11": [
             {
-                "code": "OW01-2Tue",
+                "code": "OW01-3Wed",
                 "rank": 12.5,
                 "color": "green"
             }
         ],
         "12": [
             {
-                "code": "OW01-3Wed",
+                "code": "OW01-4Thu",
                 "rank": 12.5,
                 "color": "green"
             }
         ],
         "13": [
             {
-                "code": "OW01-4Thu",
+                "code": "OW01-5Fri",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -128,7 +126,7 @@
         ],
         "14": [
             {
-                "code": "OW01-5Fri",
+                "code": "OW01-6Sat",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -141,35 +139,27 @@
         ],
         "15": [
             {
-                "code": "OW01-6Sat",
+                "code": "OW02-0Sun",
+                "rank": 6,
+                "color": "green"
+            }
+        ],
+        "16": [
+            {
+                "code": "OW02-1Mon",
                 "rank": 12.5,
                 "color": "green"
             },
             {
-                "code": "Mem-Mary-Sat",
-                "rank": 10.3,
-                "type": "Mem-Mary-Sat",
+                "code": "IN Saint Joseph Vaz, priest",
+                "rank": 11.2,
+                "type": "Mem-OwnChurch",
                 "color": "white"
             }
         ],
-        "16": {
-            "0": {
-                "code": "OW02-0Sun",
-                "rank": 6,
-                "color": "green"
-            },
-            "other": [
-                {
-                    "code": "IN Saint Joseph Vaz, priest",
-                    "rank": 11.2,
-                    "type": "Mem-OwnChurch",
-                    "color": "white"
-                }
-            ]
-        },
         "17": [
             {
-                "code": "OW02-1Mon",
+                "code": "OW02-2Tue",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -182,21 +172,21 @@
         ],
         "18": [
             {
-                "code": "OW02-2Tue",
+                "code": "OW02-3Wed",
                 "rank": 12.5,
                 "color": "green"
             }
         ],
         "19": [
             {
-                "code": "OW02-3Wed",
+                "code": "OW02-4Thu",
                 "rank": 12.5,
                 "color": "green"
             }
         ],
         "20": [
             {
-                "code": "OW02-4Thu",
+                "code": "OW02-5Fri",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -215,7 +205,7 @@
         ],
         "21": [
             {
-                "code": "OW02-5Fri",
+                "code": "OW02-6Sat",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -226,29 +216,31 @@
                 "color": "red"
             }
         ],
-        "22": [
-            {
-                "code": "OW02-6Sat",
-                "rank": 12.5,
-                "color": "green"
-            },
-            {
-                "code": "Saint Vincent, deacon and martyr",
-                "rank": 12.1,
-                "type": "OpMem",
-                "color": "red"
-            }
-        ],
-        "23": [
-            {
+        "22": {
+            "0": {
                 "code": "OW03-0Sun",
                 "rank": 6,
+                "color": "green"
+            },
+            "other": [
+                {
+                    "code": "Saint Vincent, deacon and martyr",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "color": "red"
+                }
+            ]
+        },
+        "23": [
+            {
+                "code": "OW03-1Mon",
+                "rank": 12.5,
                 "color": "green"
             }
         ],
         "24": [
             {
-                "code": "OW03-1Mon",
+                "code": "OW03-2Tue",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -268,7 +260,7 @@
             },
             "other": [
                 {
-                    "code": "OW03-2Tue",
+                    "code": "OW03-3Wed",
                     "rank": 12.5,
                     "color": "green"
                 }
@@ -276,7 +268,7 @@
         },
         "26": [
             {
-                "code": "OW03-3Wed",
+                "code": "OW03-4Thu",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -289,7 +281,7 @@
         ],
         "27": [
             {
-                "code": "OW03-4Thu",
+                "code": "OW03-5Fri",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -302,7 +294,7 @@
         ],
         "28": [
             {
-                "code": "OW03-5Fri",
+                "code": "OW03-6Sat",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -315,27 +307,21 @@
         ],
         "29": [
             {
-                "code": "OW03-6Sat",
-                "rank": 12.5,
-                "color": "green"
-            },
-            {
-                "code": "Mem-Mary-Sat",
-                "rank": 10.3,
-                "type": "Mem-Mary-Sat",
-                "color": "white"
-            }
-        ],
-        "30": [
-            {
                 "code": "OW04-0Sun",
                 "rank": 6,
                 "color": "green"
             }
         ],
-        "31": [
+        "30": [
             {
                 "code": "OW04-1Mon",
+                "rank": 12.5,
+                "color": "green"
+            }
+        ],
+        "31": [
+            {
+                "code": "OW04-2Tue",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -350,7 +336,7 @@
     "2": {
         "1": [
             {
-                "code": "OW04-2Tue",
+                "code": "OW04-3Wed",
                 "rank": 12.5,
                 "color": "green"
             }
@@ -364,7 +350,7 @@
             },
             "other": [
                 {
-                    "code": "OW04-3Wed",
+                    "code": "OW04-4Thu",
                     "rank": 12.5,
                     "color": "green"
                 }
@@ -372,7 +358,7 @@
         },
         "3": [
             {
-                "code": "OW04-4Thu",
+                "code": "OW04-5Fri",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -391,7 +377,7 @@
         ],
         "4": [
             {
-                "code": "OW04-5Fri",
+                "code": "OW04-6Sat",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -402,20 +388,7 @@
                 "color": "red"
             }
         ],
-        "5": [
-            {
-                "code": "OW04-6Sat",
-                "rank": 12.5,
-                "color": "green"
-            },
-            {
-                "code": "Saint Agatha, virgin and martyr",
-                "rank": 10.2,
-                "type": "Mem",
-                "color": "red"
-            }
-        ],
-        "6": {
+        "5": {
             "0": {
                 "code": "OW05-0Sun",
                 "rank": 6,
@@ -423,29 +396,42 @@
             },
             "other": [
                 {
-                    "code": "Saints Paul Miki and companions, martyrs",
+                    "code": "Saint Agatha, virgin and martyr",
                     "rank": 10.2,
                     "type": "Mem",
-                    "color": "red"
-                },
-                {
-                    "code": "IN Saint Gonsalo Garcia, martyr",
-                    "rank": 11.2,
-                    "type": "Mem-OwnChurch",
                     "color": "red"
                 }
             ]
         },
-        "7": [
+        "6": [
             {
                 "code": "OW05-1Mon",
+                "rank": 12.5,
+                "color": "green"
+            },
+            {
+                "code": "Saints Paul Miki and companions, martyrs",
+                "rank": 10.2,
+                "type": "Mem",
+                "color": "red"
+            },
+            {
+                "code": "IN Saint Gonsalo Garcia, martyr",
+                "rank": 11.2,
+                "type": "Mem-OwnChurch",
+                "color": "red"
+            }
+        ],
+        "7": [
+            {
+                "code": "OW05-2Tue",
                 "rank": 12.5,
                 "color": "green"
             }
         ],
         "8": [
             {
-                "code": "OW05-2Tue",
+                "code": "OW05-3Wed",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -464,14 +450,14 @@
         ],
         "9": [
             {
-                "code": "OW05-3Wed",
+                "code": "OW05-4Thu",
                 "rank": 12.5,
                 "color": "green"
             }
         ],
         "10": [
             {
-                "code": "OW05-4Thu",
+                "code": "OW05-5Fri",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -484,7 +470,7 @@
         ],
         "11": [
             {
-                "code": "OW05-5Fri",
+                "code": "OW05-6Sat",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -497,27 +483,21 @@
         ],
         "12": [
             {
-                "code": "OW05-6Sat",
-                "rank": 12.5,
-                "color": "green"
-            },
-            {
-                "code": "Mem-Mary-Sat",
-                "rank": 10.3,
-                "type": "Mem-Mary-Sat",
-                "color": "white"
-            }
-        ],
-        "13": [
-            {
                 "code": "OW06-0Sun",
                 "rank": 6,
                 "color": "green"
             }
         ],
-        "14": [
+        "13": [
             {
                 "code": "OW06-1Mon",
+                "rank": 12.5,
+                "color": "green"
+            }
+        ],
+        "14": [
+            {
+                "code": "OW06-2Tue",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -530,21 +510,21 @@
         ],
         "15": [
             {
-                "code": "OW06-2Tue",
+                "code": "OW06-3Wed",
                 "rank": 12.5,
                 "color": "green"
             }
         ],
         "16": [
             {
-                "code": "OW06-3Wed",
+                "code": "OW06-4Thu",
                 "rank": 12.5,
                 "color": "green"
             }
         ],
         "17": [
             {
-                "code": "OW06-4Thu",
+                "code": "OW06-5Fri",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -557,13 +537,6 @@
         ],
         "18": [
             {
-                "code": "OW06-5Fri",
-                "rank": 12.5,
-                "color": "green"
-            }
-        ],
-        "19": [
-            {
                 "code": "OW06-6Sat",
                 "rank": 12.5,
                 "color": "green"
@@ -575,16 +548,23 @@
                 "color": "white"
             }
         ],
-        "20": [
+        "19": [
             {
                 "code": "OW07-0Sun",
                 "rank": 6,
                 "color": "green"
             }
         ],
-        "21": [
+        "20": [
             {
                 "code": "OW07-1Mon",
+                "rank": 12.5,
+                "color": "green"
+            }
+        ],
+        "21": [
+            {
+                "code": "OW07-2Tue",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -597,113 +577,105 @@
         ],
         "22": {
             "0": {
-                "code": "Chair of Saint Peter, apostle",
-                "rank": 7,
-                "type": "Feast",
-                "color": "white"
+                "code": "LW00-3Wed",
+                "rank": 2.2,
+                "color": "purple"
             },
             "other": [
                 {
-                    "code": "OW07-2Tue",
-                    "rank": 12.5,
-                    "color": "green"
+                    "code": "Chair of Saint Peter, apostle",
+                    "rank": 7,
+                    "type": "Feast",
+                    "color": "white"
                 }
             ]
         },
         "23": [
             {
-                "code": "OW07-3Wed",
-                "rank": 12.5,
-                "color": "green"
+                "code": "LW00-4Thu",
+                "rank": 9.3,
+                "color": "purple"
             },
             {
                 "code": "Saint Polycarp, bishop and martyr",
-                "rank": 10.2,
-                "type": "Mem",
+                "rank": 12.1,
+                "type": "OpMem-Commomeration",
                 "color": "red"
             }
         ],
         "24": [
             {
-                "code": "OW07-4Thu",
-                "rank": 12.5,
-                "color": "green"
+                "code": "LW00-5Fri",
+                "rank": 9.3,
+                "color": "purple"
             }
         ],
         "25": [
             {
-                "code": "OW07-5Fri",
-                "rank": 12.5,
-                "color": "green"
+                "code": "LW00-6Sat",
+                "rank": 9.3,
+                "color": "purple"
             },
             {
                 "code": "IN Blessed Rani Maria, virgin, martyr",
                 "rank": 12.1,
-                "type": "OpMem",
+                "type": "OpMem-Commomeration",
                 "color": "red"
             }
         ],
         "26": [
             {
-                "code": "OW07-6Sat",
-                "rank": 12.5,
-                "color": "green"
+                "code": "LW01-0Sun",
+                "rank": 2.1,
+                "color": "purple"
+            }
+        ],
+        "27": [
+            {
+                "code": "LW01-1Mon",
+                "rank": 9.3,
+                "color": "purple"
             },
             {
-                "code": "Mem-Mary-Sat",
-                "rank": 10.3,
-                "type": "Mem-Mary-Sat",
+                "code": "Saint Gregory of Narek, abbot and doctor of the Church",
+                "rank": 12.1,
+                "type": "OpMem-Commomeration",
                 "color": "white"
             }
         ],
-        "27": {
-            "0": {
-                "code": "OW08-0Sun",
-                "rank": 6,
-                "color": "green"
-            },
-            "other": [
-                {
-                    "code": "Saint Gregory of Narek, abbot and doctor of the Church",
-                    "rank": 12.1,
-                    "type": "OpMem",
-                    "color": "white"
-                }
-            ]
-        },
         "28": [
             {
-                "code": "OW08-1Mon",
-                "rank": 12.5,
-                "color": "green"
+                "code": "LW01-2Tue",
+                "rank": 9.3,
+                "color": "purple"
             }
         ]
     },
     "3": {
         "1": [
             {
-                "code": "OW08-2Tue",
-                "rank": 12.5,
-                "color": "green"
+                "code": "LW01-3Wed",
+                "rank": 9.3,
+                "color": "purple"
             }
         ],
         "2": [
             {
-                "code": "LW00-3Wed",
-                "rank": 2.2,
+                "code": "LW01-4Thu",
+                "rank": 9.3,
                 "color": "purple"
             }
         ],
         "3": [
             {
-                "code": "LW00-4Thu",
+                "code": "LW01-5Fri",
                 "rank": 9.3,
                 "color": "purple"
             }
         ],
         "4": [
             {
-                "code": "LW00-5Fri",
+                "code": "LW01-6Sat",
                 "rank": 9.3,
                 "color": "purple"
             },
@@ -716,21 +688,21 @@
         ],
         "5": [
             {
-                "code": "LW00-6Sat",
-                "rank": 9.3,
+                "code": "LW02-0Sun",
+                "rank": 2.1,
                 "color": "purple"
             }
         ],
         "6": [
             {
-                "code": "LW01-0Sun",
-                "rank": 2.1,
+                "code": "LW02-1Mon",
+                "rank": 9.3,
                 "color": "purple"
             }
         ],
         "7": [
             {
-                "code": "LW01-1Mon",
+                "code": "LW02-2Tue",
                 "rank": 9.3,
                 "color": "purple"
             },
@@ -743,7 +715,7 @@
         ],
         "8": [
             {
-                "code": "LW01-2Tue",
+                "code": "LW02-3Wed",
                 "rank": 9.3,
                 "color": "purple"
             },
@@ -756,7 +728,7 @@
         ],
         "9": [
             {
-                "code": "LW01-3Wed",
+                "code": "LW02-4Thu",
                 "rank": 9.3,
                 "color": "purple"
             },
@@ -769,56 +741,56 @@
         ],
         "10": [
             {
-                "code": "LW01-4Thu",
+                "code": "LW02-5Fri",
                 "rank": 9.3,
                 "color": "purple"
             }
         ],
         "11": [
             {
-                "code": "LW01-5Fri",
+                "code": "LW02-6Sat",
                 "rank": 9.3,
                 "color": "purple"
             }
         ],
         "12": [
             {
-                "code": "LW01-6Sat",
-                "rank": 9.3,
+                "code": "LW03-0Sun",
+                "rank": 2.1,
                 "color": "purple"
             }
         ],
         "13": [
             {
-                "code": "LW02-0Sun",
-                "rank": 2.1,
+                "code": "LW03-1Mon",
+                "rank": 9.3,
                 "color": "purple"
             }
         ],
         "14": [
             {
-                "code": "LW02-1Mon",
+                "code": "LW03-2Tue",
                 "rank": 9.3,
                 "color": "purple"
             }
         ],
         "15": [
             {
-                "code": "LW02-2Tue",
+                "code": "LW03-3Wed",
                 "rank": 9.3,
                 "color": "purple"
             }
         ],
         "16": [
             {
-                "code": "LW02-3Wed",
+                "code": "LW03-4Thu",
                 "rank": 9.3,
                 "color": "purple"
             }
         ],
         "17": [
             {
-                "code": "LW02-4Thu",
+                "code": "LW03-5Fri",
                 "rank": 9.3,
                 "color": "purple"
             },
@@ -831,7 +803,7 @@
         ],
         "18": [
             {
-                "code": "LW02-5Fri",
+                "code": "LW03-6Sat",
                 "rank": 9.3,
                 "color": "purple"
             },
@@ -842,7 +814,14 @@
                 "color": "white"
             }
         ],
-        "19": {
+        "19": [
+            {
+                "code": "LW04-0Sun",
+                "rank": 2.1,
+                "color": "rose"
+            }
+        ],
+        "20": {
             "0": {
                 "code": "Saint Joseph Husband of the Blessed Virgin Mary",
                 "rank": 3.1,
@@ -851,36 +830,29 @@
             },
             "other": [
                 {
-                    "code": "LW02-6Sat",
+                    "code": "LW04-1Mon",
                     "rank": 9.3,
                     "color": "purple"
                 }
             ]
         },
-        "20": [
-            {
-                "code": "LW03-0Sun",
-                "rank": 2.1,
-                "color": "purple"
-            }
-        ],
         "21": [
             {
-                "code": "LW03-1Mon",
+                "code": "LW04-2Tue",
                 "rank": 9.3,
                 "color": "purple"
             }
         ],
         "22": [
             {
-                "code": "LW03-2Tue",
+                "code": "LW04-3Wed",
                 "rank": 9.3,
                 "color": "purple"
             }
         ],
         "23": [
             {
-                "code": "LW03-3Wed",
+                "code": "LW04-4Thu",
                 "rank": 9.3,
                 "color": "purple"
             },
@@ -893,7 +865,7 @@
         ],
         "24": [
             {
-                "code": "LW03-4Thu",
+                "code": "LW04-5Fri",
                 "rank": 9.3,
                 "color": "purple"
             }
@@ -907,7 +879,7 @@
             },
             "other": [
                 {
-                    "code": "LW03-5Fri",
+                    "code": "LW04-6Sat",
                     "rank": 9.3,
                     "color": "purple"
                 }
@@ -915,42 +887,42 @@
         },
         "26": [
             {
-                "code": "LW03-6Sat",
-                "rank": 9.3,
+                "code": "LW05-0Sun",
+                "rank": 2.1,
                 "color": "purple"
             }
         ],
         "27": [
             {
-                "code": "LW04-0Sun",
-                "rank": 2.1,
-                "color": "rose"
+                "code": "LW05-1Mon",
+                "rank": 9.3,
+                "color": "purple"
             }
         ],
         "28": [
             {
-                "code": "LW04-1Mon",
+                "code": "LW05-2Tue",
                 "rank": 9.3,
                 "color": "purple"
             }
         ],
         "29": [
             {
-                "code": "LW04-2Tue",
+                "code": "LW05-3Wed",
                 "rank": 9.3,
                 "color": "purple"
             }
         ],
         "30": [
             {
-                "code": "LW04-3Wed",
+                "code": "LW05-4Thu",
                 "rank": 9.3,
                 "color": "purple"
             }
         ],
         "31": [
             {
-                "code": "LW04-4Thu",
+                "code": "LW05-5Fri",
                 "rank": 9.3,
                 "color": "purple"
             }
@@ -959,103 +931,114 @@
     "4": {
         "1": [
             {
-                "code": "LW04-5Fri",
-                "rank": 9.3,
-                "color": "purple"
-            }
-        ],
-        "2": [
-            {
-                "code": "LW04-6Sat",
-                "rank": 9.3,
-                "color": "purple"
-            },
-            {
-                "code": "Saint Francis of Paola, hermit",
-                "rank": 12.1,
-                "type": "OpMem-Commomeration",
-                "color": "white"
-            }
-        ],
-        "3": [
-            {
-                "code": "LW05-0Sun",
-                "rank": 2.1,
-                "color": "purple"
-            }
-        ],
-        "4": [
-            {
-                "code": "LW05-1Mon",
-                "rank": 9.3,
-                "color": "purple"
-            },
-            {
-                "code": "Saint Isidore, bishop and doctor of the Church",
-                "rank": 12.1,
-                "type": "OpMem-Commomeration",
-                "color": "white"
-            }
-        ],
-        "5": [
-            {
-                "code": "LW05-2Tue",
-                "rank": 9.3,
-                "color": "purple"
-            },
-            {
-                "code": "Saint Vincent Ferrer, priest",
-                "rank": 12.1,
-                "type": "OpMem-Commomeration",
-                "color": "white"
-            }
-        ],
-        "6": [
-            {
-                "code": "LW05-3Wed",
-                "rank": 9.3,
-                "color": "purple"
-            }
-        ],
-        "7": [
-            {
-                "code": "LW05-4Thu",
-                "rank": 9.3,
-                "color": "purple"
-            },
-            {
-                "code": "Saint John Baptist de la Salle, priest",
-                "rank": 12.1,
-                "type": "OpMem-Commomeration",
-                "color": "white"
-            }
-        ],
-        "8": [
-            {
-                "code": "LW05-5Fri",
-                "rank": 9.3,
-                "color": "purple"
-            }
-        ],
-        "9": [
-            {
                 "code": "LW05-6Sat",
                 "rank": 9.3,
                 "color": "purple"
             }
         ],
-        "10": [
-            {
+        "2": {
+            "0": {
                 "code": "LW06-0Sun",
                 "rank": 2.1,
                 "color": "red"
+            },
+            "other": [
+                {
+                    "code": "Saint Francis of Paola, hermit",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "color": "white"
+                }
+            ]
+        },
+        "3": [
+            {
+                "code": "LW06-1Mon",
+                "rank": 2.3,
+                "color": "purple"
+            }
+        ],
+        "4": {
+            "0": {
+                "code": "LW06-2Tue",
+                "rank": 2.3,
+                "color": "purple"
+            },
+            "other": [
+                {
+                    "code": "Saint Isidore, bishop and doctor of the Church",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "color": "white"
+                }
+            ]
+        },
+        "5": {
+            "0": {
+                "code": "LW06-3Wed",
+                "rank": 2.3,
+                "color": "purple"
+            },
+            "other": [
+                {
+                    "code": "Saint Vincent Ferrer, priest",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "color": "white"
+                }
+            ]
+        },
+        "6": [
+            {
+                "code": "LW06-4Thu",
+                "rank": 2.3,
+                "color": "white"
+            }
+        ],
+        "7": {
+            "0": {
+                "code": "LW06-5Fri",
+                "rank": 1,
+                "color": "red"
+            },
+            "other": [
+                {
+                    "code": "Saint John Baptist de la Salle, priest",
+                    "rank": 10.2,
+                    "type": "Mem",
+                    "color": "white"
+                }
+            ]
+        },
+        "8": [
+            {
+                "code": "LW06-6Sat",
+                "rank": 1,
+                "color": "white"
+            }
+        ],
+        "9": [
+            {
+                "code": "EW01-0Sun",
+                "rank": 1,
+                "type": "Solemnity",
+                "color": "white"
+            }
+        ],
+        "10": [
+            {
+                "code": "EW01-1Mon",
+                "rank": 2.4,
+                "type": "Solemnity",
+                "color": "white"
             }
         ],
         "11": {
             "0": {
-                "code": "LW06-1Mon",
-                "rank": 2.3,
-                "color": "purple"
+                "code": "EW01-2Tue",
+                "rank": 2.4,
+                "type": "Solemnity",
+                "color": "white"
             },
             "other": [
                 {
@@ -1068,16 +1051,18 @@
         },
         "12": [
             {
-                "code": "LW06-2Tue",
-                "rank": 2.3,
-                "color": "purple"
+                "code": "EW01-3Wed",
+                "rank": 2.4,
+                "type": "Solemnity",
+                "color": "white"
             }
         ],
         "13": {
             "0": {
-                "code": "LW06-3Wed",
-                "rank": 2.3,
-                "color": "purple"
+                "code": "EW01-4Thu",
+                "rank": 2.4,
+                "type": "Solemnity",
+                "color": "white"
             },
             "other": [
                 {
@@ -1090,86 +1075,79 @@
         },
         "14": [
             {
-                "code": "LW06-4Thu",
-                "rank": 2.3,
-                "color": "white"
-            }
-        ],
-        "15": [
-            {
-                "code": "LW06-5Fri",
-                "rank": 1,
-                "color": "red"
-            }
-        ],
-        "16": [
-            {
-                "code": "LW06-6Sat",
-                "rank": 1,
-                "color": "white"
-            }
-        ],
-        "17": [
-            {
-                "code": "EW01-0Sun",
-                "rank": 1,
-                "type": "Solemnity",
-                "color": "white"
-            }
-        ],
-        "18": [
-            {
-                "code": "EW01-1Mon",
-                "rank": 2.4,
-                "type": "Solemnity",
-                "color": "white"
-            }
-        ],
-        "19": [
-            {
-                "code": "EW01-2Tue",
-                "rank": 2.4,
-                "type": "Solemnity",
-                "color": "white"
-            }
-        ],
-        "20": [
-            {
-                "code": "EW01-3Wed",
-                "rank": 2.4,
-                "type": "Solemnity",
-                "color": "white"
-            }
-        ],
-        "21": {
-            "0": {
-                "code": "EW01-4Thu",
-                "rank": 2.4,
-                "type": "Solemnity",
-                "color": "white"
-            },
-            "other": [
-                {
-                    "code": "Saint Anselm of Canterbury, bishop and doctor of the Church",
-                    "rank": 12.1,
-                    "type": "OpMem",
-                    "color": "white"
-                }
-            ]
-        },
-        "22": [
-            {
                 "code": "EW01-5Fri",
                 "rank": 2.4,
                 "type": "Solemnity",
                 "color": "white"
             }
         ],
-        "23": {
-            "0": {
+        "15": [
+            {
                 "code": "EW01-6Sat",
                 "rank": 2.4,
                 "type": "Solemnity",
+                "color": "white"
+            }
+        ],
+        "16": [
+            {
+                "code": "EW02-0Sun",
+                "rank": 2.1,
+                "color": "white"
+            }
+        ],
+        "17": [
+            {
+                "code": "EW02-1Mon",
+                "rank": 12.4,
+                "color": "white"
+            }
+        ],
+        "18": [
+            {
+                "code": "EW02-2Tue",
+                "rank": 12.4,
+                "color": "white"
+            }
+        ],
+        "19": [
+            {
+                "code": "EW02-3Wed",
+                "rank": 12.4,
+                "color": "white"
+            }
+        ],
+        "20": [
+            {
+                "code": "EW02-4Thu",
+                "rank": 12.4,
+                "color": "white"
+            }
+        ],
+        "21": [
+            {
+                "code": "EW02-5Fri",
+                "rank": 12.4,
+                "color": "white"
+            },
+            {
+                "code": "Saint Anselm of Canterbury, bishop and doctor of the Church",
+                "rank": 12.1,
+                "type": "OpMem",
+                "color": "white"
+            }
+        ],
+        "22": [
+            {
+                "code": "EW02-6Sat",
+                "rank": 12.4,
+                "color": "white"
+            }
+        ],
+        "23": {
+            "0": {
+                "code": "EW03-0Sun",
+                "rank": 2.1,
                 "color": "white"
             },
             "other": [
@@ -1187,21 +1165,19 @@
                 }
             ]
         },
-        "24": {
-            "0": {
-                "code": "EW02-0Sun",
-                "rank": 2.1,
+        "24": [
+            {
+                "code": "EW03-1Mon",
+                "rank": 12.4,
                 "color": "white"
             },
-            "other": [
-                {
-                    "code": "Saint Fidelis of Sigmaringen, priest and martyr",
-                    "rank": 12.1,
-                    "type": "OpMem",
-                    "color": "red"
-                }
-            ]
-        },
+            {
+                "code": "Saint Fidelis of Sigmaringen, priest and martyr",
+                "rank": 12.1,
+                "type": "OpMem",
+                "color": "red"
+            }
+        ],
         "25": {
             "0": {
                 "code": "Saint Mark the Evangelist",
@@ -1211,7 +1187,7 @@
             },
             "other": [
                 {
-                    "code": "EW02-1Mon",
+                    "code": "EW03-2Tue",
                     "rank": 12.4,
                     "color": "white"
                 }
@@ -1219,21 +1195,21 @@
         },
         "26": [
             {
-                "code": "EW02-2Tue",
+                "code": "EW03-3Wed",
                 "rank": 12.4,
                 "color": "white"
             }
         ],
         "27": [
             {
-                "code": "EW02-3Wed",
+                "code": "EW03-4Thu",
                 "rank": 12.4,
                 "color": "white"
             }
         ],
         "28": [
             {
-                "code": "EW02-4Thu",
+                "code": "EW03-5Fri",
                 "rank": 12.4,
                 "color": "white"
             },
@@ -1252,7 +1228,7 @@
         ],
         "29": [
             {
-                "code": "EW02-5Fri",
+                "code": "EW03-6Sat",
                 "rank": 12.4,
                 "color": "white"
             },
@@ -1263,39 +1239,39 @@
                 "color": "white"
             }
         ],
-        "30": [
-            {
-                "code": "EW02-6Sat",
-                "rank": 12.4,
-                "color": "white"
-            },
-            {
-                "code": "Saint Pius V, pope",
-                "rank": 12.1,
-                "type": "OpMem",
-                "color": "white"
-            }
-        ]
-    },
-    "5": {
-        "1": {
+        "30": {
             "0": {
-                "code": "EW03-0Sun",
+                "code": "EW04-0Sun",
                 "rank": 2.1,
                 "color": "white"
             },
             "other": [
                 {
-                    "code": "Saint Joseph the Worker",
+                    "code": "Saint Pius V, pope",
                     "rank": 12.1,
                     "type": "OpMem",
                     "color": "white"
                 }
             ]
-        },
+        }
+    },
+    "5": {
+        "1": [
+            {
+                "code": "EW04-1Mon",
+                "rank": 12.4,
+                "color": "white"
+            },
+            {
+                "code": "Saint Joseph the Worker",
+                "rank": 12.1,
+                "type": "OpMem",
+                "color": "white"
+            }
+        ],
         "2": [
             {
-                "code": "EW03-1Mon",
+                "code": "EW04-2Tue",
                 "rank": 12.4,
                 "color": "white"
             },
@@ -1315,7 +1291,7 @@
             },
             "other": [
                 {
-                    "code": "EW03-2Tue",
+                    "code": "EW04-3Wed",
                     "rank": 12.4,
                     "color": "white"
                 }
@@ -1323,49 +1299,49 @@
         },
         "4": [
             {
-                "code": "EW03-3Wed",
+                "code": "EW04-4Thu",
                 "rank": 12.4,
                 "color": "white"
             }
         ],
         "5": [
             {
-                "code": "EW03-4Thu",
+                "code": "EW04-5Fri",
                 "rank": 12.4,
                 "color": "white"
             }
         ],
         "6": [
             {
-                "code": "EW03-5Fri",
+                "code": "EW04-6Sat",
                 "rank": 12.4,
                 "color": "white"
             }
         ],
         "7": [
             {
-                "code": "EW03-6Sat",
-                "rank": 12.4,
+                "code": "EW05-0Sun",
+                "rank": 2.1,
                 "color": "white"
             }
         ],
         "8": [
             {
-                "code": "EW04-0Sun",
-                "rank": 2.1,
+                "code": "EW05-1Mon",
+                "rank": 12.4,
                 "color": "white"
             }
         ],
         "9": [
             {
-                "code": "EW04-1Mon",
+                "code": "EW05-2Tue",
                 "rank": 12.4,
                 "color": "white"
             }
         ],
         "10": [
             {
-                "code": "EW04-2Tue",
+                "code": "EW05-3Wed",
                 "rank": 12.4,
                 "color": "white"
             },
@@ -1378,14 +1354,14 @@
         ],
         "11": [
             {
-                "code": "EW04-3Wed",
+                "code": "EW05-4Thu",
                 "rank": 12.4,
                 "color": "white"
             }
         ],
         "12": [
             {
-                "code": "EW04-4Thu",
+                "code": "EW05-5Fri",
                 "rank": 12.4,
                 "color": "white"
             },
@@ -1404,7 +1380,7 @@
         ],
         "13": [
             {
-                "code": "EW04-5Fri",
+                "code": "EW05-6Sat",
                 "rank": 12.4,
                 "color": "white"
             },
@@ -1417,43 +1393,43 @@
         ],
         "14": {
             "0": {
-                "code": "Saint Matthias the Apostle",
-                "rank": 7,
-                "type": "Feast",
-                "color": "red"
+                "code": "EW06-0Sun",
+                "rank": 2.1,
+                "color": "white"
             },
             "other": [
                 {
-                    "code": "EW04-6Sat",
-                    "rank": 12.4,
-                    "color": "white"
+                    "code": "Saint Matthias the Apostle",
+                    "rank": 7,
+                    "type": "Feast",
+                    "color": "red"
                 }
             ]
         },
         "15": [
             {
-                "code": "EW05-0Sun",
-                "rank": 2.1,
+                "code": "EW06-1Mon",
+                "rank": 12.4,
                 "color": "white"
             }
         ],
         "16": [
             {
-                "code": "EW05-1Mon",
+                "code": "EW06-2Tue",
                 "rank": 12.4,
                 "color": "white"
             }
         ],
         "17": [
             {
-                "code": "EW05-2Tue",
+                "code": "EW06-3Wed",
                 "rank": 12.4,
                 "color": "white"
             }
         ],
         "18": [
             {
-                "code": "EW05-3Wed",
+                "code": "EW06-4Thu",
                 "rank": 12.4,
                 "color": "white"
             },
@@ -1466,14 +1442,14 @@
         ],
         "19": [
             {
-                "code": "EW05-4Thu",
+                "code": "EW06-5Fri",
                 "rank": 12.4,
                 "color": "white"
             }
         ],
         "20": [
             {
-                "code": "EW05-5Fri",
+                "code": "EW06-6Sat",
                 "rank": 12.4,
                 "color": "white"
             },
@@ -1484,51 +1460,52 @@
                 "color": "white"
             }
         ],
-        "21": [
-            {
-                "code": "EW05-6Sat",
-                "rank": 12.4,
-                "color": "white"
-            },
-            {
-                "code": "Saint Christopher Magallanes and companions, martyrs",
-                "rank": 12.1,
-                "type": "OpMem",
-                "color": "red"
-            }
-        ],
-        "22": {
+        "21": {
             "0": {
-                "code": "EW06-0Sun",
-                "rank": 2.1,
+                "code": "EW07-Ascension",
+                "rank": 2,
+                "type": "Solemnity",
                 "color": "white"
             },
             "other": [
                 {
-                    "code": "Saint Rita of Cascia",
+                    "code": "Saint Christopher Magallanes and companions, martyrs",
                     "rank": 12.1,
                     "type": "OpMem",
-                    "color": "white"
+                    "color": "red"
                 }
             ]
         },
+        "22": [
+            {
+                "code": "EW07-1Mon",
+                "rank": 12.4,
+                "color": "white"
+            },
+            {
+                "code": "Saint Rita of Cascia",
+                "rank": 12.1,
+                "type": "OpMem",
+                "color": "white"
+            }
+        ],
         "23": [
             {
-                "code": "EW06-1Mon",
+                "code": "EW07-2Tue",
                 "rank": 12.4,
                 "color": "white"
             }
         ],
         "24": [
             {
-                "code": "EW06-2Tue",
+                "code": "EW07-3Wed",
                 "rank": 12.4,
                 "color": "white"
             }
         ],
         "25": [
             {
-                "code": "EW06-3Wed",
+                "code": "EW07-4Thu",
                 "rank": 12.4,
                 "color": "white"
             },
@@ -1553,7 +1530,7 @@
         ],
         "26": [
             {
-                "code": "EW06-4Thu",
+                "code": "EW07-5Fri",
                 "rank": 12.4,
                 "color": "white"
             },
@@ -1566,7 +1543,7 @@
         ],
         "27": [
             {
-                "code": "EW06-5Fri",
+                "code": "EW07-6Sat",
                 "rank": 12.4,
                 "color": "white"
             },
@@ -1579,16 +1556,22 @@
         ],
         "28": [
             {
-                "code": "EW06-6Sat",
-                "rank": 12.4,
-                "color": "white"
+                "code": "EW08-Pentecost",
+                "rank": 2,
+                "type": "Solemnity",
+                "color": "red"
             }
         ],
         "29": {
             "0": {
-                "code": "EW07-Ascension",
-                "rank": 2,
-                "type": "Solemnity",
+                "code": "OW09-1Mon",
+                "rank": 12.5,
+                "color": "green"
+            },
+            "2": {
+                "code": "OW00-MaryMotherofChurch",
+                "rank": 10.1,
+                "type": "Mem-Mary",
                 "color": "white"
             },
             "other": [
@@ -1602,9 +1585,9 @@
         },
         "30": [
             {
-                "code": "EW07-1Mon",
-                "rank": 12.4,
-                "color": "white"
+                "code": "OW09-2Tue",
+                "rank": 12.5,
+                "color": "green"
             }
         ],
         "31": {
@@ -1616,9 +1599,9 @@
             },
             "other": [
                 {
-                    "code": "EW07-2Tue",
-                    "rank": 12.4,
-                    "color": "white"
+                    "code": "OW09-3Wed",
+                    "rank": 12.5,
+                    "color": "green"
                 }
             ]
         }
@@ -1626,9 +1609,9 @@
     "6": {
         "1": [
             {
-                "code": "EW07-3Wed",
-                "rank": 12.4,
-                "color": "white"
+                "code": "OW09-4Thu",
+                "rank": 12.5,
+                "color": "green"
             },
             {
                 "code": "Saint Justin Martyr",
@@ -1639,9 +1622,9 @@
         ],
         "2": [
             {
-                "code": "EW07-4Thu",
-                "rank": 12.4,
-                "color": "white"
+                "code": "OW09-5Fri",
+                "rank": 12.5,
+                "color": "green"
             },
             {
                 "code": "Saints Marcellinus and Peter, martyrs",
@@ -1652,9 +1635,9 @@
         ],
         "3": [
             {
-                "code": "EW07-5Fri",
-                "rank": 12.4,
-                "color": "white"
+                "code": "OW09-6Sat",
+                "rank": 12.5,
+                "color": "green"
             },
             {
                 "code": "Saints Charles Lwanga and companions, martyrs",
@@ -1665,71 +1648,64 @@
         ],
         "4": [
             {
-                "code": "EW07-6Sat",
-                "rank": 12.4,
+                "code": "OW00-Trinity",
+                "rank": 3.1,
+                "type": "Solemnity",
                 "color": "white"
             }
         ],
-        "5": {
-            "0": {
-                "code": "EW08-Pentecost",
-                "rank": 2,
-                "type": "Solemnity",
-                "color": "red"
-            },
-            "other": [
-                {
-                    "code": "Saint Boniface, bishop and martyr",
-                    "rank": 10.2,
-                    "type": "Mem",
-                    "color": "red"
-                }
-            ]
-        },
-        "6": {
-            "0": {
+        "5": [
+            {
                 "code": "OW10-1Mon",
                 "rank": 12.5,
                 "color": "green"
             },
-            "2": {
-                "code": "OW00-MaryMotherofChurch",
-                "rank": 10.1,
-                "type": "Mem-Mary",
+            {
+                "code": "Saint Boniface, bishop and martyr",
+                "rank": 10.2,
+                "type": "Mem",
+                "color": "red"
+            }
+        ],
+        "6": [
+            {
+                "code": "OW10-2Tue",
+                "rank": 12.5,
+                "color": "green"
+            },
+            {
+                "code": "Saint Norbert, bishop",
+                "rank": 12.1,
+                "type": "OpMem",
+                "color": "white"
+            }
+        ],
+        "7": [
+            {
+                "code": "OW10-3Wed",
+                "rank": 12.5,
+                "color": "green"
+            }
+        ],
+        "8": {
+            "0": {
+                "code": "OW00-CorpusChristi",
+                "rank": 3.1,
+                "type": "Solemnity",
                 "color": "white"
             },
             "other": [
                 {
-                    "code": "Saint Norbert, bishop",
+                    "code": "IN Blessed Maria Theresa Chiramel, virgin",
                     "rank": 12.1,
                     "type": "OpMem",
                     "color": "white"
                 }
             ]
         },
-        "7": [
-            {
-                "code": "OW10-2Tue",
-                "rank": 12.5,
-                "color": "green"
-            }
-        ],
-        "8": [
-            {
-                "code": "OW10-3Wed",
-                "rank": 12.5,
-                "color": "green"
-            },
-            {
-                "code": "IN Blessed Maria Theresa Chiramel, virgin",
-                "rank": 12.1,
-                "type": "OpMem",
-                "color": "white"
-            }
-        ],
         "9": [
             {
-                "code": "OW10-4Thu",
+                "code": "OW10-5Fri",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -1742,35 +1718,42 @@
         ],
         "10": [
             {
-                "code": "OW10-5Fri",
-                "rank": 12.5,
-                "color": "green"
-            }
-        ],
-        "11": [
-            {
                 "code": "OW10-6Sat",
                 "rank": 12.5,
                 "color": "green"
             },
             {
-                "code": "Saint Barnabas the Apostle",
-                "rank": 10.2,
-                "type": "Mem",
-                "color": "red"
+                "code": "Mem-Mary-Sat",
+                "rank": 10.3,
+                "type": "Mem-Mary-Sat",
+                "color": "white"
             }
         ],
+        "11": {
+            "0": {
+                "code": "OW11-0Sun",
+                "rank": 6,
+                "color": "green"
+            },
+            "other": [
+                {
+                    "code": "Saint Barnabas the Apostle",
+                    "rank": 10.2,
+                    "type": "Mem",
+                    "color": "red"
+                }
+            ]
+        },
         "12": [
             {
-                "code": "OW00-Trinity",
-                "rank": 3.1,
-                "type": "Solemnity",
-                "color": "white"
+                "code": "OW11-1Mon",
+                "rank": 12.5,
+                "color": "green"
             }
         ],
         "13": [
             {
-                "code": "OW11-1Mon",
+                "code": "OW11-2Tue",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -1783,21 +1766,21 @@
         ],
         "14": [
             {
-                "code": "OW11-2Tue",
+                "code": "OW11-3Wed",
                 "rank": 12.5,
                 "color": "green"
             }
         ],
         "15": [
             {
-                "code": "OW11-3Wed",
+                "code": "OW11-4Thu",
                 "rank": 12.5,
                 "color": "green"
             }
         ],
         "16": [
             {
-                "code": "OW00-CorpusChristi",
+                "code": "OW00-SacredHeart",
                 "rank": 3.1,
                 "type": "Solemnity",
                 "color": "white"
@@ -1805,49 +1788,47 @@
         ],
         "17": [
             {
-                "code": "OW11-5Fri",
-                "rank": 12.5,
-                "color": "green"
-            }
-        ],
-        "18": [
-            {
                 "code": "OW11-6Sat",
                 "rank": 12.5,
                 "color": "green"
             },
             {
-                "code": "Mem-Mary-Sat",
-                "rank": 10.3,
-                "type": "Mem-Mary-Sat",
+                "code": "OW00-ImmaculateHeart",
+                "rank": 10.1,
+                "type": "Mem-Mary",
                 "color": "white"
             }
         ],
-        "19": {
-            "0": {
+        "18": [
+            {
                 "code": "OW12-0Sun",
                 "rank": 6,
                 "color": "green"
-            },
-            "other": [
-                {
-                    "code": "Saint Romuald, abbot",
-                    "rank": 12.1,
-                    "type": "OpMem",
-                    "color": "white"
-                }
-            ]
-        },
-        "20": [
+            }
+        ],
+        "19": [
             {
                 "code": "OW12-1Mon",
+                "rank": 12.5,
+                "color": "green"
+            },
+            {
+                "code": "Saint Romuald, abbot",
+                "rank": 12.1,
+                "type": "OpMem",
+                "color": "white"
+            }
+        ],
+        "20": [
+            {
+                "code": "OW12-2Tue",
                 "rank": 12.5,
                 "color": "green"
             }
         ],
         "21": [
             {
-                "code": "OW12-2Tue",
+                "code": "OW12-3Wed",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -1860,7 +1841,7 @@
         ],
         "22": [
             {
-                "code": "OW12-3Wed",
+                "code": "OW12-4Thu",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -1877,7 +1858,14 @@
                 "color": "red"
             }
         ],
-        "23": {
+        "23": [
+            {
+                "code": "OW12-5Fri",
+                "rank": 12.5,
+                "color": "green"
+            }
+        ],
+        "24": {
             "0": {
                 "code": "Birth of Saint John the Baptist",
                 "rank": 3.1,
@@ -1886,43 +1874,29 @@
             },
             "other": [
                 {
-                    "code": "OW12-4Thu",
+                    "code": "OW12-6Sat",
                     "rank": 12.5,
                     "color": "green"
                 }
             ]
         },
-        "24": [
-            {
-                "code": "OW00-SacredHeart",
-                "rank": 3.1,
-                "type": "Solemnity",
-                "color": "white"
-            }
-        ],
         "25": [
-            {
-                "code": "OW12-6Sat",
-                "rank": 12.5,
-                "color": "green"
-            },
-            {
-                "code": "OW00-ImmaculateHeart",
-                "rank": 10.1,
-                "type": "Mem-Mary",
-                "color": "white"
-            }
-        ],
-        "26": [
             {
                 "code": "OW13-0Sun",
                 "rank": 6,
                 "color": "green"
             }
         ],
-        "27": [
+        "26": [
             {
                 "code": "OW13-1Mon",
+                "rank": 12.5,
+                "color": "green"
+            }
+        ],
+        "27": [
+            {
+                "code": "OW13-2Tue",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -1935,7 +1909,7 @@
         ],
         "28": [
             {
-                "code": "OW13-2Tue",
+                "code": "OW13-3Wed",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -1955,7 +1929,7 @@
             },
             "other": [
                 {
-                    "code": "OW13-3Wed",
+                    "code": "OW13-4Thu",
                     "rank": 12.5,
                     "color": "green"
                 }
@@ -1963,7 +1937,7 @@
         },
         "30": [
             {
-                "code": "OW13-4Thu",
+                "code": "OW13-5Fri",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -1978,13 +1952,6 @@
     "7": {
         "1": [
             {
-                "code": "OW13-5Fri",
-                "rank": 12.5,
-                "color": "green"
-            }
-        ],
-        "2": [
-            {
                 "code": "OW13-6Sat",
                 "rank": 12.5,
                 "color": "green"
@@ -1996,6 +1963,13 @@
                 "color": "white"
             }
         ],
+        "2": [
+            {
+                "code": "OW14-0Sun",
+                "rank": 6,
+                "color": "green"
+            }
+        ],
         "3": {
             "0": {
                 "code": "IN Saint Thomas the Apostle",
@@ -2005,21 +1979,21 @@
             },
             "other": [
                 {
-                    "code": "OW14-0Sun",
-                    "rank": 6,
-                    "color": "green"
-                },
-                {
                     "code": "Saint Thomas the Apostle",
                     "rank": 7,
                     "type": "Feast",
                     "color": "red"
+                },
+                {
+                    "code": "OW14-1Mon",
+                    "rank": 12.5,
+                    "color": "green"
                 }
             ]
         },
         "4": [
             {
-                "code": "OW14-1Mon",
+                "code": "OW14-2Tue",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -2032,7 +2006,7 @@
         ],
         "5": [
             {
-                "code": "OW14-2Tue",
+                "code": "OW14-3Wed",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -2045,7 +2019,7 @@
         ],
         "6": [
             {
-                "code": "OW14-3Wed",
+                "code": "OW14-4Thu",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -2058,41 +2032,49 @@
         ],
         "7": [
             {
-                "code": "OW14-4Thu",
+                "code": "OW14-5Fri",
                 "rank": 12.5,
                 "color": "green"
             }
         ],
         "8": [
             {
-                "code": "OW14-5Fri",
-                "rank": 12.5,
-                "color": "green"
-            }
-        ],
-        "9": [
-            {
                 "code": "OW14-6Sat",
                 "rank": 12.5,
                 "color": "green"
             },
             {
-                "code": "Saint Augustine Zhao Rong and companions, martyrs",
-                "rank": 12.1,
-                "type": "OpMem",
-                "color": "red"
+                "code": "Mem-Mary-Sat",
+                "rank": 10.3,
+                "type": "Mem-Mary-Sat",
+                "color": "white"
             }
         ],
-        "10": [
-            {
+        "9": {
+            "0": {
                 "code": "OW15-0Sun",
                 "rank": 6,
+                "color": "green"
+            },
+            "other": [
+                {
+                    "code": "Saint Augustine Zhao Rong and companions, martyrs",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "color": "red"
+                }
+            ]
+        },
+        "10": [
+            {
+                "code": "OW15-1Mon",
+                "rank": 12.5,
                 "color": "green"
             }
         ],
         "11": [
             {
-                "code": "OW15-1Mon",
+                "code": "OW15-2Tue",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -2105,14 +2087,14 @@
         ],
         "12": [
             {
-                "code": "OW15-2Tue",
+                "code": "OW15-3Wed",
                 "rank": 12.5,
                 "color": "green"
             }
         ],
         "13": [
             {
-                "code": "OW15-3Wed",
+                "code": "OW15-4Thu",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -2125,7 +2107,7 @@
         ],
         "14": [
             {
-                "code": "OW15-4Thu",
+                "code": "OW15-5Fri",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -2138,7 +2120,7 @@
         ],
         "15": [
             {
-                "code": "OW15-5Fri",
+                "code": "OW15-6Sat",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -2149,43 +2131,45 @@
                 "color": "white"
             }
         ],
-        "16": [
-            {
-                "code": "OW15-6Sat",
-                "rank": 12.5,
-                "color": "green"
-            },
-            {
-                "code": "Our Lady of Mount Carmel",
-                "rank": 12.1,
-                "type": "OpMem",
-                "color": "white"
-            }
-        ],
-        "17": [
-            {
+        "16": {
+            "0": {
                 "code": "OW16-0Sun",
                 "rank": 6,
                 "color": "green"
-            }
-        ],
-        "18": [
+            },
+            "other": [
+                {
+                    "code": "Our Lady of Mount Carmel",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "color": "white"
+                }
+            ]
+        },
+        "17": [
             {
                 "code": "OW16-1Mon",
                 "rank": 12.5,
                 "color": "green"
             }
         ],
-        "19": [
+        "18": [
             {
                 "code": "OW16-2Tue",
                 "rank": 12.5,
                 "color": "green"
             }
         ],
-        "20": [
+        "19": [
             {
                 "code": "OW16-3Wed",
+                "rank": 12.5,
+                "color": "green"
+            }
+        ],
+        "20": [
+            {
+                "code": "OW16-4Thu",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -2198,7 +2182,7 @@
         ],
         "21": [
             {
-                "code": "OW16-4Thu",
+                "code": "OW16-5Fri",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -2218,26 +2202,13 @@
             },
             "other": [
                 {
-                    "code": "OW16-5Fri",
+                    "code": "OW16-6Sat",
                     "rank": 12.5,
                     "color": "green"
                 }
             ]
         },
-        "23": [
-            {
-                "code": "OW16-6Sat",
-                "rank": 12.5,
-                "color": "green"
-            },
-            {
-                "code": "Saint Birgitta, religious",
-                "rank": 12.1,
-                "type": "OpMem",
-                "color": "white"
-            }
-        ],
-        "24": {
+        "23": {
             "0": {
                 "code": "OW17-0Sun",
                 "rank": 6,
@@ -2245,13 +2216,26 @@
             },
             "other": [
                 {
-                    "code": "Saint Sharbel Makhluf, hermit",
+                    "code": "Saint Birgitta, religious",
                     "rank": 12.1,
                     "type": "OpMem",
                     "color": "white"
                 }
             ]
         },
+        "24": [
+            {
+                "code": "OW17-1Mon",
+                "rank": 12.5,
+                "color": "green"
+            },
+            {
+                "code": "Saint Sharbel Makhluf, hermit",
+                "rank": 12.1,
+                "type": "OpMem",
+                "color": "white"
+            }
+        ],
         "25": {
             "0": {
                 "code": "Saint James, apostle",
@@ -2261,7 +2245,7 @@
             },
             "other": [
                 {
-                    "code": "OW17-1Mon",
+                    "code": "OW17-2Tue",
                     "rank": 12.5,
                     "color": "green"
                 }
@@ -2269,7 +2253,7 @@
         },
         "26": [
             {
-                "code": "OW17-2Tue",
+                "code": "OW17-3Wed",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -2282,14 +2266,14 @@
         ],
         "27": [
             {
-                "code": "OW17-3Wed",
+                "code": "OW17-4Thu",
                 "rank": 12.5,
                 "color": "green"
             }
         ],
         "28": [
             {
-                "code": "OW17-4Thu",
+                "code": "OW17-5Fri",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -2302,7 +2286,7 @@
         ],
         "29": [
             {
-                "code": "OW17-5Fri",
+                "code": "OW17-6Sat",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -2313,20 +2297,7 @@
                 "color": "white"
             }
         ],
-        "30": [
-            {
-                "code": "OW17-6Sat",
-                "rank": 12.5,
-                "color": "green"
-            },
-            {
-                "code": "Saint Peter Chrysologus, bishop and doctor",
-                "rank": 12.1,
-                "type": "OpMem",
-                "color": "white"
-            }
-        ],
-        "31": {
+        "30": {
             "0": {
                 "code": "OW18-0Sun",
                 "rank": 6,
@@ -2334,18 +2305,31 @@
             },
             "other": [
                 {
-                    "code": "Saint Ignatius of Loyola, priest",
-                    "rank": 10.2,
-                    "type": "Mem",
+                    "code": "Saint Peter Chrysologus, bishop and doctor",
+                    "rank": 12.1,
+                    "type": "OpMem",
                     "color": "white"
                 }
             ]
-        }
+        },
+        "31": [
+            {
+                "code": "OW18-1Mon",
+                "rank": 12.5,
+                "color": "green"
+            },
+            {
+                "code": "Saint Ignatius of Loyola, priest",
+                "rank": 10.2,
+                "type": "Mem",
+                "color": "white"
+            }
+        ]
     },
     "8": {
         "1": [
             {
-                "code": "OW18-1Mon",
+                "code": "OW18-2Tue",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -2358,7 +2342,7 @@
         ],
         "2": [
             {
-                "code": "OW18-2Tue",
+                "code": "OW18-3Wed",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -2377,14 +2361,14 @@
         ],
         "3": [
             {
-                "code": "OW18-3Wed",
+                "code": "OW18-4Thu",
                 "rank": 12.5,
                 "color": "green"
             }
         ],
         "4": [
             {
-                "code": "OW18-4Thu",
+                "code": "OW18-5Fri",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -2397,7 +2381,7 @@
         ],
         "5": [
             {
-                "code": "OW18-5Fri",
+                "code": "OW18-6Sat",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -2417,36 +2401,34 @@
             },
             "other": [
                 {
-                    "code": "OW18-6Sat",
-                    "rank": 12.5,
+                    "code": "OW19-0Sun",
+                    "rank": 6,
                     "color": "green"
                 }
             ]
         },
-        "7": {
-            "0": {
-                "code": "OW19-0Sun",
-                "rank": 6,
-                "color": "green"
-            },
-            "other": [
-                {
-                    "code": "Saint Cajetan, priest",
-                    "rank": 12.1,
-                    "type": "OpMem",
-                    "color": "white"
-                },
-                {
-                    "code": "Saint Sixtus II, pope, and companions, martyrs",
-                    "rank": 12.1,
-                    "type": "OpMem",
-                    "color": "red"
-                }
-            ]
-        },
-        "8": [
+        "7": [
             {
                 "code": "OW19-1Mon",
+                "rank": 12.5,
+                "color": "green"
+            },
+            {
+                "code": "Saint Cajetan, priest",
+                "rank": 12.1,
+                "type": "OpMem",
+                "color": "white"
+            },
+            {
+                "code": "Saint Sixtus II, pope, and companions, martyrs",
+                "rank": 12.1,
+                "type": "OpMem",
+                "color": "red"
+            }
+        ],
+        "8": [
+            {
+                "code": "OW19-2Tue",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -2459,7 +2441,7 @@
         ],
         "9": [
             {
-                "code": "OW19-2Tue",
+                "code": "OW19-3Wed",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -2479,7 +2461,7 @@
             },
             "other": [
                 {
-                    "code": "OW19-3Wed",
+                    "code": "OW19-4Thu",
                     "rank": 12.5,
                     "color": "green"
                 }
@@ -2487,7 +2469,7 @@
         },
         "11": [
             {
-                "code": "OW19-4Thu",
+                "code": "OW19-5Fri",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -2500,7 +2482,7 @@
         ],
         "12": [
             {
-                "code": "OW19-5Fri",
+                "code": "OW19-6Sat",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -2511,20 +2493,7 @@
                 "color": "white"
             }
         ],
-        "13": [
-            {
-                "code": "OW19-6Sat",
-                "rank": 12.5,
-                "color": "green"
-            },
-            {
-                "code": "Saints Pontian, pope, and Hippolytus, priest, martyrs",
-                "rank": 12.1,
-                "type": "OpMem",
-                "color": "red"
-            }
-        ],
-        "14": {
+        "13": {
             "0": {
                 "code": "OW20-0Sun",
                 "rank": 6,
@@ -2532,13 +2501,26 @@
             },
             "other": [
                 {
-                    "code": "Saint Maximilian Mary Kolbe, priest and martyr",
-                    "rank": 10.2,
-                    "type": "Mem",
+                    "code": "Saints Pontian, pope, and Hippolytus, priest, martyrs",
+                    "rank": 12.1,
+                    "type": "OpMem",
                     "color": "red"
                 }
             ]
         },
+        "14": [
+            {
+                "code": "OW20-1Mon",
+                "rank": 12.5,
+                "color": "green"
+            },
+            {
+                "code": "Saint Maximilian Mary Kolbe, priest and martyr",
+                "rank": 10.2,
+                "type": "Mem",
+                "color": "red"
+            }
+        ],
         "15": {
             "0": {
                 "code": "Assumption of the Blessed Virgin Mary",
@@ -2548,7 +2530,7 @@
             },
             "other": [
                 {
-                    "code": "OW20-1Mon",
+                    "code": "OW20-2Tue",
                     "rank": 12.5,
                     "color": "green"
                 }
@@ -2556,7 +2538,7 @@
         },
         "16": [
             {
-                "code": "OW20-2Tue",
+                "code": "OW20-3Wed",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -2569,21 +2551,21 @@
         ],
         "17": [
             {
-                "code": "OW20-3Wed",
+                "code": "OW20-4Thu",
                 "rank": 12.5,
                 "color": "green"
             }
         ],
         "18": [
             {
-                "code": "OW20-4Thu",
+                "code": "OW20-5Fri",
                 "rank": 12.5,
                 "color": "green"
             }
         ],
         "19": [
             {
-                "code": "OW20-5Fri",
+                "code": "OW20-6Sat",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -2594,20 +2576,7 @@
                 "color": "white"
             }
         ],
-        "20": [
-            {
-                "code": "OW20-6Sat",
-                "rank": 12.5,
-                "color": "green"
-            },
-            {
-                "code": "Saint Bernard of Clairvaux, abbot and doctor of the Church",
-                "rank": 10.2,
-                "type": "Mem",
-                "color": "white"
-            }
-        ],
-        "21": {
+        "20": {
             "0": {
                 "code": "OW21-0Sun",
                 "rank": 6,
@@ -2615,16 +2584,29 @@
             },
             "other": [
                 {
-                    "code": "Saint Pius X, pope",
+                    "code": "Saint Bernard of Clairvaux, abbot and doctor of the Church",
                     "rank": 10.2,
                     "type": "Mem",
                     "color": "white"
                 }
             ]
         },
-        "22": [
+        "21": [
             {
                 "code": "OW21-1Mon",
+                "rank": 12.5,
+                "color": "green"
+            },
+            {
+                "code": "Saint Pius X, pope",
+                "rank": 10.2,
+                "type": "Mem",
+                "color": "white"
+            }
+        ],
+        "22": [
+            {
+                "code": "OW21-2Tue",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -2637,7 +2619,7 @@
         ],
         "23": [
             {
-                "code": "OW21-2Tue",
+                "code": "OW21-3Wed",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -2657,7 +2639,7 @@
             },
             "other": [
                 {
-                    "code": "OW21-3Wed",
+                    "code": "OW21-4Thu",
                     "rank": 12.5,
                     "color": "green"
                 }
@@ -2665,7 +2647,7 @@
         },
         "25": [
             {
-                "code": "OW21-4Thu",
+                "code": "OW21-5Fri",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -2684,25 +2666,18 @@
         ],
         "26": [
             {
-                "code": "OW21-5Fri",
-                "rank": 12.5,
-                "color": "green"
-            }
-        ],
-        "27": [
-            {
                 "code": "OW21-6Sat",
                 "rank": 12.5,
                 "color": "green"
             },
             {
-                "code": "Saint Monica",
-                "rank": 10.2,
-                "type": "Mem",
+                "code": "Mem-Mary-Sat",
+                "rank": 10.3,
+                "type": "Mem-Mary-Sat",
                 "color": "white"
             }
         ],
-        "28": {
+        "27": {
             "0": {
                 "code": "OW22-0Sun",
                 "rank": 6,
@@ -2710,16 +2685,29 @@
             },
             "other": [
                 {
-                    "code": "Saint Augustine of Hippo, bishop and doctor of the Church",
+                    "code": "Saint Monica",
                     "rank": 10.2,
                     "type": "Mem",
                     "color": "white"
                 }
             ]
         },
-        "29": [
+        "28": [
             {
                 "code": "OW22-1Mon",
+                "rank": 12.5,
+                "color": "green"
+            },
+            {
+                "code": "Saint Augustine of Hippo, bishop and doctor of the Church",
+                "rank": 10.2,
+                "type": "Mem",
+                "color": "white"
+            }
+        ],
+        "29": [
+            {
+                "code": "OW22-2Tue",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -2732,7 +2720,7 @@
         ],
         "30": [
             {
-                "code": "OW22-2Tue",
+                "code": "OW22-3Wed",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -2745,7 +2733,7 @@
         ],
         "31": [
             {
-                "code": "OW22-3Wed",
+                "code": "OW22-4Thu",
                 "rank": 12.5,
                 "color": "green"
             }
@@ -2754,41 +2742,49 @@
     "9": {
         "1": [
             {
-                "code": "OW22-4Thu",
+                "code": "OW22-5Fri",
                 "rank": 12.5,
                 "color": "green"
             }
         ],
         "2": [
             {
-                "code": "OW22-5Fri",
-                "rank": 12.5,
-                "color": "green"
-            }
-        ],
-        "3": [
-            {
                 "code": "OW22-6Sat",
                 "rank": 12.5,
                 "color": "green"
             },
             {
-                "code": "Saint Gregory the Great, pope and doctor",
-                "rank": 10.2,
-                "type": "Mem",
+                "code": "Mem-Mary-Sat",
+                "rank": 10.3,
+                "type": "Mem-Mary-Sat",
                 "color": "white"
             }
         ],
-        "4": [
-            {
+        "3": {
+            "0": {
                 "code": "OW23-0Sun",
                 "rank": 6,
+                "color": "green"
+            },
+            "other": [
+                {
+                    "code": "Saint Gregory the Great, pope and doctor",
+                    "rank": 10.2,
+                    "type": "Mem",
+                    "color": "white"
+                }
+            ]
+        },
+        "4": [
+            {
+                "code": "OW23-1Mon",
+                "rank": 12.5,
                 "color": "green"
             }
         ],
         "5": [
             {
-                "code": "OW23-1Mon",
+                "code": "OW23-2Tue",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -2801,14 +2797,14 @@
         ],
         "6": [
             {
-                "code": "OW23-2Tue",
+                "code": "OW23-3Wed",
                 "rank": 12.5,
                 "color": "green"
             }
         ],
         "7": [
             {
-                "code": "OW23-3Wed",
+                "code": "OW23-4Thu",
                 "rank": 12.5,
                 "color": "green"
             }
@@ -2822,7 +2818,7 @@
             },
             "other": [
                 {
-                    "code": "OW23-4Thu",
+                    "code": "OW23-5Fri",
                     "rank": 12.5,
                     "color": "green"
                 }
@@ -2830,7 +2826,7 @@
         },
         "9": [
             {
-                "code": "OW23-5Fri",
+                "code": "OW23-6Sat",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -2843,27 +2839,21 @@
         ],
         "10": [
             {
-                "code": "OW23-6Sat",
-                "rank": 12.5,
-                "color": "green"
-            },
-            {
-                "code": "Mem-Mary-Sat",
-                "rank": 10.3,
-                "type": "Mem-Mary-Sat",
-                "color": "white"
-            }
-        ],
-        "11": [
-            {
                 "code": "OW24-0Sun",
                 "rank": 6,
                 "color": "green"
             }
         ],
-        "12": [
+        "11": [
             {
                 "code": "OW24-1Mon",
+                "rank": 12.5,
+                "color": "green"
+            }
+        ],
+        "12": [
+            {
+                "code": "OW24-2Tue",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -2876,7 +2866,7 @@
         ],
         "13": [
             {
-                "code": "OW24-2Tue",
+                "code": "OW24-3Wed",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -2896,7 +2886,7 @@
             },
             "other": [
                 {
-                    "code": "OW24-3Wed",
+                    "code": "OW24-4Thu",
                     "rank": 12.5,
                     "color": "green"
                 }
@@ -2904,7 +2894,7 @@
         },
         "15": [
             {
-                "code": "OW24-4Thu",
+                "code": "OW24-5Fri",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -2917,7 +2907,7 @@
         ],
         "16": [
             {
-                "code": "OW24-5Fri",
+                "code": "OW24-6Sat",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -2928,35 +2918,37 @@
                 "color": "red"
             }
         ],
-        "17": [
-            {
-                "code": "OW24-6Sat",
-                "rank": 12.5,
-                "color": "green"
-            },
-            {
-                "code": "Saint Hildegard of Bingen, Virgin and Doctor",
-                "rank": 12.1,
-                "type": "OpMem",
-                "color": "white"
-            },
-            {
-                "code": "Saint Robert Bellarmine, bishop and doctor",
-                "rank": 12.1,
-                "type": "OpMem",
-                "color": "white"
-            }
-        ],
-        "18": [
-            {
+        "17": {
+            "0": {
                 "code": "OW25-0Sun",
                 "rank": 6,
+                "color": "green"
+            },
+            "other": [
+                {
+                    "code": "Saint Hildegard of Bingen, Virgin and Doctor",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "color": "white"
+                },
+                {
+                    "code": "Saint Robert Bellarmine, bishop and doctor",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "color": "white"
+                }
+            ]
+        },
+        "18": [
+            {
+                "code": "OW25-1Mon",
+                "rank": 12.5,
                 "color": "green"
             }
         ],
         "19": [
             {
-                "code": "OW25-1Mon",
+                "code": "OW25-2Tue",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -2969,7 +2961,7 @@
         ],
         "20": [
             {
-                "code": "OW25-2Tue",
+                "code": "OW25-3Wed",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -2989,7 +2981,7 @@
             },
             "other": [
                 {
-                    "code": "OW25-3Wed",
+                    "code": "OW25-4Thu",
                     "rank": 12.5,
                     "color": "green"
                 }
@@ -2997,14 +2989,14 @@
         },
         "22": [
             {
-                "code": "OW25-4Thu",
+                "code": "OW25-5Fri",
                 "rank": 12.5,
                 "color": "green"
             }
         ],
         "23": [
             {
-                "code": "OW25-5Fri",
+                "code": "OW25-6Sat",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -3017,27 +3009,21 @@
         ],
         "24": [
             {
-                "code": "OW25-6Sat",
-                "rank": 12.5,
-                "color": "green"
-            },
-            {
-                "code": "Mem-Mary-Sat",
-                "rank": 10.3,
-                "type": "Mem-Mary-Sat",
-                "color": "white"
-            }
-        ],
-        "25": [
-            {
                 "code": "OW26-0Sun",
                 "rank": 6,
                 "color": "green"
             }
         ],
-        "26": [
+        "25": [
             {
                 "code": "OW26-1Mon",
+                "rank": 12.5,
+                "color": "green"
+            }
+        ],
+        "26": [
+            {
+                "code": "OW26-2Tue",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -3050,7 +3036,7 @@
         ],
         "27": [
             {
-                "code": "OW26-2Tue",
+                "code": "OW26-3Wed",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -3063,7 +3049,7 @@
         ],
         "28": [
             {
-                "code": "OW26-3Wed",
+                "code": "OW26-4Thu",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -3089,7 +3075,7 @@
             },
             "other": [
                 {
-                    "code": "OW26-4Thu",
+                    "code": "OW26-5Fri",
                     "rank": 12.5,
                     "color": "green"
                 }
@@ -3097,7 +3083,7 @@
         },
         "30": [
             {
-                "code": "OW26-5Fri",
+                "code": "OW26-6Sat",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -3110,20 +3096,7 @@
         ]
     },
     "10": {
-        "1": [
-            {
-                "code": "OW26-6Sat",
-                "rank": 12.5,
-                "color": "green"
-            },
-            {
-                "code": "Saint Thérèse of the Child Jesus, virgin and doctor",
-                "rank": 10.2,
-                "type": "Mem",
-                "color": "white"
-            }
-        ],
-        "2": {
+        "1": {
             "0": {
                 "code": "OW27-0Sun",
                 "rank": 6,
@@ -3131,23 +3104,36 @@
             },
             "other": [
                 {
-                    "code": "Guardian Angels",
+                    "code": "Saint Thérèse of the Child Jesus, virgin and doctor",
                     "rank": 10.2,
                     "type": "Mem",
                     "color": "white"
                 }
             ]
         },
-        "3": [
+        "2": [
             {
                 "code": "OW27-1Mon",
+                "rank": 12.5,
+                "color": "green"
+            },
+            {
+                "code": "Guardian Angels",
+                "rank": 10.2,
+                "type": "Mem",
+                "color": "white"
+            }
+        ],
+        "3": [
+            {
+                "code": "OW27-2Tue",
                 "rank": 12.5,
                 "color": "green"
             }
         ],
         "4": [
             {
-                "code": "OW27-2Tue",
+                "code": "OW27-3Wed",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -3160,7 +3146,7 @@
         ],
         "5": [
             {
-                "code": "OW27-3Wed",
+                "code": "OW27-4Thu",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -3173,7 +3159,7 @@
         ],
         "6": [
             {
-                "code": "OW27-4Thu",
+                "code": "OW27-5Fri",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -3186,7 +3172,7 @@
         ],
         "7": [
             {
-                "code": "OW27-5Fri",
+                "code": "OW27-6Sat",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -3199,48 +3185,40 @@
         ],
         "8": [
             {
-                "code": "OW27-6Sat",
+                "code": "OW28-0Sun",
+                "rank": 6,
+                "color": "green"
+            }
+        ],
+        "9": [
+            {
+                "code": "OW28-1Mon",
                 "rank": 12.5,
                 "color": "green"
             },
             {
-                "code": "Mem-Mary-Sat",
-                "rank": 10.3,
-                "type": "Mem-Mary-Sat",
+                "code": "Saint Denis and companions, martyrs",
+                "rank": 12.1,
+                "type": "OpMem",
+                "color": "red"
+            },
+            {
+                "code": "Saint John Leonardi, priest",
+                "rank": 12.1,
+                "type": "OpMem",
                 "color": "white"
             }
         ],
-        "9": {
-            "0": {
-                "code": "OW28-0Sun",
-                "rank": 6,
-                "color": "green"
-            },
-            "other": [
-                {
-                    "code": "Saint Denis and companions, martyrs",
-                    "rank": 12.1,
-                    "type": "OpMem",
-                    "color": "red"
-                },
-                {
-                    "code": "Saint John Leonardi, priest",
-                    "rank": 12.1,
-                    "type": "OpMem",
-                    "color": "white"
-                }
-            ]
-        },
         "10": [
             {
-                "code": "OW28-1Mon",
+                "code": "OW28-2Tue",
                 "rank": 12.5,
                 "color": "green"
             }
         ],
         "11": [
             {
-                "code": "OW28-2Tue",
+                "code": "OW28-3Wed",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -3253,21 +3231,21 @@
         ],
         "12": [
             {
-                "code": "OW28-3Wed",
+                "code": "OW28-4Thu",
                 "rank": 12.5,
                 "color": "green"
             }
         ],
         "13": [
             {
-                "code": "OW28-4Thu",
+                "code": "OW28-5Fri",
                 "rank": 12.5,
                 "color": "green"
             }
         ],
         "14": [
             {
-                "code": "OW28-5Fri",
+                "code": "OW28-6Sat",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -3278,20 +3256,7 @@
                 "color": "red"
             }
         ],
-        "15": [
-            {
-                "code": "OW28-6Sat",
-                "rank": 12.5,
-                "color": "green"
-            },
-            {
-                "code": "Saint Teresa of Jesus, virgin and doctor",
-                "rank": 10.2,
-                "type": "Mem",
-                "color": "white"
-            }
-        ],
-        "16": {
+        "15": {
             "0": {
                 "code": "OW29-0Sun",
                 "rank": 6,
@@ -3299,28 +3264,41 @@
             },
             "other": [
                 {
-                    "code": "Saint Hedwig, religious",
-                    "rank": 12.1,
-                    "type": "OpMem",
-                    "color": "white"
-                },
-                {
-                    "code": "Saint Margaret Mary Alacoque, virgin",
-                    "rank": 12.1,
-                    "type": "OpMem",
-                    "color": "white"
-                },
-                {
-                    "code": "IN Blessed Augustine Thevarparambil, priest",
-                    "rank": 12.1,
-                    "type": "OpMem",
+                    "code": "Saint Teresa of Jesus, virgin and doctor",
+                    "rank": 10.2,
+                    "type": "Mem",
                     "color": "white"
                 }
             ]
         },
-        "17": [
+        "16": [
             {
                 "code": "OW29-1Mon",
+                "rank": 12.5,
+                "color": "green"
+            },
+            {
+                "code": "Saint Hedwig, religious",
+                "rank": 12.1,
+                "type": "OpMem",
+                "color": "white"
+            },
+            {
+                "code": "Saint Margaret Mary Alacoque, virgin",
+                "rank": 12.1,
+                "type": "OpMem",
+                "color": "white"
+            },
+            {
+                "code": "IN Blessed Augustine Thevarparambil, priest",
+                "rank": 12.1,
+                "type": "OpMem",
+                "color": "white"
+            }
+        ],
+        "17": [
+            {
+                "code": "OW29-2Tue",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -3340,7 +3318,7 @@
             },
             "other": [
                 {
-                    "code": "OW29-2Tue",
+                    "code": "OW29-3Wed",
                     "rank": 12.5,
                     "color": "green"
                 }
@@ -3348,7 +3326,7 @@
         },
         "19": [
             {
-                "code": "OW29-3Wed",
+                "code": "OW29-4Thu",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -3367,32 +3345,25 @@
         ],
         "20": [
             {
-                "code": "OW29-4Thu",
+                "code": "OW29-5Fri",
                 "rank": 12.5,
                 "color": "green"
             }
         ],
         "21": [
             {
-                "code": "OW29-5Fri",
-                "rank": 12.5,
-                "color": "green"
-            }
-        ],
-        "22": [
-            {
                 "code": "OW29-6Sat",
                 "rank": 12.5,
                 "color": "green"
             },
             {
-                "code": "Saint John Paul II, pope",
-                "rank": 12.1,
-                "type": "OpMem",
+                "code": "Mem-Mary-Sat",
+                "rank": 10.3,
+                "type": "Mem-Mary-Sat",
                 "color": "white"
             }
         ],
-        "23": {
+        "22": {
             "0": {
                 "code": "OW30-0Sun",
                 "rank": 6,
@@ -3400,16 +3371,29 @@
             },
             "other": [
                 {
-                    "code": "Saint John of Capistrano, priest",
+                    "code": "Saint John Paul II, pope",
                     "rank": 12.1,
                     "type": "OpMem",
                     "color": "white"
                 }
             ]
         },
-        "24": [
+        "23": [
             {
                 "code": "OW30-1Mon",
+                "rank": 12.5,
+                "color": "green"
+            },
+            {
+                "code": "Saint John of Capistrano, priest",
+                "rank": 12.1,
+                "type": "OpMem",
+                "color": "white"
+            }
+        ],
+        "24": [
+            {
+                "code": "OW30-2Tue",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -3422,21 +3406,21 @@
         ],
         "25": [
             {
-                "code": "OW30-2Tue",
+                "code": "OW30-3Wed",
                 "rank": 12.5,
                 "color": "green"
             }
         ],
         "26": [
             {
-                "code": "OW30-3Wed",
+                "code": "OW30-4Thu",
                 "rank": 12.5,
                 "color": "green"
             }
         ],
         "27": [
             {
-                "code": "OW30-4Thu",
+                "code": "OW30-5Fri",
                 "rank": 12.5,
                 "color": "green"
             }
@@ -3450,7 +3434,7 @@
             },
             "other": [
                 {
-                    "code": "OW30-5Fri",
+                    "code": "OW30-6Sat",
                     "rank": 12.5,
                     "color": "green"
                 }
@@ -3458,27 +3442,21 @@
         },
         "29": [
             {
-                "code": "OW30-6Sat",
-                "rank": 12.5,
-                "color": "green"
-            },
-            {
-                "code": "Mem-Mary-Sat",
-                "rank": 10.3,
-                "type": "Mem-Mary-Sat",
-                "color": "white"
-            }
-        ],
-        "30": [
-            {
                 "code": "OW31-0Sun",
                 "rank": 6,
                 "color": "green"
             }
         ],
-        "31": [
+        "30": [
             {
                 "code": "OW31-1Mon",
+                "rank": 12.5,
+                "color": "green"
+            }
+        ],
+        "31": [
+            {
+                "code": "OW31-2Tue",
                 "rank": 12.5,
                 "color": "green"
             }
@@ -3494,7 +3472,7 @@
             },
             "other": [
                 {
-                    "code": "OW31-2Tue",
+                    "code": "OW31-3Wed",
                     "rank": 12.5,
                     "color": "green"
                 }
@@ -3509,7 +3487,7 @@
             },
             "other": [
                 {
-                    "code": "OW31-3Wed",
+                    "code": "OW31-4Thu",
                     "rank": 12.5,
                     "color": "green"
                 }
@@ -3517,7 +3495,7 @@
         },
         "3": [
             {
-                "code": "OW31-4Thu",
+                "code": "OW31-5Fri",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -3530,7 +3508,7 @@
         ],
         "4": [
             {
-                "code": "OW31-5Fri",
+                "code": "OW31-6Sat",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -3543,34 +3521,28 @@
         ],
         "5": [
             {
-                "code": "OW31-6Sat",
-                "rank": 12.5,
-                "color": "green"
-            },
-            {
-                "code": "Mem-Mary-Sat",
-                "rank": 10.3,
-                "type": "Mem-Mary-Sat",
-                "color": "white"
-            }
-        ],
-        "6": [
-            {
                 "code": "OW32-0Sun",
                 "rank": 6,
                 "color": "green"
             }
         ],
-        "7": [
+        "6": [
             {
                 "code": "OW32-1Mon",
                 "rank": 12.5,
                 "color": "green"
             }
         ],
-        "8": [
+        "7": [
             {
                 "code": "OW32-2Tue",
+                "rank": 12.5,
+                "color": "green"
+            }
+        ],
+        "8": [
+            {
+                "code": "OW32-3Wed",
                 "rank": 12.5,
                 "color": "green"
             }
@@ -3584,7 +3556,7 @@
             },
             "other": [
                 {
-                    "code": "OW32-3Wed",
+                    "code": "OW32-4Thu",
                     "rank": 12.5,
                     "color": "green"
                 }
@@ -3592,7 +3564,7 @@
         },
         "10": [
             {
-                "code": "OW32-4Thu",
+                "code": "OW32-5Fri",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -3605,7 +3577,7 @@
         ],
         "11": [
             {
-                "code": "OW32-5Fri",
+                "code": "OW32-6Sat",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -3616,36 +3588,38 @@
                 "color": "white"
             }
         ],
-        "12": [
-            {
-                "code": "OW32-6Sat",
-                "rank": 12.5,
-                "color": "green"
-            },
-            {
-                "code": "Saint Josaphat, bishop and martyr",
-                "rank": 10.2,
-                "type": "Mem",
-                "color": "red"
-            }
-        ],
-        "13": [
-            {
+        "12": {
+            "0": {
                 "code": "OW33-0Sun",
                 "rank": 6,
                 "color": "green"
-            }
-        ],
-        "14": [
+            },
+            "other": [
+                {
+                    "code": "Saint Josaphat, bishop and martyr",
+                    "rank": 10.2,
+                    "type": "Mem",
+                    "color": "red"
+                }
+            ]
+        },
+        "13": [
             {
                 "code": "OW33-1Mon",
                 "rank": 12.5,
                 "color": "green"
             }
         ],
-        "15": [
+        "14": [
             {
                 "code": "OW33-2Tue",
+                "rank": 12.5,
+                "color": "green"
+            }
+        ],
+        "15": [
+            {
+                "code": "OW33-3Wed",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -3658,7 +3632,7 @@
         ],
         "16": [
             {
-                "code": "OW33-3Wed",
+                "code": "OW33-4Thu",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -3677,7 +3651,7 @@
         ],
         "17": [
             {
-                "code": "OW33-4Thu",
+                "code": "OW33-5Fri",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -3690,7 +3664,7 @@
         ],
         "18": [
             {
-                "code": "OW33-5Fri",
+                "code": "OW33-6Sat",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -3703,28 +3677,22 @@
         ],
         "19": [
             {
-                "code": "OW33-6Sat",
-                "rank": 12.5,
-                "color": "green"
-            },
-            {
-                "code": "Mem-Mary-Sat",
-                "rank": 10.3,
-                "type": "Mem-Mary-Sat",
-                "color": "white"
-            }
-        ],
-        "20": [
-            {
                 "code": "OW34-0Sun",
                 "rank": 3.1,
                 "type": "Solemnity",
                 "color": "white"
             }
         ],
-        "21": [
+        "20": [
             {
                 "code": "OW34-1Mon",
+                "rank": 12.5,
+                "color": "green"
+            }
+        ],
+        "21": [
+            {
+                "code": "OW34-2Tue",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -3737,7 +3705,7 @@
         ],
         "22": [
             {
-                "code": "OW34-2Tue",
+                "code": "OW34-3Wed",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -3750,7 +3718,7 @@
         ],
         "23": [
             {
-                "code": "OW34-3Wed",
+                "code": "OW34-4Thu",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -3769,7 +3737,7 @@
         ],
         "24": [
             {
-                "code": "OW34-4Thu",
+                "code": "OW34-5Fri",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -3782,7 +3750,7 @@
         ],
         "25": [
             {
-                "code": "OW34-5Fri",
+                "code": "OW34-6Sat",
                 "rank": 12.5,
                 "color": "green"
             },
@@ -3795,34 +3763,28 @@
         ],
         "26": [
             {
-                "code": "OW34-6Sat",
-                "rank": 12.5,
-                "color": "green"
-            },
-            {
-                "code": "Mem-Mary-Sat",
-                "rank": 10.3,
-                "type": "Mem-Mary-Sat",
-                "color": "white"
-            }
-        ],
-        "27": [
-            {
                 "code": "AW01-0Sun",
                 "rank": 2.1,
                 "color": "purple"
             }
         ],
-        "28": [
+        "27": [
             {
                 "code": "AW01-1Mon",
                 "rank": 12.2,
                 "color": "purple"
             }
         ],
-        "29": [
+        "28": [
             {
                 "code": "AW01-2Tue",
+                "rank": 12.2,
+                "color": "purple"
+            }
+        ],
+        "29": [
+            {
+                "code": "AW01-3Wed",
                 "rank": 12.2,
                 "color": "purple"
             }
@@ -3836,7 +3798,7 @@
             },
             "other": [
                 {
-                    "code": "AW01-3Wed",
+                    "code": "AW01-4Thu",
                     "rank": 12.2,
                     "color": "purple"
                 }
@@ -3846,31 +3808,31 @@
     "12": {
         "1": [
             {
-                "code": "AW01-4Thu",
+                "code": "AW01-5Fri",
                 "rank": 12.2,
                 "color": "purple"
             }
         ],
         "2": [
             {
-                "code": "AW01-5Fri",
+                "code": "AW01-6Sat",
                 "rank": 12.2,
                 "color": "purple"
+            },
+            {
+                "code": "Mem-Mary-Sat",
+                "rank": 10.3,
+                "type": "Mem-Mary-Sat",
+                "color": "white"
             }
         ],
         "3": {
             "0": {
-                "code": "IN Saint Francis Xavier, priest",
-                "rank": 4.1,
-                "type": "Solemnity-PrincipalPartron-Place",
-                "color": "white"
+                "code": "AW02-0Sun",
+                "rank": 2.1,
+                "color": "purple"
             },
             "other": [
-                {
-                    "code": "AW01-6Sat",
-                    "rank": 12.2,
-                    "color": "purple"
-                },
                 {
                     "code": "Saint Francis Xavier, priest",
                     "rank": 10.2,
@@ -3881,11 +3843,17 @@
         },
         "4": {
             "0": {
-                "code": "AW02-0Sun",
-                "rank": 2.1,
-                "color": "purple"
+                "code": "IN Saint Francis Xavier, priest",
+                "rank": 4.1,
+                "type": "Solemnity-PrincipalPartron-Place",
+                "color": "white"
             },
             "other": [
+                {
+                    "code": "AW02-1Mon",
+                    "rank": 12.2,
+                    "color": "purple"
+                },
                 {
                     "code": "Saint John Damascene, priest and doctor",
                     "rank": 12.1,
@@ -3896,14 +3864,14 @@
         },
         "5": [
             {
-                "code": "AW02-1Mon",
+                "code": "AW02-2Tue",
                 "rank": 12.2,
                 "color": "purple"
             }
         ],
         "6": [
             {
-                "code": "AW02-2Tue",
+                "code": "AW02-3Wed",
                 "rank": 12.2,
                 "color": "purple"
             },
@@ -3916,7 +3884,7 @@
         ],
         "7": [
             {
-                "code": "AW02-3Wed",
+                "code": "AW02-4Thu",
                 "rank": 12.2,
                 "color": "purple"
             },
@@ -3936,7 +3904,7 @@
             },
             "other": [
                 {
-                    "code": "AW02-4Thu",
+                    "code": "AW02-5Fri",
                     "rank": 12.2,
                     "color": "purple"
                 }
@@ -3944,7 +3912,7 @@
         },
         "9": [
             {
-                "code": "AW02-5Fri",
+                "code": "AW02-6Sat",
                 "rank": 12.2,
                 "color": "purple"
             },
@@ -3955,20 +3923,7 @@
                 "color": "white"
             }
         ],
-        "10": [
-            {
-                "code": "AW02-6Sat",
-                "rank": 12.2,
-                "color": "purple"
-            },
-            {
-                "code": "Our Lady of Loreto",
-                "rank": 12.1,
-                "type": "OpMem",
-                "color": "white"
-            }
-        ],
-        "11": {
+        "10": {
             "0": {
                 "code": "AW03-0Sun",
                 "rank": 2.1,
@@ -3976,16 +3931,29 @@
             },
             "other": [
                 {
-                    "code": "Saint Damasus I, pope",
+                    "code": "Our Lady of Loreto",
                     "rank": 12.1,
                     "type": "OpMem",
                     "color": "white"
                 }
             ]
         },
-        "12": [
+        "11": [
             {
                 "code": "AW03-1Mon",
+                "rank": 12.2,
+                "color": "purple"
+            },
+            {
+                "code": "Saint Damasus I, pope",
+                "rank": 12.1,
+                "type": "OpMem",
+                "color": "white"
+            }
+        ],
+        "12": [
+            {
+                "code": "AW03-2Tue",
                 "rank": 12.2,
                 "color": "purple"
             },
@@ -3998,7 +3966,7 @@
         ],
         "13": [
             {
-                "code": "AW03-2Tue",
+                "code": "AW03-3Wed",
                 "rank": 12.2,
                 "color": "purple"
             },
@@ -4011,7 +3979,7 @@
         ],
         "14": [
             {
-                "code": "AW03-3Wed",
+                "code": "AW03-4Thu",
                 "rank": 12.2,
                 "color": "purple"
             },
@@ -4024,29 +3992,29 @@
         ],
         "15": [
             {
-                "code": "AW03-4Thu",
+                "code": "AW03-5Fri",
                 "rank": 12.2,
                 "color": "purple"
             }
         ],
         "16": [
             {
-                "code": "AW03-5Fri",
+                "code": "AW03-6Sat",
                 "rank": 12.2,
                 "color": "purple"
             }
         ],
         "17": [
             {
-                "code": "AW05-Dec17",
-                "rank": 9.1,
+                "code": "AW04-0Sun",
+                "rank": 2.1,
                 "color": "purple"
             }
         ],
         "18": [
             {
-                "code": "AW04-0Sun",
-                "rank": 2.1,
+                "code": "AW05-Dec18",
+                "rank": 9.1,
                 "color": "purple"
             }
         ],
@@ -4099,8 +4067,8 @@
         ],
         "24": [
             {
-                "code": "AW05-Dec24",
-                "rank": 9.1,
+                "code": "AW05-0Sun",
+                "rank": 2.1,
                 "color": "purple"
             }
         ],
@@ -4151,24 +4119,26 @@
         ],
         "30": [
             {
+                "code": "CW01-Dec30",
+                "rank": 9.2,
+                "color": "white"
+            }
+        ],
+        "31": {
+            "0": {
                 "code": "CW01-HolyFamily",
                 "rank": 5,
                 "type": "Feast-Lord",
                 "color": "white"
-            }
-        ],
-        "31": [
-            {
-                "code": "CW01-Dec31",
-                "rank": 9.2,
-                "color": "white"
             },
-            {
-                "code": "Saint Sylvester I, pope",
-                "rank": 12.1,
-                "type": "OpMem-Commomeration",
-                "color": "white"
-            }
-        ]
+            "other": [
+                {
+                    "code": "Saint Sylvester I, pope",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "color": "white"
+                }
+            ]
+        }
     }
 }
