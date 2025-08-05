@@ -12,6 +12,7 @@ namespace RomanCalendar;
  */ 
 
 include_once 'RomanCalendarUtility.php';
+include_once 'RomanCalendarRanks.php';
 
 class RomanCalendarMovable{
 	private $year;
@@ -36,7 +37,7 @@ class RomanCalendarMovable{
 	 * 
 	 * `DAY NUMBER DAY NAME` gives the number and three letter abbreviation of the weekday within that week. (0Sun, 1Mon, 2Tue etc.,). This is to help in sorting and readability.
 	 */
-	function __construct(int $year, array $options) {
+	function computeMovableDayCodes(int $year, array $options): array{
 
         $this->year = $year;
         $this->fullYear = RomanCalendarUtility::initializeCalendar($year);
@@ -50,7 +51,7 @@ class RomanCalendarMovable{
 		$this->generateOrdinaryTime1();
 		$this->generateOrdinaryTime2($options['corpusChristiOnSunday']);
 
-		print_r($this->fullYear);
+		return $this->fullYear;
 	}
 
 	/**
@@ -107,14 +108,14 @@ class RomanCalendarMovable{
 				break;
 
 			if ($CW02Date->format('w') == 0) {
-				// If a Sunday occurs during this period, it is called the "Second Sunday of Christmas".
+				// If a Sunday occurs during this period, it is the "Second Sunday of Christmas".
 				$this->setDayCode($CW02Date, $code . '02-0Sun');
 			} else {
 				$this->setDayCode($CW02Date, $code . $CW02Date->format('02-Mj'));
 			}
 		}
 
-		// the days of the week following Epiphany are called "n-th day after Epiphany" - CW03
+		// the days of the week following Epiphany - CW03
 		for ($i = 1;; $i++) {
 			$CW03Date = $this->seasonLimits['epiphany']->modify("+$i day");
 			if ($CW03Date == $this->seasonLimits['baptism'])
@@ -222,7 +223,7 @@ class RomanCalendarMovable{
 		$day = $cDate->format('j');
 
 		$this->fullYear[$mth][$day][0]['code'] = $cd;
-		$this->fullYear[$mth][$day][0]['rank'] = RomanCalendarUtility::getRank($cd);
+		$this->fullYear[$mth][$day][0]['rank'] = (new RomanCalendarRanks)->getRank($cd);
 
 		$this->fullYear[$mth][$day][0]['type'] = match ($this->fullYear[$mth][$day][0]['rank']) {
 			1, 2, 2.4, 3.1, 4.1, 4.2, 4.3 => 'Solemnity',

@@ -22,13 +22,13 @@ use RomanCalendar\RomanCalendar;
 	// 2014 Immaculate Hrt coincided with Saint Irenaeus, 28 June
 	// 2015 Immaculate Hrt coincided with Saint Anthony of Padua, 13 June
 
-	$year = $_GET['year'] ?? date("Y");
+	$year = 2018;// $_GET['year'] ?? date("Y");
 
 	$filename = 'dat/' . $year . '/calendar.json';
 
 	$options = [
 		'epiphanyOnSunday' => true,
-		'assensionOnSunday' => true,
+		'ascensionOnSunday' => true,
 		'corpusChristiOnSunday' => true,
 	];
 

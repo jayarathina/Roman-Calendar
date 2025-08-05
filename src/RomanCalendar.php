@@ -11,26 +11,17 @@ namespace RomanCalendar;
  * 
  */ 
 
-include_once 'romanCalendarmovable.php';
+include_once 'RomanCalendarMovable.php';
+include_once 'RomanCalendarFixed.php';
 
 class RomanCalendar{
 
 // private $adventStart, $christmastide1Start, $epiphanyDate, $christmastide2Start, $lentStart, $eastertideStarts, $ordinaryTime1Starts, $ordinaryTime2Starts;
     public function __construct(int $year, array $options) {
         RomanCalendarUtility::validateYear($year);
-		$movableCalendar = new RomanCalendarMovable($year, $options);
-
-        /*
-        // Save the calendar to a JSON file
-        $filename = 'dat/' . $year . '/calendar.json';
-        if (!file_exists(dirname($filename))) {
-            mkdir(dirname($filename), 0777, true);
-        }
-        file_put_contents($filename, json_encode($movableCalendar->getFullYear(), JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
-        
-        // Optionally, you can return the generated calendar or any other data
-        // return $movableCalendar->getFullYear();
-        */
+        $fullYear = (new RomanCalendarMovable())->computeMovableDayCodes($year, $options);
+        $fullYear = (new RomanCalendarFixed())->computeFixedDayCodes($year, $fullYear, $options);
+        print_r($fullYear);
        // $this->saveCalendar();
     }
 }
