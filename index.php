@@ -1,7 +1,7 @@
 <?php
 header('Content-Type: text/html; charset=utf-8');
-include_once('lib/RomanCalendar/RomanCalendar.php');
-include_once('lib/RomanCalendar/RomanCalendarRenderHTML.php');
+include_once 'src/RomanCalendar.php';
+use RomanCalendar\RomanCalendar;
 ?>
 <html>
 
@@ -26,12 +26,18 @@ include_once('lib/RomanCalendar/RomanCalendarRenderHTML.php');
 
 	$filename = 'dat/' . $year . '/calendar.json';
 
+	$options = [
+		'epiphanyOnSunday' => true,
+		'assensionOnSunday' => true,
+		'corpusChristiOnSunday' => true,
+	];
+
 	// If the JSON does not exist in the specified path, then generate it
 	if (!file_exists($filename)) {
-		$CalcGen = new RomanCalendar($year);
+		$CalcGen = new RomanCalendar($year, $options);
 	}
 
-	$rHTML = new RomanCalendarRenderHTML();
-	$rHTML->printYearHTML($year);
+	//$rHTML = new RomanCalendarRenderHTML();
+	// $rHTML->printYearHTML($year);
 
 	?>

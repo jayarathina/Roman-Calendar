@@ -5,29 +5,19 @@ This project acts as a backbone for my [Tamil Lectionary](https://github.com/jay
 
 ## Features
 - Solemnities, Feasts, Memory, Optional Memory etc., for a particular year with **proper liturgical colors** are generated.
-- Ability to **add local calendars** (Using a separate table in the database).
+- Ability to **add local calendars**.
 - Created with programmers in mind, so that programmers can **easily extend and build upon this**.
 - Well documented code with **necessary comments for clarity**. 
 - Can be easily translated into any language. English translation of the raw data is provided in the HTML representation of the data. See [RomanCalendarRenderHTML.php](lib/RomanCalendar/RomanCalendar.php)
  
 ## Requirements
-* PHP 8+ is a must.
-* SQL database, preferably MySQL (but works with many other SQL databases too)
-* The [Medoo library](http://medoo.in) (included in the package)
+* PHP 8+
 
 ## Before Starting
 
-Specific settings like the Solemnities of Epiphany, Ascension and Corpus Christi can be set in [config.php](lib/config.php).
+Specific settings like the Solemnities of Epiphany, Ascension and Corpus Christi occouring on sundays are passed through variables.
 
-The project generates a JSON file for each year. Once generated, this JSON file can be used without the database. (The [Medoo library](http://medoo.in) is required for DataBase access. It comes with the package.)
-
-Database user name and password are to be set in [config.php](lib/config.php).
-
-Sample DB structure is found at [liturgy_lectionary.sql](mysql/liturgy_lectionary.sql). It uses two tables: 
-  - `generalcalendar` - General Roman Calendar
-  - `generalcalendar__india` - Local Calendar for India.
-
-You can add separate tables for each of your local calendars and place the table names in [config.php](lib/config.php).
+The project generates a JSON file for each year.
 
 The tables have a column with Tamil data used for translation. You can use it as a sample to translate into any other language.
 
