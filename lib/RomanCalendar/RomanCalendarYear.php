@@ -30,7 +30,7 @@ class RomanCalendarYear {
 		$curYear = $this->currentYear;
 
 		// Sunday after last thur of Nov is Advent
-		$this->adventStart = new DateTimeImmutable("last thu of Nov $curYear next sunday");
+		$this->adventStart = new DateTimeImmutable("last thu of Nov $curYear + 3 Days");//'next sunday' is not working
 		$this->christmastide1Start = new DateTimeImmutable($curYear . '-12-25');
 		$this->christmastide2Start = new DateTimeImmutable($curYear . '-01-01');
 

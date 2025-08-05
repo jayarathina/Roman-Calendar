@@ -200,7 +200,7 @@ class RomanCalendarMovable extends RomanCalendarYear {
 		$day = $cDate->format('j');
 
 		$this->fullYear[$mth][$day][0]['code'] = $cd;
-		$this->fullYear[$mth][$day][0]['rank'] = RomanCalendarRanks::getRank($cd);
+		$this->fullYear[$mth][$day][0]['rank'] = (new RomanCalendarRanks)->getRank($cd);
 
 		$this->fullYear[$mth][$day][0]['type'] = match ($this->fullYear[$mth][$day][0]['rank']) {
 			1, 2, 2.4, 3.1, 4.1, 4.2, 4.3 => 'Solemnity',
@@ -208,7 +208,8 @@ class RomanCalendarMovable extends RomanCalendarYear {
 			7 => 'Feast',
 			default => false
 		};
-		if ($this->fullYear[$mth][$day][0]['type'] === false)
+		//Good Friday & Holy Saurday are not Solemnities
+		if ($this->fullYear[$mth][$day][0]['type'] === false || in_array($cd, ['LW06-5Fri', 'LW06-6Sat']) )
 			unset($this->fullYear[$mth][$day][0]['type']);
 	}
 }
