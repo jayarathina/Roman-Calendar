@@ -37,14 +37,13 @@ class RomanCalendarFixed{
         $this->addSolemnityToYear();
 
 		$this->addFeastToYear();
+		$this->addMemoryToYear();
 
         return $this->fullYear;
     }
 
     /**
 	 * Adds the given Solemnity to RomanCalendarYear variable
-	 *
-	 * @param array $FeastList
 	 */
 	function addSolemnityToYear() {
 
@@ -105,22 +104,17 @@ class RomanCalendarFixed{
 
 	/**
 	 * Adds the given Feast to RomanCalendarYear variable.
-	 * Feast type (feast_type) could be either feast or Feasts of the Lord
-	 *
-	 * @param array $FeastList
 	 */
 	function addFeastToYear() {
 		// Get all the feasts from the calendar.csv file
 		$feastList = $this->getCalendar("/Feast*/");
 
 		foreach ($feastList as $feast) {
-
             $month = $feast[0];
             $date = $feast[1];
             $name = $feast[2];
             $name_ta = $feast[3];
             $type = $feast[4];
-
 
 			$currDate = new \DateTime($this->currentYear . '-' . $month . '-' . $date);
 			$currentDayRank = $this->fullYear[$month][$date][0]['rank'];
@@ -135,11 +129,98 @@ class RomanCalendarFixed{
 		}
 	}
 
+	/**
+	 * Adds the given Memory or optional memory to RomanCalendarYear variable.
+	 */
+	function addMemoryToYear() {
+		$feastList = $this->getCalendar("/^(Mem|OpMem)/");
+
+		$easterDate = new \DateTimeImmutable($this->currentYear . '-03-21 +' . easter_days($this->currentYear) . ' days');
+		
+		$feastImmaculateHeart = $easterDate->modify('+69 day');
+		array_push($feastList, [$feastImmaculateHeart->format('n'), $feastImmaculateHeart->format('j'), 'OW00-ImmaculateHeart', 'தூய கன்னி மரியாவின் மாசற்ற இதயம்', 'Mem-Mary']);
+
+		$ordinaryTime2 = $easterDate->modify('+50 days');// Ordinary Time 2 starts on the Monday after Pentecost
+		// Mary Mother of the Church - https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20180324_notificazione-mater-ecclesiae_en.html
+		array_push($feastList, [$ordinaryTime2->format('n'), $ordinaryTime2->format('j'), 'OW00-MaryMotherofChurch', 'தூய கன்னி மரியா, திரு அவையின் அன்னை', 'Mem-Mary']);
+
+		foreach ($feastList as $feast) {
+            $month = $feast[0];
+            $date = $feast[1];
+            $name = $feast[2];
+            $name_ta = $feast[3];
+            $type = $feast[4];
+
+			$currentDay = &$this->fullYear[$month][$date];
+			$newFeast = [
+				'code' => $name,
+				'rank' => $this->rcr->getRank($type),
+				'type' => $type,
+				'name_ta' => $name_ta
+			];
+
+			$other = [];
+
+			// clash between mem and mem-Mary
+			// following the liturgical tradition of pre-eminence amongst persons,
+			// the Memorial of the Blessed Virgin Mary is to prevail
+			if ((isset($currentDay[1])) && $currentDay[1]['rank'] == 10.2 && $newFeast['rank'] == 10.1) {
+				if ($newFeast['code'] === 'OW00-ImmaculateHeart') {
+					/*
+					 * Exception:
+					 * In years when Immaculate Heart memorial coincides with another obligatory memorial,
+					 * as happened in 2014 [28 June, Saint Irenaeus] and 2015 [13 June, Saint Anthony of Padua],
+					 * both must be considered optional for that year.
+					 *
+					 * https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20000630_memoria-immaculati-cordis-mariae-virginis_lt.html
+					 */
+					$currentDay[1]['type'] = 'OpMem';
+					$currentDay[1]['rank'] = $this->rcr->getRank('OpMem');
+
+					$newFeast['type'] = 'OpMem';
+					$newFeast['rank'] = $this->rcr->getRank('OpMem');
+				} else {
+					$other[] = $currentDay[1];
+					unset($currentDay[1]);
+				}
+			}
+
+			foreach ($currentDay as $key => $value) {
+				if ($key == 0 || $key == 'other')
+					continue;
+				if ($newFeast['rank'] < $currentDay[$key]['rank']) {
+					$other[] = $currentDay[$key];
+					unset($currentDay[$key]);
+				}
+			}
+
+			if ($newFeast['rank'] < $currentDay[0]['rank']) {
+				$currentDay[] = $newFeast;
+			} elseif (intval($currentDay[0]['rank']) == 9) {
+				//GILH 238 When any [obligatory memorials] happen to fall during Lent in a given year,
+				// they are treated as optional memorials.
+
+				// Optional memorials that occour between Dec17-Dec24, Dec-25-Jan1 or during Lent will become commomeration
+				$newFeast['type'] = 'OpMem-Commemoration';
+				$newFeast['rank'] = $this->rcr->getRank('OpMem-Commemoration');
+
+				$currentDay[] = $newFeast;
+			} else {
+				$other[] = $newFeast;
+			}
+
+			$currDate = new \DateTime($this->currentYear . '-' . $month . '-' . $date);
+			$this->addOtherFeast($currDate, $other);
+		}
+	}
+
     private function getCalendar($filter='/*/'): array {
         $rows = [];
         rewind($this->fileHandle);
         while (($data = fgetcsv($this->fileHandle, separator: ',', enclosure: '"', escape: "")) !== false) {
-            if (preg_match($filter, $data[4]) === 1) {
+			if(sizeof($data) !== 5) continue; //skip comments and empty lines
+
+			if (preg_match($filter, $data[4]) === 1) {
                 $rows[] = $data;
             }
         }

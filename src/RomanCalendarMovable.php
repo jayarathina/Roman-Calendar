@@ -180,7 +180,7 @@ class RomanCalendarMovable{
 
 		// We are first moving to sunday then to next friday because if corpuschristi falls on a thuresday,
 		// next friday would be the next day, which is not the correct date for sacred heart
-		$this->setDayCode($corpusChristi->modify('next sunday +5 days'), 'OW00-SacredHeart');
+		$this->setDayCode($trinitySunday->modify('next sunday +5 days'), 'OW00-SacredHeart');
 	}
 
 	/**
