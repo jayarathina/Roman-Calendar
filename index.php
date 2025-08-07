@@ -42,8 +42,4 @@ use RomanCalendar\RomanCalendarRenderHTML;
 
 	$rHTML = new RomanCalendarRenderHTML();
 	$rHTML->printYearHTML($year);
-
-	unlink($filename);
-
-
 	?>
