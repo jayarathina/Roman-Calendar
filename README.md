@@ -8,7 +8,7 @@ This project acts as a backbone for my [Tamil Lectionary](https://github.com/jay
 - Ability to **add local calendars**.
 - Created with programmers in mind, so that programmers can **easily extend and build upon this**.
 - Well documented code with **necessary comments for clarity**. 
-- Can be easily translated into any language. English translation of the raw data is provided in the HTML representation of the data. See [RomanCalendarRenderHTML.php](src/RomanCalendar/RomanCalendarRenderHTML.php)
+- Can be easily translated into any language. English translation of the raw data is provided in the HTML representation of the data. See [RomanCalendarRenderHTML.php](src/RomanCalendarRenderHTML.php)
 - No database required. (Removed MySQL dependancy)
 - BUGFIX: Added backward compatibility. (That is if a new feast is added to the universal calendar this year. Previous year calendars generated will not have that feast. For example, the commemoration of St. Mary Magdalene raised to a Feast by Pope Francis only in 2016 ([ref](http://en.radiovaticana.va/news/2016/06/10/commemoration_of_st_mary_magdalene_raised_to_a_feast/1236157)), therefore, if you generate a calendar for the year 2008, it will not be marked as a feast in that year)
  
@@ -21,7 +21,7 @@ This project acts as a backbone for my [Tamil Lectionary](https://github.com/jay
 - The tables have a column with Tamil data used for translation. You can use it as a sample to translate into any other language.
 
 ## Structure of JSON Generated
-The JSON is created in the [dat folder](RomanCalendar/dat/) with the year subfolder.
+The JSON is created in the [dat folder](dat/) with the year subfolder.
 
 The content of the JSON file that is generated is of two-dimensional array. Outer most key has the month number and next has the day number. Which is followed by individual feast descriptions. The following is a sample for January 3rd.
 ```JSON
@@ -57,7 +57,7 @@ There can also be a special `other` key that contains feast/memorials that are s
 
 The following are the data keys:
 - `code` - Acts as a unique identifier for that feast. It is usually the name of the feast/saint celebrated on that day. See below for how it is generated for ferial days.
-- `rank` - Computed rank for that feast. Used to determine priority. (See [RomanCalendarRanks.php](src/RomanCalendar/RomanCalendarRanks.php) for more details.)
+- `rank` - Computed rank for that feast. Used to determine priority. (See [RomanCalendarRanks.php](src/RomanCalendarRanks.php) for more details.)
 - ` type ` - Type of celebration. Solemnity, Feast, memory and other.
 - `color` - Mass vestament colour for that celebration
 
