@@ -17,14 +17,17 @@ include_once 'RomanCalendarColor.php';
 
 class RomanCalendar{
 
-// private $adventStart, $christmastide1Start, $epiphanyDate, $christmastide2Start, $lentStart, $eastertideStarts, $ordinaryTime1Starts, $ordinaryTime2Starts;
     public function __construct(int $year, array $options) {
         RomanCalendarUtility::validateYear($year);
         $fullYear = (new RomanCalendarMovable())->computeMovableDayCodes($year, $options);
         $fullYear = (new RomanCalendarFixed())->computeFixedDayCodes($year, $fullYear, $options);
         $fullYear = RomanCalendarColor::colourizeYear($fullYear);
 
-        print_r($fullYear);
-       // $this->saveCalendar();
+        $dirName = 'dat/' . $year;
+        if (!is_dir($dirName)) {
+			mkdir($dirName, 0744);
+		}
+        $t = json_encode($fullYear, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT | JSON_NUMERIC_CHECK);
+		file_put_contents($dirName . '/calendar.json', $t);
     }
 }

@@ -5,7 +5,7 @@ namespace RomanCalendar;
  * @author Br. Jayarathina Madharasan SDB
  * @created 2025-08-04
  * @updated 2025-08-04
- * @description This class generates the Roman Catholic Calendar for a given year.
+ * @description This class adds solemnities, feasts and memorials that have movable dates to the Calendar.
  * @version 5.0
  * @license MIT
  * 

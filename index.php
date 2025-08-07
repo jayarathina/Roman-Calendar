@@ -1,7 +1,10 @@
 <?php
 header('Content-Type: text/html; charset=utf-8');
 include_once 'src/RomanCalendar.php';
+include_once 'src/RomanCalendarRenderHTML.php';
+
 use RomanCalendar\RomanCalendar;
+use RomanCalendar\RomanCalendarRenderHTML;
 ?>
 <html>
 
@@ -22,7 +25,7 @@ use RomanCalendar\RomanCalendar;
 	// 2014 Immaculate Hrt coincided with Saint Irenaeus, 28 June
 	// 2015 Immaculate Hrt coincided with Saint Anthony of Padua, 13 June
 
-	$year = 2018;// $_GET['year'] ?? date("Y");
+	$year = $_GET['year'] ?? date("Y");
 
 	$filename = 'dat/' . $year . '/calendar.json';
 
@@ -37,7 +40,10 @@ use RomanCalendar\RomanCalendar;
 		$CalcGen = new RomanCalendar($year, $options);
 	}
 
-	//$rHTML = new RomanCalendarRenderHTML();
-	// $rHTML->printYearHTML($year);
+	$rHTML = new RomanCalendarRenderHTML();
+	$rHTML->printYearHTML($year);
+
+	unlink($filename);
+
 
 	?>

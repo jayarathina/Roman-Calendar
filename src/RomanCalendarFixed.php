@@ -5,7 +5,7 @@ namespace RomanCalendar;
  * @author Br. Jayarathina Madharasan SDB
  * @created 2025-08-05
  * @updated 2025-08-05
- * @description This class generates the Roman Catholic Calendar for a given year.
+ * @description This class adds solemnities, feasts and memorials that have fixed dates to the Calendar.
  * @version 5.0
  * @license MIT
  * 
@@ -139,9 +139,11 @@ class RomanCalendarFixed{
 		$feastImmaculateHeart = $easterDate->modify('+69 day');
 		array_push($feastList, [$feastImmaculateHeart->format('n'), $feastImmaculateHeart->format('j'), 'OW00-ImmaculateHeart', 'தூய கன்னி மரியாவின் மாசற்ற இதயம்', 'Mem-Mary']);
 
-		$ordinaryTime2 = $easterDate->modify('+50 days');// Ordinary Time 2 starts on the Monday after Pentecost
-		// Mary Mother of the Church - https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20180324_notificazione-mater-ecclesiae_en.html
-		array_push($feastList, [$ordinaryTime2->format('n'), $ordinaryTime2->format('j'), 'OW00-MaryMotherofChurch', 'தூய கன்னி மரியா, திரு அவையின் அன்னை', 'Mem-Mary']);
+		if($this->currentYear >= 2018) {
+			$ordinaryTime2 = $easterDate->modify('+50 days');// Ordinary Time 2 starts on the Monday after Pentecost
+			// Mary Mother of the Church - https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20180324_notificazione-mater-ecclesiae_en.html
+			array_push($feastList, [$ordinaryTime2->format('n'), $ordinaryTime2->format('j'), 'OW00-MaryMotherofChurch', 'தூய கன்னி மரியா, திரு அவையின் அன்னை', 'Mem-Mary']);
+		}
 
 		foreach ($feastList as $feast) {
             $month = $feast[0];
@@ -195,7 +197,13 @@ class RomanCalendarFixed{
 			}
 
 			if ($newFeast['rank'] < $currentDay[0]['rank']) {
+
 				$currentDay[] = $newFeast;
+				// The above statement would have added $newFeast to the next index ie., 2 even if index 1 is not present.
+				// Therefore, we are looping through the currentDay array and adding the feast.
+				// For example, see Year 2020, Mary, Mother of Church Memorial on 1 June.
+				$currentDay = array_values($currentDay);
+
 			} elseif (intval($currentDay[0]['rank']) == 9) {
 				// Rank 9 => Weekdays of Advent from Dec 17 to 24, Days within the octave of Christmas, Weekdays of Lent
 				// Optional memorials that occur in these days will become commomeration
@@ -218,9 +226,21 @@ class RomanCalendarFixed{
         $rows = [];
         rewind($this->fileHandle);
         while (($data = fgetcsv($this->fileHandle, separator: ',', enclosure: '"', escape: "")) !== false) {
-			if(sizeof($data) !== 5) continue; //skip comments and empty lines
 
-			if (preg_match($filter, $data[4]) === 1) {
+
+			if (preg_match($filter, $data[4]??'') === 1) {
+
+				//Feast added year, previous years do not have this feast
+				if(! empty($data[5]) && $data[5] > $this->currentYear){
+					continue;
+				}
+				
+				// Feast removed year, current year and future years do not have this feast
+				if(! empty($data[6]) && $this->currentYear >= $data[6]){
+					continue;
+				}
+				unset($data[5]); unset($data[6]);
+
                 $rows[] = $data;
             }
         }

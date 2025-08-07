@@ -5,7 +5,7 @@ namespace RomanCalendar;
  * @author Br. Jayarathina Madharasan SDB
  * @created 2025-08-05
  * @updated 2025-08-05
- * @description This class generates the Roman Catholic Calendar for a given year.
+ * @description This class used to returns the rank of a feast days in the Roman Catholic Calendar.
  * @version 5.0
  * @license MIT
  * 
