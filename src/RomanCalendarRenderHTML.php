@@ -1,33 +1,38 @@
 <?php
-
+namespace RomanCalendar;
 /**
- * RomanCalendar 4.0 
- * @author Br. Jayarathina Madharasan SDR
- *
- * This is an example class where in the JSON data is processed and displayed in html format.
- * You can use it as a framework to build upon.
+ * RomanCalendar 5.0
+ * @author Br. Jayarathina Madharasan SDB
+ * @created 2025-08-07
+ * @updated 2025-08-07
+ * @description This class generates HTML for the Roman Catholic Calendar based on JSON data.
+ * @version 5.0
+ * @license MIT
  * 
- */
+ */ 
+
 class RomanCalendarRenderHTML {
-	private $fullYear, $currentYear;
+	private $fullYear;
 
 	function printYearHTML($currentYear) {
-		$this->currentYear = $currentYear;
 
-		$filename = 'dat/' . $this->currentYear . '/calendar.json';
+		$filename = 'dat/' . $currentYear . '/calendar.json';
 		if (!file_exists($filename))
-			return 'No data found for the year ' . $this->currentYear;
+            throw new \Exception('No data found for the year ' . $currentYear);
 
-		$txtCnt = file_get_contents('dat/' . $this->currentYear . '/calendar.json');
+		$txtCnt = file_get_contents($filename);
 		$this->fullYear = json_decode($txtCnt, true);
 
 		$this->setDayNames();
 
-		$rows = "<tr><th colspan=2> <a class='arrowRight' href='index.php?year=" . ($this->currentYear - 1) . "'>◄</a> {$this->currentYear} <a class='arrowLeft' href='index.php?year=" . ($this->currentYear + 1) . "'>►</a> </th></tr>";
+		$fl = $this->fullYear;
+
+		$rows = "<tr><th colspan=2> <a class='arrowRight' href='index.php?year=" . ($currentYear - 1) . "'>◄</a> {$currentYear} <a class='arrowLeft' href='index.php?year=" . ($currentYear + 1) . "'>►</a> </th></tr>";
+		
 		foreach ($this->fullYear as $month => $value) {
 
 			foreach ($value as $days => $feasts) {
-				$tempDt2 = new DateTime($this->currentYear . "-$month-$days");
+				$tempDt2 = new \DateTime($currentYear . "-$month-$days");
 				if ($days == 1) {
 					$rows .= '<tr><td class="dt" colspan=2>' . $tempDt2->format('F') . '</td></tr>';
 				}
@@ -75,6 +80,7 @@ class RomanCalendarRenderHTML {
 			}
 		}
 	}
+	
 	/**
 	 * 
 	 */
@@ -123,7 +129,7 @@ class RomanCalendarRenderHTML {
 					$fTitle = match ($wkNo) {
 						1 => $this->addOrdinalNumberSuffix(intval(substr($dayCode, -2) - 24)) . ' Day in the Octave of Christmas', // Christmas Octave
 						2 => 'Christmas Weekday: January 0' . substr($dayCode, -1), // Before Epiphany
-						3 => (EPIPHANY_ON_A_SUNDAY) ? $dayEnglishFull[substr($dayCode, -1)] . ' after Epiphany' : 'Christmas Weekday: January 0' . (6 + substr($dayCode, -1)) // After Epiphany
+						3 => ($this->fullYear[1][6][0]['code'] === 'CW03-Epiphany') ? 'Christmas Weekday: January 0' . (6 + substr($dayCode, -1)) : $dayEnglishFull[substr($dayCode, -1)] . ' after Epiphany' // After Epiphany
 					};
 					break;
 				case 'LW':
@@ -138,11 +144,28 @@ class RomanCalendarRenderHTML {
 						1 => ' in the Octave of Easter',
 						default => ' of the ' . $this->addOrdinalNumberSuffix($wkNo) . ' Week of Easter'
 					};
+					break;
 				case 'OW':
 					$fTitle = $dayEnglishFull[$wkDay] . ' of the ' . $this->addOrdinalNumberSuffix($wkNo) . ' Week in Ordinary Time';
 					break;
 			}
 		return $fTitle ?? $dayCode;
+	}
+
+
+	function isEpiphanyOnSunday($fullYear):bool {
+		foreach ($fullYear as $mnth => $dates) {
+			foreach ($dates as $date => $feasts) {
+				if (isset($feasts[0]) && $feasts[0]['code'] === 'CW04-Epiphany') {
+					$fullYear[$mnth][$date][0]['name'] = 'The Epiphany of the Lord';
+					$fullYear[$mnth][$date][0]['color'] = 'white';
+					if (isset($feasts[1]) && $feasts[1]['type'] === 'Memorial') {
+						$fullYear[$mnth][$date][1]['color'] = 'white';
+					}
+				} 
+			}
+		}
+		return $fullYear;
 	}
 
 	/**
@@ -151,7 +174,7 @@ class RomanCalendarRenderHTML {
 	 * @return string number with ordinal suffix
 	 *
 	 */
-	function addOrdinalNumberSuffix($num) {
+	function addOrdinalNumberSuffix($num): string {
 		if (!in_array(($num % 100), [11, 12, 13])) {
 			return $num . match ($num % 10) {
 				1 => '<sup>st</sup>',

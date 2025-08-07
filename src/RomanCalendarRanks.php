@@ -1,4 +1,15 @@
 <?php
+namespace RomanCalendar;
+/**
+ * RomanCalendar 5.0
+ * @author Br. Jayarathina Madharasan SDB
+ * @created 2025-08-05
+ * @updated 2025-08-05
+ * @description This class used to returns the rank of a feast days in the Roman Catholic Calendar.
+ * @version 5.0
+ * @license MIT
+ * 
+ */ 
 
 /**
  * Table of Liturgical Days According To Their Order of Precedence
@@ -152,9 +163,10 @@
 
 	private $keys;
 	function __construct(){
+   		//sorting is required as Mem-Other should be matched before Mem as both will match 'Mem-Other'
+        //sorthing is done here to avoid sorting again and again in getRank() method
 		krsort( $this->RomanCalendarRanks );
 		$this->keys = array_keys ( $this->RomanCalendarRanks );
-		// print_r($this->RomanCalendarRanks);die();
 	}
 
 	/**
@@ -167,7 +179,6 @@
 		if(isset($this->RomanCalendarRanks[$dayCode])  )// this is necessary so that order does not mess up.
 			return $this->RomanCalendarRanks[$dayCode];
 
-		//sorting is required as Mem-Other should be matched before Mem as both will match 'Mem-Other'
 		foreach ( $this->keys as $str ) {
 			//The keys are regular expressions. So str_starts_with will not work
 			if (preg_match ( "/^$str/", $dayCode ) === 1) {

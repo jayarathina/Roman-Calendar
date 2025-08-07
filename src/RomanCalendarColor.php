@@ -1,40 +1,43 @@
 <?php
-
+namespace RomanCalendar;
 /**
- * RomanCalendar 4.0
- * @author Br. Jayarathina Madharasan SDR
- *
- */
+ * RomanCalendar 5.0
+ * @author Br. Jayarathina Madharasan SDB
+ * @created 2025-08-05
+ * @updated 2025-08-05
+ * @description This class adds color code to the feasts in the Roman Catholic Calendar.
+ * @version 5.0
+ * @license MIT
+ * 
+ */ 
+
 class RomanCalendarColor {
-	private $fullYear;
 
-	function colourizeYear($fullYear) {
-		$this->fullYear = $fullYear;
+	public static function colourizeYear($fullYear) {
 
-		for ($mnth = 1; $mnth <= 12; $mnth++) {
-			foreach ($this->fullYear[$mnth] as $date => $feasts) {
+        for ($mnth = 1; $mnth <= 12; $mnth++) {
+			foreach ($fullYear[$mnth] as $date => $feasts) {
 				foreach ($feasts as $key => $singleFeast) {
 					if ($key == 'other') {
 						foreach ($singleFeast as $key_other => $other) {
-							$this->fullYear[$mnth][$date][$key][$key_other]['color'] = $this->getColor($other['code'], $other['type'] ?? null);
+							$fullYear[$mnth][$date][$key][$key_other]['color'] = self::getColor($other['code'], $other['type'] ?? null);
 						}
 					} else {
-						$this->fullYear[$mnth][$date][$key]['color'] = $this->getColor($singleFeast['code'], $singleFeast['type'] ?? null);
+						$fullYear[$mnth][$date][$key]['color'] = self::getColor($singleFeast['code'], $singleFeast['type'] ?? null);
 					}
 				}
+
+                if(isset($feasts[1])) {
+					if (preg_match('/^Mem/', $feasts[1]['type']) === 1) {
+                       $fullYear[$mnth][$date][0]['color'] =  $fullYear[$mnth][$date][1]['color'];
+                    }
+                }
 			}
 		}
-		return $this->fullYear;
+		return $fullYear;
 	}
 
-	/**
-	 * Get color for a particular feast type or code
-	 *
-	 * @param string $feastCode
-	 * @param string $feastType
-	 * @return string
-	 */
-	private function getColor($feastCode, $feastType = null) {
+	public static function getColor($feastCode, $feastType = null) {
 		$feastType = explode('-', $feastType, 2);
 		$feastType = $feastType[0];
 
@@ -80,8 +83,7 @@ class RomanCalendarColor {
 			'CW', 'EW' => 'white',
 			'OW' => 'green',
 			default => null
-		}
-			?? null;
+		} ?? null;
 
 		// Even if feast is set above, we replace it with the color for martyr below, 
 		// unless explicitly set for a particular feast in above array
@@ -94,4 +96,6 @@ class RomanCalendarColor {
 		}
 		return $feastClr;
 	}
+
+
 }
