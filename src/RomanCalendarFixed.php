@@ -145,6 +145,38 @@ class RomanCalendarFixed{
 			array_push($feastList, [$ordinaryTime2->format('n'), $ordinaryTime2->format('j'), 'OW00-MaryMotherofChurch', 'தூய கன்னி மரியா, திரு அவையின் அன்னை', 'Mem-Mary']);
 		}
 
+		$this->addMemoryToYear_($feastList);
+
+		// GILH 240. On Saturdays in Ordinary Time, when optional memorials are permitted,
+		// an optional memorial of the Blessed Virgin Mary may be celebrated in the same way as other memorials,
+		// with its own proper reading.
+		$feastList = [];
+		$rkOpMem = $this->rcr->getRank('OpMem');
+		$rkOW = $this->rcr->getRank('OW');
+
+		$tempDate = new \DateTime($this->currentYear . '-01-01');
+		do {
+			$tempDate = $tempDate->modify('next saturday');
+			$mth = $tempDate->format('n');
+			$day = $tempDate->format('j');
+			if (
+				$this->fullYear[$mth][$day][0]['rank'] != $rkOW //  a week day of ordinary time
+				|| ($this->fullYear[$mth][$day][1]['rank']??15) <= $rkOpMem //opetional memoria or above
+				) 
+				continue;
+
+			if (
+				$this->fullYear[$mth][$day][0]['rank'] != 12.5 // The day has feast or solemnity
+				) //The day has memoriya
+				continue;
+
+			$feastList[] = [$mth, $day, 'Mem-Mary-Sat', '', 'Mem-Mary-Sat'];
+		} while ($tempDate->format('Y') ==  $this->currentYear );
+
+		$this->addMemoryToYear_($feastList);
+	}
+
+	function addMemoryToYear_($feastList) {
 		foreach ($feastList as $feast) {
             $month = $feast[0];
             $date = $feast[1];

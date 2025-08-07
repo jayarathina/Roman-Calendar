@@ -28,7 +28,7 @@ class RomanCalendarColor {
 				}
 
                 if(isset($feasts[1])) {
-					if (preg_match('/^Mem/', $feasts[1]['type']) === 1) {
+					if (preg_match('/^Mem/', $feasts[1]['type']) === 1 && $feasts[1]['type'] !== 'Mem-Mary-Sat') {
                        $fullYear[$mnth][$date][0]['color'] =  $fullYear[$mnth][$date][1]['color'];
                     }
                 }

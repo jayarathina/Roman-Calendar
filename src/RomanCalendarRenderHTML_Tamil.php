@@ -88,28 +88,30 @@ class RomanCalendarRenderHTML {
 		$dayEnglishFull = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
 		$RomanCalendarRanks = [
-			'CW02-0Sun' => 'Second Sunday after Christmas',
-			'CW03-Epiphany' => 'The Epiphany of the Lord',
-			'CW04-Baptism' => 'The Baptism of the Lord',
+			'CW02-0Sun' => 'கிறிஸ்து பிறப்பு விழாவுக்குப் பின் 2ம் ஞாயிறு',
+			'CW03-Epiphany' => 'ஆண்டவரின் திருக்காட்சி',
+			'CW04-Baptism' => 'ஆண்டவரின் திருமுழுக்கு',
+			'CW01-HolyFamily' => 'இயேசு, மரியா, யோசேப்பின் திருக்குடும்பம்',
+			
+			'LW00-3Wed' => 'திருநீற்றுப் புதன்',
+			'LW06-0Sun' => 'ஆண்டவருடைய திருப்பாடுகளின் குருத்து ஞாயிறு',
+			'LW06-4Thu' => 'பெரிய வியாழன்',//'ஆண்டவரின் இராவுணவுத் திருப்பலி',
+			'LW06-5Fri' => 'திருப்பாடுகளின் வெள்ளி',
+			'LW06-6Sat' => 'பெரிய சனி', //பாஸ்கா  திருவிழிப்பு
+			
+			'EW01-0Sun' => 'ஆண்டவருடைய உயிர்ப்பின் பாஸ்கா ஞாயிறு',
+			'EW07-Ascension' => 'ஆண்டவரின் விண்ணேற்றம்',
+			'EW08-Pentecost' => 'தூய ஆவி ஞாயிறு',
+			
+			'OW00-Trinity' => 'மூவொரு கடவுள்',
+			'OW00-CorpusChristi' => 'கிறிஸ்துவின் திருவுடல், திருஇரத்தம்',
+			'OW00-SacredHeart' => 'இயேசுவின் திருஇதயம்',
+			'OW00-ImmaculateHeart' => 'தூய கன்னி மரியாவின் மாசற்ற இதயம்',
+			'OW00-MaryMotherofChurch' => 'தூய கன்னி மரியா, திரு அவையின் அன்னை',
 
-			'LW00-3Wed' => 'Ash Wednesday',
-			'LW06-0Sun' => 'Palm Sunday of The Passion Of The Lord',
-			'LW06-4Thu' => 'Thursday of Holy Week (Holy Thursday)',
-			'LW06-5Fri' => 'Friday of the Passion of the Lord (Good Friday)',
-			'LW06-6Sat' => 'Holy Saturday',
-
-			'EW01-0Sun' => 'Easter Sunday of The Resurrection of The Lord',
-			'EW07-Ascension' => 'The Ascension of the Lord',
-			'EW08-Pentecost' => 'Pentecost Sunday',
-
-			'OW00-Trinity' => 'The Most Holy Trinity',
-			'OW00-CorpusChristi' => 'The Most Holy Body and Blood of Christ (Corpus Christi)',
-			'OW00-SacredHeart' => 'The Most Sacred Heart of Jesus',
-			'OW00-ImmaculateHeart' => 'Immaculate Heart of the Blessed Virgin Mary',
-			'OW00-MaryMotherofChurch' => 'Mary, Mother of the Church',
-
-			'CW01-HolyFamily' => 'The Holy Family of Jesus, Mary And Joseph',
-			'Mem-Mary-Sat' => 'Saturday Memorial of the Blessed Virgin Mary'
+			'Mem-Mary-Sat' => 'சனிக்கிழமையில் கன்னிமரியாவின் நினைவு',
+			
+			'OW34-0Sun' => 'இயேசு கிறிஸ்து அனைத்துலக அரசர்' 
 		];
 
 		$fTitle = $RomanCalendarRanks[$dayCode] ?? null;

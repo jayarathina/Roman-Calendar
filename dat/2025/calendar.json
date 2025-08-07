@@ -184,6 +184,13 @@
                 "code": "OW01-6Sat",
                 "rank": 12.5,
                 "color": "green"
+            },
+            {
+                "code": "Mem-Mary-Sat",
+                "rank": 10.3,
+                "type": "Mem-Mary-Sat",
+                "name_ta": "",
+                "color": "white"
             }
         ],
         "19": [
@@ -358,6 +365,13 @@
                 "code": "OW03-6Sat",
                 "rank": 12.5,
                 "color": "green"
+            },
+            {
+                "code": "Mem-Mary-Sat",
+                "rank": 10.3,
+                "type": "Mem-Mary-Sat",
+                "name_ta": "",
+                "color": "white"
             }
         ],
         "2": {
@@ -542,6 +556,13 @@
                 "code": "OW05-6Sat",
                 "rank": 12.5,
                 "color": "green"
+            },
+            {
+                "code": "Mem-Mary-Sat",
+                "rank": 10.3,
+                "type": "Mem-Mary-Sat",
+                "name_ta": "",
+                "color": "white"
             }
         ],
         "16": [
@@ -688,6 +709,13 @@
                 "code": "OW07-6Sat",
                 "rank": 12.5,
                 "color": "green"
+            },
+            {
+                "code": "Mem-Mary-Sat",
+                "rank": 10.3,
+                "type": "Mem-Mary-Sat",
+                "name_ta": "",
+                "color": "white"
             }
         ],
         "2": [
@@ -1845,6 +1873,13 @@
                 "code": "OW10-6Sat",
                 "rank": 12.5,
                 "color": "green"
+            },
+            {
+                "code": "Mem-Mary-Sat",
+                "rank": 10.3,
+                "type": "Mem-Mary-Sat",
+                "name_ta": "",
+                "color": "white"
             }
         ],
         "15": [
@@ -2177,6 +2212,13 @@
                 "code": "OW14-6Sat",
                 "rank": 12.5,
                 "color": "green"
+            },
+            {
+                "code": "Mem-Mary-Sat",
+                "rank": 10.3,
+                "type": "Mem-Mary-Sat",
+                "name_ta": "",
+                "color": "white"
             }
         ],
         "13": {
@@ -2256,6 +2298,13 @@
                 "code": "OW15-6Sat",
                 "rank": 12.5,
                 "color": "green"
+            },
+            {
+                "code": "Mem-Mary-Sat",
+                "rank": 10.3,
+                "type": "Mem-Mary-Sat",
+                "name_ta": "",
+                "color": "white"
             }
         ],
         "20": {
@@ -2920,6 +2969,13 @@
                 "code": "OW22-6Sat",
                 "rank": 12.5,
                 "color": "green"
+            },
+            {
+                "code": "Mem-Mary-Sat",
+                "rank": 10.3,
+                "type": "Mem-Mary-Sat",
+                "name_ta": "",
+                "color": "white"
             }
         ],
         "7": [
@@ -3561,6 +3617,13 @@
                 "code": "OW29-6Sat",
                 "rank": 12.5,
                 "color": "green"
+            },
+            {
+                "code": "Mem-Mary-Sat",
+                "rank": 10.3,
+                "type": "Mem-Mary-Sat",
+                "name_ta": "",
+                "color": "white"
             }
         ],
         "26": [
@@ -3702,6 +3765,13 @@
                 "code": "OW31-6Sat",
                 "rank": 12.5,
                 "color": "green"
+            },
+            {
+                "code": "Mem-Mary-Sat",
+                "rank": 10.3,
+                "type": "Mem-Mary-Sat",
+                "name_ta": "",
+                "color": "white"
             }
         ],
         "9": {
@@ -3961,6 +4031,13 @@
                 "code": "OW34-6Sat",
                 "rank": 12.5,
                 "color": "green"
+            },
+            {
+                "code": "Mem-Mary-Sat",
+                "rank": 10.3,
+                "type": "Mem-Mary-Sat",
+                "name_ta": "",
+                "color": "white"
             }
         ],
         "30": {
