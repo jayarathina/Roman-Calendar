@@ -1,4 +1,4 @@
-# Roman-Calendar
+# Roman-Calendar v 5.0
 This is a Roman Catholic Liturgical Calendar Generator in PHP. I decided to start a new project because there are no open source libraries available that have dealt with every single caveat of computing the Catholic liturgical year.
 
 This project acts as a backbone for my [Tamil Lectionary](https://github.com/jayarathina/Tamil-Catholic-Lectionary) and [Tamil Breviary](https://github.com/jayarathina/Tamil-Breviary) projects.
@@ -9,17 +9,16 @@ This project acts as a backbone for my [Tamil Lectionary](https://github.com/jay
 - Created with programmers in mind, so that programmers can **easily extend and build upon this**.
 - Well documented code with **necessary comments for clarity**. 
 - Can be easily translated into any language. English translation of the raw data is provided in the HTML representation of the data. See [RomanCalendarRenderHTML.php](lib/RomanCalendar/RomanCalendar.php)
+- No database required. (Removed MySQL dependancy)
+- BUGFIX: Added backward compatibility. (That is if a new feast is added to the universal calendar this year. Previous year calendars generated will not have that feast. For example, the commemoration of St. Mary Magdalene raised to a Feast by Pope Francis only in 2016 ([ref](http://en.radiovaticana.va/news/2016/06/10/commemoration_of_st_mary_magdalene_raised_to_a_feast/1236157)), therefore, if you generate a calendar for the year 2008, it will not be marked as a feast in that year)
  
 ## Requirements
 * PHP 8+
 
 ## Before Starting
-
-Specific settings like the Solemnities of Epiphany, Ascension and Corpus Christi occouring on sundays are passed through variables.
-
-The project generates a JSON file for each year.
-
-The tables have a column with Tamil data used for translation. You can use it as a sample to translate into any other language.
+- Specific settings like the Solemnities of Epiphany, Ascension and Corpus Christi occouring on sundays are passed through variables.
+- The project generates a JSON file for each year.
+- The tables have a column with Tamil data used for translation. You can use it as a sample to translate into any other language.
 
 ## Structure of JSON Generated
 The JSON is created in the [dat folder](dat/) with the year subfolder.
@@ -76,8 +75,7 @@ For a ferial weekday a code is generated in the following syntax: `<SEASON CODE>
 * `LW03-4Thu` represents Lent Week Three Thursday
 
 ## Known Issues
-* If in more than one local calendar (eg. A religious Society and A Diocese) then there is a possibility of more than one solemnity of the same rank clashing with each other. (See [RomanCalendarRanks.php](lib/RomanCalendar/RomanCalendarRanks.php) for how ranks are calculated). In such a case, the result is undetermined. In these cases, those solemnities are to be manually added to their proper dates.
-* This library is Not backwards compatible. (That is if a new feast is added to the universal calendar this year. Previous year calendars generated will have that feast too. For example, the commemoration of St. Mary Magdalene raised to a Feast by Pope Francis only in 2016 ([ref](http://en.radiovaticana.va/news/2016/06/10/commemoration_of_st_mary_magdalene_raised_to_a_feast/1236157)), but if you generate a calendar for the year 2008, it will be marked as a feast then too)
+* None
 
 ## Suggestions or Comments
-If you find any bugs or suggest any improvement, please feel free to raise a pull request or contact me.
+If you find any bugs or suggest any improvement, please feel free to contact me.
