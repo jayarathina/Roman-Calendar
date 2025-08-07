@@ -35,7 +35,6 @@ class RomanCalendarFixed{
         $this->currentYear = $year;
 
         $this->addSolemnityToYear();
-
 		$this->addFeastToYear();
 		$this->addMemoryToYear();
 
@@ -124,7 +123,7 @@ class RomanCalendarFixed{
 			if ($newFeast['rank'] < $currentDayRank) {
 				$this->pushDayCode($currDate, $newFeast);
 			} else {
-				$this->addOtherFeast($currDate, [$newFeast]);
+				$this->addOtherCelebration($currDate, [$newFeast]);
 			}
 		}
 	}
@@ -151,6 +150,7 @@ class RomanCalendarFixed{
             $name_ta = $feast[3];
             $type = $feast[4];
 
+			//Pass by reference to avoid copying the array
 			$currentDay = &$this->fullYear[$month][$date];
 			$newFeast = [
 				'code' => $name,
@@ -197,10 +197,11 @@ class RomanCalendarFixed{
 			if ($newFeast['rank'] < $currentDay[0]['rank']) {
 				$currentDay[] = $newFeast;
 			} elseif (intval($currentDay[0]['rank']) == 9) {
-				//GILH 238 When any [obligatory memorials] happen to fall during Lent in a given year,
-				// they are treated as optional memorials.
+				// Rank 9 => Weekdays of Advent from Dec 17 to 24, Days within the octave of Christmas, Weekdays of Lent
+				// Optional memorials that occur in these days will become commomeration
 
-				// Optional memorials that occour between Dec17-Dec24, Dec-25-Jan1 or during Lent will become commomeration
+				// GILH 238 When any obligatory memorials falls during Lent, they are treated as optional memorials.
+
 				$newFeast['type'] = 'OpMem-Commemoration';
 				$newFeast['rank'] = $this->rcr->getRank('OpMem-Commemoration');
 
@@ -208,9 +209,8 @@ class RomanCalendarFixed{
 			} else {
 				$other[] = $newFeast;
 			}
-
 			$currDate = new \DateTime($this->currentYear . '-' . $month . '-' . $date);
-			$this->addOtherFeast($currDate, $other);
+			$this->addOtherCelebration($currDate, $other);
 		}
 	}
 
@@ -241,44 +241,49 @@ class RomanCalendarFixed{
 		$day = $currDate->format('j');
 
 		$temp = $this->fullYear[$mth][$day];
-		$this->fullYear[$mth][$day] = [0 => $feastDet];
-
-		$this->addOtherFeast($currDate, $temp);
+		$this->fullYear[$mth][$day] = [0 => $feastDet]; // resets the entire array for the day with a single feast/memoria
+		$this->addOtherCelebration($currDate, $temp);
 	}
 
 	/**
-	 * Added to tempDate feasts/memoria that are supressed in this year
+	 * Adds feasts/memoria that are supressed in this year
 	 *
 	 * @param DateTime $currDate
 	 *        	- Date to be tagged
 	 * @param array $feastDet
-	 *        	- New feast to be added
+	 *        	- New feast/memoria to be added
 	 */
-	function addOtherFeast($currDate, $feastDet) {
+	function addOtherCelebration($currDate, $feastDet): void {
 
 		if (empty($feastDet))	return;
 
-        //Christmas Week no supression
+        //Christmas Week no ferial days because they are all fixed feasts.
 		if (str_starts_with($feastDet[0]['code'], 'CW01-')) return;
 		
-		//The Feast to be added to 'other' has 'other' in itself
+		/**
+		 * The Feast to be added to 'other' has 'other' in itself.
+		 * Eg: 
+		 * $feastDet = [ 
+		 * 	0=> ['code' => 'Feast-Other', 'rank' => 8.6, 'type' => 'Feast-Other', 'name_ta' => ''],
+		 * 	1=> ['code' => 'Feast-Other-2', 'rank' => 8.6, 'type' => 'Feast-Other-2', 'name_ta' => ''],
+		 * 	'other' => [
+		 * 		0 => ['code' => 'Feast-Other', 'rank' => 8.6, 'type' => 'Feast-Other', 'name_ta' => ''],
+		 * 		1 => ['code' => 'Feast-Other-2', 'rank' => 8.6, 'type' => 'Feast-Other-2', 'name_ta' => ''],
+		 * 		2 => ['code' => 'Feast-Other-3', 'rank' => 8.6, 'type' => 'Feast-Other-3', 'name_ta' => '']
+		 * ];
+		 * The Other has to be added to $feastDet as usual.
+		 */
 		if(isset($feastDet['other'])){
-			foreach ($feastDet['other'] as $value) {
-				$feastDet []= $value;
-			}
+			// If the arrays contain numeric keys, 
+			// the array_merge will not overwrite the original value, 
+			// but will be appended.
+			$feastDet = array_merge($feastDet, $feastDet['other']);
 			unset($feastDet['other']);
 		}
 
 		$mth = $currDate->format('n');
 		$day = $currDate->format('j');
-		if (!isset($this->fullYear[$mth][$day]['other'])) {
-			$this->fullYear[$mth][$day]['other'] = [];
-		}
-
-		foreach ($feastDet as $value) {
-			$this->fullYear[$mth][$day]['other'] []= $value;
-		}
-
+		$this->fullYear[$mth][$day]['other'] = array_merge($this->fullYear[$mth][$day]['other']??[], $feastDet);
 	}
 
 }

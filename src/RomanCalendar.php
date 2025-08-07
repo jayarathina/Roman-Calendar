@@ -13,6 +13,7 @@ namespace RomanCalendar;
 
 include_once 'RomanCalendarMovable.php';
 include_once 'RomanCalendarFixed.php';
+include_once 'RomanCalendarColor.php';
 
 class RomanCalendar{
 
@@ -21,6 +22,8 @@ class RomanCalendar{
         RomanCalendarUtility::validateYear($year);
         $fullYear = (new RomanCalendarMovable())->computeMovableDayCodes($year, $options);
         $fullYear = (new RomanCalendarFixed())->computeFixedDayCodes($year, $fullYear, $options);
+        $fullYear = RomanCalendarColor::colourizeYear($fullYear);
+
         print_r($fullYear);
        // $this->saveCalendar();
     }
