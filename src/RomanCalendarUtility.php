@@ -11,12 +11,13 @@ namespace RomanCalendar;
  * Utility class for generating and managing the structure of the Roman Catholic liturgical calendar.
  * Provides methods to validate input years, initialize the calendar array for a given year,
  * and calculate the start dates of key liturgical seasons (Advent, Christmas, Epiphany, Baptism, Ordinary Time, Lent, Easter).
+ * 
  * All methods are static and designed to support the main calendar generation logic.
 
  * @version 5.0
  * @license MIT
  * 
-  */
+ */
 
 class RomanCalendarUtility {
 

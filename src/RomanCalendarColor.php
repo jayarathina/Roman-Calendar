@@ -14,7 +14,6 @@ namespace RomanCalendar;
 class RomanCalendarColor {
 
 	public static function colourizeYear($fullYear) {
-
         for ($mnth = 1; $mnth <= 12; $mnth++) {
 			foreach ($fullYear[$mnth] as $date => $feasts) {
 				foreach ($feasts as $key => $singleFeast) {
@@ -26,7 +25,7 @@ class RomanCalendarColor {
 						$fullYear[$mnth][$date][$key]['color'] = self::getColor($singleFeast['code'], $singleFeast['type'] ?? null);
 					}
 				}
-
+				//Add Memoria's color to the day
                 if(isset($feasts[1])) {
 					if (preg_match('/^Mem/', $feasts[1]['type']) === 1 && $feasts[1]['type'] !== 'Mem-Mary-Sat') {
                        $fullYear[$mnth][$date][0]['color'] =  $fullYear[$mnth][$date][1]['color'];

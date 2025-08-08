@@ -8,7 +8,8 @@ This project acts as a backbone for my [Tamil Lectionary](https://github.com/jay
 - Ability to **add local calendars**.
 - Created with programmers in mind, so that programmers can **easily extend and build upon this**.
 - Well documented code with **necessary comments for clarity**. 
-- Can be easily translated into any language. English translation of the raw data is provided in the HTML representation of the data. See [RomanCalendarRenderHTML.php](src/RomanCalendarRenderHTML.php)
+- Can be easily translated into any language. English translation of the raw data is provided in the HTML representation of the data. See [RomanCalendarRenderHTML.php](src/RomanCalendarRenderHTML.php) and [RomanCalendarRanks.php](src/RomanCalendarRanks.php)
+### New in Version 5.0
 - No database required. (Removed MySQL dependancy)
 - BUGFIX: Added backward compatibility. (That is if a new feast is added to the universal calendar this year. Previous year calendars generated will not have that feast. For example, the commemoration of St. Mary Magdalene raised to a Feast by Pope Francis only in 2016 ([ref](http://en.radiovaticana.va/news/2016/06/10/commemoration_of_st_mary_magdalene_raised_to_a_feast/1236157)), therefore, if you generate a calendar for the year 2008, it will not be marked as a feast in that year)
  
@@ -18,12 +19,23 @@ This project acts as a backbone for my [Tamil Lectionary](https://github.com/jay
 ## Before Starting
 - Specific settings like the Solemnities of Epiphany, Ascension and Corpus Christi occouring on sundays are passed through variables.
 - The project generates a JSON file for each year.
-- The tables have a column with Tamil data used for translation. You can use it as a sample to translate into any other language.
+
+## Structure of the csv file
+- [calendar.csv](src/calendar.csv) file has the list of feast. You can add local calendars to the end of the file.
+- The file does not follow strict csv standards. So, you can use simple text edior to edit it.
+- It has the following columns:
+  * `feast_month` - Month of the feast
+  * `feast_date` - Date of the feast
+  * `feast_code` - Name of the feast. (Usually the saints name). It is desired it to be unique, so that it can be used as a primary identifier when that data is used by other packages.
+  * `feast_type` - Solemnity, Feast, Mem, OpMem etc., (Refer [RomanCalendarRanks.php](src/RomanCalendarRanks.php) for the complete list)
+  * `added_year` - Year in which the feast was added to the General Roman Calendar. (Optional)
+  * `removed_year` - Year in which the feast was removed from the General Roman Calendar. Even if the feast was modifed, it is recorded as removed and added as a new entry for backward compatibility. (Optional)
 
 ## Structure of JSON Generated
 The JSON is created in the [dat folder](dat/) with the year subfolder.
 
 The content of the JSON file that is generated is of two-dimensional array. Outer most key has the month number and next has the day number. Which is followed by individual feast descriptions. The following is a sample for January 3rd.
+
 ```JSON
 {
     "1": {

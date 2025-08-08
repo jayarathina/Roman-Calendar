@@ -5,7 +5,7 @@
                 "code": "Blessed Virgin Mary, the Mother of God",
                 "rank": 3.1,
                 "type": "Solemnity",
-                "name_ta": "இறைவனின் அன்னையாகிய தூய கன்னி மரியா",
+                "name": "Blessed Virgin Mary, the Mother of God",
                 "color": "white"
             }
         ],
@@ -13,13 +13,14 @@
             {
                 "code": "CW02-Jan2",
                 "rank": 12.3,
+                "name": "Christmas Weekday: January 02",
                 "color": "white"
             },
             {
                 "code": "Saints Basil the Great and Gregory Nazianzen, bishops and doctors",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனிதர்கள் பெரிய பசிலியார், நசியான்சன் கிரகோரியார் - ஆயர்கள், மறைவல்லுநர்கள்",
+                "name": "Saints Basil the Great and Gregory Nazianzen, bishops and doctors",
                 "color": "white"
             }
         ],
@@ -27,20 +28,21 @@
             {
                 "code": "CW02-Jan3",
                 "rank": 12.3,
+                "name": "Christmas Weekday: January 03",
                 "color": "white"
             },
             {
                 "code": "The Most Holy Name of Jesus",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "இயேசுவின் திருப்பெயர்",
+                "name": "The Most Holy Name of Jesus",
                 "color": "white"
             },
             {
                 "code": "IN Saint Kuriakose Elias Chavara, priest",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித குரியாக்கோஸ் எலியாஸ் சவரா - மறைப்பணியாளர்",
+                "name": "IN Saint Kuriakose Elias Chavara, priest",
                 "color": "white"
             }
         ],
@@ -48,6 +50,7 @@
             {
                 "code": "CW02-Jan4",
                 "rank": 12.3,
+                "name": "Christmas Weekday: January 04",
                 "color": "white"
             }
         ],
@@ -56,6 +59,7 @@
                 "code": "CW03-Epiphany",
                 "rank": 2,
                 "type": "Solemnity",
+                "name": "The Epiphany of the Lord",
                 "color": "white"
             }
         ],
@@ -63,6 +67,7 @@
             {
                 "code": "CW03-Day1",
                 "rank": 12.3,
+                "name": "Monday after Epiphany",
                 "color": "white"
             }
         ],
@@ -70,13 +75,14 @@
             {
                 "code": "CW03-Day2",
                 "rank": 12.3,
+                "name": "Tuesday after Epiphany",
                 "color": "white"
             },
             {
                 "code": "Saint Raymond of Penyafort, priest",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித பெனாப்போர்த்து இரேய்முந்து - மறைப்பணியாளர்",
+                "name": "Saint Raymond of Penyafort, priest",
                 "color": "white"
             }
         ],
@@ -84,6 +90,7 @@
             {
                 "code": "CW03-Day3",
                 "rank": 12.3,
+                "name": "Wednesday after Epiphany",
                 "color": "white"
             }
         ],
@@ -91,6 +98,7 @@
             {
                 "code": "CW03-Day4",
                 "rank": 12.3,
+                "name": "Thursday after Epiphany",
                 "color": "white"
             }
         ],
@@ -98,6 +106,7 @@
             {
                 "code": "CW03-Day5",
                 "rank": 12.3,
+                "name": "Friday after Epiphany",
                 "color": "white"
             }
         ],
@@ -105,6 +114,7 @@
             {
                 "code": "CW03-Day6",
                 "rank": 12.3,
+                "name": "Saturday after Epiphany",
                 "color": "white"
             }
         ],
@@ -113,6 +123,7 @@
                 "code": "CW04-Baptism",
                 "rank": 5,
                 "type": "Feast-Lord",
+                "name": "The Baptism of the Lord",
                 "color": "white"
             }
         ],
@@ -120,13 +131,14 @@
             {
                 "code": "OW01-1Mon",
                 "rank": 12.5,
+                "name": "Monday of the 1<sup>st<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saint Hilary of Poitiers, bishop and doctor",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித இலாரியார் - ஆயர், மறைவல்லுநர்",
+                "name": "Saint Hilary of Poitiers, bishop and doctor",
                 "color": "white"
             }
         ],
@@ -134,13 +146,14 @@
             {
                 "code": "OW01-2Tue",
                 "rank": 12.5,
+                "name": "Tuesday of the 1<sup>st<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "IN Saint Devasahayam Pillai, martyr",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித தேவசகாயம் பிள்ளை, மறைச்சாட்சி",
+                "name": "IN Saint Devasahayam Pillai, martyr",
                 "color": "red"
             }
         ],
@@ -148,6 +161,7 @@
             {
                 "code": "OW01-3Wed",
                 "rank": 12.5,
+                "name": "Wednesday of the 1<sup>st<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -155,13 +169,14 @@
             {
                 "code": "OW01-4Thu",
                 "rank": 12.5,
+                "name": "Thursday of the 1<sup>st<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
                 "code": "IN Saint Joseph Vaz, priest",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனித ஜோசப் வாஸ் - மறைப்பணியாளர்",
+                "name": "IN Saint Joseph Vaz, priest",
                 "color": "white"
             }
         ],
@@ -169,13 +184,14 @@
             {
                 "code": "OW01-5Fri",
                 "rank": 12.5,
+                "name": "Friday of the 1<sup>st<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
                 "code": "Saint Anthony of Egypt, abbot",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனித வனத்து அந்தோணியார் - ஆதீனத் தலைவர்",
+                "name": "Saint Anthony of Egypt, abbot",
                 "color": "white"
             }
         ],
@@ -183,13 +199,14 @@
             {
                 "code": "OW01-6Sat",
                 "rank": 12.5,
+                "name": "Saturday of the 1<sup>st<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Mem-Mary-Sat",
                 "rank": 10.3,
                 "type": "Mem-Mary-Sat",
-                "name_ta": "",
+                "name": "Saturday Memorial of the Blessed Virgin Mary",
                 "color": "white"
             }
         ],
@@ -197,6 +214,7 @@
             {
                 "code": "OW02-0Sun",
                 "rank": 6,
+                "name": "Sunday of the 2<sup>nd<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -204,20 +222,21 @@
             {
                 "code": "OW02-1Mon",
                 "rank": 12.5,
+                "name": "Monday of the 2<sup>nd<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saint Fabian, pope and martyr",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித பபியான் - திருத்தந்தை, மறைச்சாட்சி",
+                "name": "Saint Fabian, pope and martyr",
                 "color": "red"
             },
             {
                 "code": "Saint Sebastian, martyr",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித செபஸ்தியார் - மறைச்சாட்சி",
+                "name": "Saint Sebastian, martyr",
                 "color": "red"
             }
         ],
@@ -225,13 +244,14 @@
             {
                 "code": "OW02-2Tue",
                 "rank": 12.5,
+                "name": "Tuesday of the 2<sup>nd<\/sup> Week in Ordinary Time",
                 "color": "red"
             },
             {
                 "code": "Saint Agnes, virgin and martyr",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனித ஆக்னெஸ் - கன்னியர், மறைச்சாட்சி",
+                "name": "Saint Agnes, virgin and martyr",
                 "color": "red"
             }
         ],
@@ -239,13 +259,14 @@
             {
                 "code": "OW02-3Wed",
                 "rank": 12.5,
+                "name": "Wednesday of the 2<sup>nd<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saint Vincent, deacon and martyr",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித வின்சென்ட் - திருத்தொண்டர், மறைச்சாட்சி",
+                "name": "Saint Vincent, deacon and martyr",
                 "color": "red"
             }
         ],
@@ -253,6 +274,7 @@
             {
                 "code": "OW02-4Thu",
                 "rank": 12.5,
+                "name": "Thursday of the 2<sup>nd<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -260,13 +282,14 @@
             {
                 "code": "OW02-5Fri",
                 "rank": 12.5,
+                "name": "Friday of the 2<sup>nd<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
                 "code": "Saint Francis de Sales, bishop and doctor",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனித பிரான்சிஸ் சலேசியார் - ஆயர், மறைவல்லுநர்",
+                "name": "Saint Francis de Sales, bishop and doctor",
                 "color": "white"
             }
         ],
@@ -275,13 +298,14 @@
                 "code": "The Conversion of Saint Paul, apostle",
                 "rank": 7,
                 "type": "Feast",
-                "name_ta": "திருத்தூதர் பவுல் மனமாற்றம்",
+                "name": "The Conversion of Saint Paul, apostle",
                 "color": "white"
             },
             "other": [
                 {
                     "code": "OW02-6Sat",
                     "rank": 12.5,
+                    "name": "Saturday of the 2<sup>nd<\/sup> Week in Ordinary Time",
                     "color": "green"
                 }
             ]
@@ -290,6 +314,7 @@
             "0": {
                 "code": "OW03-0Sun",
                 "rank": 6,
+                "name": "Sunday of the 3<sup>rd<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             "other": [
@@ -297,7 +322,7 @@
                     "code": "Saints Timothy and Titus, bishops",
                     "rank": 10.2,
                     "type": "Mem",
-                    "name_ta": "புனிதர்கள் திமொத்தேயு, தீத்து - ஆயர்கள்",
+                    "name": "Saints Timothy and Titus, bishops",
                     "color": "white"
                 }
             ]
@@ -306,13 +331,14 @@
             {
                 "code": "OW03-1Mon",
                 "rank": 12.5,
+                "name": "Monday of the 3<sup>rd<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saint Angela Merici, virgin",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித மெர்சி ஆஞ்சலா - கன்னியர்",
+                "name": "Saint Angela Merici, virgin",
                 "color": "white"
             }
         ],
@@ -320,13 +346,14 @@
             {
                 "code": "OW03-2Tue",
                 "rank": 12.5,
+                "name": "Tuesday of the 3<sup>rd<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
                 "code": "Saint Thomas Aquinas, priest and doctor",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "அக்குவினோ நகர் புனித தோமா - மறைப்பணியாளர், மறைவல்லுநர்",
+                "name": "Saint Thomas Aquinas, priest and doctor",
                 "color": "white"
             }
         ],
@@ -334,6 +361,7 @@
             {
                 "code": "OW03-3Wed",
                 "rank": 12.5,
+                "name": "Wednesday of the 3<sup>rd<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -341,6 +369,7 @@
             {
                 "code": "OW03-4Thu",
                 "rank": 12.5,
+                "name": "Thursday of the 3<sup>rd<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -348,13 +377,14 @@
             {
                 "code": "OW03-5Fri",
                 "rank": 12.5,
+                "name": "Friday of the 3<sup>rd<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
                 "code": "Saint John Bosco, priest",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனித ஜான் போஸ்கோ - மறைப்பணியாளர்",
+                "name": "Saint John Bosco, priest",
                 "color": "white"
             }
         ]
@@ -364,13 +394,14 @@
             {
                 "code": "OW03-6Sat",
                 "rank": 12.5,
+                "name": "Saturday of the 3<sup>rd<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Mem-Mary-Sat",
                 "rank": 10.3,
                 "type": "Mem-Mary-Sat",
-                "name_ta": "",
+                "name": "Saturday Memorial of the Blessed Virgin Mary",
                 "color": "white"
             }
         ],
@@ -379,13 +410,14 @@
                 "code": "Presentation of the Lord",
                 "rank": 5,
                 "type": "Feast-Lord",
-                "name_ta": "ஆண்டவரைக் காணிக்கையாக அர்ப்பணித்தல்",
+                "name": "Presentation of the Lord",
                 "color": "white"
             },
             "other": [
                 {
                     "code": "OW04-0Sun",
                     "rank": 6,
+                    "name": "Sunday of the 4<sup>th<\/sup> Week in Ordinary Time",
                     "color": "green"
                 }
             ]
@@ -394,20 +426,21 @@
             {
                 "code": "OW04-1Mon",
                 "rank": 12.5,
+                "name": "Monday of the 4<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saint Ansgar, bishop",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித ஆன்ஸ்காரியு - ஆயர்",
+                "name": "Saint Ansgar, bishop",
                 "color": "white"
             },
             {
                 "code": "Saint Blase, bishop and martyr",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித பிளாசியு - ஆயர், மறைச்சாட்சி",
+                "name": "Saint Blase, bishop and martyr",
                 "color": "red"
             }
         ],
@@ -415,13 +448,14 @@
             {
                 "code": "OW04-2Tue",
                 "rank": 12.5,
+                "name": "Tuesday of the 4<sup>th<\/sup> Week in Ordinary Time",
                 "color": "red"
             },
             {
                 "code": "IN Saint John de Brito, priest and martyr",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனித ஜான் தெ பிரிட்டோ (அருளானந்தர்) - மறைப்பணியாளர், மறைச்சாட்சி",
+                "name": "IN Saint John de Brito, priest and martyr",
                 "color": "red"
             }
         ],
@@ -429,13 +463,14 @@
             {
                 "code": "OW04-3Wed",
                 "rank": 12.5,
+                "name": "Wednesday of the 4<sup>th<\/sup> Week in Ordinary Time",
                 "color": "red"
             },
             {
                 "code": "Saint Agatha, virgin and martyr",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனித ஆகத்தா - கன்னியர், மறைச்சாட்சி",
+                "name": "Saint Agatha, virgin and martyr",
                 "color": "red"
             }
         ],
@@ -443,20 +478,21 @@
             {
                 "code": "OW04-4Thu",
                 "rank": 12.5,
+                "name": "Thursday of the 4<sup>th<\/sup> Week in Ordinary Time",
                 "color": "red"
             },
             {
                 "code": "Saints Paul Miki and companions, martyrs",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனிதர்கள் மறைப்பணியாளர் பவுல் மீகி, தோழர்கள் - மறைச்சாட்சியர்",
+                "name": "Saints Paul Miki and companions, martyrs",
                 "color": "red"
             },
             {
                 "code": "IN Saint Gonsalo Garcia, martyr",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனித கொன்சாலோ கார்சியா - மறைச்சாட்சி",
+                "name": "IN Saint Gonsalo Garcia, martyr",
                 "color": "red"
             }
         ],
@@ -464,6 +500,7 @@
             {
                 "code": "OW04-5Fri",
                 "rank": 12.5,
+                "name": "Friday of the 4<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -471,20 +508,21 @@
             {
                 "code": "OW04-6Sat",
                 "rank": 12.5,
+                "name": "Saturday of the 4<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saint Jerome Emiliani, priest",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித எரோணிமுஸ் எமிலியன் - மறைப்பணியாளர்",
+                "name": "Saint Jerome Emiliani, priest",
                 "color": "white"
             },
             {
                 "code": "Saint Josephine Bakhita, virgin",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித ஜோஸ்பின் பக்கீத்தா - கன்னியர்",
+                "name": "Saint Josephine Bakhita, virgin",
                 "color": "white"
             }
         ],
@@ -492,6 +530,7 @@
             {
                 "code": "OW05-0Sun",
                 "rank": 6,
+                "name": "Sunday of the 5<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -499,13 +538,14 @@
             {
                 "code": "OW05-1Mon",
                 "rank": 12.5,
+                "name": "Monday of the 5<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
                 "code": "Saint Scholastica, virgin",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனித ஸ்கொலாஸ்திக்கா - கன்னியர்",
+                "name": "Saint Scholastica, virgin",
                 "color": "white"
             }
         ],
@@ -513,13 +553,14 @@
             {
                 "code": "OW05-2Tue",
                 "rank": 12.5,
+                "name": "Tuesday of the 5<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Our Lady of Lourdes",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "தூய லூர்து அன்னை",
+                "name": "Our Lady of Lourdes",
                 "color": "white"
             }
         ],
@@ -527,6 +568,7 @@
             {
                 "code": "OW05-3Wed",
                 "rank": 12.5,
+                "name": "Wednesday of the 5<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -534,6 +576,7 @@
             {
                 "code": "OW05-4Thu",
                 "rank": 12.5,
+                "name": "Thursday of the 5<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -541,13 +584,14 @@
             {
                 "code": "OW05-5Fri",
                 "rank": 12.5,
+                "name": "Friday of the 5<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
                 "code": "Saints Cyril, monk, and Methodius, bishop",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனிதர்கள் சிரில் - துறவி, மெத்தோடியுஸ் - ஆயர்",
+                "name": "Saints Cyril, monk, and Methodius, bishop",
                 "color": "white"
             }
         ],
@@ -555,13 +599,14 @@
             {
                 "code": "OW05-6Sat",
                 "rank": 12.5,
+                "name": "Saturday of the 5<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Mem-Mary-Sat",
                 "rank": 10.3,
                 "type": "Mem-Mary-Sat",
-                "name_ta": "",
+                "name": "Saturday Memorial of the Blessed Virgin Mary",
                 "color": "white"
             }
         ],
@@ -569,6 +614,7 @@
             {
                 "code": "OW06-0Sun",
                 "rank": 6,
+                "name": "Sunday of the 6<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -576,13 +622,14 @@
             {
                 "code": "OW06-1Mon",
                 "rank": 12.5,
+                "name": "Monday of the 6<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Seven Holy Founders of the Servite Order",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "தூய கன்னி மரியாவின் ஊழியர் சபையை நிறுவிய புனிதர் எழுவர்",
+                "name": "Seven Holy Founders of the Servite Order",
                 "color": "white"
             }
         ],
@@ -590,6 +637,7 @@
             {
                 "code": "OW06-2Tue",
                 "rank": 12.5,
+                "name": "Tuesday of the 6<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -597,6 +645,7 @@
             {
                 "code": "OW06-3Wed",
                 "rank": 12.5,
+                "name": "Wednesday of the 6<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -604,6 +653,7 @@
             {
                 "code": "OW06-4Thu",
                 "rank": 12.5,
+                "name": "Thursday of the 6<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -611,13 +661,14 @@
             {
                 "code": "OW06-5Fri",
                 "rank": 12.5,
+                "name": "Friday of the 6<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saint Peter Damian, bishop and doctor of the Church",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித பீட்டர் தமியான் - ஆயர், மறைவல்லுநர்",
+                "name": "Saint Peter Damian, bishop and doctor of the Church",
                 "color": "white"
             }
         ],
@@ -626,13 +677,14 @@
                 "code": "Chair of Saint Peter, apostle",
                 "rank": 7,
                 "type": "Feast",
-                "name_ta": "திருத்தூதர் பேதுருவின் தலைமைப் பீடம்",
+                "name": "Chair of Saint Peter, apostle",
                 "color": "white"
             },
             "other": [
                 {
                     "code": "OW06-6Sat",
                     "rank": 12.5,
+                    "name": "Saturday of the 6<sup>th<\/sup> Week in Ordinary Time",
                     "color": "green"
                 }
             ]
@@ -641,6 +693,7 @@
             "0": {
                 "code": "OW07-0Sun",
                 "rank": 6,
+                "name": "Sunday of the 7<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             "other": [
@@ -648,7 +701,7 @@
                     "code": "Saint Polycarp, bishop and martyr",
                     "rank": 10.2,
                     "type": "Mem",
-                    "name_ta": "புனித பொலிக்கார்ப்பு - ஆயர், மறைச்சாட்சி",
+                    "name": "Saint Polycarp, bishop and martyr",
                     "color": "red"
                 }
             ]
@@ -657,6 +710,7 @@
             {
                 "code": "OW07-1Mon",
                 "rank": 12.5,
+                "name": "Monday of the 7<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -664,13 +718,14 @@
             {
                 "code": "OW07-2Tue",
                 "rank": 12.5,
+                "name": "Tuesday of the 7<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "IN Blessed Rani Maria, virgin, martyr",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "முத்தி. இராணி மரியா, கன்னியர், மறைச்சாட்சி",
+                "name": "IN Blessed Rani Maria, virgin, martyr",
                 "color": "red"
             }
         ],
@@ -678,6 +733,7 @@
             {
                 "code": "OW07-3Wed",
                 "rank": 12.5,
+                "name": "Wednesday of the 7<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -685,13 +741,14 @@
             {
                 "code": "OW07-4Thu",
                 "rank": 12.5,
+                "name": "Thursday of the 7<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saint Gregory of Narek, abbot and doctor of the Church",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "நாரெக் நகர் புனித கிரகோரியார் - ஆதீனத் தலைவர், மறைவல்லுநர்",
+                "name": "Saint Gregory of Narek, abbot and doctor of the Church",
                 "color": "white"
             }
         ],
@@ -699,6 +756,7 @@
             {
                 "code": "OW07-5Fri",
                 "rank": 12.5,
+                "name": "Friday of the 7<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ]
@@ -708,13 +766,14 @@
             {
                 "code": "OW07-6Sat",
                 "rank": 12.5,
+                "name": "Saturday of the 7<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Mem-Mary-Sat",
                 "rank": 10.3,
                 "type": "Mem-Mary-Sat",
-                "name_ta": "",
+                "name": "Saturday Memorial of the Blessed Virgin Mary",
                 "color": "white"
             }
         ],
@@ -722,6 +781,7 @@
             {
                 "code": "OW08-0Sun",
                 "rank": 6,
+                "name": "Sunday of the 8<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -729,6 +789,7 @@
             {
                 "code": "OW08-1Mon",
                 "rank": 12.5,
+                "name": "Monday of the 8<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -736,13 +797,14 @@
             {
                 "code": "OW08-2Tue",
                 "rank": 12.5,
+                "name": "Tuesday of the 8<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saint Casimir",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித கசிமீர்",
+                "name": "Saint Casimir",
                 "color": "white"
             }
         ],
@@ -750,6 +812,7 @@
             {
                 "code": "LW00-3Wed",
                 "rank": 2.2,
+                "name": "Ash Wednesday",
                 "color": "purple"
             }
         ],
@@ -757,6 +820,7 @@
             {
                 "code": "LW00-4Thu",
                 "rank": 9.3,
+                "name": "Thursday after Ash Wednesday",
                 "color": "purple"
             }
         ],
@@ -764,13 +828,14 @@
             {
                 "code": "LW00-5Fri",
                 "rank": 9.3,
+                "name": "Friday after Ash Wednesday",
                 "color": "purple"
             },
             {
                 "code": "Saints Perpetua and Felicity, martyrs",
                 "rank": 12.1,
                 "type": "OpMem-Commemoration",
-                "name_ta": "புனிதையர் பெர்பெத்துவா, பெலிசித்தா - மறைச்சாட்சியர்",
+                "name": "Saints Perpetua and Felicity, martyrs",
                 "color": "red"
             }
         ],
@@ -778,13 +843,14 @@
             {
                 "code": "LW00-6Sat",
                 "rank": 9.3,
+                "name": "Saturday after Ash Wednesday",
                 "color": "purple"
             },
             {
                 "code": "Saint John of God, religious",
                 "rank": 12.1,
                 "type": "OpMem-Commemoration",
-                "name_ta": "புனித இறை யோவான் - துறவி",
+                "name": "Saint John of God, religious",
                 "color": "white"
             }
         ],
@@ -792,6 +858,7 @@
             "0": {
                 "code": "LW01-0Sun",
                 "rank": 2.1,
+                "name": "Sunday of the 1<sup>st<\/sup> Week of Lent",
                 "color": "purple"
             },
             "other": [
@@ -799,7 +866,7 @@
                     "code": "Saint Frances of Rome, religious",
                     "rank": 12.1,
                     "type": "OpMem",
-                    "name_ta": "உரோமை நகர் புனித பிரான்சிஸ்கா - துறவி",
+                    "name": "Saint Frances of Rome, religious",
                     "color": "white"
                 }
             ]
@@ -808,6 +875,7 @@
             {
                 "code": "LW01-1Mon",
                 "rank": 9.3,
+                "name": "Monday of the 1<sup>st<\/sup> Week of Lent",
                 "color": "purple"
             }
         ],
@@ -815,6 +883,7 @@
             {
                 "code": "LW01-2Tue",
                 "rank": 9.3,
+                "name": "Tuesday of the 1<sup>st<\/sup> Week of Lent",
                 "color": "purple"
             }
         ],
@@ -822,6 +891,7 @@
             {
                 "code": "LW01-3Wed",
                 "rank": 9.3,
+                "name": "Wednesday of the 1<sup>st<\/sup> Week of Lent",
                 "color": "purple"
             }
         ],
@@ -829,6 +899,7 @@
             {
                 "code": "LW01-4Thu",
                 "rank": 9.3,
+                "name": "Thursday of the 1<sup>st<\/sup> Week of Lent",
                 "color": "purple"
             }
         ],
@@ -836,6 +907,7 @@
             {
                 "code": "LW01-5Fri",
                 "rank": 9.3,
+                "name": "Friday of the 1<sup>st<\/sup> Week of Lent",
                 "color": "purple"
             }
         ],
@@ -843,6 +915,7 @@
             {
                 "code": "LW01-6Sat",
                 "rank": 9.3,
+                "name": "Saturday of the 1<sup>st<\/sup> Week of Lent",
                 "color": "purple"
             }
         ],
@@ -850,6 +923,7 @@
             {
                 "code": "LW02-0Sun",
                 "rank": 2.1,
+                "name": "Sunday of the 2<sup>nd<\/sup> Week of Lent",
                 "color": "purple"
             }
         ],
@@ -857,13 +931,14 @@
             {
                 "code": "LW02-1Mon",
                 "rank": 9.3,
+                "name": "Monday of the 2<sup>nd<\/sup> Week of Lent",
                 "color": "purple"
             },
             {
                 "code": "Saint Patrick, bishop",
                 "rank": 12.1,
                 "type": "OpMem-Commemoration",
-                "name_ta": "புனித பேட்ரிக் - ஆயர்",
+                "name": "Saint Patrick, bishop",
                 "color": "white"
             }
         ],
@@ -871,13 +946,14 @@
             {
                 "code": "LW02-2Tue",
                 "rank": 9.3,
+                "name": "Tuesday of the 2<sup>nd<\/sup> Week of Lent",
                 "color": "purple"
             },
             {
                 "code": "Saint Cyril of Jerusalem, bishop and doctor",
                 "rank": 12.1,
                 "type": "OpMem-Commemoration",
-                "name_ta": "எருசலேம் நகர் புனித சிரில் - ஆயர், மறைவல்லுநர்",
+                "name": "Saint Cyril of Jerusalem, bishop and doctor",
                 "color": "white"
             }
         ],
@@ -886,13 +962,14 @@
                 "code": "Saint Joseph Husband of the Blessed Virgin Mary",
                 "rank": 3.1,
                 "type": "Solemnity",
-                "name_ta": "புனித யோசேப்பு - தூய கன்னி மரியாவின் கணவர்",
+                "name": "Saint Joseph Husband of the Blessed Virgin Mary",
                 "color": "white"
             },
             "other": [
                 {
                     "code": "LW02-3Wed",
                     "rank": 9.3,
+                    "name": "Wednesday of the 2<sup>nd<\/sup> Week of Lent",
                     "color": "purple"
                 }
             ]
@@ -901,6 +978,7 @@
             {
                 "code": "LW02-4Thu",
                 "rank": 9.3,
+                "name": "Thursday of the 2<sup>nd<\/sup> Week of Lent",
                 "color": "purple"
             }
         ],
@@ -908,6 +986,7 @@
             {
                 "code": "LW02-5Fri",
                 "rank": 9.3,
+                "name": "Friday of the 2<sup>nd<\/sup> Week of Lent",
                 "color": "purple"
             }
         ],
@@ -915,6 +994,7 @@
             {
                 "code": "LW02-6Sat",
                 "rank": 9.3,
+                "name": "Saturday of the 2<sup>nd<\/sup> Week of Lent",
                 "color": "purple"
             }
         ],
@@ -922,6 +1002,7 @@
             "0": {
                 "code": "LW03-0Sun",
                 "rank": 2.1,
+                "name": "Sunday of the 3<sup>rd<\/sup> Week of Lent",
                 "color": "purple"
             },
             "other": [
@@ -929,7 +1010,7 @@
                     "code": "Saint Turibius of Mogrovejo, bishop",
                     "rank": 12.1,
                     "type": "OpMem",
-                    "name_ta": "புனித மாங்ரோவேகோ துரீபியு - ஆயர்",
+                    "name": "Saint Turibius of Mogrovejo, bishop",
                     "color": "white"
                 }
             ]
@@ -938,6 +1019,7 @@
             {
                 "code": "LW03-1Mon",
                 "rank": 9.3,
+                "name": "Monday of the 3<sup>rd<\/sup> Week of Lent",
                 "color": "purple"
             }
         ],
@@ -946,13 +1028,14 @@
                 "code": "Annunciation of the Lord",
                 "rank": 3.1,
                 "type": "Solemnity",
-                "name_ta": "கிறிஸ்து பிறப்பின் அறிவிப்பு",
+                "name": "Annunciation of the Lord",
                 "color": "white"
             },
             "other": [
                 {
                     "code": "LW03-2Tue",
                     "rank": 9.3,
+                    "name": "Tuesday of the 3<sup>rd<\/sup> Week of Lent",
                     "color": "purple"
                 }
             ]
@@ -961,6 +1044,7 @@
             {
                 "code": "LW03-3Wed",
                 "rank": 9.3,
+                "name": "Wednesday of the 3<sup>rd<\/sup> Week of Lent",
                 "color": "purple"
             }
         ],
@@ -968,6 +1052,7 @@
             {
                 "code": "LW03-4Thu",
                 "rank": 9.3,
+                "name": "Thursday of the 3<sup>rd<\/sup> Week of Lent",
                 "color": "purple"
             }
         ],
@@ -975,6 +1060,7 @@
             {
                 "code": "LW03-5Fri",
                 "rank": 9.3,
+                "name": "Friday of the 3<sup>rd<\/sup> Week of Lent",
                 "color": "purple"
             }
         ],
@@ -982,6 +1068,7 @@
             {
                 "code": "LW03-6Sat",
                 "rank": 9.3,
+                "name": "Saturday of the 3<sup>rd<\/sup> Week of Lent",
                 "color": "purple"
             }
         ],
@@ -989,6 +1076,7 @@
             {
                 "code": "LW04-0Sun",
                 "rank": 2.1,
+                "name": "Sunday of the 4<sup>th<\/sup> Week of Lent",
                 "color": "rose"
             }
         ],
@@ -996,6 +1084,7 @@
             {
                 "code": "LW04-1Mon",
                 "rank": 9.3,
+                "name": "Monday of the 4<sup>th<\/sup> Week of Lent",
                 "color": "purple"
             }
         ]
@@ -1005,6 +1094,7 @@
             {
                 "code": "LW04-2Tue",
                 "rank": 9.3,
+                "name": "Tuesday of the 4<sup>th<\/sup> Week of Lent",
                 "color": "purple"
             }
         ],
@@ -1012,13 +1102,14 @@
             {
                 "code": "LW04-3Wed",
                 "rank": 9.3,
+                "name": "Wednesday of the 4<sup>th<\/sup> Week of Lent",
                 "color": "purple"
             },
             {
                 "code": "Saint Francis of Paola, hermit",
                 "rank": 12.1,
                 "type": "OpMem-Commemoration",
-                "name_ta": "புனித பவோலா பிரான்சிஸ் - வனத்துறவி",
+                "name": "Saint Francis of Paola, hermit",
                 "color": "white"
             }
         ],
@@ -1026,6 +1117,7 @@
             {
                 "code": "LW04-4Thu",
                 "rank": 9.3,
+                "name": "Thursday of the 4<sup>th<\/sup> Week of Lent",
                 "color": "purple"
             }
         ],
@@ -1033,13 +1125,14 @@
             {
                 "code": "LW04-5Fri",
                 "rank": 9.3,
+                "name": "Friday of the 4<sup>th<\/sup> Week of Lent",
                 "color": "purple"
             },
             {
                 "code": "Saint Isidore, bishop and doctor of the Church",
                 "rank": 12.1,
                 "type": "OpMem-Commemoration",
-                "name_ta": "புனித இசிதோர் - ஆயர், மறைவல்லுநர்",
+                "name": "Saint Isidore, bishop and doctor of the Church",
                 "color": "white"
             }
         ],
@@ -1047,13 +1140,14 @@
             {
                 "code": "LW04-6Sat",
                 "rank": 9.3,
+                "name": "Saturday of the 4<sup>th<\/sup> Week of Lent",
                 "color": "purple"
             },
             {
                 "code": "Saint Vincent Ferrer, priest",
                 "rank": 12.1,
                 "type": "OpMem-Commemoration",
-                "name_ta": "புனித வின்சென்ட் பெரர் - மறைப்பணியாளர்",
+                "name": "Saint Vincent Ferrer, priest",
                 "color": "white"
             }
         ],
@@ -1061,6 +1155,7 @@
             {
                 "code": "LW05-0Sun",
                 "rank": 2.1,
+                "name": "Sunday of the 5<sup>th<\/sup> Week of Lent",
                 "color": "purple"
             }
         ],
@@ -1068,13 +1163,14 @@
             {
                 "code": "LW05-1Mon",
                 "rank": 9.3,
+                "name": "Monday of the 5<sup>th<\/sup> Week of Lent",
                 "color": "purple"
             },
             {
                 "code": "Saint John Baptist de la Salle, priest",
                 "rank": 12.1,
                 "type": "OpMem-Commemoration",
-                "name_ta": "லசால் நகர் புனித ஜான் பாப்டிஸ்ட் - மறைப்பணியாளர்",
+                "name": "Saint John Baptist de la Salle, priest",
                 "color": "white"
             }
         ],
@@ -1082,6 +1178,7 @@
             {
                 "code": "LW05-2Tue",
                 "rank": 9.3,
+                "name": "Tuesday of the 5<sup>th<\/sup> Week of Lent",
                 "color": "purple"
             }
         ],
@@ -1089,6 +1186,7 @@
             {
                 "code": "LW05-3Wed",
                 "rank": 9.3,
+                "name": "Wednesday of the 5<sup>th<\/sup> Week of Lent",
                 "color": "purple"
             }
         ],
@@ -1096,6 +1194,7 @@
             {
                 "code": "LW05-4Thu",
                 "rank": 9.3,
+                "name": "Thursday of the 5<sup>th<\/sup> Week of Lent",
                 "color": "purple"
             }
         ],
@@ -1103,13 +1202,14 @@
             {
                 "code": "LW05-5Fri",
                 "rank": 9.3,
+                "name": "Friday of the 5<sup>th<\/sup> Week of Lent",
                 "color": "purple"
             },
             {
                 "code": "Saint Stanislaus, bishop and martyr",
                 "rank": 12.1,
                 "type": "OpMem-Commemoration",
-                "name_ta": "புனித தனிஸ்லாஸ் - ஆயர், மறைச்சாட்சி",
+                "name": "Saint Stanislaus, bishop and martyr",
                 "color": "red"
             }
         ],
@@ -1117,6 +1217,7 @@
             {
                 "code": "LW05-6Sat",
                 "rank": 9.3,
+                "name": "Saturday of the 5<sup>th<\/sup> Week of Lent",
                 "color": "purple"
             }
         ],
@@ -1124,6 +1225,7 @@
             "0": {
                 "code": "LW06-0Sun",
                 "rank": 2.1,
+                "name": "Palm Sunday of The Passion Of The Lord",
                 "color": "red"
             },
             "other": [
@@ -1131,7 +1233,7 @@
                     "code": "Saint Martin I, pope and martyr",
                     "rank": 12.1,
                     "type": "OpMem",
-                    "name_ta": "புனித முதலாம் மார்ட்டின் - திருத்தந்தை, மறைச்சாட்சி",
+                    "name": "Saint Martin I, pope and martyr",
                     "color": "red"
                 }
             ]
@@ -1140,6 +1242,7 @@
             {
                 "code": "LW06-1Mon",
                 "rank": 2.3,
+                "name": "Monday of Holy Week",
                 "color": "purple"
             }
         ],
@@ -1147,6 +1250,7 @@
             {
                 "code": "LW06-2Tue",
                 "rank": 2.3,
+                "name": "Tuesday of Holy Week",
                 "color": "purple"
             }
         ],
@@ -1154,6 +1258,7 @@
             {
                 "code": "LW06-3Wed",
                 "rank": 2.3,
+                "name": "Wednesday of Holy Week",
                 "color": "purple"
             }
         ],
@@ -1161,6 +1266,7 @@
             {
                 "code": "LW06-4Thu",
                 "rank": 2.3,
+                "name": "Thursday of Holy Week (Holy Thursday)",
                 "color": "white"
             }
         ],
@@ -1169,6 +1275,7 @@
                 "code": "LW06-5Fri",
                 "rank": 1,
                 "type": "Solemnity",
+                "name": "Friday of the Passion of the Lord (Good Friday)",
                 "color": "red"
             }
         ],
@@ -1177,6 +1284,7 @@
                 "code": "LW06-6Sat",
                 "rank": 1,
                 "type": "Solemnity",
+                "name": "Holy Saturday",
                 "color": "white"
             }
         ],
@@ -1185,6 +1293,7 @@
                 "code": "EW01-0Sun",
                 "rank": 1,
                 "type": "Solemnity",
+                "name": "Easter Sunday of The Resurrection of The Lord",
                 "color": "white"
             }
         ],
@@ -1193,6 +1302,7 @@
                 "code": "EW01-1Mon",
                 "rank": 2.4,
                 "type": "Solemnity",
+                "name": "Monday in the Octave of Easter",
                 "color": "white"
             },
             "other": [
@@ -1200,7 +1310,7 @@
                     "code": "Saint Anselm of Canterbury, bishop and doctor of the Church",
                     "rank": 12.1,
                     "type": "OpMem",
-                    "name_ta": "புனித ஆன்சலம் - ஆயர், மறைவல்லுநர்",
+                    "name": "Saint Anselm of Canterbury, bishop and doctor of the Church",
                     "color": "white"
                 }
             ]
@@ -1210,6 +1320,7 @@
                 "code": "EW01-2Tue",
                 "rank": 2.4,
                 "type": "Solemnity",
+                "name": "Tuesday in the Octave of Easter",
                 "color": "white"
             }
         ],
@@ -1218,6 +1329,7 @@
                 "code": "EW01-3Wed",
                 "rank": 2.4,
                 "type": "Solemnity",
+                "name": "Wednesday in the Octave of Easter",
                 "color": "white"
             },
             "other": [
@@ -1225,14 +1337,14 @@
                     "code": "Saint Adalbert, bishop and martyr",
                     "rank": 12.1,
                     "type": "OpMem",
-                    "name_ta": "புனித அடால்பெர்ட் - ஆயர், மறைச்சாட்சி",
+                    "name": "Saint Adalbert, bishop and martyr",
                     "color": "red"
                 },
                 {
                     "code": "Saint George, martyr",
                     "rank": 12.1,
                     "type": "OpMem",
-                    "name_ta": "புனித ஜார்ஜ் - மறைச்சாட்சி",
+                    "name": "Saint George, martyr",
                     "color": "red"
                 }
             ]
@@ -1242,6 +1354,7 @@
                 "code": "EW01-4Thu",
                 "rank": 2.4,
                 "type": "Solemnity",
+                "name": "Thursday in the Octave of Easter",
                 "color": "white"
             },
             "other": [
@@ -1249,7 +1362,7 @@
                     "code": "Saint Fidelis of Sigmaringen, priest and martyr",
                     "rank": 12.1,
                     "type": "OpMem",
-                    "name_ta": "சிக்மரிங்கன் நகர் புனித பிதேலிஸ் - மறைப்பணியாளர், மறைச்சாட்சி",
+                    "name": "Saint Fidelis of Sigmaringen, priest and martyr",
                     "color": "red"
                 }
             ]
@@ -1259,6 +1372,7 @@
                 "code": "EW01-5Fri",
                 "rank": 2.4,
                 "type": "Solemnity",
+                "name": "Friday in the Octave of Easter",
                 "color": "white"
             },
             "other": [
@@ -1266,7 +1380,7 @@
                     "code": "Saint Mark the Evangelist",
                     "rank": 7,
                     "type": "Feast",
-                    "name_ta": "புனித மாற்கு - நற்செய்தியாளர்",
+                    "name": "Saint Mark the Evangelist",
                     "color": "red"
                 }
             ]
@@ -1276,6 +1390,7 @@
                 "code": "EW01-6Sat",
                 "rank": 2.4,
                 "type": "Solemnity",
+                "name": "Saturday in the Octave of Easter",
                 "color": "white"
             }
         ],
@@ -1283,6 +1398,7 @@
             {
                 "code": "EW02-0Sun",
                 "rank": 2.1,
+                "name": "Sunday of the 2<sup>nd<\/sup> Week of Easter",
                 "color": "white"
             }
         ],
@@ -1290,20 +1406,21 @@
             {
                 "code": "EW02-1Mon",
                 "rank": 12.4,
+                "name": "Monday of the 2<sup>nd<\/sup> Week of Easter",
                 "color": "white"
             },
             {
                 "code": "Saint Louis Grignon de Montfort, priest",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "மான்போர்ட் நகர் புனித லூயி மரிய கிரிஞ்ஞோ, மறைப்பணியாளர்",
+                "name": "Saint Louis Grignon de Montfort, priest",
                 "color": "white"
             },
             {
                 "code": "Saint Peter Chanel, priest and martyr",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித பியர் சானல் - மறைப்பணியாளர், மறைச்சாட்சி",
+                "name": "Saint Peter Chanel, priest and martyr",
                 "color": "red"
             }
         ],
@@ -1311,13 +1428,14 @@
             {
                 "code": "EW02-2Tue",
                 "rank": 12.4,
+                "name": "Tuesday of the 2<sup>nd<\/sup> Week of Easter",
                 "color": "white"
             },
             {
                 "code": "Saint Catherine of Siena, virgin and doctor of the Church",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "சியன்னா நகர் புனித கேத்தரின் - கன்னியர், மறைவல்லுநர்",
+                "name": "Saint Catherine of Siena, virgin and doctor of the Church",
                 "color": "white"
             }
         ],
@@ -1325,13 +1443,14 @@
             {
                 "code": "EW02-3Wed",
                 "rank": 12.4,
+                "name": "Wednesday of the 2<sup>nd<\/sup> Week of Easter",
                 "color": "white"
             },
             {
                 "code": "Saint Pius V, pope",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித ஐந்தாம் பயஸ் - திருத்தந்தை",
+                "name": "Saint Pius V, pope",
                 "color": "white"
             }
         ]
@@ -1341,13 +1460,14 @@
             {
                 "code": "EW02-4Thu",
                 "rank": 12.4,
+                "name": "Thursday of the 2<sup>nd<\/sup> Week of Easter",
                 "color": "white"
             },
             {
                 "code": "Saint Joseph the Worker",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "தொழிலாளரான புனித யோசேப்பு",
+                "name": "Saint Joseph the Worker",
                 "color": "white"
             }
         ],
@@ -1355,13 +1475,14 @@
             {
                 "code": "EW02-5Fri",
                 "rank": 12.4,
+                "name": "Friday of the 2<sup>nd<\/sup> Week of Easter",
                 "color": "white"
             },
             {
                 "code": "Saint Athanasius, bishop and doctor",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனித அத்தனாசியு - ஆயர், மறைவல்லுநர்",
+                "name": "Saint Athanasius, bishop and doctor",
                 "color": "white"
             }
         ],
@@ -1370,13 +1491,14 @@
                 "code": "Saints Philip and James, Apostles",
                 "rank": 7,
                 "type": "Feast",
-                "name_ta": "புனிதர்கள் பிலிப்பு, யாக்கோபு - திருத்தூதர்கள்",
+                "name": "Saints Philip and James, Apostles",
                 "color": "red"
             },
             "other": [
                 {
                     "code": "EW02-6Sat",
                     "rank": 12.4,
+                    "name": "Saturday of the 2<sup>nd<\/sup> Week of Easter",
                     "color": "white"
                 }
             ]
@@ -1385,6 +1507,7 @@
             {
                 "code": "EW03-0Sun",
                 "rank": 2.1,
+                "name": "Sunday of the 3<sup>rd<\/sup> Week of Easter",
                 "color": "white"
             }
         ],
@@ -1392,6 +1515,7 @@
             {
                 "code": "EW03-1Mon",
                 "rank": 12.4,
+                "name": "Monday of the 3<sup>rd<\/sup> Week of Easter",
                 "color": "white"
             }
         ],
@@ -1399,6 +1523,7 @@
             {
                 "code": "EW03-2Tue",
                 "rank": 12.4,
+                "name": "Tuesday of the 3<sup>rd<\/sup> Week of Easter",
                 "color": "white"
             }
         ],
@@ -1406,6 +1531,7 @@
             {
                 "code": "EW03-3Wed",
                 "rank": 12.4,
+                "name": "Wednesday of the 3<sup>rd<\/sup> Week of Easter",
                 "color": "white"
             }
         ],
@@ -1413,6 +1539,7 @@
             {
                 "code": "EW03-4Thu",
                 "rank": 12.4,
+                "name": "Thursday of the 3<sup>rd<\/sup> Week of Easter",
                 "color": "white"
             }
         ],
@@ -1420,6 +1547,7 @@
             {
                 "code": "EW03-5Fri",
                 "rank": 12.4,
+                "name": "Friday of the 3<sup>rd<\/sup> Week of Easter",
                 "color": "white"
             }
         ],
@@ -1427,13 +1555,14 @@
             {
                 "code": "EW03-6Sat",
                 "rank": 12.4,
+                "name": "Saturday of the 3<sup>rd<\/sup> Week of Easter",
                 "color": "white"
             },
             {
                 "code": "Saint John of Avila, priest and doctor",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "அவிலா நகர் புனித யோவான் - மறைப்பணியாளர், மறைவல்லுநர்",
+                "name": "Saint John of Avila, priest and doctor",
                 "color": "white"
             }
         ],
@@ -1441,6 +1570,7 @@
             {
                 "code": "EW04-0Sun",
                 "rank": 2.1,
+                "name": "Sunday of the 4<sup>th<\/sup> Week of Easter",
                 "color": "white"
             }
         ],
@@ -1448,20 +1578,21 @@
             {
                 "code": "EW04-1Mon",
                 "rank": 12.4,
+                "name": "Monday of the 4<sup>th<\/sup> Week of Easter",
                 "color": "white"
             },
             {
                 "code": "Saint Pancras, martyr",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித பங்கிராஸ் - மறைச்சாட்சி",
+                "name": "Saint Pancras, martyr",
                 "color": "red"
             },
             {
                 "code": "Saints Nereus and Achilleus, martyrs",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனிதர்கள் நெரேயு, அக்கிலேயு - மறைச்சாட்சியர்",
+                "name": "Saints Nereus and Achilleus, martyrs",
                 "color": "red"
             }
         ],
@@ -1469,13 +1600,14 @@
             {
                 "code": "EW04-2Tue",
                 "rank": 12.4,
+                "name": "Tuesday of the 4<sup>th<\/sup> Week of Easter",
                 "color": "white"
             },
             {
                 "code": "Our Lady of Fatima",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "தூய பாத்திமா அன்னை",
+                "name": "Our Lady of Fatima",
                 "color": "white"
             }
         ],
@@ -1484,13 +1616,14 @@
                 "code": "Saint Matthias the Apostle",
                 "rank": 7,
                 "type": "Feast",
-                "name_ta": "புனித மத்தியா - திருத்தூதர்",
+                "name": "Saint Matthias the Apostle",
                 "color": "red"
             },
             "other": [
                 {
                     "code": "EW04-3Wed",
                     "rank": 12.4,
+                    "name": "Wednesday of the 4<sup>th<\/sup> Week of Easter",
                     "color": "white"
                 }
             ]
@@ -1499,6 +1632,7 @@
             {
                 "code": "EW04-4Thu",
                 "rank": 12.4,
+                "name": "Thursday of the 4<sup>th<\/sup> Week of Easter",
                 "color": "white"
             }
         ],
@@ -1506,6 +1640,7 @@
             {
                 "code": "EW04-5Fri",
                 "rank": 12.4,
+                "name": "Friday of the 4<sup>th<\/sup> Week of Easter",
                 "color": "white"
             }
         ],
@@ -1513,6 +1648,7 @@
             {
                 "code": "EW04-6Sat",
                 "rank": 12.4,
+                "name": "Saturday of the 4<sup>th<\/sup> Week of Easter",
                 "color": "white"
             }
         ],
@@ -1520,6 +1656,7 @@
             "0": {
                 "code": "EW05-0Sun",
                 "rank": 2.1,
+                "name": "Sunday of the 5<sup>th<\/sup> Week of Easter",
                 "color": "white"
             },
             "other": [
@@ -1527,7 +1664,7 @@
                     "code": "Saint John I, pope and martyr",
                     "rank": 12.1,
                     "type": "OpMem",
-                    "name_ta": "புனித முதலாம் யோவான் - திருத்தந்தை, மறைச்சாட்சி",
+                    "name": "Saint John I, pope and martyr",
                     "color": "red"
                 }
             ]
@@ -1536,6 +1673,7 @@
             {
                 "code": "EW05-1Mon",
                 "rank": 12.4,
+                "name": "Monday of the 5<sup>th<\/sup> Week of Easter",
                 "color": "white"
             }
         ],
@@ -1543,13 +1681,14 @@
             {
                 "code": "EW05-2Tue",
                 "rank": 12.4,
+                "name": "Tuesday of the 5<sup>th<\/sup> Week of Easter",
                 "color": "white"
             },
             {
                 "code": "Saint Bernardine of Siena, priest",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "சியன்னா நகர் புனித பெர்னார்தீன் - மறைப்பணியாளர்",
+                "name": "Saint Bernardine of Siena, priest",
                 "color": "white"
             }
         ],
@@ -1557,13 +1696,14 @@
             {
                 "code": "EW05-3Wed",
                 "rank": 12.4,
+                "name": "Wednesday of the 5<sup>th<\/sup> Week of Easter",
                 "color": "white"
             },
             {
                 "code": "Saint Christopher Magallanes and companions, martyrs",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனிதர்கள் மறைப்பணியாளர் கிறிஸ்டோபர் மெகாலன், தோழர்கள் - மறைச்சாட்சியர்",
+                "name": "Saint Christopher Magallanes and companions, martyrs",
                 "color": "red"
             }
         ],
@@ -1571,13 +1711,14 @@
             {
                 "code": "EW05-4Thu",
                 "rank": 12.4,
+                "name": "Thursday of the 5<sup>th<\/sup> Week of Easter",
                 "color": "white"
             },
             {
                 "code": "Saint Rita of Cascia",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "காசியா சபை புனித ரீத்தா - துறவி",
+                "name": "Saint Rita of Cascia",
                 "color": "white"
             }
         ],
@@ -1585,6 +1726,7 @@
             {
                 "code": "EW05-5Fri",
                 "rank": 12.4,
+                "name": "Friday of the 5<sup>th<\/sup> Week of Easter",
                 "color": "white"
             }
         ],
@@ -1592,6 +1734,7 @@
             {
                 "code": "EW05-6Sat",
                 "rank": 12.4,
+                "name": "Saturday of the 5<sup>th<\/sup> Week of Easter",
                 "color": "white"
             }
         ],
@@ -1599,6 +1742,7 @@
             "0": {
                 "code": "EW06-0Sun",
                 "rank": 2.1,
+                "name": "Sunday of the 6<sup>th<\/sup> Week of Easter",
                 "color": "white"
             },
             "other": [
@@ -1606,21 +1750,21 @@
                     "code": "Saint Bede the Venerable, priest and doctor",
                     "rank": 12.1,
                     "type": "OpMem",
-                    "name_ta": "வணக்கத்துக்குரிய புனித பீடு - மறைப்பணியாளர், மறைவல்லுநர்",
+                    "name": "Saint Bede the Venerable, priest and doctor",
                     "color": "white"
                 },
                 {
                     "code": "Saint Gregory VII, pope",
                     "rank": 12.1,
                     "type": "OpMem",
-                    "name_ta": "புனித ஏழாம் கிரகோரி - திருத்தந்தை",
+                    "name": "Saint Gregory VII, pope",
                     "color": "white"
                 },
                 {
                     "code": "Saint Mary Magdalene de Pazzi, virgin",
                     "rank": 12.1,
                     "type": "OpMem",
-                    "name_ta": "பாசி நகர் புனித மகதலா மரியா - கன்னியர்",
+                    "name": "Saint Mary Magdalene de Pazzi, virgin",
                     "color": "white"
                 }
             ]
@@ -1629,13 +1773,14 @@
             {
                 "code": "EW06-1Mon",
                 "rank": 12.4,
+                "name": "Monday of the 6<sup>th<\/sup> Week of Easter",
                 "color": "white"
             },
             {
                 "code": "Saint Philip Neri, priest",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனித பிலிப்பு நேரி - மறைப்பணியாளர்",
+                "name": "Saint Philip Neri, priest",
                 "color": "white"
             }
         ],
@@ -1643,13 +1788,14 @@
             {
                 "code": "EW06-2Tue",
                 "rank": 12.4,
+                "name": "Tuesday of the 6<sup>th<\/sup> Week of Easter",
                 "color": "white"
             },
             {
                 "code": "Saint Augustine (Austin) of Canterbury, bishop",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "கான்றர்பரி நகர் புனித அகுஸ்தீன் - ஆயர்",
+                "name": "Saint Augustine (Austin) of Canterbury, bishop",
                 "color": "white"
             }
         ],
@@ -1657,6 +1803,7 @@
             {
                 "code": "EW06-3Wed",
                 "rank": 12.4,
+                "name": "Wednesday of the 6<sup>th<\/sup> Week of Easter",
                 "color": "white"
             }
         ],
@@ -1664,13 +1811,14 @@
             {
                 "code": "EW06-4Thu",
                 "rank": 12.4,
+                "name": "Thursday of the 6<sup>th<\/sup> Week of Easter",
                 "color": "white"
             },
             {
                 "code": "Saint Paul VI, pope",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித ஆறாம் பவுல், திருத்தந்தை",
+                "name": "Saint Paul VI, pope",
                 "color": "white"
             }
         ],
@@ -1678,6 +1826,7 @@
             {
                 "code": "EW06-5Fri",
                 "rank": 12.4,
+                "name": "Friday of the 6<sup>th<\/sup> Week of Easter",
                 "color": "white"
             }
         ],
@@ -1686,13 +1835,14 @@
                 "code": "Visitation of the Blessed Virgin Mary",
                 "rank": 7,
                 "type": "Feast",
-                "name_ta": "தூய கன்னி மரியா எலிசபெத்தைச் சந்தித்தல்",
+                "name": "Visitation of the Blessed Virgin Mary",
                 "color": "white"
             },
             "other": [
                 {
                     "code": "EW06-6Sat",
                     "rank": 12.4,
+                    "name": "Saturday of the 6<sup>th<\/sup> Week of Easter",
                     "color": "white"
                 }
             ]
@@ -1704,6 +1854,7 @@
                 "code": "EW07-Ascension",
                 "rank": 2,
                 "type": "Solemnity",
+                "name": "The Ascension of the Lord",
                 "color": "white"
             },
             "other": [
@@ -1711,7 +1862,7 @@
                     "code": "Saint Justin Martyr",
                     "rank": 10.2,
                     "type": "Mem",
-                    "name_ta": "புனித ஜஸ்டின் - மறைச்சாட்சி",
+                    "name": "Saint Justin Martyr",
                     "color": "red"
                 }
             ]
@@ -1720,13 +1871,14 @@
             {
                 "code": "EW07-1Mon",
                 "rank": 12.4,
+                "name": "Monday of the 7<sup>th<\/sup> Week of Easter",
                 "color": "white"
             },
             {
                 "code": "Saints Marcellinus and Peter, martyrs",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனிதர்கள் மார்சலின், பீட்டர் - மறைச்சாட்சியர்",
+                "name": "Saints Marcellinus and Peter, martyrs",
                 "color": "red"
             }
         ],
@@ -1734,13 +1886,14 @@
             {
                 "code": "EW07-2Tue",
                 "rank": 12.4,
+                "name": "Tuesday of the 7<sup>th<\/sup> Week of Easter",
                 "color": "red"
             },
             {
                 "code": "Saints Charles Lwanga and companions, martyrs",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனிதர்கள் சார்லஸ் லுவாங்கா, தோழர்கள் - மறைச்சாட்சியர்",
+                "name": "Saints Charles Lwanga and companions, martyrs",
                 "color": "red"
             }
         ],
@@ -1748,6 +1901,7 @@
             {
                 "code": "EW07-3Wed",
                 "rank": 12.4,
+                "name": "Wednesday of the 7<sup>th<\/sup> Week of Easter",
                 "color": "white"
             }
         ],
@@ -1755,13 +1909,14 @@
             {
                 "code": "EW07-4Thu",
                 "rank": 12.4,
+                "name": "Thursday of the 7<sup>th<\/sup> Week of Easter",
                 "color": "red"
             },
             {
                 "code": "Saint Boniface, bishop and martyr",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனித போனிப்பாஸ் - ஆயர், மறைச்சாட்சி",
+                "name": "Saint Boniface, bishop and martyr",
                 "color": "red"
             }
         ],
@@ -1769,13 +1924,14 @@
             {
                 "code": "EW07-5Fri",
                 "rank": 12.4,
+                "name": "Friday of the 7<sup>th<\/sup> Week of Easter",
                 "color": "white"
             },
             {
                 "code": "Saint Norbert, bishop",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித நார்பெர்ட் - ஆயர்",
+                "name": "Saint Norbert, bishop",
                 "color": "white"
             }
         ],
@@ -1783,6 +1939,7 @@
             {
                 "code": "EW07-6Sat",
                 "rank": 12.4,
+                "name": "Saturday of the 7<sup>th<\/sup> Week of Easter",
                 "color": "white"
             }
         ],
@@ -1791,6 +1948,7 @@
                 "code": "EW08-Pentecost",
                 "rank": 2,
                 "type": "Solemnity",
+                "name": "Pentecost Sunday",
                 "color": "red"
             },
             "other": [
@@ -1798,7 +1956,7 @@
                     "code": "IN Blessed Maria Theresa Chiramel, virgin",
                     "rank": 12.1,
                     "type": "OpMem",
-                    "name_ta": "முத்தி. மரிய தெரேசா சிராமெல் - கன்னியர்",
+                    "name": "IN Blessed Maria Theresa Chiramel, virgin",
                     "color": "white"
                 }
             ]
@@ -1807,13 +1965,14 @@
             "0": {
                 "code": "OW10-1Mon",
                 "rank": 12.5,
+                "name": "Monday of the 10<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             "1": {
                 "code": "OW00-MaryMotherofChurch",
                 "rank": 10.1,
                 "type": "Mem-Mary",
-                "name_ta": "தூய கன்னி மரியா, திரு அவையின் அன்னை",
+                "name": "Mary, Mother of the Church",
                 "color": "white"
             },
             "other": [
@@ -1821,7 +1980,7 @@
                     "code": "Saint Ephrem, deacon and doctor",
                     "rank": 12.1,
                     "type": "OpMem",
-                    "name_ta": "புனித எபிரேம் - திருத்தொண்டர், மறைவல்லுநர்",
+                    "name": "Saint Ephrem, deacon and doctor",
                     "color": "white"
                 }
             ]
@@ -1830,6 +1989,7 @@
             {
                 "code": "OW10-2Tue",
                 "rank": 12.5,
+                "name": "Tuesday of the 10<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -1837,13 +1997,14 @@
             {
                 "code": "OW10-3Wed",
                 "rank": 12.5,
+                "name": "Wednesday of the 10<sup>th<\/sup> Week in Ordinary Time",
                 "color": "red"
             },
             {
                 "code": "Saint Barnabas the Apostle",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனித பர்னபா - திருத்தூதர்",
+                "name": "Saint Barnabas the Apostle",
                 "color": "red"
             }
         ],
@@ -1851,6 +2012,7 @@
             {
                 "code": "OW10-4Thu",
                 "rank": 12.5,
+                "name": "Thursday of the 10<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -1858,13 +2020,14 @@
             {
                 "code": "OW10-5Fri",
                 "rank": 12.5,
+                "name": "Friday of the 10<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
                 "code": "Saint Anthony of Padua, priest and doctor",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "பதுவா நகர் புனித அந்தோனியார் - மறைப்பணியாளர், மறைவல்லுநர்",
+                "name": "Saint Anthony of Padua, priest and doctor",
                 "color": "white"
             }
         ],
@@ -1872,13 +2035,14 @@
             {
                 "code": "OW10-6Sat",
                 "rank": 12.5,
+                "name": "Saturday of the 10<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Mem-Mary-Sat",
                 "rank": 10.3,
                 "type": "Mem-Mary-Sat",
-                "name_ta": "",
+                "name": "Saturday Memorial of the Blessed Virgin Mary",
                 "color": "white"
             }
         ],
@@ -1887,6 +2051,7 @@
                 "code": "OW00-Trinity",
                 "rank": 3.1,
                 "type": "Solemnity",
+                "name": "The Most Holy Trinity",
                 "color": "white"
             }
         ],
@@ -1894,6 +2059,7 @@
             {
                 "code": "OW11-1Mon",
                 "rank": 12.5,
+                "name": "Monday of the 11<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -1901,6 +2067,7 @@
             {
                 "code": "OW11-2Tue",
                 "rank": 12.5,
+                "name": "Tuesday of the 11<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -1908,6 +2075,7 @@
             {
                 "code": "OW11-3Wed",
                 "rank": 12.5,
+                "name": "Wednesday of the 11<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -1915,13 +2083,14 @@
             {
                 "code": "OW11-4Thu",
                 "rank": 12.5,
+                "name": "Thursday of the 11<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saint Romuald, abbot",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித ரோமுவால்து - ஆதீனத் தலைவர்",
+                "name": "Saint Romuald, abbot",
                 "color": "white"
             }
         ],
@@ -1929,6 +2098,7 @@
             {
                 "code": "OW11-5Fri",
                 "rank": 12.5,
+                "name": "Friday of the 11<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -1936,13 +2106,14 @@
             {
                 "code": "OW11-6Sat",
                 "rank": 12.5,
+                "name": "Saturday of the 11<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
                 "code": "Saint Aloysius Gonzaga, religious",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனித அலோசியுஸ் கொன்சாகா - துறவி",
+                "name": "Saint Aloysius Gonzaga, religious",
                 "color": "white"
             }
         ],
@@ -1951,6 +2122,7 @@
                 "code": "OW00-CorpusChristi",
                 "rank": 3.1,
                 "type": "Solemnity",
+                "name": "The Most Holy Body and Blood of Christ (Corpus Christi)",
                 "color": "white"
             },
             "other": [
@@ -1958,14 +2130,14 @@
                     "code": "Saint Paulinus of Nola, bishop",
                     "rank": 12.1,
                     "type": "OpMem",
-                    "name_ta": "புனித பவுலீனு நோலா - ஆயர்",
+                    "name": "Saint Paulinus of Nola, bishop",
                     "color": "white"
                 },
                 {
                     "code": "Saints John Fisher, bishop and martyr and Thomas More, martyr",
                     "rank": 12.1,
                     "type": "OpMem",
-                    "name_ta": "புனிதர்கள் ஆயர் ஜான் பிசர், தாமஸ் மூர் - மறைச்சாட்சியர்",
+                    "name": "Saints John Fisher, bishop and martyr and Thomas More, martyr",
                     "color": "red"
                 }
             ]
@@ -1974,6 +2146,7 @@
             {
                 "code": "OW12-1Mon",
                 "rank": 12.5,
+                "name": "Monday of the 12<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -1982,13 +2155,14 @@
                 "code": "Birth of Saint John the Baptist",
                 "rank": 3.1,
                 "type": "Solemnity",
-                "name_ta": "திருமுழுக்கு யோவானின் பிறப்பு",
+                "name": "Birth of Saint John the Baptist",
                 "color": "white"
             },
             "other": [
                 {
                     "code": "OW12-2Tue",
                     "rank": 12.5,
+                    "name": "Tuesday of the 12<sup>th<\/sup> Week in Ordinary Time",
                     "color": "green"
                 }
             ]
@@ -1997,6 +2171,7 @@
             {
                 "code": "OW12-3Wed",
                 "rank": 12.5,
+                "name": "Wednesday of the 12<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -2004,6 +2179,7 @@
             {
                 "code": "OW12-4Thu",
                 "rank": 12.5,
+                "name": "Thursday of the 12<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -2012,6 +2188,7 @@
                 "code": "OW00-SacredHeart",
                 "rank": 3.1,
                 "type": "Solemnity",
+                "name": "The Most Sacred Heart of Jesus",
                 "color": "white"
             },
             "other": [
@@ -2019,7 +2196,7 @@
                     "code": "Saint Cyril of Alexandria, bishop and doctor",
                     "rank": 12.1,
                     "type": "OpMem",
-                    "name_ta": "அலெக்சாந்திரிய நகர் புனித சிரில் - ஆயர், மறைவல்லுநர்",
+                    "name": "Saint Cyril of Alexandria, bishop and doctor",
                     "color": "white"
                 }
             ]
@@ -2028,20 +2205,21 @@
             {
                 "code": "OW12-6Sat",
                 "rank": 12.5,
+                "name": "Saturday of the 12<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saint Irenaeus, bishop, martyr and Doctor of the Church",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித இரனேயு - ஆயர், மறைச்சாட்சி, மறைவல்லுநர்",
+                "name": "Saint Irenaeus, bishop, martyr and Doctor of the Church",
                 "color": "red"
             },
             {
                 "code": "OW00-ImmaculateHeart",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "தூய கன்னி மரியாவின் மாசற்ற இதயம்",
+                "name": "Immaculate Heart of the Blessed Virgin Mary",
                 "color": "white"
             }
         ],
@@ -2050,13 +2228,14 @@
                 "code": "Saints Peter and Paul, Apostles",
                 "rank": 3.1,
                 "type": "Solemnity",
-                "name_ta": "புனிதர்கள் பேதுரு, பவுல் - திருத்தூதர்கள்",
+                "name": "Saints Peter and Paul, Apostles",
                 "color": "red"
             },
             "other": [
                 {
                     "code": "OW13-0Sun",
                     "rank": 6,
+                    "name": "Sunday of the 13<sup>th<\/sup> Week in Ordinary Time",
                     "color": "green"
                 }
             ]
@@ -2065,13 +2244,14 @@
             {
                 "code": "OW13-1Mon",
                 "rank": 12.5,
+                "name": "Monday of the 13<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "First Martyrs of the Church of Rome",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "உரோமைத் திருச்சபையின் முதல் மறைச்சாட்சியர்",
+                "name": "First Martyrs of the Church of Rome",
                 "color": "red"
             }
         ]
@@ -2081,6 +2261,7 @@
             {
                 "code": "OW13-2Tue",
                 "rank": 12.5,
+                "name": "Tuesday of the 13<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -2088,6 +2269,7 @@
             {
                 "code": "OW13-3Wed",
                 "rank": 12.5,
+                "name": "Wednesday of the 13<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -2096,20 +2278,21 @@
                 "code": "IN Saint Thomas the Apostle",
                 "rank": 4.1,
                 "type": "Solemnity-PrincipalPartron-Place",
-                "name_ta": "புனித தோமா - இந்தியாவின் திருத்தூதர்",
+                "name": "IN Saint Thomas the Apostle",
                 "color": "red"
             },
             "other": [
                 {
                     "code": "OW13-4Thu",
                     "rank": 12.5,
+                    "name": "Thursday of the 13<sup>th<\/sup> Week in Ordinary Time",
                     "color": "green"
                 },
                 {
                     "code": "Saint Thomas the Apostle",
                     "rank": 7,
                     "type": "Feast",
-                    "name_ta": "புனித தோமா - திருத்தூதர்",
+                    "name": "Saint Thomas the Apostle",
                     "color": "red"
                 }
             ]
@@ -2118,13 +2301,14 @@
             {
                 "code": "OW13-5Fri",
                 "rank": 12.5,
+                "name": "Friday of the 13<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saint Elizabeth of Portugal",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "லுஸ்தானியா நகர் புனித எலிசபெத்து",
+                "name": "Saint Elizabeth of Portugal",
                 "color": "white"
             }
         ],
@@ -2132,13 +2316,14 @@
             {
                 "code": "OW13-6Sat",
                 "rank": 12.5,
+                "name": "Saturday of the 13<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saint Anthony Zaccaria, priest",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித அந்தோணி மரிய செக்கரியா - மறைப்பணியாளர்",
+                "name": "Saint Anthony Zaccaria, priest",
                 "color": "white"
             }
         ],
@@ -2146,6 +2331,7 @@
             "0": {
                 "code": "OW14-0Sun",
                 "rank": 6,
+                "name": "Sunday of the 14<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             "other": [
@@ -2153,7 +2339,7 @@
                     "code": "Saint Maria Goretti, virgin and martyr",
                     "rank": 12.1,
                     "type": "OpMem",
-                    "name_ta": "புனித மரிய கொரற்றி - கன்னியர், மறைச்சாட்சி",
+                    "name": "Saint Maria Goretti, virgin and martyr",
                     "color": "red"
                 }
             ]
@@ -2162,6 +2348,7 @@
             {
                 "code": "OW14-1Mon",
                 "rank": 12.5,
+                "name": "Monday of the 14<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -2169,6 +2356,7 @@
             {
                 "code": "OW14-2Tue",
                 "rank": 12.5,
+                "name": "Tuesday of the 14<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -2176,13 +2364,14 @@
             {
                 "code": "OW14-3Wed",
                 "rank": 12.5,
+                "name": "Wednesday of the 14<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saint Augustine Zhao Rong and companions, martyrs",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனிதர்கள் அகஸ்டின் ஜாவோ ரோங்கு, தோழர்கள் - மறைச்சாட்சியர்",
+                "name": "Saint Augustine Zhao Rong and companions, martyrs",
                 "color": "red"
             }
         ],
@@ -2190,6 +2379,7 @@
             {
                 "code": "OW14-4Thu",
                 "rank": 12.5,
+                "name": "Thursday of the 14<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -2197,13 +2387,14 @@
             {
                 "code": "OW14-5Fri",
                 "rank": 12.5,
+                "name": "Friday of the 14<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
                 "code": "Saint Benedict, abbot",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனித பெனடிக்ட் - ஆதீனத் தலைவர்",
+                "name": "Saint Benedict, abbot",
                 "color": "white"
             }
         ],
@@ -2211,13 +2402,14 @@
             {
                 "code": "OW14-6Sat",
                 "rank": 12.5,
+                "name": "Saturday of the 14<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Mem-Mary-Sat",
                 "rank": 10.3,
                 "type": "Mem-Mary-Sat",
-                "name_ta": "",
+                "name": "Saturday Memorial of the Blessed Virgin Mary",
                 "color": "white"
             }
         ],
@@ -2225,6 +2417,7 @@
             "0": {
                 "code": "OW15-0Sun",
                 "rank": 6,
+                "name": "Sunday of the 15<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             "other": [
@@ -2232,7 +2425,7 @@
                     "code": "Saint Henry",
                     "rank": 12.1,
                     "type": "OpMem",
-                    "name_ta": "புனித என்றி",
+                    "name": "Saint Henry",
                     "color": "white"
                 }
             ]
@@ -2241,13 +2434,14 @@
             {
                 "code": "OW15-1Mon",
                 "rank": 12.5,
+                "name": "Monday of the 15<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saint Camillus de Lellis, priest",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித கமில்லஸ் தெ லெல்லிஸ் - மறைப்பணியாளர்",
+                "name": "Saint Camillus de Lellis, priest",
                 "color": "white"
             }
         ],
@@ -2255,13 +2449,14 @@
             {
                 "code": "OW15-2Tue",
                 "rank": 12.5,
+                "name": "Tuesday of the 15<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
                 "code": "Saint Bonaventure, bishop and doctor",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனித பொனவெந்தூர் - ஆயர், மறைவல்லுநர்",
+                "name": "Saint Bonaventure, bishop and doctor",
                 "color": "white"
             }
         ],
@@ -2269,13 +2464,14 @@
             {
                 "code": "OW15-3Wed",
                 "rank": 12.5,
+                "name": "Wednesday of the 15<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Our Lady of Mount Carmel",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "தூய கார்மேல் அன்னை",
+                "name": "Our Lady of Mount Carmel",
                 "color": "white"
             }
         ],
@@ -2283,6 +2479,7 @@
             {
                 "code": "OW15-4Thu",
                 "rank": 12.5,
+                "name": "Thursday of the 15<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -2290,6 +2487,7 @@
             {
                 "code": "OW15-5Fri",
                 "rank": 12.5,
+                "name": "Friday of the 15<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -2297,13 +2495,14 @@
             {
                 "code": "OW15-6Sat",
                 "rank": 12.5,
+                "name": "Saturday of the 15<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Mem-Mary-Sat",
                 "rank": 10.3,
                 "type": "Mem-Mary-Sat",
-                "name_ta": "",
+                "name": "Saturday Memorial of the Blessed Virgin Mary",
                 "color": "white"
             }
         ],
@@ -2311,6 +2510,7 @@
             "0": {
                 "code": "OW16-0Sun",
                 "rank": 6,
+                "name": "Sunday of the 16<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             "other": [
@@ -2318,7 +2518,7 @@
                     "code": "Saint Apollinaris, bishop and martyr",
                     "rank": 12.1,
                     "type": "OpMem",
-                    "name_ta": "புனித அப்போலினாரிஸ் - ஆயர், மறைச்சாட்சி",
+                    "name": "Saint Apollinaris, bishop and martyr",
                     "color": "red"
                 }
             ]
@@ -2327,13 +2527,14 @@
             {
                 "code": "OW16-1Mon",
                 "rank": 12.5,
+                "name": "Monday of the 16<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saint Lawrence of Brindisi, priest and doctor",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித பிரிந்திசி நகர் லாரன்ஸ் - மறைப்பணியாளர், மறைவல்லுநர்",
+                "name": "Saint Lawrence of Brindisi, priest and doctor",
                 "color": "white"
             }
         ],
@@ -2342,13 +2543,14 @@
                 "code": "Saint Mary Magdalene",
                 "rank": 7,
                 "type": "Feast",
-                "name_ta": "புனித மகதலா மரியா",
+                "name": "Saint Mary Magdalene",
                 "color": "white"
             },
             "other": [
                 {
                     "code": "OW16-2Tue",
                     "rank": 12.5,
+                    "name": "Tuesday of the 16<sup>th<\/sup> Week in Ordinary Time",
                     "color": "green"
                 }
             ]
@@ -2357,13 +2559,14 @@
             {
                 "code": "OW16-3Wed",
                 "rank": 12.5,
+                "name": "Wednesday of the 16<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saint Birgitta, religious",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித பிரிசித்தா - துறவி",
+                "name": "Saint Birgitta, religious",
                 "color": "white"
             }
         ],
@@ -2371,13 +2574,14 @@
             {
                 "code": "OW16-4Thu",
                 "rank": 12.5,
+                "name": "Thursday of the 16<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saint Sharbel Makhluf, hermit",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித சார்பெல் மாக்லுப் - மறைப்பணியாளர்",
+                "name": "Saint Sharbel Makhluf, hermit",
                 "color": "white"
             }
         ],
@@ -2386,13 +2590,14 @@
                 "code": "Saint James, apostle",
                 "rank": 7,
                 "type": "Feast",
-                "name_ta": "புனித யாக்கோபு - திருத்தூதர்",
+                "name": "Saint James, apostle",
                 "color": "red"
             },
             "other": [
                 {
                     "code": "OW16-5Fri",
                     "rank": 12.5,
+                    "name": "Friday of the 16<sup>th<\/sup> Week in Ordinary Time",
                     "color": "green"
                 }
             ]
@@ -2401,13 +2606,14 @@
             {
                 "code": "OW16-6Sat",
                 "rank": 12.5,
+                "name": "Saturday of the 16<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
                 "code": "Saints Joachim and Anne",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனிதர்கள் சுவக்கீம், அன்னா - தூய மரியாவின் பெற்றோர்",
+                "name": "Saints Joachim and Anne",
                 "color": "white"
             }
         ],
@@ -2415,6 +2621,7 @@
             {
                 "code": "OW17-0Sun",
                 "rank": 6,
+                "name": "Sunday of the 17<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -2422,13 +2629,14 @@
             {
                 "code": "OW17-1Mon",
                 "rank": 12.5,
+                "name": "Monday of the 17<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
                 "code": "IN Saint Alphonsa of the Immaculate Conception (Alphonsa Muttathupadathu), virgin",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "அமலோற்பவத்தின் புனித அல்போன்சா முட்டாத்துபாடாத் - கன்னியர்",
+                "name": "IN Saint Alphonsa of the Immaculate Conception (Alphonsa Muttathupadathu), virgin",
                 "color": "white"
             }
         ],
@@ -2436,13 +2644,14 @@
             {
                 "code": "OW17-2Tue",
                 "rank": 12.5,
+                "name": "Tuesday of the 17<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
                 "code": "Saints Martha, Mary and Lazarus",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனிதர்கள் மார்த்தா, மரியா, இலாசர்",
+                "name": "Saints Martha, Mary and Lazarus",
                 "color": "white"
             }
         ],
@@ -2450,13 +2659,14 @@
             {
                 "code": "OW17-3Wed",
                 "rank": 12.5,
+                "name": "Wednesday of the 17<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saint Peter Chrysologus, bishop and doctor",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித பீட்டர் கிறிசோலோகு - ஆயர், மறைவல்லுநர்",
+                "name": "Saint Peter Chrysologus, bishop and doctor",
                 "color": "white"
             }
         ],
@@ -2464,13 +2674,14 @@
             {
                 "code": "OW17-4Thu",
                 "rank": 12.5,
+                "name": "Thursday of the 17<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
                 "code": "Saint Ignatius of Loyola, priest",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனித லொயோலா இஞ்ஞாசி - மறைப்பணியாளர்",
+                "name": "Saint Ignatius of Loyola, priest",
                 "color": "white"
             }
         ]
@@ -2480,13 +2691,14 @@
             {
                 "code": "OW17-5Fri",
                 "rank": 12.5,
+                "name": "Friday of the 17<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
                 "code": "Saint Alphonsus Maria de Liguori, bishop and doctor of the Church",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனித அல்போன்ஸ் மரிய லிகோரி - ஆயர், மறைவல்லுநர்",
+                "name": "Saint Alphonsus Maria de Liguori, bishop and doctor of the Church",
                 "color": "white"
             }
         ],
@@ -2494,20 +2706,21 @@
             {
                 "code": "OW17-6Sat",
                 "rank": 12.5,
+                "name": "Saturday of the 17<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saint Eusebius of Vercelli, bishop",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "வெர்செல்லி நகர் புனித யுசேபியு - ஆயர்",
+                "name": "Saint Eusebius of Vercelli, bishop",
                 "color": "white"
             },
             {
                 "code": "Saint Peter Julian Eymard, priest",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித பீட்டர் ஜூலியன் எய்மார்ட் - மறைப்பணியாளர்",
+                "name": "Saint Peter Julian Eymard, priest",
                 "color": "white"
             }
         ],
@@ -2515,6 +2728,7 @@
             {
                 "code": "OW18-0Sun",
                 "rank": 6,
+                "name": "Sunday of the 18<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -2522,13 +2736,14 @@
             {
                 "code": "OW18-1Mon",
                 "rank": 12.5,
+                "name": "Monday of the 18<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
                 "code": "Saint Jean Vianney (the Curé of Ars), priest",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனித ஜான் மரிய வியான்னி - மறைப்பணியாளர்",
+                "name": "Saint Jean Vianney (the Curé of Ars), priest",
                 "color": "white"
             }
         ],
@@ -2536,13 +2751,14 @@
             {
                 "code": "OW18-2Tue",
                 "rank": 12.5,
+                "name": "Tuesday of the 18<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Dedication of the Basilica of Saint Mary Major",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "தூய கன்னி மரியாவின் பேராலய நேர்ந்தளிப்பு (பனிமய அன்னை)",
+                "name": "Dedication of the Basilica of Saint Mary Major",
                 "color": "white"
             }
         ],
@@ -2551,13 +2767,14 @@
                 "code": "Transfiguration of the Lord",
                 "rank": 5,
                 "type": "Feast-Lord",
-                "name_ta": "ஆண்டவரின் தோற்றமாற்றம்",
+                "name": "Transfiguration of the Lord",
                 "color": "white"
             },
             "other": [
                 {
                     "code": "OW18-3Wed",
                     "rank": 12.5,
+                    "name": "Wednesday of the 18<sup>th<\/sup> Week in Ordinary Time",
                     "color": "green"
                 }
             ]
@@ -2566,20 +2783,21 @@
             {
                 "code": "OW18-4Thu",
                 "rank": 12.5,
+                "name": "Thursday of the 18<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saint Cajetan, priest",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித கயத்தான் - மறைப்பணியாளர்",
+                "name": "Saint Cajetan, priest",
                 "color": "white"
             },
             {
                 "code": "Saint Sixtus II, pope, and companions, martyrs",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனிதர்கள் திருத்தந்தை இரண்டாம் சிக்ஸ்து, தோழர்கள் - மறைச்சாட்சியர்",
+                "name": "Saint Sixtus II, pope, and companions, martyrs",
                 "color": "red"
             }
         ],
@@ -2587,13 +2805,14 @@
             {
                 "code": "OW18-5Fri",
                 "rank": 12.5,
+                "name": "Friday of the 18<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
                 "code": "Saint Dominic, priest",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனித தோமினிக் - மறைப்பணியாளர்",
+                "name": "Saint Dominic, priest",
                 "color": "white"
             }
         ],
@@ -2601,13 +2820,14 @@
             {
                 "code": "OW18-6Sat",
                 "rank": 12.5,
+                "name": "Saturday of the 18<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saint Teresa Benedicta of the Cross (Edith Stein), virgin and martyr",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "திருச்சிலுவையின் புனித தெரெசா பெனடிக்டா - கன்னியர், மறைச்சாட்சி",
+                "name": "Saint Teresa Benedicta of the Cross (Edith Stein), virgin and martyr",
                 "color": "red"
             }
         ],
@@ -2615,6 +2835,7 @@
             "0": {
                 "code": "OW19-0Sun",
                 "rank": 6,
+                "name": "Sunday of the 19<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             "other": [
@@ -2622,7 +2843,7 @@
                     "code": "Saint Lawrence, deacon and martyr",
                     "rank": 7,
                     "type": "Feast",
-                    "name_ta": "புனித லாரன்ஸ் - திருத்தொண்டர், மறைச்சாட்சி",
+                    "name": "Saint Lawrence, deacon and martyr",
                     "color": "red"
                 }
             ]
@@ -2631,13 +2852,14 @@
             {
                 "code": "OW19-1Mon",
                 "rank": 12.5,
+                "name": "Monday of the 19<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
                 "code": "Saint Clare, virgin",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனித கிளாரா - கன்னியர்",
+                "name": "Saint Clare, virgin",
                 "color": "white"
             }
         ],
@@ -2645,13 +2867,14 @@
             {
                 "code": "OW19-2Tue",
                 "rank": 12.5,
+                "name": "Tuesday of the 19<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saint Jane Frances de Chantal, religious",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "சாந்தால் நகர் புனித ஜான் பிரான்சிஸ்கா - துறவி",
+                "name": "Saint Jane Frances de Chantal, religious",
                 "color": "white"
             }
         ],
@@ -2659,13 +2882,14 @@
             {
                 "code": "OW19-3Wed",
                 "rank": 12.5,
+                "name": "Wednesday of the 19<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saints Pontian, pope, and Hippolytus, priest, martyrs",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனிதர்கள் திருத்தந்தை போன்சியானு, மறைப்பணியாளர் இப்போலித்து - மறைச்சாட்சியர்",
+                "name": "Saints Pontian, pope, and Hippolytus, priest, martyrs",
                 "color": "red"
             }
         ],
@@ -2673,13 +2897,14 @@
             {
                 "code": "OW19-4Thu",
                 "rank": 12.5,
+                "name": "Thursday of the 19<sup>th<\/sup> Week in Ordinary Time",
                 "color": "red"
             },
             {
                 "code": "Saint Maximilian Mary Kolbe, priest and martyr",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனித மாக்சிமிலியன் மரிய கோல்பே - மறைப்பணியாளர், மறைச்சாட்சி",
+                "name": "Saint Maximilian Mary Kolbe, priest and martyr",
                 "color": "red"
             }
         ],
@@ -2688,13 +2913,14 @@
                 "code": "Assumption of the Blessed Virgin Mary",
                 "rank": 3.1,
                 "type": "Solemnity",
-                "name_ta": "தூய கன்னி மரியாவின் விண்ணேற்பு",
+                "name": "Assumption of the Blessed Virgin Mary",
                 "color": "white"
             },
             "other": [
                 {
                     "code": "OW19-5Fri",
                     "rank": 12.5,
+                    "name": "Friday of the 19<sup>th<\/sup> Week in Ordinary Time",
                     "color": "green"
                 }
             ]
@@ -2703,13 +2929,14 @@
             {
                 "code": "OW19-6Sat",
                 "rank": 12.5,
+                "name": "Saturday of the 19<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saint Stephen of Hungary",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "அங்கேரி புனித ஸ்தேவான்",
+                "name": "Saint Stephen of Hungary",
                 "color": "white"
             }
         ],
@@ -2717,6 +2944,7 @@
             {
                 "code": "OW20-0Sun",
                 "rank": 6,
+                "name": "Sunday of the 20<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -2724,6 +2952,7 @@
             {
                 "code": "OW20-1Mon",
                 "rank": 12.5,
+                "name": "Monday of the 20<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -2731,13 +2960,14 @@
             {
                 "code": "OW20-2Tue",
                 "rank": 12.5,
+                "name": "Tuesday of the 20<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saint John Eudes, priest",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித ஜான் யூட்ஸ் - மறைப்பணியாளர்",
+                "name": "Saint John Eudes, priest",
                 "color": "white"
             }
         ],
@@ -2745,13 +2975,14 @@
             {
                 "code": "OW20-3Wed",
                 "rank": 12.5,
+                "name": "Wednesday of the 20<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
                 "code": "Saint Bernard of Clairvaux, abbot and doctor of the Church",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனித பெர்நார்ட் - ஆதீனத் தலைவர், மறைவல்லுநர்",
+                "name": "Saint Bernard of Clairvaux, abbot and doctor of the Church",
                 "color": "white"
             }
         ],
@@ -2759,13 +2990,14 @@
             {
                 "code": "OW20-4Thu",
                 "rank": 12.5,
+                "name": "Thursday of the 20<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
                 "code": "Saint Pius X, pope",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனித பத்தாம் பயஸ் - திருத்தந்தை",
+                "name": "Saint Pius X, pope",
                 "color": "white"
             }
         ],
@@ -2773,13 +3005,14 @@
             {
                 "code": "OW20-5Fri",
                 "rank": 12.5,
+                "name": "Friday of the 20<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
                 "code": "Queenship of Blessed Virgin Mary",
                 "rank": 10.1,
                 "type": "Mem-Mary",
-                "name_ta": "அரசியான தூய கன்னி மரியா",
+                "name": "Queenship of Blessed Virgin Mary",
                 "color": "white"
             }
         ],
@@ -2787,13 +3020,14 @@
             {
                 "code": "OW20-6Sat",
                 "rank": 12.5,
+                "name": "Saturday of the 20<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saint Rose of Lima, virgin",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "லீமா நகர் புனித ரோசா - கன்னியர்",
+                "name": "Saint Rose of Lima, virgin",
                 "color": "white"
             }
         ],
@@ -2801,6 +3035,7 @@
             "0": {
                 "code": "OW21-0Sun",
                 "rank": 6,
+                "name": "Sunday of the 21<sup>st<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             "other": [
@@ -2808,7 +3043,7 @@
                     "code": "Saint Bartholomew the Apostle",
                     "rank": 7,
                     "type": "Feast",
-                    "name_ta": "புனித பர்த்தலமேயு - திருத்தூதர்",
+                    "name": "Saint Bartholomew the Apostle",
                     "color": "red"
                 }
             ]
@@ -2817,20 +3052,21 @@
             {
                 "code": "OW21-1Mon",
                 "rank": 12.5,
+                "name": "Monday of the 21<sup>st<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saint Joseph of Calasanz, priest",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "கலசான்ஸ் நகர் புனித யோசேப்பு - மறைப்பணியாளர்",
+                "name": "Saint Joseph of Calasanz, priest",
                 "color": "white"
             },
             {
                 "code": "Saint Louis",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித லூயி - மறைப்பணியாளர்",
+                "name": "Saint Louis",
                 "color": "white"
             }
         ],
@@ -2838,6 +3074,7 @@
             {
                 "code": "OW21-2Tue",
                 "rank": 12.5,
+                "name": "Tuesday of the 21<sup>st<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -2845,13 +3082,14 @@
             {
                 "code": "OW21-3Wed",
                 "rank": 12.5,
+                "name": "Wednesday of the 21<sup>st<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
                 "code": "Saint Monica",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனித மோனிக்கா",
+                "name": "Saint Monica",
                 "color": "white"
             }
         ],
@@ -2859,13 +3097,14 @@
             {
                 "code": "OW21-4Thu",
                 "rank": 12.5,
+                "name": "Thursday of the 21<sup>st<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
                 "code": "Saint Augustine of Hippo, bishop and doctor of the Church",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனித அகுஸ்தீன் - ஆயர், மறைவல்லுநர்",
+                "name": "Saint Augustine of Hippo, bishop and doctor of the Church",
                 "color": "white"
             }
         ],
@@ -2873,13 +3112,14 @@
             {
                 "code": "OW21-5Fri",
                 "rank": 12.5,
+                "name": "Friday of the 21<sup>st<\/sup> Week in Ordinary Time",
                 "color": "red"
             },
             {
                 "code": "The Beheading of Saint John the Baptist, martyr",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனித திருமுழுக்கு யோவானின் பாடுகள்",
+                "name": "The Beheading of Saint John the Baptist, martyr",
                 "color": "red"
             }
         ],
@@ -2887,13 +3127,14 @@
             {
                 "code": "OW21-6Sat",
                 "rank": 12.5,
+                "name": "Saturday of the 21<sup>st<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "IN Saint Euphrasia, virgin",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித யூப்ரேசியா, கன்னியர்",
+                "name": "IN Saint Euphrasia, virgin",
                 "color": "white"
             }
         ],
@@ -2901,6 +3142,7 @@
             {
                 "code": "OW22-0Sun",
                 "rank": 6,
+                "name": "Sunday of the 22<sup>nd<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ]
@@ -2910,6 +3152,7 @@
             {
                 "code": "OW22-1Mon",
                 "rank": 12.5,
+                "name": "Monday of the 22<sup>nd<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -2917,6 +3160,7 @@
             {
                 "code": "OW22-2Tue",
                 "rank": 12.5,
+                "name": "Tuesday of the 22<sup>nd<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -2924,13 +3168,14 @@
             {
                 "code": "OW22-3Wed",
                 "rank": 12.5,
+                "name": "Wednesday of the 22<sup>nd<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
                 "code": "Saint Gregory the Great, pope and doctor",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனித பெரிய கிரகோரி - திருத்தந்தை, மறைவல்லுநர்",
+                "name": "Saint Gregory the Great, pope and doctor",
                 "color": "white"
             }
         ],
@@ -2938,6 +3183,7 @@
             {
                 "code": "OW22-4Thu",
                 "rank": 12.5,
+                "name": "Thursday of the 22<sup>nd<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -2945,13 +3191,14 @@
             "0": {
                 "code": "OW22-5Fri",
                 "rank": 12.5,
+                "name": "Friday of the 22<sup>nd<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             "1": {
                 "code": "IN Saint Teresa of Calcutta, virgin",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனித அன்னை தெரேசா - கன்னியர்",
+                "name": "IN Saint Teresa of Calcutta, virgin",
                 "color": "white"
             },
             "other": [
@@ -2959,7 +3206,7 @@
                     "code": "Saint Teresa of Calcutta, virgin",
                     "rank": 12.1,
                     "type": "OpMem",
-                    "name_ta": "புனித அன்னை தெரேசா - கன்னியர்",
+                    "name": "Saint Teresa of Calcutta, virgin",
                     "color": "white"
                 }
             ]
@@ -2968,13 +3215,14 @@
             {
                 "code": "OW22-6Sat",
                 "rank": 12.5,
+                "name": "Saturday of the 22<sup>nd<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Mem-Mary-Sat",
                 "rank": 10.3,
                 "type": "Mem-Mary-Sat",
-                "name_ta": "",
+                "name": "Saturday Memorial of the Blessed Virgin Mary",
                 "color": "white"
             }
         ],
@@ -2982,6 +3230,7 @@
             {
                 "code": "OW23-0Sun",
                 "rank": 6,
+                "name": "Sunday of the 23<sup>rd<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -2990,13 +3239,14 @@
                 "code": "Birth of the Blessed Virgin Mary",
                 "rank": 7,
                 "type": "Feast",
-                "name_ta": "தூய கன்னி மரியாவின் பிறப்பு (ஆரோக்கிய அன்னை)",
+                "name": "Birth of the Blessed Virgin Mary",
                 "color": "white"
             },
             "other": [
                 {
                     "code": "OW23-1Mon",
                     "rank": 12.5,
+                    "name": "Monday of the 23<sup>rd<\/sup> Week in Ordinary Time",
                     "color": "green"
                 }
             ]
@@ -3005,13 +3255,14 @@
             {
                 "code": "OW23-2Tue",
                 "rank": 12.5,
+                "name": "Tuesday of the 23<sup>rd<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saint Peter Claver, priest",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித பீட்டர் கிளாவர் - மறைப்பணியாளர்",
+                "name": "Saint Peter Claver, priest",
                 "color": "white"
             }
         ],
@@ -3019,6 +3270,7 @@
             {
                 "code": "OW23-3Wed",
                 "rank": 12.5,
+                "name": "Wednesday of the 23<sup>rd<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -3026,6 +3278,7 @@
             {
                 "code": "OW23-4Thu",
                 "rank": 12.5,
+                "name": "Thursday of the 23<sup>rd<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -3033,13 +3286,14 @@
             {
                 "code": "OW23-5Fri",
                 "rank": 12.5,
+                "name": "Friday of the 23<sup>rd<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Holy Name of the Blessed Virgin Mary",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "மரியாவின் திருப்பெயர்",
+                "name": "Holy Name of the Blessed Virgin Mary",
                 "color": "white"
             }
         ],
@@ -3047,13 +3301,14 @@
             {
                 "code": "OW23-6Sat",
                 "rank": 12.5,
+                "name": "Saturday of the 23<sup>rd<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
                 "code": "Saint John Chrysostom, bishop and doctor",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனித யோவான் கிறிசோஸ்தோம் - ஆயர்",
+                "name": "Saint John Chrysostom, bishop and doctor",
                 "color": "white"
             }
         ],
@@ -3062,13 +3317,14 @@
                 "code": "Exaltation of the Holy Cross",
                 "rank": 5,
                 "type": "Feast-Lord",
-                "name_ta": "திருச்சிலுவையின் மகிமை",
+                "name": "Exaltation of the Holy Cross",
                 "color": "red"
             },
             "other": [
                 {
                     "code": "OW24-0Sun",
                     "rank": 6,
+                    "name": "Sunday of the 24<sup>th<\/sup> Week in Ordinary Time",
                     "color": "green"
                 }
             ]
@@ -3077,13 +3333,14 @@
             {
                 "code": "OW24-1Mon",
                 "rank": 12.5,
+                "name": "Monday of the 24<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
                 "code": "Our Lady of Sorrows",
                 "rank": 10.1,
                 "type": "Mem-Mary",
-                "name_ta": "புனித மரியாவின் துயரங்கள் (தூய வியாகுல அன்னை)",
+                "name": "Our Lady of Sorrows",
                 "color": "white"
             }
         ],
@@ -3091,13 +3348,14 @@
             {
                 "code": "OW24-2Tue",
                 "rank": 12.5,
+                "name": "Tuesday of the 24<sup>th<\/sup> Week in Ordinary Time",
                 "color": "red"
             },
             {
                 "code": "Saints Cornelius, pope, and Cyprian, bishop, martyrs",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனிதர்கள் திருத்தந்தை கொர்னேலியு, ஆயர் சிப்பிரியன் - மறைச்சாட்சியர்",
+                "name": "Saints Cornelius, pope, and Cyprian, bishop, martyrs",
                 "color": "red"
             }
         ],
@@ -3105,20 +3363,21 @@
             {
                 "code": "OW24-3Wed",
                 "rank": 12.5,
+                "name": "Wednesday of the 24<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saint Hildegard of Bingen, Virgin and Doctor",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "பிங்கென் நகர் புனித ஹில்டெகார்ட் - கன்னியர், மறைவல்லுநர்",
+                "name": "Saint Hildegard of Bingen, Virgin and Doctor",
                 "color": "white"
             },
             {
                 "code": "Saint Robert Bellarmine, bishop and doctor",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித ராபர்ட் பெல்லார்மின் - ஆயர், மறைவல்லுநர்",
+                "name": "Saint Robert Bellarmine, bishop and doctor",
                 "color": "white"
             }
         ],
@@ -3126,6 +3385,7 @@
             {
                 "code": "OW24-4Thu",
                 "rank": 12.5,
+                "name": "Thursday of the 24<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -3133,13 +3393,14 @@
             {
                 "code": "OW24-5Fri",
                 "rank": 12.5,
+                "name": "Friday of the 24<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saint Januarius, bishop and martyr",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித சனுவாரியு - ஆயர், மறைச்சாட்சி",
+                "name": "Saint Januarius, bishop and martyr",
                 "color": "red"
             }
         ],
@@ -3147,13 +3408,14 @@
             {
                 "code": "OW24-6Sat",
                 "rank": 12.5,
+                "name": "Saturday of the 24<sup>th<\/sup> Week in Ordinary Time",
                 "color": "red"
             },
             {
                 "code": "Saint Andrew Kim Taegon, priest, and Paul Chong Hasang and companions, martyrs",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனிதர்கள் மறைப்பணியாளர் ஆன்ரு கிம் தே கோன், பவுல் சோங் காசாங், தோழர்கள் - மறைச்சாட்சியர்",
+                "name": "Saint Andrew Kim Taegon, priest, and Paul Chong Hasang and companions, martyrs",
                 "color": "red"
             }
         ],
@@ -3161,6 +3423,7 @@
             "0": {
                 "code": "OW25-0Sun",
                 "rank": 6,
+                "name": "Sunday of the 25<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             "other": [
@@ -3168,7 +3431,7 @@
                     "code": "Saint Matthew the Evangelist, Apostle, Evangelist",
                     "rank": 7,
                     "type": "Feast",
-                    "name_ta": "புனித மத்தேயு - திருத்தூதர், நற்செய்தியாளர்",
+                    "name": "Saint Matthew the Evangelist, Apostle, Evangelist",
                     "color": "red"
                 }
             ]
@@ -3177,6 +3440,7 @@
             {
                 "code": "OW25-1Mon",
                 "rank": 12.5,
+                "name": "Monday of the 25<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -3184,13 +3448,14 @@
             {
                 "code": "OW25-2Tue",
                 "rank": 12.5,
+                "name": "Tuesday of the 25<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
                 "code": "Saint Pio of Pietrelcina (Padre Pio), priest",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனித பியோ, மறைப்பணியாளர்",
+                "name": "Saint Pio of Pietrelcina (Padre Pio), priest",
                 "color": "white"
             }
         ],
@@ -3198,6 +3463,7 @@
             {
                 "code": "OW25-3Wed",
                 "rank": 12.5,
+                "name": "Wednesday of the 25<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -3205,6 +3471,7 @@
             {
                 "code": "OW25-4Thu",
                 "rank": 12.5,
+                "name": "Thursday of the 25<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -3212,13 +3479,14 @@
             {
                 "code": "OW25-5Fri",
                 "rank": 12.5,
+                "name": "Friday of the 25<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saints Cosmas and Damian, martyrs",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனிதர்கள் கோஸ்மாஸ், தமியான் - மறைச்சாட்சியர்",
+                "name": "Saints Cosmas and Damian, martyrs",
                 "color": "red"
             }
         ],
@@ -3226,13 +3494,14 @@
             {
                 "code": "OW25-6Sat",
                 "rank": 12.5,
+                "name": "Saturday of the 25<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
                 "code": "Saint Vincent de Paul, priest",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனித வின்சென்ட் தே பவுல் - மறைப்பணியாளர்",
+                "name": "Saint Vincent de Paul, priest",
                 "color": "white"
             }
         ],
@@ -3240,6 +3509,7 @@
             "0": {
                 "code": "OW26-0Sun",
                 "rank": 6,
+                "name": "Sunday of the 26<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             "other": [
@@ -3247,14 +3517,14 @@
                     "code": "Saint Wenceslaus, martyr",
                     "rank": 12.1,
                     "type": "OpMem",
-                    "name_ta": "புனித வென்செஸ்லாஸ் - மறைச்சாட்சி",
+                    "name": "Saint Wenceslaus, martyr",
                     "color": "red"
                 },
                 {
                     "code": "Saints Lawrence Ruiz and companions, martyrs",
                     "rank": 12.1,
                     "type": "OpMem",
-                    "name_ta": "புனிதர்கள் லாரன்ஸ் ரூய்ஸ், தோழர்கள் - மறைச்சாட்சியர்",
+                    "name": "Saints Lawrence Ruiz and companions, martyrs",
                     "color": "red"
                 }
             ]
@@ -3264,13 +3534,14 @@
                 "code": "Saints Michael, Gabriel and Raphael, Archangels",
                 "rank": 7,
                 "type": "Feast",
-                "name_ta": "தூய மிக்கேல், கபிரியேல், ரபேல் - அதிதூதர்கள்",
+                "name": "Saints Michael, Gabriel and Raphael, Archangels",
                 "color": "white"
             },
             "other": [
                 {
                     "code": "OW26-1Mon",
                     "rank": 12.5,
+                    "name": "Monday of the 26<sup>th<\/sup> Week in Ordinary Time",
                     "color": "green"
                 }
             ]
@@ -3279,13 +3550,14 @@
             {
                 "code": "OW26-2Tue",
                 "rank": 12.5,
+                "name": "Tuesday of the 26<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
                 "code": "Saint Jerome, priest and doctor",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனித எரோணிமுஸ் (ஜெரோம்) - மறைப்பணியாளர், மறைவல்லுநர்",
+                "name": "Saint Jerome, priest and doctor",
                 "color": "white"
             }
         ]
@@ -3295,13 +3567,14 @@
             {
                 "code": "OW26-3Wed",
                 "rank": 12.5,
+                "name": "Wednesday of the 26<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
                 "code": "Saint Thérèse of the Child Jesus, virgin and doctor",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "குழந்தை இயேசுவின் புனித தெரேசா - கன்னியர்",
+                "name": "Saint Thérèse of the Child Jesus, virgin and doctor",
                 "color": "white"
             }
         ],
@@ -3309,13 +3582,14 @@
             {
                 "code": "OW26-4Thu",
                 "rank": 12.5,
+                "name": "Thursday of the 26<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
                 "code": "Guardian Angels",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "தூய காவல் தூதர்கள்",
+                "name": "Guardian Angels",
                 "color": "white"
             }
         ],
@@ -3323,6 +3597,7 @@
             {
                 "code": "OW26-5Fri",
                 "rank": 12.5,
+                "name": "Friday of the 26<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -3330,13 +3605,14 @@
             {
                 "code": "OW26-6Sat",
                 "rank": 12.5,
+                "name": "Saturday of the 26<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
                 "code": "Saint Francis of Assisi",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "அசிசி நகர் புனித பிரான்சிஸ்",
+                "name": "Saint Francis of Assisi",
                 "color": "white"
             }
         ],
@@ -3344,6 +3620,7 @@
             "0": {
                 "code": "OW27-0Sun",
                 "rank": 6,
+                "name": "Sunday of the 27<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             "other": [
@@ -3351,7 +3628,7 @@
                     "code": "Saint Maria Faustina Kowalska, virgin",
                     "rank": 12.1,
                     "type": "OpMem",
-                    "name_ta": "புனித மரியா பவுஸ்தீனா கோவால்ஸ்கா",
+                    "name": "Saint Maria Faustina Kowalska, virgin",
                     "color": "white"
                 }
             ]
@@ -3360,13 +3637,14 @@
             {
                 "code": "OW27-1Mon",
                 "rank": 12.5,
+                "name": "Monday of the 27<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saint Bruno, priest",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித புரூனோ - மறைப்பணியாளர்",
+                "name": "Saint Bruno, priest",
                 "color": "white"
             }
         ],
@@ -3374,13 +3652,14 @@
             {
                 "code": "OW27-2Tue",
                 "rank": 12.5,
+                "name": "Tuesday of the 27<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
                 "code": "Our Lady of the Rosary",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "தூய செபமாலை அன்னை",
+                "name": "Our Lady of the Rosary",
                 "color": "white"
             }
         ],
@@ -3388,6 +3667,7 @@
             {
                 "code": "OW27-3Wed",
                 "rank": 12.5,
+                "name": "Wednesday of the 27<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -3395,20 +3675,21 @@
             {
                 "code": "OW27-4Thu",
                 "rank": 12.5,
+                "name": "Thursday of the 27<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saint Denis and companions, martyrs",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனிதர்கள் ஆயர் தியோனியுசு, தோழர்கள் - மறைச்சாட்சியர்",
+                "name": "Saint Denis and companions, martyrs",
                 "color": "red"
             },
             {
                 "code": "Saint John Leonardi, priest",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித யோவான் லெயோனார்ட் - மறைப்பணியாளர்",
+                "name": "Saint John Leonardi, priest",
                 "color": "white"
             }
         ],
@@ -3416,6 +3697,7 @@
             {
                 "code": "OW27-5Fri",
                 "rank": 12.5,
+                "name": "Friday of the 27<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -3423,13 +3705,14 @@
             {
                 "code": "OW27-6Sat",
                 "rank": 12.5,
+                "name": "Saturday of the 27<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saint John XXIII, pope",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித இருபத்தி மூன்றாம் யோவான், திருத்தந்தை",
+                "name": "Saint John XXIII, pope",
                 "color": "white"
             }
         ],
@@ -3437,6 +3720,7 @@
             {
                 "code": "OW28-0Sun",
                 "rank": 6,
+                "name": "Sunday of the 28<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -3444,6 +3728,7 @@
             {
                 "code": "OW28-1Mon",
                 "rank": 12.5,
+                "name": "Monday of the 28<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -3451,13 +3736,14 @@
             {
                 "code": "OW28-2Tue",
                 "rank": 12.5,
+                "name": "Tuesday of the 28<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saint Callistus I, pope and martyr",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித முதலாம் கலிஸ்து - திருத்தந்தை, மறைச்சாட்சி",
+                "name": "Saint Callistus I, pope and martyr",
                 "color": "red"
             }
         ],
@@ -3465,13 +3751,14 @@
             {
                 "code": "OW28-3Wed",
                 "rank": 12.5,
+                "name": "Wednesday of the 28<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
                 "code": "Saint Teresa of Jesus, virgin and doctor",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "இயேசுவின் (அவிலா நகர்) புனித தெரேசா - கன்னியர், மறைவல்லுநர்",
+                "name": "Saint Teresa of Jesus, virgin and doctor",
                 "color": "white"
             }
         ],
@@ -3479,27 +3766,28 @@
             {
                 "code": "OW28-4Thu",
                 "rank": 12.5,
+                "name": "Thursday of the 28<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saint Hedwig, religious",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித எட்விஜ் - துறவி",
+                "name": "Saint Hedwig, religious",
                 "color": "white"
             },
             {
                 "code": "Saint Margaret Mary Alacoque, virgin",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித மார்கரீத் மரியா அலக்கோக்கு - கன்னியர்",
+                "name": "Saint Margaret Mary Alacoque, virgin",
                 "color": "white"
             },
             {
                 "code": "IN Blessed Augustine Thevarparambil, priest",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "முத்தி. அகுஸ்தின் தேவர்பரம்பில் - மறைப்பணியாளர்",
+                "name": "IN Blessed Augustine Thevarparambil, priest",
                 "color": "white"
             }
         ],
@@ -3507,13 +3795,14 @@
             {
                 "code": "OW28-5Fri",
                 "rank": 12.5,
+                "name": "Friday of the 28<sup>th<\/sup> Week in Ordinary Time",
                 "color": "red"
             },
             {
                 "code": "Saint Ignatius of Antioch, bishop and martyr",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "அந்தியோக்கு நகர் புனித இஞ்ஞாசி - ஆயர், மறைச்சாட்சி",
+                "name": "Saint Ignatius of Antioch, bishop and martyr",
                 "color": "red"
             }
         ],
@@ -3522,13 +3811,14 @@
                 "code": "Saint Luke the Evangelist",
                 "rank": 7,
                 "type": "Feast",
-                "name_ta": "புனித லூக்கா - நற்செய்தியாளர்",
+                "name": "Saint Luke the Evangelist",
                 "color": "red"
             },
             "other": [
                 {
                     "code": "OW28-6Sat",
                     "rank": 12.5,
+                    "name": "Saturday of the 28<sup>th<\/sup> Week in Ordinary Time",
                     "color": "green"
                 }
             ]
@@ -3537,6 +3827,7 @@
             "0": {
                 "code": "OW29-0Sun",
                 "rank": 6,
+                "name": "Sunday of the 29<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             "other": [
@@ -3544,14 +3835,14 @@
                     "code": "Saint Paul of the Cross, priest",
                     "rank": 12.1,
                     "type": "OpMem",
-                    "name_ta": "சிலுவையின் புனித பவுல் - மறைப்பணியாளர்",
+                    "name": "Saint Paul of the Cross, priest",
                     "color": "white"
                 },
                 {
                     "code": "Saints Jean de Brébeuf, Isaac Jogues, priests and martyrs; and their companions, martyrs",
                     "rank": 12.1,
                     "type": "OpMem",
-                    "name_ta": "புனிதர்கள் மறைப்பணியாளர்கள் பிரபூபு ஜான், ஈசாக்கு ஜோகு, தோழர்கள் - மறைச்சாட்சியர்",
+                    "name": "Saints Jean de Brébeuf, Isaac Jogues, priests and martyrs; and their companions, martyrs",
                     "color": "red"
                 }
             ]
@@ -3560,6 +3851,7 @@
             {
                 "code": "OW29-1Mon",
                 "rank": 12.5,
+                "name": "Monday of the 29<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -3567,6 +3859,7 @@
             {
                 "code": "OW29-2Tue",
                 "rank": 12.5,
+                "name": "Tuesday of the 29<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -3574,13 +3867,14 @@
             {
                 "code": "OW29-3Wed",
                 "rank": 12.5,
+                "name": "Wednesday of the 29<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saint John Paul II, pope",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித இரண்டாம் அருள் சின்னப்பர், திருத்தந்தை",
+                "name": "Saint John Paul II, pope",
                 "color": "white"
             }
         ],
@@ -3588,13 +3882,14 @@
             {
                 "code": "OW29-4Thu",
                 "rank": 12.5,
+                "name": "Thursday of the 29<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saint John of Capistrano, priest",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "கப்பெஸ்த்தரானோ நகர் புனித யோவான் - மறைப்பணியாளர்",
+                "name": "Saint John of Capistrano, priest",
                 "color": "white"
             }
         ],
@@ -3602,13 +3897,14 @@
             {
                 "code": "OW29-5Fri",
                 "rank": 12.5,
+                "name": "Friday of the 29<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saint Anthony Mary Claret, bishop",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித அந்தோனி மரிய கிளாரட் - ஆயர்",
+                "name": "Saint Anthony Mary Claret, bishop",
                 "color": "white"
             }
         ],
@@ -3616,13 +3912,14 @@
             {
                 "code": "OW29-6Sat",
                 "rank": 12.5,
+                "name": "Saturday of the 29<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Mem-Mary-Sat",
                 "rank": 10.3,
                 "type": "Mem-Mary-Sat",
-                "name_ta": "",
+                "name": "Saturday Memorial of the Blessed Virgin Mary",
                 "color": "white"
             }
         ],
@@ -3630,6 +3927,7 @@
             {
                 "code": "OW30-0Sun",
                 "rank": 6,
+                "name": "Sunday of the 30<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -3637,6 +3935,7 @@
             {
                 "code": "OW30-1Mon",
                 "rank": 12.5,
+                "name": "Monday of the 30<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -3645,13 +3944,14 @@
                 "code": "Saint Simon and Saint Jude, apostles",
                 "rank": 7,
                 "type": "Feast",
-                "name_ta": "புனிதர்கள் சீமோன், யூதா - திருத்தூதர்கள்",
+                "name": "Saint Simon and Saint Jude, apostles",
                 "color": "red"
             },
             "other": [
                 {
                     "code": "OW30-2Tue",
                     "rank": 12.5,
+                    "name": "Tuesday of the 30<sup>th<\/sup> Week in Ordinary Time",
                     "color": "green"
                 }
             ]
@@ -3660,6 +3960,7 @@
             {
                 "code": "OW30-3Wed",
                 "rank": 12.5,
+                "name": "Wednesday of the 30<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -3667,6 +3968,7 @@
             {
                 "code": "OW30-4Thu",
                 "rank": 12.5,
+                "name": "Thursday of the 30<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -3674,6 +3976,7 @@
             {
                 "code": "OW30-5Fri",
                 "rank": 12.5,
+                "name": "Friday of the 30<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ]
@@ -3684,13 +3987,14 @@
                 "code": "All Saints",
                 "rank": 3.1,
                 "type": "Solemnity",
-                "name_ta": "புனிதர் அனைவர்",
+                "name": "All Saints",
                 "color": "white"
             },
             "other": [
                 {
                     "code": "OW30-6Sat",
                     "rank": 12.5,
+                    "name": "Saturday of the 30<sup>th<\/sup> Week in Ordinary Time",
                     "color": "green"
                 }
             ]
@@ -3700,13 +4004,14 @@
                 "code": "All Souls",
                 "rank": 3.2,
                 "type": "All Souls",
-                "name_ta": "இறந்த விசுவாசிகள் அனைவர்",
+                "name": "All Souls",
                 "color": "purple"
             },
             "other": [
                 {
                     "code": "OW31-0Sun",
                     "rank": 6,
+                    "name": "Sunday of the 31<sup>st<\/sup> Week in Ordinary Time",
                     "color": "green"
                 }
             ]
@@ -3715,13 +4020,14 @@
             {
                 "code": "OW31-1Mon",
                 "rank": 12.5,
+                "name": "Monday of the 31<sup>st<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saint Martin de Porres, religious",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித மார்ட்டின் தெ போரஸ் - துறவி",
+                "name": "Saint Martin de Porres, religious",
                 "color": "white"
             }
         ],
@@ -3729,13 +4035,14 @@
             {
                 "code": "OW31-2Tue",
                 "rank": 12.5,
+                "name": "Tuesday of the 31<sup>st<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
                 "code": "Saint Charles Borromeo, bishop",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனித சார்லஸ் பொரோமியோ - ஆயர்",
+                "name": "Saint Charles Borromeo, bishop",
                 "color": "white"
             }
         ],
@@ -3743,6 +4050,7 @@
             {
                 "code": "OW31-3Wed",
                 "rank": 12.5,
+                "name": "Wednesday of the 31<sup>st<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -3750,6 +4058,7 @@
             {
                 "code": "OW31-4Thu",
                 "rank": 12.5,
+                "name": "Thursday of the 31<sup>st<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -3757,6 +4066,7 @@
             {
                 "code": "OW31-5Fri",
                 "rank": 12.5,
+                "name": "Friday of the 31<sup>st<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -3764,13 +4074,14 @@
             {
                 "code": "OW31-6Sat",
                 "rank": 12.5,
+                "name": "Saturday of the 31<sup>st<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Mem-Mary-Sat",
                 "rank": 10.3,
                 "type": "Mem-Mary-Sat",
-                "name_ta": "",
+                "name": "Saturday Memorial of the Blessed Virgin Mary",
                 "color": "white"
             }
         ],
@@ -3779,13 +4090,14 @@
                 "code": "Dedication of the Lateran basilica",
                 "rank": 5,
                 "type": "Feast-Lord",
-                "name_ta": "இலாத்தரன் பேராலய நேர்ந்தளிப்பு",
+                "name": "Dedication of the Lateran basilica",
                 "color": "white"
             },
             "other": [
                 {
                     "code": "OW32-0Sun",
                     "rank": 6,
+                    "name": "Sunday of the 32<sup>nd<\/sup> Week in Ordinary Time",
                     "color": "green"
                 }
             ]
@@ -3794,13 +4106,14 @@
             {
                 "code": "OW32-1Mon",
                 "rank": 12.5,
+                "name": "Monday of the 32<sup>nd<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
                 "code": "Saint Leo the Great, pope and doctor",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனித பெரிய லெயோ - திருத்தந்தை, மறைவல்லுநர்",
+                "name": "Saint Leo the Great, pope and doctor",
                 "color": "white"
             }
         ],
@@ -3808,13 +4121,14 @@
             {
                 "code": "OW32-2Tue",
                 "rank": 12.5,
+                "name": "Tuesday of the 32<sup>nd<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
                 "code": "Saint Martin of Tours, bishop",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "தூரின் நகர் புனித மார்ட்டின் - ஆயர்",
+                "name": "Saint Martin of Tours, bishop",
                 "color": "white"
             }
         ],
@@ -3822,13 +4136,14 @@
             {
                 "code": "OW32-3Wed",
                 "rank": 12.5,
+                "name": "Wednesday of the 32<sup>nd<\/sup> Week in Ordinary Time",
                 "color": "red"
             },
             {
                 "code": "Saint Josaphat, bishop and martyr",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனித யோசபாத்து - ஆயர், மறைச்சாட்சி",
+                "name": "Saint Josaphat, bishop and martyr",
                 "color": "red"
             }
         ],
@@ -3836,6 +4151,7 @@
             {
                 "code": "OW32-4Thu",
                 "rank": 12.5,
+                "name": "Thursday of the 32<sup>nd<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -3843,6 +4159,7 @@
             {
                 "code": "OW32-5Fri",
                 "rank": 12.5,
+                "name": "Friday of the 32<sup>nd<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -3850,13 +4167,14 @@
             {
                 "code": "OW32-6Sat",
                 "rank": 12.5,
+                "name": "Saturday of the 32<sup>nd<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saint Albert the Great, bishop and doctor",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித பெரிய ஆல்பர்ட் - ஆயர், மறைவல்லுநர்",
+                "name": "Saint Albert the Great, bishop and doctor",
                 "color": "white"
             }
         ],
@@ -3864,6 +4182,7 @@
             "0": {
                 "code": "OW33-0Sun",
                 "rank": 6,
+                "name": "Sunday of the 33<sup>rd<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             "other": [
@@ -3871,14 +4190,14 @@
                     "code": "Saint Gertrude the Great, virgin",
                     "rank": 12.1,
                     "type": "OpMem",
-                    "name_ta": "புனித ஜெர்த்ரூது - கன்னியர்",
+                    "name": "Saint Gertrude the Great, virgin",
                     "color": "white"
                 },
                 {
                     "code": "Saint Margaret of Scotland",
                     "rank": 12.1,
                     "type": "OpMem",
-                    "name_ta": "ஸ்காட்லாந்து புனித மார்கரீத்",
+                    "name": "Saint Margaret of Scotland",
                     "color": "white"
                 }
             ]
@@ -3887,13 +4206,14 @@
             {
                 "code": "OW33-1Mon",
                 "rank": 12.5,
+                "name": "Monday of the 33<sup>rd<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
                 "code": "Saint Elizabeth of Hungary, religious",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "அங்கேரி புனித எலிசபெத்து - துறவி",
+                "name": "Saint Elizabeth of Hungary, religious",
                 "color": "white"
             }
         ],
@@ -3901,13 +4221,14 @@
             {
                 "code": "OW33-2Tue",
                 "rank": 12.5,
+                "name": "Tuesday of the 33<sup>rd<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Dedication of the basilicas of Saints Peter and Paul, Apostles",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "திருத்தூதர்கள் பேதுரு, பவுல் பேராலயங்களின் நேர்ந்தளிப்பு",
+                "name": "Dedication of the basilicas of Saints Peter and Paul, Apostles",
                 "color": "red"
             }
         ],
@@ -3915,6 +4236,7 @@
             {
                 "code": "OW33-3Wed",
                 "rank": 12.5,
+                "name": "Wednesday of the 33<sup>rd<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -3922,6 +4244,7 @@
             {
                 "code": "OW33-4Thu",
                 "rank": 12.5,
+                "name": "Thursday of the 33<sup>rd<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -3929,13 +4252,14 @@
             {
                 "code": "OW33-5Fri",
                 "rank": 12.5,
+                "name": "Friday of the 33<sup>rd<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
                 "code": "Presentation of the Blessed Virgin Mary",
                 "rank": 10.1,
                 "type": "Mem-Mary",
-                "name_ta": "தூய கன்னி மரியாவைக் காணிக்கையாக அர்ப்பணித்தல்",
+                "name": "Presentation of the Blessed Virgin Mary",
                 "color": "white"
             }
         ],
@@ -3943,13 +4267,14 @@
             {
                 "code": "OW33-6Sat",
                 "rank": 12.5,
+                "name": "Saturday of the 33<sup>rd<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
                 "code": "Saint Cecilia",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனித செசிலியா - கன்னியர், மறைச்சாட்சி",
+                "name": "Saint Cecilia",
                 "color": "white"
             }
         ],
@@ -3958,6 +4283,7 @@
                 "code": "OW34-0Sun",
                 "rank": 3.1,
                 "type": "Solemnity",
+                "name": "Sunday of the 34<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             "other": [
@@ -3965,14 +4291,14 @@
                     "code": "Saint Clement I, pope and martyr",
                     "rank": 12.1,
                     "type": "OpMem",
-                    "name_ta": "புனித முதலாம் கிளமெண்ட், திருத்தந்தை, மறைச்சாட்சி",
+                    "name": "Saint Clement I, pope and martyr",
                     "color": "red"
                 },
                 {
                     "code": "Saint Columban, religious",
                     "rank": 12.1,
                     "type": "OpMem",
-                    "name_ta": "புனித கொலும்பன் - ஆதீனத் தலைவர்",
+                    "name": "Saint Columban, religious",
                     "color": "white"
                 }
             ]
@@ -3981,13 +4307,14 @@
             {
                 "code": "OW34-1Mon",
                 "rank": 12.5,
+                "name": "Monday of the 34<sup>th<\/sup> Week in Ordinary Time",
                 "color": "red"
             },
             {
                 "code": "Saint Andrew Dung-Lac and his companions, martyrs",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனிதர்கள் மறைப்பணியாளர் ஆன்ரு டுங் லாக், தோழர்கள் - மறைச்சாட்சியர்",
+                "name": "Saint Andrew Dung-Lac and his companions, martyrs",
                 "color": "red"
             }
         ],
@@ -3995,13 +4322,14 @@
             {
                 "code": "OW34-2Tue",
                 "rank": 12.5,
+                "name": "Tuesday of the 34<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Saint Catherine of Alexandria",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "அலெக்சாந்திரியா நகர் புனித கேத்தரின் - கன்னியர், மறைச்சாட்சி",
+                "name": "Saint Catherine of Alexandria",
                 "color": "white"
             }
         ],
@@ -4009,6 +4337,7 @@
             {
                 "code": "OW34-3Wed",
                 "rank": 12.5,
+                "name": "Wednesday of the 34<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -4016,6 +4345,7 @@
             {
                 "code": "OW34-4Thu",
                 "rank": 12.5,
+                "name": "Thursday of the 34<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -4023,6 +4353,7 @@
             {
                 "code": "OW34-5Fri",
                 "rank": 12.5,
+                "name": "Friday of the 34<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -4030,13 +4361,14 @@
             {
                 "code": "OW34-6Sat",
                 "rank": 12.5,
+                "name": "Saturday of the 34<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
                 "code": "Mem-Mary-Sat",
                 "rank": 10.3,
                 "type": "Mem-Mary-Sat",
-                "name_ta": "",
+                "name": "Saturday Memorial of the Blessed Virgin Mary",
                 "color": "white"
             }
         ],
@@ -4044,6 +4376,7 @@
             "0": {
                 "code": "AW01-0Sun",
                 "rank": 2.1,
+                "name": "Sunday of the 1<sup>st<\/sup> Week of Advent",
                 "color": "purple"
             },
             "other": [
@@ -4051,7 +4384,7 @@
                     "code": "Saint Andrew the Apostle",
                     "rank": 7,
                     "type": "Feast",
-                    "name_ta": "புனித அந்திரேயா, திருத்தூதர்",
+                    "name": "Saint Andrew the Apostle",
                     "color": "red"
                 }
             ]
@@ -4062,6 +4395,7 @@
             {
                 "code": "AW01-1Mon",
                 "rank": 12.2,
+                "name": "Monday of the 1<sup>st<\/sup> Week of Advent",
                 "color": "purple"
             }
         ],
@@ -4069,6 +4403,7 @@
             {
                 "code": "AW01-2Tue",
                 "rank": 12.2,
+                "name": "Tuesday of the 1<sup>st<\/sup> Week of Advent",
                 "color": "purple"
             }
         ],
@@ -4077,20 +4412,21 @@
                 "code": "IN Saint Francis Xavier, priest",
                 "rank": 4.1,
                 "type": "Solemnity-PrincipalPartron-Place",
-                "name_ta": "புனித பிரான்சிஸ் சவேரியார் - மறைப்பணியாளர், இந்தியாவின் பாதுகாவலர்",
+                "name": "IN Saint Francis Xavier, priest",
                 "color": "white"
             },
             "other": [
                 {
                     "code": "AW01-3Wed",
                     "rank": 12.2,
+                    "name": "Wednesday of the 1<sup>st<\/sup> Week of Advent",
                     "color": "purple"
                 },
                 {
                     "code": "Saint Francis Xavier, priest",
                     "rank": 10.2,
                     "type": "Mem",
-                    "name_ta": "புனித பிரான்சிஸ் சவேரியார் - மறைப்பணியாளர்",
+                    "name": "Saint Francis Xavier, priest",
                     "color": "white"
                 }
             ]
@@ -4099,13 +4435,14 @@
             {
                 "code": "AW01-4Thu",
                 "rank": 12.2,
+                "name": "Thursday of the 1<sup>st<\/sup> Week of Advent",
                 "color": "purple"
             },
             {
                 "code": "Saint John Damascene, priest and doctor",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித யோவான் தமசேன் - மறைப்பணியாளர், மறைவல்லுநர்",
+                "name": "Saint John Damascene, priest and doctor",
                 "color": "white"
             }
         ],
@@ -4113,6 +4450,7 @@
             {
                 "code": "AW01-5Fri",
                 "rank": 12.2,
+                "name": "Friday of the 1<sup>st<\/sup> Week of Advent",
                 "color": "purple"
             }
         ],
@@ -4120,13 +4458,14 @@
             {
                 "code": "AW01-6Sat",
                 "rank": 12.2,
+                "name": "Saturday of the 1<sup>st<\/sup> Week of Advent",
                 "color": "purple"
             },
             {
                 "code": "Saint Nicholas, bishop",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித நிக்கோலாஸ் - ஆயர்",
+                "name": "Saint Nicholas, bishop",
                 "color": "white"
             }
         ],
@@ -4134,6 +4473,7 @@
             "0": {
                 "code": "AW02-0Sun",
                 "rank": 2.1,
+                "name": "Sunday of the 2<sup>nd<\/sup> Week of Advent",
                 "color": "purple"
             },
             "other": [
@@ -4141,7 +4481,7 @@
                     "code": "Saint Ambrose, bishop and doctor",
                     "rank": 10.2,
                     "type": "Mem",
-                    "name_ta": "புனித அம்புரோஸ் - ஆயர், மறைவல்லுநர்",
+                    "name": "Saint Ambrose, bishop and doctor",
                     "color": "white"
                 }
             ]
@@ -4151,13 +4491,14 @@
                 "code": "Immaculate Conception of the Blessed Virgin Mary",
                 "rank": 3.1,
                 "type": "Solemnity",
-                "name_ta": "தூய கன்னி மரியாவின் அமலோற்பவம்",
+                "name": "Immaculate Conception of the Blessed Virgin Mary",
                 "color": "white"
             },
             "other": [
                 {
                     "code": "AW02-1Mon",
                     "rank": 12.2,
+                    "name": "Monday of the 2<sup>nd<\/sup> Week of Advent",
                     "color": "purple"
                 }
             ]
@@ -4166,13 +4507,14 @@
             {
                 "code": "AW02-2Tue",
                 "rank": 12.2,
+                "name": "Tuesday of the 2<sup>nd<\/sup> Week of Advent",
                 "color": "purple"
             },
             {
                 "code": "Saint Juan Diego",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித ஜான் தியேகோ",
+                "name": "Saint Juan Diego",
                 "color": "white"
             }
         ],
@@ -4180,13 +4522,14 @@
             {
                 "code": "AW02-3Wed",
                 "rank": 12.2,
+                "name": "Wednesday of the 2<sup>nd<\/sup> Week of Advent",
                 "color": "purple"
             },
             {
                 "code": "Our Lady of Loreto",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "லொரேட்டோ அன்னை",
+                "name": "Our Lady of Loreto",
                 "color": "white"
             }
         ],
@@ -4194,13 +4537,14 @@
             {
                 "code": "AW02-4Thu",
                 "rank": 12.2,
+                "name": "Thursday of the 2<sup>nd<\/sup> Week of Advent",
                 "color": "purple"
             },
             {
                 "code": "Saint Damasus I, pope",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித முதலாம் தமசுஸ் - திருத்தந்தை",
+                "name": "Saint Damasus I, pope",
                 "color": "white"
             }
         ],
@@ -4208,13 +4552,14 @@
             {
                 "code": "AW02-5Fri",
                 "rank": 12.2,
+                "name": "Friday of the 2<sup>nd<\/sup> Week of Advent",
                 "color": "purple"
             },
             {
                 "code": "Our Lady of Guadalupe",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name_ta": "புனித குவாதெலுப் அன்னை",
+                "name": "Our Lady of Guadalupe",
                 "color": "white"
             }
         ],
@@ -4222,13 +4567,14 @@
             {
                 "code": "AW02-6Sat",
                 "rank": 12.2,
+                "name": "Saturday of the 2<sup>nd<\/sup> Week of Advent",
                 "color": "red"
             },
             {
                 "code": "Saint Lucy of Syracuse, virgin and martyr",
                 "rank": 10.2,
                 "type": "Mem",
-                "name_ta": "புனித லூசியா - கன்னியர், மறைச்சாட்சி",
+                "name": "Saint Lucy of Syracuse, virgin and martyr",
                 "color": "red"
             }
         ],
@@ -4236,6 +4582,7 @@
             "0": {
                 "code": "AW03-0Sun",
                 "rank": 2.1,
+                "name": "Sunday of the 3<sup>rd<\/sup> Week of Advent",
                 "color": "rose"
             },
             "other": [
@@ -4243,7 +4590,7 @@
                     "code": "Saint John of the Cross, priest and doctor",
                     "rank": 10.2,
                     "type": "Mem",
-                    "name_ta": "சிலுவையின் புனித யோவான் - மறைப்பணியாளர், மறைவல்லுநர்",
+                    "name": "Saint John of the Cross, priest and doctor",
                     "color": "white"
                 }
             ]
@@ -4252,6 +4599,7 @@
             {
                 "code": "AW03-1Mon",
                 "rank": 12.2,
+                "name": "Monday of the 3<sup>rd<\/sup> Week of Advent",
                 "color": "purple"
             }
         ],
@@ -4259,6 +4607,7 @@
             {
                 "code": "AW03-2Tue",
                 "rank": 12.2,
+                "name": "Tuesday of the 3<sup>rd<\/sup> Week of Advent",
                 "color": "purple"
             }
         ],
@@ -4266,6 +4615,7 @@
             {
                 "code": "AW05-Dec17",
                 "rank": 9.1,
+                "name": "Advent Weekday: December - 17",
                 "color": "purple"
             }
         ],
@@ -4273,6 +4623,7 @@
             {
                 "code": "AW05-Dec18",
                 "rank": 9.1,
+                "name": "Advent Weekday: December - 18",
                 "color": "purple"
             }
         ],
@@ -4280,6 +4631,7 @@
             {
                 "code": "AW05-Dec19",
                 "rank": 9.1,
+                "name": "Advent Weekday: December - 19",
                 "color": "purple"
             }
         ],
@@ -4287,6 +4639,7 @@
             {
                 "code": "AW05-Dec20",
                 "rank": 9.1,
+                "name": "Advent Weekday: December - 20",
                 "color": "purple"
             }
         ],
@@ -4294,6 +4647,7 @@
             "0": {
                 "code": "AW04-0Sun",
                 "rank": 2.1,
+                "name": "Sunday of the 4<sup>th<\/sup> Week of Advent",
                 "color": "purple"
             },
             "other": [
@@ -4301,7 +4655,7 @@
                     "code": "Saint Peter Canisius, priest and doctor",
                     "rank": 12.1,
                     "type": "OpMem",
-                    "name_ta": "புனித பீட்டர் கனீசியு - மறைப்பணியாளர், மறைவல்லுநர்",
+                    "name": "Saint Peter Canisius, priest and doctor",
                     "color": "white"
                 }
             ]
@@ -4310,6 +4664,7 @@
             {
                 "code": "AW05-Dec22",
                 "rank": 9.1,
+                "name": "Advent Weekday: December - 22",
                 "color": "purple"
             }
         ],
@@ -4317,13 +4672,14 @@
             {
                 "code": "AW05-Dec23",
                 "rank": 9.1,
+                "name": "Advent Weekday: December - 23",
                 "color": "purple"
             },
             {
                 "code": "Saint John of Kanty, priest",
                 "rank": 12.1,
                 "type": "OpMem-Commemoration",
-                "name_ta": "கான்டி நகர் புனித யோவான் - மறைப்பணியாளர்",
+                "name": "Saint John of Kanty, priest",
                 "color": "white"
             }
         ],
@@ -4331,6 +4687,7 @@
             {
                 "code": "AW05-Dec24",
                 "rank": 9.1,
+                "name": "Advent Weekday: December - 24",
                 "color": "purple"
             }
         ],
@@ -4339,7 +4696,7 @@
                 "code": "Nativity of the Lord",
                 "rank": 3.1,
                 "type": "Solemnity",
-                "name_ta": "கிறிஸ்து பிறப்பு",
+                "name": "Nativity of the Lord",
                 "color": "white"
             }
         ],
@@ -4348,7 +4705,7 @@
                 "code": "Saint Stephen, the first martyr",
                 "rank": 7,
                 "type": "Feast",
-                "name_ta": "புனித ஸ்தேவான் - முதல் மறைச்சாட்சி",
+                "name": "Saint Stephen, the first martyr",
                 "color": "red"
             }
         ],
@@ -4357,7 +4714,7 @@
                 "code": "Saint John the Apostle and evangelist",
                 "rank": 7,
                 "type": "Feast",
-                "name_ta": "புனித யோவான் - திருத்தூதர், நற்செய்தியாளர்",
+                "name": "Saint John the Apostle and evangelist",
                 "color": "white"
             }
         ],
@@ -4366,6 +4723,7 @@
                 "code": "CW01-HolyFamily",
                 "rank": 5,
                 "type": "Feast-Lord",
+                "name": "The Holy Family of Jesus, Mary And Joseph",
                 "color": "white"
             },
             "other": [
@@ -4373,7 +4731,7 @@
                     "code": "Holy Innocents, martyrs",
                     "rank": 7,
                     "type": "Feast",
-                    "name_ta": "புனித மாசில்லாக் குழந்தைகள் - மறைச்சாட்சியர்",
+                    "name": "Holy Innocents, martyrs",
                     "color": "red"
                 }
             ]
@@ -4382,13 +4740,14 @@
             {
                 "code": "CW01-Dec29",
                 "rank": 9.2,
+                "name": "5<sup>th<\/sup> Day in the Octave of Christmas",
                 "color": "white"
             },
             {
                 "code": "Saint Thomas Becket, bishop and martyr",
                 "rank": 12.1,
                 "type": "OpMem-Commemoration",
-                "name_ta": "புனித தாமஸ் பெக்கட் - ஆயர் மறைச்சாட்சி",
+                "name": "Saint Thomas Becket, bishop and martyr",
                 "color": "red"
             }
         ],
@@ -4396,6 +4755,7 @@
             {
                 "code": "CW01-Dec30",
                 "rank": 9.2,
+                "name": "6<sup>th<\/sup> Day in the Octave of Christmas",
                 "color": "white"
             }
         ],
@@ -4403,13 +4763,14 @@
             {
                 "code": "CW01-Dec31",
                 "rank": 9.2,
+                "name": "7<sup>th<\/sup> Day in the Octave of Christmas",
                 "color": "white"
             },
             {
                 "code": "Saint Sylvester I, pope",
                 "rank": 12.1,
                 "type": "OpMem-Commemoration",
-                "name_ta": "புனித முதலாம் சில்வெஸ்தர் - திருத்தந்தை",
+                "name": "Saint Sylvester I, pope",
                 "color": "white"
             }
         ]

@@ -49,32 +49,24 @@ class RomanCalendarFixed{
         $feastList = $this->getCalendar("/Solemnity*/");
 
         foreach ($feastList as $feast) {
-            $month = $feast[0];
-            $date = $feast[1];
-            $name = $feast[2];
-            $name_ta = $feast[3];
-            $type = $feast[4];
-
-			if ($month == 11 && $date == 2) {
-				$type = 'All Souls';
-			}
+			$type =  ($feast['month'] == 11 && $feast['date'] == 2)?'All Souls': $feast['type']; 
 			$feastRank = $this->rcr->getRank($type);
 
-            $currentDay = $this->fullYear[$month][$date];
+            $currentDay = $this->fullYear[$feast['month']][$feast['date']];
 			$currentDayRank = (!empty($currentDay)) ? $currentDay[0]['rank'] : 50;
 
-            $tempDate = new \DateTime($this->currentYear . '-' . $month . '-' . $date);
+            $tempDate = new \DateTime($this->currentYear . '-' . $feast['month'] . '-' . $feast['date']);
             if (!($feastRank < $currentDayRank)) {
 				// If a fixed date Solemnity occurs on a Sunday of Lent or Advent,
                 // the Solemnity is transferred to the following Monday.
 				// This affects Joseph, Husband of Mary (Mar 19), Annunciation (Mar 25), and Immaculate Conception (Dec 8).
-				if (($date  == 19 && $month == 3) && preg_match("/^LW06/", $currentDay[0]['code']) === 1) {
+				if (($feast['date']  == 19 && $feast['month'] == 3) && preg_match("/^LW06/", $currentDay[0]['code']) === 1) {
 					// If Joseph, Husband of Mary (Mar 19) falls on Palm Sunday or during Holy Week,
                     // it is moved to the Saturday preceding Palm Sunday.
 					// This Solemnity can never occur on Holy Sat
 					// 2035
 					$tempDate->modify('last saturday');
-				}  elseif ($name == 'Birth of Saint John the Baptist' && $currentDay[0]['code'] == 'OW00-SacredHeart' && $this->currentYear == 2022) {
+				}  elseif ($feast['code']  == 'Birth of Saint John the Baptist' && $currentDay[0]['code'] == 'OW00-SacredHeart' && $this->currentYear == 2022) {
 					// Nativity of St. John the Baptist and the Feast of the Sacred Heart clashes in 2022.
 					// CFD has determined that on June 24 the Sacred Heart should be celebrated,
 					// and the Nativity of St. John the Baptist on the 23rd
@@ -96,7 +88,7 @@ class RomanCalendarFixed{
 				}
 
             }
-			$newFeast = ['code' => $name, 'rank' => $feastRank, 'type' => $type, 'name_ta' => $name_ta];
+			$newFeast = ['code' => $feast['code'], 'rank' => $feastRank, 'type' => $type];
 			$this->pushDayCode($tempDate, $newFeast);
        }
 	}
@@ -109,16 +101,10 @@ class RomanCalendarFixed{
 		$feastList = $this->getCalendar("/Feast*/");
 
 		foreach ($feastList as $feast) {
-            $month = $feast[0];
-            $date = $feast[1];
-            $name = $feast[2];
-            $name_ta = $feast[3];
-            $type = $feast[4];
+			$currDate = new \DateTime($this->currentYear . '-' . $feast['month'] . '-' . $feast['date']);
+			$currentDayRank = $this->fullYear[$feast['month']][$feast['date']][0]['rank'];
 
-			$currDate = new \DateTime($this->currentYear . '-' . $month . '-' . $date);
-			$currentDayRank = $this->fullYear[$month][$date][0]['rank'];
-
-			$newFeast = ['code' => $name, 'rank' => $this->rcr->getRank($type), 'type' => $type, 'name_ta' => $name_ta];
+			$newFeast = ['code' => $feast['code'], 'rank' => $this->rcr->getRank($feast['type']), 'type' => $feast['type']];
 
 			if ($newFeast['rank'] < $currentDayRank) {
 				$this->pushDayCode($currDate, $newFeast);
@@ -137,14 +123,19 @@ class RomanCalendarFixed{
 		$easterDate = new \DateTimeImmutable($this->currentYear . '-03-21 +' . easter_days($this->currentYear) . ' days');
 		
 		$feastImmaculateHeart = $easterDate->modify('+69 day');
-		array_push($feastList, [$feastImmaculateHeart->format('n'), $feastImmaculateHeart->format('j'), 'OW00-ImmaculateHeart', 'தூய கன்னி மரியாவின் மாசற்ற இதயம்', 'Mem-Mary']);
+		$feastList [] = ['month'=> $feastImmaculateHeart->format('n'),
+						'date' => $feastImmaculateHeart->format('j'),
+						'code' => 'OW00-ImmaculateHeart',
+						'type' => 'Mem-Mary'];
 
 		if($this->currentYear >= 2018) {
 			$ordinaryTime2 = $easterDate->modify('+50 days');// Ordinary Time 2 starts on the Monday after Pentecost
 			// Mary Mother of the Church - https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20180324_notificazione-mater-ecclesiae_en.html
-			array_push($feastList, [$ordinaryTime2->format('n'), $ordinaryTime2->format('j'), 'OW00-MaryMotherofChurch', 'தூய கன்னி மரியா, திரு அவையின் அன்னை', 'Mem-Mary']);
+			$feastList [] = ['month' => $ordinaryTime2->format('n'),
+									'date' => $ordinaryTime2->format('j'),
+									'code' => 'OW00-MaryMotherofChurch',
+									'type' => 'Mem-Mary'];
 		}
-
 		$this->addMemoryToYear_($feastList);
 
 		// GILH 240. On Saturdays in Ordinary Time, when optional memorials are permitted,
@@ -170,7 +161,7 @@ class RomanCalendarFixed{
 				) //The day has memoriya
 				continue;
 
-			$feastList[] = [$mth, $day, 'Mem-Mary-Sat', '', 'Mem-Mary-Sat'];
+			$feastList[] = ['month' => $mth, 'date' => $day, 'code' => 'Mem-Mary-Sat', 'type' => 'Mem-Mary-Sat'];
 		} while ($tempDate->format('Y') ==  $this->currentYear );
 
 		$this->addMemoryToYear_($feastList);
@@ -178,19 +169,12 @@ class RomanCalendarFixed{
 
 	function addMemoryToYear_($feastList) {
 		foreach ($feastList as $feast) {
-            $month = $feast[0];
-            $date = $feast[1];
-            $name = $feast[2];
-            $name_ta = $feast[3];
-            $type = $feast[4];
-
 			//Pass by reference to avoid copying the array
-			$currentDay = &$this->fullYear[$month][$date];
+			$currentDay = &$this->fullYear[$feast['month']][$feast['date']];
 			$newFeast = [
-				'code' => $name,
-				'rank' => $this->rcr->getRank($type),
-				'type' => $type,
-				'name_ta' => $name_ta
+				'code' => $feast['code'],
+				'rank' => $this->rcr->getRank($feast['type']),
+				'type' => $feast['type'],
 			];
 
 			$other = [];
@@ -207,6 +191,7 @@ class RomanCalendarFixed{
 					 * both must be considered optional for that year.
 					 *
 					 * https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20000630_memoria-immaculati-cordis-mariae-virginis_lt.html
+					 * 
 					 */
 					$currentDay[1]['type'] = 'OpMem';
 					$currentDay[1]['rank'] = $this->rcr->getRank('OpMem');
@@ -249,7 +234,7 @@ class RomanCalendarFixed{
 			} else {
 				$other[] = $newFeast;
 			}
-			$currDate = new \DateTime($this->currentYear . '-' . $month . '-' . $date);
+			$currDate = new \DateTime($this->currentYear . '-' . $feast['month'] . '-' . $feast['date']);
 			$this->addOtherCelebration($currDate, $other);
 		}
 	}
@@ -258,27 +243,26 @@ class RomanCalendarFixed{
         $rows = [];
         rewind($this->fileHandle);
         while (($data = fgetcsv($this->fileHandle, separator: ',', enclosure: '"', escape: "")) !== false) {
-
-
-			if (preg_match($filter, $data[4]??'') === 1) {
-
+			if (preg_match($filter, $data[3]??'') === 1) {
 				//Feast added year, previous years do not have this feast
-				if(! empty($data[5]) && $data[5] > $this->currentYear){
+				if(! empty($data[4]) && $data[4] > $this->currentYear){
 					continue;
 				}
 				
 				// Feast removed year, current year and future years do not have this feast
-				if(! empty($data[6]) && $this->currentYear >= $data[6]){
+				if(! empty($data[5]) && $this->currentYear >= $data[5]){
 					continue;
 				}
-				unset($data[5]); unset($data[6]);
 
-                $rows[] = $data;
+                $rows[] = 	['month'=> $data[0],
+							'date' => $data[1],
+							'code' => $data[2],
+							'type' => $data[3]
+							];
             }
         }
         return $rows;
     }
-
 
     /**
 	 * Add feast/solemnity to a given date and month
@@ -311,7 +295,7 @@ class RomanCalendarFixed{
 
         //Christmas Week no ferial days because they are all fixed feasts.
 		if (str_starts_with($feastDet[0]['code'], 'CW01-')) return;
-		
+
 		/**
 		 * The Feast to be added to 'other' has 'other' in itself.
 		 * Eg: 
