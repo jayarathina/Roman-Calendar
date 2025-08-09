@@ -14,32 +14,41 @@ use RomanCalendar\RomanCalendarRenderHTML;
 </head>
 
 <body>
-
 	<?php
-
-	// Test Cases
-	// 2019 Immaculate conception on sunday
-	// 2018 annunciaion during holy week
-	// 1967 St. Joseph during holy week
-	// 2017 St. Joseph during lent sunday
-	// 2014 Immaculate Hrt coincided with Saint Irenaeus, 28 June
-	// 2015 Immaculate Hrt coincided with Saint Anthony of Padua, 13 June
-
-	$year = $_GET['year'] ?? date("Y");
-
-	$filename = 'dat/' . $year . '/calendar.json';
-
-	$options = [
-		'epiphanyOnSunday' => true,
-		'ascensionOnSunday' => true,
-		'corpusChristiOnSunday' => true,
-	];
-
-	// If the JSON does not exist in the specified path, then generate it
-	if (!file_exists($filename)) {
+		$year = $_GET['year'] ?? date("Y");
+		
+		$options = [
+			'epiphanyOnSunday' => true,
+			'ascensionOnSunday' => true,
+			'corpusChristiOnSunday' => true,
+		];
 		$CalcGen = new RomanCalendar($year, $options);
-	}
+		$fullYear = $CalcGen->getFullYear(); //$fullYear has the liturgical calendar data
+		
+		$rHTML = new RomanCalendarRenderHTML();
+		$rHTML->printYearHTML($year, $fullYear);
 
-	$rHTML = new RomanCalendarRenderHTML();
-	$rHTML->printYearHTML($year);
+		// If you dont want to regenerate the calendar everytime, you can save data to JSON file
+		/*
+		$dirName = 'dat/' . $year;
+		if (!is_dir($dirName)) {
+			mkdir($dirName, 0744);
+		}
+		$temp = json_encode($fullYear, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT | JSON_NUMERIC_CHECK);
+		file_put_contents($dirName . '/calendar.json', $temp);
+		*/
+
+		//To use the JSON data for future requests
+		/*
+		$dirName = 'dat/' . $year;
+		$cachedData = json_decode(file_get_contents($dirName . '/calendar.json'), true);
+		if ($cachedData) {
+			$fullYear = $cachedData;
+			$rHTML = new RomanCalendarRenderHTML();
+			$rHTML->printYearHTML($year, $fullYear);
+		}
+		*/
+
 	?>
+</body>
+</html>
