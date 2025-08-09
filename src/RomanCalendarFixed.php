@@ -61,10 +61,9 @@ class RomanCalendarFixed{
                 // the Solemnity is transferred to the following Monday.
 				// This affects Joseph, Husband of Mary (Mar 19), Annunciation (Mar 25), and Immaculate Conception (Dec 8).
 				if (($feast['date']  == 19 && $feast['month'] == 3) && preg_match("/^LW06/", $currentDay[0]['code']) === 1) {
-					// If Joseph, Husband of Mary (Mar 19) falls on Palm Sunday or during Holy Week,
+					// If Joseph, Husband of Mary (Mar 19) falls during Holy Week,
                     // it is moved to the Saturday preceding Palm Sunday.
-					// This Solemnity can never occur on Holy Sat
-					// 2035
+					// 2008, 2035
 					$tempDate->modify('last saturday');
 				}  elseif ($feast['code']  == 'Birth of Saint John the Baptist' && $currentDay[0]['code'] == 'OW00-SacredHeart' && $this->currentYear == 2022) {
 					// Nativity of St. John the Baptist and the Feast of the Sacred Heart clashes in 2022.

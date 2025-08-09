@@ -18,7 +18,6 @@ This project acts as a backbone for my [Tamil Lectionary](https://github.com/jay
 
 ## Before Starting
 - Specific settings like the Solemnities of Epiphany, Ascension and Corpus Christi occouring on sundays are passed through variables.
-- The project generates a JSON file for each year.
 
 ## Structure of the csv file
 - [calendar.csv](src/calendar.csv) file has the list of feast. You can add local calendars to the end of the file.
@@ -31,49 +30,34 @@ This project acts as a backbone for my [Tamil Lectionary](https://github.com/jay
   * `added_year` - Year in which the feast was added to the General Roman Calendar. (Optional)
   * `removed_year` - Year in which the feast was removed from the General Roman Calendar. Even if the feast was modifed, it is recorded as removed and added as a new entry for backward compatibility. (Optional)
 
-## Structure of JSON Generated
-The JSON is created in the [dat folder](dat/) with the year subfolder.
+## Structure of Data Generated
 
-The content of the JSON file that is generated is of two-dimensional array. Outer most key has the month number and next has the day number. Which is followed by individual feast descriptions. The following is a sample for January 3rd.
+It is of a three-dimensional array. Outer most key has the month number and next has the day number. Which is followed by individual feast descriptions. The following is a sample for January 1st.
 
-```JSON
-{
-    "1": {
-        "3": [
-            {
-                "code": "CW03-Day1",
-                "rank": 13.2,
-                "color": "white"
-            }
-        ],
-    }
-}
+```PHP
+Array (
+    [1] => Array (
+        [1] => Array (
+            [0] => Array (
+                [code] => Blessed Virgin Mary, the Mother of God
+                [rank] => 3.1
+                [type] => Solemnity
+                [name] => Blessed Virgin Mary, the Mother of God
+                [color] => white
+            )
+        )
+    )
+)
 ```
 
-The feast description contains three values for ferial days. Others may have fourth value `rank` for example the value for January 01 will be:
-```JSON
-{
-    "1": {
-        "1": [
-            {
-                "code": "Blessed Virgin Mary, the Mother of God",
-                "rank": 3.1,
-                "type": "Solemnity",
-                "color": "white"
-            }
-        ]
-    }
-}
-```
-There can also be a special `other` key that contains feast/memorials that are supressed that year.
-
-The following are the data keys:
+The following are the data for a particular event:
 - `code` - Acts as a unique identifier for that feast. It is usually the name of the feast/saint celebrated on that day. See below for how it is generated for ferial days.
-- `rank` - Computed rank for that feast. Used to determine priority. (See [RomanCalendarRanks.php](src/RomanCalendarRanks.php) for more details.)
-- ` type ` - Type of celebration. Solemnity, Feast, memory and other.
+- `rank` - Optional field. It has the rank for that feast which is used to determine its priority. (See [RomanCalendarRanks.php](src/RomanCalendarRanks.php) for more details.)
+- ` type ` - Type of celebration. (Solemnity, Feast, memory and other.)
 - `color` - Mass vestament colour for that celebration
+-  `other` - Optional key that contains feast/memorials that are supressed that year.
 
-For a ferial weekday a code is generated in the following syntax: `<SEASON CODE><WEEK NUMBER>-<DAY NUMBER><DAY NAME>`. They stand for the following:
+Ferial weekday code is generated in the following syntax: `<SEASON CODE><WEEK NUMBER>-<DAY NUMBER><DAY NAME>`. They stand for the following:
 * `SEASON CODE` can be one of the following:
   * EW – Easter Week
   * OW – Ordinary Week
@@ -86,6 +70,8 @@ For a ferial weekday a code is generated in the following syntax: `<SEASON CODE>
 ### Examples: 
 * `OW04-0Sun` represents Fourth Sunday in Ordinary Time
 * `LW03-4Thu` represents Thursday of the 3rd Week of Lent
+
+A sample data is saved as JSON file in the [dat folder](dat/).
 
 ## Known Issues
 * None

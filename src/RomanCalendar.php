@@ -5,7 +5,7 @@ namespace RomanCalendar;
  * @author Br. Jayarathina Madharasan SDB
  * @created 2025-08-03
  * @updated 2025-08-03
- * @description This class generates the Roman Catholic Calendar for a given year and saves it to a JSON file.
+ * @description This class generates the Roman Catholic Calendar for a given year.
  *  
  * @version 5.0
  * @license MIT
@@ -18,6 +18,8 @@ include_once 'RomanCalendarTitle.php';
 
 class RomanCalendar{
 
+    private array $fullYear = [];
+
      /**
      * RomanCalendar constructor.
      * @param int $year The year for which to generate the calendar.
@@ -26,17 +28,19 @@ class RomanCalendar{
 
     public function __construct(int $year, array $options) {
         RomanCalendarUtility::validateYear($year);
-        $fullYear = [];
-        $fullYear = (new RomanCalendarMovable())->computeMovableDayCodes($year, $options);
-        $fullYear = (new RomanCalendarFixed())->computeFixedDayCodes($year, $fullYear, $options);
-        $fullYear = RomanCalendarTitle::computeTitle($fullYear);
-        $fullYear = RomanCalendarColor::colourizeYear($fullYear);
+        $this->fullYear = [];
+        $this->fullYear = (new RomanCalendarMovable())->computeMovableDayCodes($year, $options);
+        $this->fullYear = (new RomanCalendarFixed())->computeFixedDayCodes($year, $this->fullYear, $options);
+        $this->fullYear = RomanCalendarTitle::computeTitle($this->fullYear);
+        $this->fullYear = RomanCalendarColor::colourizeYear($this->fullYear);
+    }
 
-        $dirName = 'dat/' . $year;
-        if (!is_dir($dirName)) {
-			mkdir($dirName, 0744);
-		}
-        $t = json_encode($fullYear, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT | JSON_NUMERIC_CHECK);
-		file_put_contents($dirName . '/calendar.json', $t);
+    /*
+     * Gets the fullYear array containing the calendar data.
+     * @return array
+     */
+    public function getFullYear(): array
+    {
+        return $this->fullYear;
     }
 }

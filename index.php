@@ -29,14 +29,14 @@ use RomanCalendar\RomanCalendarRenderHTML;
 		$rHTML->printYearHTML($year, $fullYear);
 
 		// If you dont want to regenerate the calendar everytime, you can save data to JSON file
-		/*
+		/* */
 		$dirName = 'dat/' . $year;
 		if (!is_dir($dirName)) {
 			mkdir($dirName, 0744);
 		}
 		$temp = json_encode($fullYear, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT | JSON_NUMERIC_CHECK);
 		file_put_contents($dirName . '/calendar.json', $temp);
-		*/
+		/* */
 
 		//To use the JSON data for future requests
 		/*

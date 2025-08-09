@@ -64,6 +64,7 @@ class RomanCalendarTitle{
 			'OW00-SacredHeart' => 'The Most Sacred Heart of Jesus',
 			'OW00-ImmaculateHeart' => 'Immaculate Heart of the Blessed Virgin Mary',
 			'OW00-MaryMotherofChurch' => 'Mary, Mother of the Church',
+			'OW34-0Sun' => 'Jesus Christ, Universal King',
 
 			'CW01-HolyFamily' => 'The Holy Family of Jesus, Mary And Joseph',
 			'Mem-Mary-Sat' => 'Saturday Memorial of the Blessed Virgin Mary'
