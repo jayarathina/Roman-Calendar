@@ -1,0 +1,4778 @@
+{
+    "1": {
+        "1": [
+            {
+                "code": "Blessed Virgin Mary, the Mother of God",
+                "rank": 3.1,
+                "type": "Solemnity",
+                "name": "இறைவனின் அன்னையாகிய தூய கன்னி மரியா",
+                "color": "white"
+            }
+        ],
+        "2": [
+            {
+                "code": "CW02-Jan2",
+                "rank": 12.3,
+                "name": "சனவரி 2",
+                "color": "white"
+            },
+            {
+                "code": "Saints Basil the Great and Gregory Nazianzen, bishops and doctors",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனிதர்கள் பெரிய பசிலியார், நசியான்சன் கிரகோரியார் - ஆயர்கள், மறைவல்லுநர்கள்",
+                "color": "white"
+            }
+        ],
+        "3": [
+            {
+                "code": "CW02-Jan3",
+                "rank": 12.3,
+                "name": "சனவரி 3",
+                "color": "white"
+            },
+            {
+                "code": "The Most Holy Name of Jesus",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "இயேசுவின் திருப்பெயர்",
+                "color": "white"
+            },
+            {
+                "code": "IN Saint Kuriakose Elias Chavara, priest",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித குரியாக்கோஸ் எலியாஸ் சவரா - மறைப்பணியாளர்",
+                "color": "white"
+            }
+        ],
+        "4": [
+            {
+                "code": "CW02-Jan4",
+                "rank": 12.3,
+                "name": "சனவரி 4",
+                "color": "white"
+            }
+        ],
+        "5": [
+            {
+                "code": "CW03-Epiphany",
+                "rank": 2,
+                "type": "Solemnity",
+                "name": "ஆண்டவரின் திருக்காட்சி",
+                "color": "white"
+            }
+        ],
+        "6": [
+            {
+                "code": "CW03-Day1",
+                "rank": 12.3,
+                "name": "திருக்காட்சி விழாவுக்குப் பின் திங்கள்",
+                "color": "white"
+            }
+        ],
+        "7": [
+            {
+                "code": "CW03-Day2",
+                "rank": 12.3,
+                "name": "திருக்காட்சி விழாவுக்குப் பின் செவ்வாய்",
+                "color": "white"
+            },
+            {
+                "code": "Saint Raymond of Penyafort, priest",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித பெனாப்போர்த்து இரேய்முந்து - மறைப்பணியாளர்",
+                "color": "white"
+            }
+        ],
+        "8": [
+            {
+                "code": "CW03-Day3",
+                "rank": 12.3,
+                "name": "திருக்காட்சி விழாவுக்குப் பின் புதன்",
+                "color": "white"
+            }
+        ],
+        "9": [
+            {
+                "code": "CW03-Day4",
+                "rank": 12.3,
+                "name": "திருக்காட்சி விழாவுக்குப் பின் வியாழன்",
+                "color": "white"
+            }
+        ],
+        "10": [
+            {
+                "code": "CW03-Day5",
+                "rank": 12.3,
+                "name": "திருக்காட்சி விழாவுக்குப் பின் வெள்ளி",
+                "color": "white"
+            }
+        ],
+        "11": [
+            {
+                "code": "CW03-Day6",
+                "rank": 12.3,
+                "name": "திருக்காட்சி விழாவுக்குப் பின் சனி",
+                "color": "white"
+            }
+        ],
+        "12": [
+            {
+                "code": "CW04-Baptism",
+                "rank": 5,
+                "type": "Feast-Lord",
+                "name": "ஆண்டவரின் திருமுழுக்கு",
+                "color": "white"
+            }
+        ],
+        "13": [
+            {
+                "code": "OW01-1Mon",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 1ஆம் வாரம் - திங்கள்",
+                "color": "green"
+            },
+            {
+                "code": "Saint Hilary of Poitiers, bishop and doctor",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித இலாரியார் - ஆயர், மறைவல்லுநர்",
+                "color": "white"
+            }
+        ],
+        "14": [
+            {
+                "code": "OW01-2Tue",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 1ஆம் வாரம் - செவ்வாய்",
+                "color": "green"
+            },
+            {
+                "code": "IN Saint Devasahayam Pillai, martyr",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித தேவசகாயம் பிள்ளை, மறைச்சாட்சி",
+                "color": "red"
+            }
+        ],
+        "15": [
+            {
+                "code": "OW01-3Wed",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 1ஆம் வாரம் - புதன்",
+                "color": "green"
+            }
+        ],
+        "16": [
+            {
+                "code": "OW01-4Thu",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 1ஆம் வாரம் - வியாழன்",
+                "color": "white"
+            },
+            {
+                "code": "IN Saint Joseph Vaz, priest",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனித ஜோசப் வாஸ் - மறைப்பணியாளர்",
+                "color": "white"
+            }
+        ],
+        "17": [
+            {
+                "code": "OW01-5Fri",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 1ஆம் வாரம் - வெள்ளி",
+                "color": "white"
+            },
+            {
+                "code": "Saint Anthony of Egypt, abbot",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனித வனத்து அந்தோணியார் - ஆதீனத் தலைவர்",
+                "color": "white"
+            }
+        ],
+        "18": [
+            {
+                "code": "OW01-6Sat",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 1ஆம் வாரம் - சனி",
+                "color": "green"
+            },
+            {
+                "code": "Mem-Mary-Sat",
+                "rank": 10.3,
+                "type": "Mem-Mary-Sat",
+                "name": "சனிக்கிழமையில் கன்னிமரியாவின் நினைவு",
+                "color": "white"
+            }
+        ],
+        "19": [
+            {
+                "code": "OW02-0Sun",
+                "rank": 6,
+                "name": "பொதுக்காலம் 2ஆம் வாரம் - ஞாயிறு",
+                "color": "green"
+            }
+        ],
+        "20": [
+            {
+                "code": "OW02-1Mon",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 2ஆம் வாரம் - திங்கள்",
+                "color": "green"
+            },
+            {
+                "code": "Saint Fabian, pope and martyr",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித பபியான் - திருத்தந்தை, மறைச்சாட்சி",
+                "color": "red"
+            },
+            {
+                "code": "Saint Sebastian, martyr",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித செபஸ்தியார் - மறைச்சாட்சி",
+                "color": "red"
+            }
+        ],
+        "21": [
+            {
+                "code": "OW02-2Tue",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 2ஆம் வாரம் - செவ்வாய்",
+                "color": "red"
+            },
+            {
+                "code": "Saint Agnes, virgin and martyr",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனித ஆக்னெஸ் - கன்னியர், மறைச்சாட்சி",
+                "color": "red"
+            }
+        ],
+        "22": [
+            {
+                "code": "OW02-3Wed",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 2ஆம் வாரம் - புதன்",
+                "color": "green"
+            },
+            {
+                "code": "Saint Vincent, deacon and martyr",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித வின்சென்ட் - திருத்தொண்டர், மறைச்சாட்சி",
+                "color": "red"
+            }
+        ],
+        "23": [
+            {
+                "code": "OW02-4Thu",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 2ஆம் வாரம் - வியாழன்",
+                "color": "green"
+            }
+        ],
+        "24": [
+            {
+                "code": "OW02-5Fri",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 2ஆம் வாரம் - வெள்ளி",
+                "color": "white"
+            },
+            {
+                "code": "Saint Francis de Sales, bishop and doctor",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனித பிரான்சிஸ் சலேசியார் - ஆயர், மறைவல்லுநர்",
+                "color": "white"
+            }
+        ],
+        "25": {
+            "0": {
+                "code": "The Conversion of Saint Paul, apostle",
+                "rank": 7,
+                "type": "Feast",
+                "name": "திருத்தூதர் பவுல் மனமாற்றம்",
+                "color": "white"
+            },
+            "other": [
+                {
+                    "code": "OW02-6Sat",
+                    "rank": 12.5,
+                    "name": "பொதுக்காலம் 2ஆம் வாரம் - சனி",
+                    "color": "green"
+                }
+            ]
+        },
+        "26": {
+            "0": {
+                "code": "OW03-0Sun",
+                "rank": 6,
+                "name": "பொதுக்காலம் 3ஆம் வாரம் - ஞாயிறு",
+                "color": "green"
+            },
+            "other": [
+                {
+                    "code": "Saints Timothy and Titus, bishops",
+                    "rank": 10.2,
+                    "type": "Mem",
+                    "name": "புனிதர்கள் திமொத்தேயு, தீத்து - ஆயர்கள்",
+                    "color": "white"
+                }
+            ]
+        },
+        "27": [
+            {
+                "code": "OW03-1Mon",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 3ஆம் வாரம் - திங்கள்",
+                "color": "green"
+            },
+            {
+                "code": "Saint Angela Merici, virgin",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித மெர்சி ஆஞ்சலா - கன்னியர்",
+                "color": "white"
+            }
+        ],
+        "28": [
+            {
+                "code": "OW03-2Tue",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 3ஆம் வாரம் - செவ்வாய்",
+                "color": "white"
+            },
+            {
+                "code": "Saint Thomas Aquinas, priest and doctor",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "அக்குவினோ நகர் புனித தோமா - மறைப்பணியாளர், மறைவல்லுநர்",
+                "color": "white"
+            }
+        ],
+        "29": [
+            {
+                "code": "OW03-3Wed",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 3ஆம் வாரம் - புதன்",
+                "color": "green"
+            }
+        ],
+        "30": [
+            {
+                "code": "OW03-4Thu",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 3ஆம் வாரம் - வியாழன்",
+                "color": "green"
+            }
+        ],
+        "31": [
+            {
+                "code": "OW03-5Fri",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 3ஆம் வாரம் - வெள்ளி",
+                "color": "white"
+            },
+            {
+                "code": "Saint John Bosco, priest",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனித ஜான் போஸ்கோ - மறைப்பணியாளர்",
+                "color": "white"
+            }
+        ]
+    },
+    "2": {
+        "1": [
+            {
+                "code": "OW03-6Sat",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 3ஆம் வாரம் - சனி",
+                "color": "green"
+            },
+            {
+                "code": "Mem-Mary-Sat",
+                "rank": 10.3,
+                "type": "Mem-Mary-Sat",
+                "name": "சனிக்கிழமையில் கன்னிமரியாவின் நினைவு",
+                "color": "white"
+            }
+        ],
+        "2": {
+            "0": {
+                "code": "Presentation of the Lord",
+                "rank": 5,
+                "type": "Feast-Lord",
+                "name": "ஆண்டவரைக் காணிக்கையாக அர்ப்பணித்தல்",
+                "color": "white"
+            },
+            "other": [
+                {
+                    "code": "OW04-0Sun",
+                    "rank": 6,
+                    "name": "பொதுக்காலம் 4ஆம் வாரம் - ஞாயிறு",
+                    "color": "green"
+                }
+            ]
+        },
+        "3": [
+            {
+                "code": "OW04-1Mon",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 4ஆம் வாரம் - திங்கள்",
+                "color": "green"
+            },
+            {
+                "code": "Saint Ansgar, bishop",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித ஆன்ஸ்காரியு - ஆயர்",
+                "color": "white"
+            },
+            {
+                "code": "Saint Blase, bishop and martyr",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித பிளாசியு - ஆயர், மறைச்சாட்சி",
+                "color": "red"
+            }
+        ],
+        "4": [
+            {
+                "code": "OW04-2Tue",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 4ஆம் வாரம் - செவ்வாய்",
+                "color": "red"
+            },
+            {
+                "code": "IN Saint John de Brito, priest and martyr",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனித ஜான் தெ பிரிட்டோ (அருளானந்தர்) - மறைப்பணியாளர், மறைச்சாட்சி",
+                "color": "red"
+            }
+        ],
+        "5": [
+            {
+                "code": "OW04-3Wed",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 4ஆம் வாரம் - புதன்",
+                "color": "red"
+            },
+            {
+                "code": "Saint Agatha, virgin and martyr",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனித ஆகத்தா - கன்னியர், மறைச்சாட்சி",
+                "color": "red"
+            }
+        ],
+        "6": [
+            {
+                "code": "OW04-4Thu",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 4ஆம் வாரம் - வியாழன்",
+                "color": "red"
+            },
+            {
+                "code": "Saints Paul Miki and companions, martyrs",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனிதர்கள் மறைப்பணியாளர் பவுல் மீகி, தோழர்கள் - மறைச்சாட்சியர்",
+                "color": "red"
+            },
+            {
+                "code": "IN Saint Gonsalo Garcia, martyr",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனித கொன்சாலோ கார்சியா - மறைச்சாட்சி",
+                "color": "red"
+            }
+        ],
+        "7": [
+            {
+                "code": "OW04-5Fri",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 4ஆம் வாரம் - வெள்ளி",
+                "color": "green"
+            }
+        ],
+        "8": [
+            {
+                "code": "OW04-6Sat",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 4ஆம் வாரம் - சனி",
+                "color": "green"
+            },
+            {
+                "code": "Saint Jerome Emiliani, priest",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித எரோணிமுஸ் எமிலியன் - மறைப்பணியாளர்",
+                "color": "white"
+            },
+            {
+                "code": "Saint Josephine Bakhita, virgin",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித ஜோஸ்பின் பக்கீத்தா - கன்னியர்",
+                "color": "white"
+            }
+        ],
+        "9": [
+            {
+                "code": "OW05-0Sun",
+                "rank": 6,
+                "name": "பொதுக்காலம் 5ஆம் வாரம் - ஞாயிறு",
+                "color": "green"
+            }
+        ],
+        "10": [
+            {
+                "code": "OW05-1Mon",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 5ஆம் வாரம் - திங்கள்",
+                "color": "white"
+            },
+            {
+                "code": "Saint Scholastica, virgin",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனித ஸ்கொலாஸ்திக்கா - கன்னியர்",
+                "color": "white"
+            }
+        ],
+        "11": [
+            {
+                "code": "OW05-2Tue",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 5ஆம் வாரம் - செவ்வாய்",
+                "color": "green"
+            },
+            {
+                "code": "Our Lady of Lourdes",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "தூய லூர்து அன்னை",
+                "color": "white"
+            }
+        ],
+        "12": [
+            {
+                "code": "OW05-3Wed",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 5ஆம் வாரம் - புதன்",
+                "color": "green"
+            }
+        ],
+        "13": [
+            {
+                "code": "OW05-4Thu",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 5ஆம் வாரம் - வியாழன்",
+                "color": "green"
+            }
+        ],
+        "14": [
+            {
+                "code": "OW05-5Fri",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 5ஆம் வாரம் - வெள்ளி",
+                "color": "white"
+            },
+            {
+                "code": "Saints Cyril, monk, and Methodius, bishop",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனிதர்கள் சிரில் - துறவி, மெத்தோடியுஸ் - ஆயர்",
+                "color": "white"
+            }
+        ],
+        "15": [
+            {
+                "code": "OW05-6Sat",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 5ஆம் வாரம் - சனி",
+                "color": "green"
+            },
+            {
+                "code": "Mem-Mary-Sat",
+                "rank": 10.3,
+                "type": "Mem-Mary-Sat",
+                "name": "சனிக்கிழமையில் கன்னிமரியாவின் நினைவு",
+                "color": "white"
+            }
+        ],
+        "16": [
+            {
+                "code": "OW06-0Sun",
+                "rank": 6,
+                "name": "பொதுக்காலம் 6ஆம் வாரம் - ஞாயிறு",
+                "color": "green"
+            }
+        ],
+        "17": [
+            {
+                "code": "OW06-1Mon",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 6ஆம் வாரம் - திங்கள்",
+                "color": "green"
+            },
+            {
+                "code": "Seven Holy Founders of the Servite Order",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "தூய கன்னி மரியாவின் ஊழியர் சபையை நிறுவிய புனிதர் எழுவர்",
+                "color": "white"
+            }
+        ],
+        "18": [
+            {
+                "code": "OW06-2Tue",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 6ஆம் வாரம் - செவ்வாய்",
+                "color": "green"
+            }
+        ],
+        "19": [
+            {
+                "code": "OW06-3Wed",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 6ஆம் வாரம் - புதன்",
+                "color": "green"
+            }
+        ],
+        "20": [
+            {
+                "code": "OW06-4Thu",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 6ஆம் வாரம் - வியாழன்",
+                "color": "green"
+            }
+        ],
+        "21": [
+            {
+                "code": "OW06-5Fri",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 6ஆம் வாரம் - வெள்ளி",
+                "color": "green"
+            },
+            {
+                "code": "Saint Peter Damian, bishop and doctor of the Church",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித பீட்டர் தமியான் - ஆயர், மறைவல்லுநர்",
+                "color": "white"
+            }
+        ],
+        "22": {
+            "0": {
+                "code": "Chair of Saint Peter, apostle",
+                "rank": 7,
+                "type": "Feast",
+                "name": "திருத்தூதர் பேதுருவின் தலைமைப் பீடம்",
+                "color": "white"
+            },
+            "other": [
+                {
+                    "code": "OW06-6Sat",
+                    "rank": 12.5,
+                    "name": "பொதுக்காலம் 6ஆம் வாரம் - சனி",
+                    "color": "green"
+                }
+            ]
+        },
+        "23": {
+            "0": {
+                "code": "OW07-0Sun",
+                "rank": 6,
+                "name": "பொதுக்காலம் 7ஆம் வாரம் - ஞாயிறு",
+                "color": "green"
+            },
+            "other": [
+                {
+                    "code": "Saint Polycarp, bishop and martyr",
+                    "rank": 10.2,
+                    "type": "Mem",
+                    "name": "புனித பொலிக்கார்ப்பு - ஆயர், மறைச்சாட்சி",
+                    "color": "red"
+                }
+            ]
+        },
+        "24": [
+            {
+                "code": "OW07-1Mon",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 7ஆம் வாரம் - திங்கள்",
+                "color": "green"
+            }
+        ],
+        "25": [
+            {
+                "code": "OW07-2Tue",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 7ஆம் வாரம் - செவ்வாய்",
+                "color": "green"
+            },
+            {
+                "code": "IN Blessed Rani Maria, virgin, martyr",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "முத்தி. இராணி மரியா, கன்னியர், மறைச்சாட்சி",
+                "color": "red"
+            }
+        ],
+        "26": [
+            {
+                "code": "OW07-3Wed",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 7ஆம் வாரம் - புதன்",
+                "color": "green"
+            }
+        ],
+        "27": [
+            {
+                "code": "OW07-4Thu",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 7ஆம் வாரம் - வியாழன்",
+                "color": "green"
+            },
+            {
+                "code": "Saint Gregory of Narek, abbot and doctor of the Church",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "நாரெக் நகர் புனித கிரகோரியார் - ஆதீனத் தலைவர், மறைவல்லுநர்",
+                "color": "white"
+            }
+        ],
+        "28": [
+            {
+                "code": "OW07-5Fri",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 7ஆம் வாரம் - வெள்ளி",
+                "color": "green"
+            }
+        ]
+    },
+    "3": {
+        "1": [
+            {
+                "code": "OW07-6Sat",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 7ஆம் வாரம் - சனி",
+                "color": "green"
+            },
+            {
+                "code": "Mem-Mary-Sat",
+                "rank": 10.3,
+                "type": "Mem-Mary-Sat",
+                "name": "சனிக்கிழமையில் கன்னிமரியாவின் நினைவு",
+                "color": "white"
+            }
+        ],
+        "2": [
+            {
+                "code": "OW08-0Sun",
+                "rank": 6,
+                "name": "பொதுக்காலம் 8ஆம் வாரம் - ஞாயிறு",
+                "color": "green"
+            }
+        ],
+        "3": [
+            {
+                "code": "OW08-1Mon",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 8ஆம் வாரம் - திங்கள்",
+                "color": "green"
+            }
+        ],
+        "4": [
+            {
+                "code": "OW08-2Tue",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 8ஆம் வாரம் - செவ்வாய்",
+                "color": "green"
+            },
+            {
+                "code": "Saint Casimir",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித கசிமீர்",
+                "color": "white"
+            }
+        ],
+        "5": [
+            {
+                "code": "LW00-3Wed",
+                "rank": 2.2,
+                "name": "திருநீற்றுப் புதன்",
+                "color": "purple"
+            }
+        ],
+        "6": [
+            {
+                "code": "LW00-4Thu",
+                "rank": 9.3,
+                "name": "திருநீற்றுப் புதனுக்குப் பின் வரும் வியாழன்",
+                "color": "purple"
+            }
+        ],
+        "7": [
+            {
+                "code": "LW00-5Fri",
+                "rank": 9.3,
+                "name": "திருநீற்றுப் புதனுக்குப் பின் வரும் வெள்ளி",
+                "color": "purple"
+            },
+            {
+                "code": "Saints Perpetua and Felicity, martyrs",
+                "rank": 12.1,
+                "type": "OpMem-Commemoration",
+                "name": "புனிதையர் பெர்பெத்துவா, பெலிசித்தா - மறைச்சாட்சியர்",
+                "color": "red"
+            }
+        ],
+        "8": [
+            {
+                "code": "LW00-6Sat",
+                "rank": 9.3,
+                "name": "திருநீற்றுப் புதனுக்குப் பின் வரும் சனி",
+                "color": "purple"
+            },
+            {
+                "code": "Saint John of God, religious",
+                "rank": 12.1,
+                "type": "OpMem-Commemoration",
+                "name": "புனித இறை யோவான் - துறவி",
+                "color": "white"
+            }
+        ],
+        "9": {
+            "0": {
+                "code": "LW01-0Sun",
+                "rank": 2.1,
+                "name": "தவக்காலம் 1ஆம் வாரம் - ஞாயிறு",
+                "color": "purple"
+            },
+            "other": [
+                {
+                    "code": "Saint Frances of Rome, religious",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "உரோமை நகர் புனித பிரான்சிஸ்கா - துறவி",
+                    "color": "white"
+                }
+            ]
+        },
+        "10": [
+            {
+                "code": "LW01-1Mon",
+                "rank": 9.3,
+                "name": "தவக்காலம் 1ஆம் வாரம் - திங்கள்",
+                "color": "purple"
+            }
+        ],
+        "11": [
+            {
+                "code": "LW01-2Tue",
+                "rank": 9.3,
+                "name": "தவக்காலம் 1ஆம் வாரம் - செவ்வாய்",
+                "color": "purple"
+            }
+        ],
+        "12": [
+            {
+                "code": "LW01-3Wed",
+                "rank": 9.3,
+                "name": "தவக்காலம் 1ஆம் வாரம் - புதன்",
+                "color": "purple"
+            }
+        ],
+        "13": [
+            {
+                "code": "LW01-4Thu",
+                "rank": 9.3,
+                "name": "தவக்காலம் 1ஆம் வாரம் - வியாழன்",
+                "color": "purple"
+            }
+        ],
+        "14": [
+            {
+                "code": "LW01-5Fri",
+                "rank": 9.3,
+                "name": "தவக்காலம் 1ஆம் வாரம் - வெள்ளி",
+                "color": "purple"
+            }
+        ],
+        "15": [
+            {
+                "code": "LW01-6Sat",
+                "rank": 9.3,
+                "name": "தவக்காலம் 1ஆம் வாரம் - சனி",
+                "color": "purple"
+            }
+        ],
+        "16": [
+            {
+                "code": "LW02-0Sun",
+                "rank": 2.1,
+                "name": "தவக்காலம் 2ஆம் வாரம் - ஞாயிறு",
+                "color": "purple"
+            }
+        ],
+        "17": [
+            {
+                "code": "LW02-1Mon",
+                "rank": 9.3,
+                "name": "தவக்காலம் 2ஆம் வாரம் - திங்கள்",
+                "color": "purple"
+            },
+            {
+                "code": "Saint Patrick, bishop",
+                "rank": 12.1,
+                "type": "OpMem-Commemoration",
+                "name": "புனித பேட்ரிக் - ஆயர்",
+                "color": "white"
+            }
+        ],
+        "18": [
+            {
+                "code": "LW02-2Tue",
+                "rank": 9.3,
+                "name": "தவக்காலம் 2ஆம் வாரம் - செவ்வாய்",
+                "color": "purple"
+            },
+            {
+                "code": "Saint Cyril of Jerusalem, bishop and doctor",
+                "rank": 12.1,
+                "type": "OpMem-Commemoration",
+                "name": "எருசலேம் நகர் புனித சிரில் - ஆயர், மறைவல்லுநர்",
+                "color": "white"
+            }
+        ],
+        "19": {
+            "0": {
+                "code": "Saint Joseph Husband of the Blessed Virgin Mary",
+                "rank": 3.1,
+                "type": "Solemnity",
+                "name": "புனித யோசேப்பு - தூய கன்னி மரியாவின் கணவர்",
+                "color": "white"
+            },
+            "other": [
+                {
+                    "code": "LW02-3Wed",
+                    "rank": 9.3,
+                    "name": "தவக்காலம் 2ஆம் வாரம் - புதன்",
+                    "color": "purple"
+                }
+            ]
+        },
+        "20": [
+            {
+                "code": "LW02-4Thu",
+                "rank": 9.3,
+                "name": "தவக்காலம் 2ஆம் வாரம் - வியாழன்",
+                "color": "purple"
+            }
+        ],
+        "21": [
+            {
+                "code": "LW02-5Fri",
+                "rank": 9.3,
+                "name": "தவக்காலம் 2ஆம் வாரம் - வெள்ளி",
+                "color": "purple"
+            }
+        ],
+        "22": [
+            {
+                "code": "LW02-6Sat",
+                "rank": 9.3,
+                "name": "தவக்காலம் 2ஆம் வாரம் - சனி",
+                "color": "purple"
+            }
+        ],
+        "23": {
+            "0": {
+                "code": "LW03-0Sun",
+                "rank": 2.1,
+                "name": "தவக்காலம் 3ஆம் வாரம் - ஞாயிறு",
+                "color": "purple"
+            },
+            "other": [
+                {
+                    "code": "Saint Turibius of Mogrovejo, bishop",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "புனித மாங்ரோவேகோ துரீபியு - ஆயர்",
+                    "color": "white"
+                }
+            ]
+        },
+        "24": [
+            {
+                "code": "LW03-1Mon",
+                "rank": 9.3,
+                "name": "தவக்காலம் 3ஆம் வாரம் - திங்கள்",
+                "color": "purple"
+            }
+        ],
+        "25": {
+            "0": {
+                "code": "Annunciation of the Lord",
+                "rank": 3.1,
+                "type": "Solemnity",
+                "name": "கிறிஸ்து பிறப்பின் அறிவிப்பு",
+                "color": "white"
+            },
+            "other": [
+                {
+                    "code": "LW03-2Tue",
+                    "rank": 9.3,
+                    "name": "தவக்காலம் 3ஆம் வாரம் - செவ்வாய்",
+                    "color": "purple"
+                }
+            ]
+        },
+        "26": [
+            {
+                "code": "LW03-3Wed",
+                "rank": 9.3,
+                "name": "தவக்காலம் 3ஆம் வாரம் - புதன்",
+                "color": "purple"
+            }
+        ],
+        "27": [
+            {
+                "code": "LW03-4Thu",
+                "rank": 9.3,
+                "name": "தவக்காலம் 3ஆம் வாரம் - வியாழன்",
+                "color": "purple"
+            }
+        ],
+        "28": [
+            {
+                "code": "LW03-5Fri",
+                "rank": 9.3,
+                "name": "தவக்காலம் 3ஆம் வாரம் - வெள்ளி",
+                "color": "purple"
+            }
+        ],
+        "29": [
+            {
+                "code": "LW03-6Sat",
+                "rank": 9.3,
+                "name": "தவக்காலம் 3ஆம் வாரம் - சனி",
+                "color": "purple"
+            }
+        ],
+        "30": [
+            {
+                "code": "LW04-0Sun",
+                "rank": 2.1,
+                "name": "தவக்காலம் 4ஆம் வாரம் - ஞாயிறு",
+                "color": "rose"
+            }
+        ],
+        "31": [
+            {
+                "code": "LW04-1Mon",
+                "rank": 9.3,
+                "name": "தவக்காலம் 4ஆம் வாரம் - திங்கள்",
+                "color": "purple"
+            }
+        ]
+    },
+    "4": {
+        "1": [
+            {
+                "code": "LW04-2Tue",
+                "rank": 9.3,
+                "name": "தவக்காலம் 4ஆம் வாரம் - செவ்வாய்",
+                "color": "purple"
+            }
+        ],
+        "2": [
+            {
+                "code": "LW04-3Wed",
+                "rank": 9.3,
+                "name": "தவக்காலம் 4ஆம் வாரம் - புதன்",
+                "color": "purple"
+            },
+            {
+                "code": "Saint Francis of Paola, hermit",
+                "rank": 12.1,
+                "type": "OpMem-Commemoration",
+                "name": "புனித பவோலா பிரான்சிஸ் - வனத்துறவி",
+                "color": "white"
+            }
+        ],
+        "3": [
+            {
+                "code": "LW04-4Thu",
+                "rank": 9.3,
+                "name": "தவக்காலம் 4ஆம் வாரம் - வியாழன்",
+                "color": "purple"
+            }
+        ],
+        "4": [
+            {
+                "code": "LW04-5Fri",
+                "rank": 9.3,
+                "name": "தவக்காலம் 4ஆம் வாரம் - வெள்ளி",
+                "color": "purple"
+            },
+            {
+                "code": "Saint Isidore, bishop and doctor of the Church",
+                "rank": 12.1,
+                "type": "OpMem-Commemoration",
+                "name": "புனித இசிதோர் - ஆயர், மறைவல்லுநர்",
+                "color": "white"
+            }
+        ],
+        "5": [
+            {
+                "code": "LW04-6Sat",
+                "rank": 9.3,
+                "name": "தவக்காலம் 4ஆம் வாரம் - சனி",
+                "color": "purple"
+            },
+            {
+                "code": "Saint Vincent Ferrer, priest",
+                "rank": 12.1,
+                "type": "OpMem-Commemoration",
+                "name": "புனித வின்சென்ட் பெரர் - மறைப்பணியாளர்",
+                "color": "white"
+            }
+        ],
+        "6": [
+            {
+                "code": "LW05-0Sun",
+                "rank": 2.1,
+                "name": "தவக்காலம் 5ஆம் வாரம் - ஞாயிறு",
+                "color": "purple"
+            }
+        ],
+        "7": [
+            {
+                "code": "LW05-1Mon",
+                "rank": 9.3,
+                "name": "தவக்காலம் 5ஆம் வாரம் - திங்கள்",
+                "color": "purple"
+            },
+            {
+                "code": "Saint John Baptist de la Salle, priest",
+                "rank": 12.1,
+                "type": "OpMem-Commemoration",
+                "name": "லசால் நகர் புனித ஜான் பாப்டிஸ்ட் - மறைப்பணியாளர்",
+                "color": "white"
+            }
+        ],
+        "8": [
+            {
+                "code": "LW05-2Tue",
+                "rank": 9.3,
+                "name": "தவக்காலம் 5ஆம் வாரம் - செவ்வாய்",
+                "color": "purple"
+            }
+        ],
+        "9": [
+            {
+                "code": "LW05-3Wed",
+                "rank": 9.3,
+                "name": "தவக்காலம் 5ஆம் வாரம் - புதன்",
+                "color": "purple"
+            }
+        ],
+        "10": [
+            {
+                "code": "LW05-4Thu",
+                "rank": 9.3,
+                "name": "தவக்காலம் 5ஆம் வாரம் - வியாழன்",
+                "color": "purple"
+            }
+        ],
+        "11": [
+            {
+                "code": "LW05-5Fri",
+                "rank": 9.3,
+                "name": "தவக்காலம் 5ஆம் வாரம் - வெள்ளி",
+                "color": "purple"
+            },
+            {
+                "code": "Saint Stanislaus, bishop and martyr",
+                "rank": 12.1,
+                "type": "OpMem-Commemoration",
+                "name": "புனித தனிஸ்லாஸ் - ஆயர், மறைச்சாட்சி",
+                "color": "red"
+            }
+        ],
+        "12": [
+            {
+                "code": "LW05-6Sat",
+                "rank": 9.3,
+                "name": "தவக்காலம் 5ஆம் வாரம் - சனி",
+                "color": "purple"
+            }
+        ],
+        "13": {
+            "0": {
+                "code": "LW06-0Sun",
+                "rank": 2.1,
+                "name": "ஆண்டவருடைய திருப்பாடுகளின் குருத்து ஞாயிறு",
+                "color": "red"
+            },
+            "other": [
+                {
+                    "code": "Saint Martin I, pope and martyr",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "புனித முதலாம் மார்ட்டின் - திருத்தந்தை, மறைச்சாட்சி",
+                    "color": "red"
+                }
+            ]
+        },
+        "14": [
+            {
+                "code": "LW06-1Mon",
+                "rank": 2.3,
+                "name": "புனித வாரம் - திங்கள்",
+                "color": "purple"
+            }
+        ],
+        "15": [
+            {
+                "code": "LW06-2Tue",
+                "rank": 2.3,
+                "name": "புனித வாரம் - செவ்வாய்",
+                "color": "purple"
+            }
+        ],
+        "16": [
+            {
+                "code": "LW06-3Wed",
+                "rank": 2.3,
+                "name": "புனித வாரம் - புதன்",
+                "color": "purple"
+            }
+        ],
+        "17": [
+            {
+                "code": "LW06-4Thu",
+                "rank": 2.3,
+                "name": "பெரிய வியாழன்",
+                "color": "white"
+            }
+        ],
+        "18": [
+            {
+                "code": "LW06-5Fri",
+                "rank": 1,
+                "type": "Solemnity",
+                "name": "திருப்பாடுகளின் வெள்ளி",
+                "color": "red"
+            }
+        ],
+        "19": [
+            {
+                "code": "LW06-6Sat",
+                "rank": 1,
+                "type": "Solemnity",
+                "name": "பெரிய சனி",
+                "color": "white"
+            }
+        ],
+        "20": [
+            {
+                "code": "EW01-0Sun",
+                "rank": 1,
+                "type": "Solemnity",
+                "name": "ஆண்டவருடைய உயிர்ப்பின் பாஸ்கா ஞாயிறு",
+                "color": "white"
+            }
+        ],
+        "21": {
+            "0": {
+                "code": "EW01-1Mon",
+                "rank": 2.4,
+                "type": "Solemnity",
+                "name": "பாஸ்கா எண்கிழமை - திங்கள்",
+                "color": "white"
+            },
+            "other": [
+                {
+                    "code": "Saint Anselm of Canterbury, bishop and doctor of the Church",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "புனித ஆன்சலம் - ஆயர், மறைவல்லுநர்",
+                    "color": "white"
+                }
+            ]
+        },
+        "22": [
+            {
+                "code": "EW01-2Tue",
+                "rank": 2.4,
+                "type": "Solemnity",
+                "name": "பாஸ்கா எண்கிழமை - செவ்வாய்",
+                "color": "white"
+            }
+        ],
+        "23": {
+            "0": {
+                "code": "EW01-3Wed",
+                "rank": 2.4,
+                "type": "Solemnity",
+                "name": "பாஸ்கா எண்கிழமை - புதன்",
+                "color": "white"
+            },
+            "other": [
+                {
+                    "code": "Saint Adalbert, bishop and martyr",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "புனித அடால்பெர்ட் - ஆயர், மறைச்சாட்சி",
+                    "color": "red"
+                },
+                {
+                    "code": "Saint George, martyr",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "புனித ஜார்ஜ் - மறைச்சாட்சி",
+                    "color": "red"
+                }
+            ]
+        },
+        "24": {
+            "0": {
+                "code": "EW01-4Thu",
+                "rank": 2.4,
+                "type": "Solemnity",
+                "name": "பாஸ்கா எண்கிழமை - வியாழன்",
+                "color": "white"
+            },
+            "other": [
+                {
+                    "code": "Saint Fidelis of Sigmaringen, priest and martyr",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "சிக்மரிங்கன் நகர் புனித பிதேலிஸ் - மறைப்பணியாளர், மறைச்சாட்சி",
+                    "color": "red"
+                }
+            ]
+        },
+        "25": {
+            "0": {
+                "code": "EW01-5Fri",
+                "rank": 2.4,
+                "type": "Solemnity",
+                "name": "பாஸ்கா எண்கிழமை - வெள்ளி",
+                "color": "white"
+            },
+            "other": [
+                {
+                    "code": "Saint Mark the Evangelist",
+                    "rank": 7,
+                    "type": "Feast",
+                    "name": "புனித மாற்கு - நற்செய்தியாளர்",
+                    "color": "red"
+                }
+            ]
+        },
+        "26": [
+            {
+                "code": "EW01-6Sat",
+                "rank": 2.4,
+                "type": "Solemnity",
+                "name": "பாஸ்கா எண்கிழமை - சனி",
+                "color": "white"
+            }
+        ],
+        "27": [
+            {
+                "code": "EW02-0Sun",
+                "rank": 2.1,
+                "name": "பாஸ்கா 2ஆம் வாரம் - ஞாயிறு",
+                "color": "white"
+            }
+        ],
+        "28": [
+            {
+                "code": "EW02-1Mon",
+                "rank": 12.4,
+                "name": "பாஸ்கா 2ஆம் வாரம் - திங்கள்",
+                "color": "white"
+            },
+            {
+                "code": "Saint Louis Grignon de Montfort, priest",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "மான்போர்ட் நகர் புனித லூயி மரிய கிரிஞ்ஞோ, மறைப்பணியாளர்",
+                "color": "white"
+            },
+            {
+                "code": "Saint Peter Chanel, priest and martyr",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித பியர் சானல் - மறைப்பணியாளர், மறைச்சாட்சி",
+                "color": "red"
+            }
+        ],
+        "29": [
+            {
+                "code": "EW02-2Tue",
+                "rank": 12.4,
+                "name": "பாஸ்கா 2ஆம் வாரம் - செவ்வாய்",
+                "color": "white"
+            },
+            {
+                "code": "Saint Catherine of Siena, virgin and doctor of the Church",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "சியன்னா நகர் புனித கேத்தரின் - கன்னியர், மறைவல்லுநர்",
+                "color": "white"
+            }
+        ],
+        "30": [
+            {
+                "code": "EW02-3Wed",
+                "rank": 12.4,
+                "name": "பாஸ்கா 2ஆம் வாரம் - புதன்",
+                "color": "white"
+            },
+            {
+                "code": "Saint Pius V, pope",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித ஐந்தாம் பயஸ் - திருத்தந்தை",
+                "color": "white"
+            }
+        ]
+    },
+    "5": {
+        "1": [
+            {
+                "code": "EW02-4Thu",
+                "rank": 12.4,
+                "name": "பாஸ்கா 2ஆம் வாரம் - வியாழன்",
+                "color": "white"
+            },
+            {
+                "code": "Saint Joseph the Worker",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "தொழிலாளரான புனித யோசேப்பு",
+                "color": "white"
+            }
+        ],
+        "2": [
+            {
+                "code": "EW02-5Fri",
+                "rank": 12.4,
+                "name": "பாஸ்கா 2ஆம் வாரம் - வெள்ளி",
+                "color": "white"
+            },
+            {
+                "code": "Saint Athanasius, bishop and doctor",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனித அத்தனாசியு - ஆயர், மறைவல்லுநர்",
+                "color": "white"
+            }
+        ],
+        "3": {
+            "0": {
+                "code": "Saints Philip and James, Apostles",
+                "rank": 7,
+                "type": "Feast",
+                "name": "புனிதர்கள் பிலிப்பு, யாக்கோபு - திருத்தூதர்கள்",
+                "color": "red"
+            },
+            "other": [
+                {
+                    "code": "EW02-6Sat",
+                    "rank": 12.4,
+                    "name": "பாஸ்கா 2ஆம் வாரம் - சனி",
+                    "color": "white"
+                }
+            ]
+        },
+        "4": [
+            {
+                "code": "EW03-0Sun",
+                "rank": 2.1,
+                "name": "பாஸ்கா 3ஆம் வாரம் - ஞாயிறு",
+                "color": "white"
+            }
+        ],
+        "5": [
+            {
+                "code": "EW03-1Mon",
+                "rank": 12.4,
+                "name": "பாஸ்கா 3ஆம் வாரம் - திங்கள்",
+                "color": "white"
+            }
+        ],
+        "6": [
+            {
+                "code": "EW03-2Tue",
+                "rank": 12.4,
+                "name": "பாஸ்கா 3ஆம் வாரம் - செவ்வாய்",
+                "color": "white"
+            }
+        ],
+        "7": [
+            {
+                "code": "EW03-3Wed",
+                "rank": 12.4,
+                "name": "பாஸ்கா 3ஆம் வாரம் - புதன்",
+                "color": "white"
+            }
+        ],
+        "8": [
+            {
+                "code": "EW03-4Thu",
+                "rank": 12.4,
+                "name": "பாஸ்கா 3ஆம் வாரம் - வியாழன்",
+                "color": "white"
+            }
+        ],
+        "9": [
+            {
+                "code": "EW03-5Fri",
+                "rank": 12.4,
+                "name": "பாஸ்கா 3ஆம் வாரம் - வெள்ளி",
+                "color": "white"
+            }
+        ],
+        "10": [
+            {
+                "code": "EW03-6Sat",
+                "rank": 12.4,
+                "name": "பாஸ்கா 3ஆம் வாரம் - சனி",
+                "color": "white"
+            },
+            {
+                "code": "Saint John of Avila, priest and doctor",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "அவிலா நகர் புனித யோவான் - மறைப்பணியாளர், மறைவல்லுநர்",
+                "color": "white"
+            }
+        ],
+        "11": [
+            {
+                "code": "EW04-0Sun",
+                "rank": 2.1,
+                "name": "பாஸ்கா 4ஆம் வாரம் - ஞாயிறு",
+                "color": "white"
+            }
+        ],
+        "12": [
+            {
+                "code": "EW04-1Mon",
+                "rank": 12.4,
+                "name": "பாஸ்கா 4ஆம் வாரம் - திங்கள்",
+                "color": "white"
+            },
+            {
+                "code": "Saint Pancras, martyr",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித பங்கிராஸ் - மறைச்சாட்சி",
+                "color": "red"
+            },
+            {
+                "code": "Saints Nereus and Achilleus, martyrs",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனிதர்கள் நெரேயு, அக்கிலேயு - மறைச்சாட்சியர்",
+                "color": "red"
+            }
+        ],
+        "13": [
+            {
+                "code": "EW04-2Tue",
+                "rank": 12.4,
+                "name": "பாஸ்கா 4ஆம் வாரம் - செவ்வாய்",
+                "color": "white"
+            },
+            {
+                "code": "Our Lady of Fatima",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "தூய பாத்திமா அன்னை",
+                "color": "white"
+            }
+        ],
+        "14": {
+            "0": {
+                "code": "Saint Matthias the Apostle",
+                "rank": 7,
+                "type": "Feast",
+                "name": "புனித மத்தியா - திருத்தூதர்",
+                "color": "red"
+            },
+            "other": [
+                {
+                    "code": "EW04-3Wed",
+                    "rank": 12.4,
+                    "name": "பாஸ்கா 4ஆம் வாரம் - புதன்",
+                    "color": "white"
+                }
+            ]
+        },
+        "15": [
+            {
+                "code": "EW04-4Thu",
+                "rank": 12.4,
+                "name": "பாஸ்கா 4ஆம் வாரம் - வியாழன்",
+                "color": "white"
+            }
+        ],
+        "16": [
+            {
+                "code": "EW04-5Fri",
+                "rank": 12.4,
+                "name": "பாஸ்கா 4ஆம் வாரம் - வெள்ளி",
+                "color": "white"
+            }
+        ],
+        "17": [
+            {
+                "code": "EW04-6Sat",
+                "rank": 12.4,
+                "name": "பாஸ்கா 4ஆம் வாரம் - சனி",
+                "color": "white"
+            }
+        ],
+        "18": {
+            "0": {
+                "code": "EW05-0Sun",
+                "rank": 2.1,
+                "name": "பாஸ்கா 5ஆம் வாரம் - ஞாயிறு",
+                "color": "white"
+            },
+            "other": [
+                {
+                    "code": "Saint John I, pope and martyr",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "புனித முதலாம் யோவான் - திருத்தந்தை, மறைச்சாட்சி",
+                    "color": "red"
+                }
+            ]
+        },
+        "19": [
+            {
+                "code": "EW05-1Mon",
+                "rank": 12.4,
+                "name": "பாஸ்கா 5ஆம் வாரம் - திங்கள்",
+                "color": "white"
+            }
+        ],
+        "20": [
+            {
+                "code": "EW05-2Tue",
+                "rank": 12.4,
+                "name": "பாஸ்கா 5ஆம் வாரம் - செவ்வாய்",
+                "color": "white"
+            },
+            {
+                "code": "Saint Bernardine of Siena, priest",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "சியன்னா நகர் புனித பெர்னார்தீன் - மறைப்பணியாளர்",
+                "color": "white"
+            }
+        ],
+        "21": [
+            {
+                "code": "EW05-3Wed",
+                "rank": 12.4,
+                "name": "பாஸ்கா 5ஆம் வாரம் - புதன்",
+                "color": "white"
+            },
+            {
+                "code": "Saint Christopher Magallanes and companions, martyrs",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனிதர்கள் மறைப்பணியாளர் கிறிஸ்டோபர் மெகாலன், தோழர்கள் - மறைச்சாட்சியர்",
+                "color": "red"
+            }
+        ],
+        "22": [
+            {
+                "code": "EW05-4Thu",
+                "rank": 12.4,
+                "name": "பாஸ்கா 5ஆம் வாரம் - வியாழன்",
+                "color": "white"
+            },
+            {
+                "code": "Saint Rita of Cascia",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "காசியா சபை புனித ரீத்தா - துறவி",
+                "color": "white"
+            }
+        ],
+        "23": [
+            {
+                "code": "EW05-5Fri",
+                "rank": 12.4,
+                "name": "பாஸ்கா 5ஆம் வாரம் - வெள்ளி",
+                "color": "white"
+            }
+        ],
+        "24": [
+            {
+                "code": "EW05-6Sat",
+                "rank": 12.4,
+                "name": "பாஸ்கா 5ஆம் வாரம் - சனி",
+                "color": "white"
+            }
+        ],
+        "25": {
+            "0": {
+                "code": "EW06-0Sun",
+                "rank": 2.1,
+                "name": "பாஸ்கா 6ஆம் வாரம் - ஞாயிறு",
+                "color": "white"
+            },
+            "other": [
+                {
+                    "code": "Saint Bede the Venerable, priest and doctor",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "வணக்கத்துக்குரிய புனித பீடு - மறைப்பணியாளர், மறைவல்லுநர்",
+                    "color": "white"
+                },
+                {
+                    "code": "Saint Gregory VII, pope",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "புனித ஏழாம் கிரகோரி - திருத்தந்தை",
+                    "color": "white"
+                },
+                {
+                    "code": "Saint Mary Magdalene de Pazzi, virgin",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "பாசி நகர் புனித மகதலா மரியா - கன்னியர்",
+                    "color": "white"
+                }
+            ]
+        },
+        "26": [
+            {
+                "code": "EW06-1Mon",
+                "rank": 12.4,
+                "name": "பாஸ்கா 6ஆம் வாரம் - திங்கள்",
+                "color": "white"
+            },
+            {
+                "code": "Saint Philip Neri, priest",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனித பிலிப்பு நேரி - மறைப்பணியாளர்",
+                "color": "white"
+            }
+        ],
+        "27": [
+            {
+                "code": "EW06-2Tue",
+                "rank": 12.4,
+                "name": "பாஸ்கா 6ஆம் வாரம் - செவ்வாய்",
+                "color": "white"
+            },
+            {
+                "code": "Saint Augustine (Austin) of Canterbury, bishop",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "கான்றர்பரி நகர் புனித அகுஸ்தீன் - ஆயர்",
+                "color": "white"
+            }
+        ],
+        "28": [
+            {
+                "code": "EW06-3Wed",
+                "rank": 12.4,
+                "name": "பாஸ்கா 6ஆம் வாரம் - புதன்",
+                "color": "white"
+            }
+        ],
+        "29": [
+            {
+                "code": "EW06-4Thu",
+                "rank": 12.4,
+                "name": "பாஸ்கா 6ஆம் வாரம் - வியாழன்",
+                "color": "white"
+            },
+            {
+                "code": "Saint Paul VI, pope",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித ஆறாம் பவுல், திருத்தந்தை",
+                "color": "white"
+            }
+        ],
+        "30": [
+            {
+                "code": "EW06-5Fri",
+                "rank": 12.4,
+                "name": "பாஸ்கா 6ஆம் வாரம் - வெள்ளி",
+                "color": "white"
+            }
+        ],
+        "31": {
+            "0": {
+                "code": "Visitation of the Blessed Virgin Mary",
+                "rank": 7,
+                "type": "Feast",
+                "name": "தூய கன்னி மரியா எலிசபெத்தைச் சந்தித்தல்",
+                "color": "white"
+            },
+            "other": [
+                {
+                    "code": "EW06-6Sat",
+                    "rank": 12.4,
+                    "name": "பாஸ்கா 6ஆம் வாரம் - சனி",
+                    "color": "white"
+                }
+            ]
+        }
+    },
+    "6": {
+        "1": {
+            "0": {
+                "code": "EW07-Ascension",
+                "rank": 2,
+                "type": "Solemnity",
+                "name": "ஆண்டவரின் விண்ணேற்றம்",
+                "color": "white"
+            },
+            "other": [
+                {
+                    "code": "Saint Justin Martyr",
+                    "rank": 10.2,
+                    "type": "Mem",
+                    "name": "புனித ஜஸ்டின் - மறைச்சாட்சி",
+                    "color": "red"
+                }
+            ]
+        },
+        "2": [
+            {
+                "code": "EW07-1Mon",
+                "rank": 12.4,
+                "name": "பாஸ்கா 7ஆம் வாரம் - திங்கள்",
+                "color": "white"
+            },
+            {
+                "code": "Saints Marcellinus and Peter, martyrs",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனிதர்கள் மார்சலின், பீட்டர் - மறைச்சாட்சியர்",
+                "color": "red"
+            }
+        ],
+        "3": [
+            {
+                "code": "EW07-2Tue",
+                "rank": 12.4,
+                "name": "பாஸ்கா 7ஆம் வாரம் - செவ்வாய்",
+                "color": "red"
+            },
+            {
+                "code": "Saints Charles Lwanga and companions, martyrs",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனிதர்கள் சார்லஸ் லுவாங்கா, தோழர்கள் - மறைச்சாட்சியர்",
+                "color": "red"
+            }
+        ],
+        "4": [
+            {
+                "code": "EW07-3Wed",
+                "rank": 12.4,
+                "name": "பாஸ்கா 7ஆம் வாரம் - புதன்",
+                "color": "white"
+            }
+        ],
+        "5": [
+            {
+                "code": "EW07-4Thu",
+                "rank": 12.4,
+                "name": "பாஸ்கா 7ஆம் வாரம் - வியாழன்",
+                "color": "red"
+            },
+            {
+                "code": "Saint Boniface, bishop and martyr",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனித போனிப்பாஸ் - ஆயர், மறைச்சாட்சி",
+                "color": "red"
+            }
+        ],
+        "6": [
+            {
+                "code": "EW07-5Fri",
+                "rank": 12.4,
+                "name": "பாஸ்கா 7ஆம் வாரம் - வெள்ளி",
+                "color": "white"
+            },
+            {
+                "code": "Saint Norbert, bishop",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித நார்பெர்ட் - ஆயர்",
+                "color": "white"
+            }
+        ],
+        "7": [
+            {
+                "code": "EW07-6Sat",
+                "rank": 12.4,
+                "name": "பாஸ்கா 7ஆம் வாரம் - சனி",
+                "color": "white"
+            }
+        ],
+        "8": {
+            "0": {
+                "code": "EW08-Pentecost",
+                "rank": 2,
+                "type": "Solemnity",
+                "name": "தூய ஆவி ஞாயிறு",
+                "color": "red"
+            },
+            "other": [
+                {
+                    "code": "IN Blessed Maria Theresa Chiramel, virgin",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "முத்தி. மரிய தெரேசா சிராமெல் - கன்னியர்",
+                    "color": "white"
+                }
+            ]
+        },
+        "9": {
+            "0": {
+                "code": "OW10-1Mon",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 10ஆம் வாரம் - திங்கள்",
+                "color": "white"
+            },
+            "1": {
+                "code": "OW00-MaryMotherofChurch",
+                "rank": 10.1,
+                "type": "Mem-Mary",
+                "name": "தூய கன்னி மரியா, திரு அவையின் அன்னை",
+                "color": "white"
+            },
+            "other": [
+                {
+                    "code": "Saint Ephrem, deacon and doctor",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "புனித எபிரேம் - திருத்தொண்டர், மறைவல்லுநர்",
+                    "color": "white"
+                }
+            ]
+        },
+        "10": [
+            {
+                "code": "OW10-2Tue",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 10ஆம் வாரம் - செவ்வாய்",
+                "color": "green"
+            }
+        ],
+        "11": [
+            {
+                "code": "OW10-3Wed",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 10ஆம் வாரம் - புதன்",
+                "color": "red"
+            },
+            {
+                "code": "Saint Barnabas the Apostle",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனித பர்னபா - திருத்தூதர்",
+                "color": "red"
+            }
+        ],
+        "12": [
+            {
+                "code": "OW10-4Thu",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 10ஆம் வாரம் - வியாழன்",
+                "color": "green"
+            }
+        ],
+        "13": [
+            {
+                "code": "OW10-5Fri",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 10ஆம் வாரம் - வெள்ளி",
+                "color": "white"
+            },
+            {
+                "code": "Saint Anthony of Padua, priest and doctor",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "பதுவா நகர் புனித அந்தோனியார் - மறைப்பணியாளர், மறைவல்லுநர்",
+                "color": "white"
+            }
+        ],
+        "14": [
+            {
+                "code": "OW10-6Sat",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 10ஆம் வாரம் - சனி",
+                "color": "green"
+            },
+            {
+                "code": "Mem-Mary-Sat",
+                "rank": 10.3,
+                "type": "Mem-Mary-Sat",
+                "name": "சனிக்கிழமையில் கன்னிமரியாவின் நினைவு",
+                "color": "white"
+            }
+        ],
+        "15": [
+            {
+                "code": "OW00-Trinity",
+                "rank": 3.1,
+                "type": "Solemnity",
+                "name": "மூவொரு கடவுள்",
+                "color": "white"
+            }
+        ],
+        "16": [
+            {
+                "code": "OW11-1Mon",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 11ஆம் வாரம் - திங்கள்",
+                "color": "green"
+            }
+        ],
+        "17": [
+            {
+                "code": "OW11-2Tue",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 11ஆம் வாரம் - செவ்வாய்",
+                "color": "green"
+            }
+        ],
+        "18": [
+            {
+                "code": "OW11-3Wed",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 11ஆம் வாரம் - புதன்",
+                "color": "green"
+            }
+        ],
+        "19": [
+            {
+                "code": "OW11-4Thu",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 11ஆம் வாரம் - வியாழன்",
+                "color": "green"
+            },
+            {
+                "code": "Saint Romuald, abbot",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித ரோமுவால்து - ஆதீனத் தலைவர்",
+                "color": "white"
+            }
+        ],
+        "20": [
+            {
+                "code": "OW11-5Fri",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 11ஆம் வாரம் - வெள்ளி",
+                "color": "green"
+            }
+        ],
+        "21": [
+            {
+                "code": "OW11-6Sat",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 11ஆம் வாரம் - சனி",
+                "color": "white"
+            },
+            {
+                "code": "Saint Aloysius Gonzaga, religious",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனித அலோசியுஸ் கொன்சாகா - துறவி",
+                "color": "white"
+            }
+        ],
+        "22": {
+            "0": {
+                "code": "OW00-CorpusChristi",
+                "rank": 3.1,
+                "type": "Solemnity",
+                "name": "கிறிஸ்துவின் திருவுடல், திருஇரத்தம்",
+                "color": "white"
+            },
+            "other": [
+                {
+                    "code": "Saint Paulinus of Nola, bishop",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "புனித பவுலீனு நோலா - ஆயர்",
+                    "color": "white"
+                },
+                {
+                    "code": "Saints John Fisher, bishop and martyr and Thomas More, martyr",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "புனிதர்கள் ஆயர் ஜான் பிசர், தாமஸ் மூர் - மறைச்சாட்சியர்",
+                    "color": "red"
+                }
+            ]
+        },
+        "23": [
+            {
+                "code": "OW12-1Mon",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 12ஆம் வாரம் - திங்கள்",
+                "color": "green"
+            }
+        ],
+        "24": {
+            "0": {
+                "code": "Birth of Saint John the Baptist",
+                "rank": 3.1,
+                "type": "Solemnity",
+                "name": "திருமுழுக்கு யோவானின் பிறப்பு",
+                "color": "white"
+            },
+            "other": [
+                {
+                    "code": "OW12-2Tue",
+                    "rank": 12.5,
+                    "name": "பொதுக்காலம் 12ஆம் வாரம் - செவ்வாய்",
+                    "color": "green"
+                }
+            ]
+        },
+        "25": [
+            {
+                "code": "OW12-3Wed",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 12ஆம் வாரம் - புதன்",
+                "color": "green"
+            }
+        ],
+        "26": [
+            {
+                "code": "OW12-4Thu",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 12ஆம் வாரம் - வியாழன்",
+                "color": "green"
+            }
+        ],
+        "27": {
+            "0": {
+                "code": "OW00-SacredHeart",
+                "rank": 3.1,
+                "type": "Solemnity",
+                "name": "இயேசுவின் திருஇதயம்",
+                "color": "white"
+            },
+            "other": [
+                {
+                    "code": "Saint Cyril of Alexandria, bishop and doctor",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "அலெக்சாந்திரிய நகர் புனித சிரில் - ஆயர், மறைவல்லுநர்",
+                    "color": "white"
+                }
+            ]
+        },
+        "28": [
+            {
+                "code": "OW12-6Sat",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 12ஆம் வாரம் - சனி",
+                "color": "green"
+            },
+            {
+                "code": "Saint Irenaeus, bishop, martyr and Doctor of the Church",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித இரனேயு - ஆயர், மறைச்சாட்சி, மறைவல்லுநர்",
+                "color": "red"
+            },
+            {
+                "code": "OW00-ImmaculateHeart",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "தூய கன்னி மரியாவின் மாசற்ற இதயம்",
+                "color": "white"
+            }
+        ],
+        "29": {
+            "0": {
+                "code": "Saints Peter and Paul, Apostles",
+                "rank": 3.1,
+                "type": "Solemnity",
+                "name": "புனிதர்கள் பேதுரு, பவுல் - திருத்தூதர்கள்",
+                "color": "red"
+            },
+            "other": [
+                {
+                    "code": "OW13-0Sun",
+                    "rank": 6,
+                    "name": "பொதுக்காலம் 13ஆம் வாரம் - ஞாயிறு",
+                    "color": "green"
+                }
+            ]
+        },
+        "30": [
+            {
+                "code": "OW13-1Mon",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 13ஆம் வாரம் - திங்கள்",
+                "color": "green"
+            },
+            {
+                "code": "First Martyrs of the Church of Rome",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "உரோமைத் திருச்சபையின் முதல் மறைச்சாட்சியர்",
+                "color": "red"
+            }
+        ]
+    },
+    "7": {
+        "1": [
+            {
+                "code": "OW13-2Tue",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 13ஆம் வாரம் - செவ்வாய்",
+                "color": "green"
+            }
+        ],
+        "2": [
+            {
+                "code": "OW13-3Wed",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 13ஆம் வாரம் - புதன்",
+                "color": "green"
+            }
+        ],
+        "3": {
+            "0": {
+                "code": "IN Saint Thomas the Apostle",
+                "rank": 4.1,
+                "type": "Solemnity-PrincipalPartron-Place",
+                "name": "புனித தோமா - இந்தியாவின் திருத்தூதர்",
+                "color": "red"
+            },
+            "other": [
+                {
+                    "code": "OW13-4Thu",
+                    "rank": 12.5,
+                    "name": "பொதுக்காலம் 13ஆம் வாரம் - வியாழன்",
+                    "color": "green"
+                },
+                {
+                    "code": "Saint Thomas the Apostle",
+                    "rank": 7,
+                    "type": "Feast",
+                    "name": "புனித தோமா - திருத்தூதர்",
+                    "color": "red"
+                }
+            ]
+        },
+        "4": [
+            {
+                "code": "OW13-5Fri",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 13ஆம் வாரம் - வெள்ளி",
+                "color": "green"
+            },
+            {
+                "code": "Saint Elizabeth of Portugal",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "லுஸ்தானியா நகர் புனித எலிசபெத்து",
+                "color": "white"
+            }
+        ],
+        "5": [
+            {
+                "code": "OW13-6Sat",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 13ஆம் வாரம் - சனி",
+                "color": "green"
+            },
+            {
+                "code": "Saint Anthony Zaccaria, priest",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித அந்தோணி மரிய செக்கரியா - மறைப்பணியாளர்",
+                "color": "white"
+            }
+        ],
+        "6": {
+            "0": {
+                "code": "OW14-0Sun",
+                "rank": 6,
+                "name": "பொதுக்காலம் 14ஆம் வாரம் - ஞாயிறு",
+                "color": "green"
+            },
+            "other": [
+                {
+                    "code": "Saint Maria Goretti, virgin and martyr",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "புனித மரிய கொரற்றி - கன்னியர், மறைச்சாட்சி",
+                    "color": "red"
+                }
+            ]
+        },
+        "7": [
+            {
+                "code": "OW14-1Mon",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 14ஆம் வாரம் - திங்கள்",
+                "color": "green"
+            }
+        ],
+        "8": [
+            {
+                "code": "OW14-2Tue",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 14ஆம் வாரம் - செவ்வாய்",
+                "color": "green"
+            }
+        ],
+        "9": [
+            {
+                "code": "OW14-3Wed",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 14ஆம் வாரம் - புதன்",
+                "color": "green"
+            },
+            {
+                "code": "Saint Augustine Zhao Rong and companions, martyrs",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனிதர்கள் அகஸ்டின் ஜாவோ ரோங்கு, தோழர்கள் - மறைச்சாட்சியர்",
+                "color": "red"
+            }
+        ],
+        "10": [
+            {
+                "code": "OW14-4Thu",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 14ஆம் வாரம் - வியாழன்",
+                "color": "green"
+            }
+        ],
+        "11": [
+            {
+                "code": "OW14-5Fri",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 14ஆம் வாரம் - வெள்ளி",
+                "color": "white"
+            },
+            {
+                "code": "Saint Benedict, abbot",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனித பெனடிக்ட் - ஆதீனத் தலைவர்",
+                "color": "white"
+            }
+        ],
+        "12": [
+            {
+                "code": "OW14-6Sat",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 14ஆம் வாரம் - சனி",
+                "color": "green"
+            },
+            {
+                "code": "Mem-Mary-Sat",
+                "rank": 10.3,
+                "type": "Mem-Mary-Sat",
+                "name": "சனிக்கிழமையில் கன்னிமரியாவின் நினைவு",
+                "color": "white"
+            }
+        ],
+        "13": {
+            "0": {
+                "code": "OW15-0Sun",
+                "rank": 6,
+                "name": "பொதுக்காலம் 15ஆம் வாரம் - ஞாயிறு",
+                "color": "green"
+            },
+            "other": [
+                {
+                    "code": "Saint Henry",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "புனித என்றி",
+                    "color": "white"
+                }
+            ]
+        },
+        "14": [
+            {
+                "code": "OW15-1Mon",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 15ஆம் வாரம் - திங்கள்",
+                "color": "green"
+            },
+            {
+                "code": "Saint Camillus de Lellis, priest",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித கமில்லஸ் தெ லெல்லிஸ் - மறைப்பணியாளர்",
+                "color": "white"
+            }
+        ],
+        "15": [
+            {
+                "code": "OW15-2Tue",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 15ஆம் வாரம் - செவ்வாய்",
+                "color": "white"
+            },
+            {
+                "code": "Saint Bonaventure, bishop and doctor",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனித பொனவெந்தூர் - ஆயர், மறைவல்லுநர்",
+                "color": "white"
+            }
+        ],
+        "16": [
+            {
+                "code": "OW15-3Wed",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 15ஆம் வாரம் - புதன்",
+                "color": "green"
+            },
+            {
+                "code": "Our Lady of Mount Carmel",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "தூய கார்மேல் அன்னை",
+                "color": "white"
+            }
+        ],
+        "17": [
+            {
+                "code": "OW15-4Thu",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 15ஆம் வாரம் - வியாழன்",
+                "color": "green"
+            }
+        ],
+        "18": [
+            {
+                "code": "OW15-5Fri",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 15ஆம் வாரம் - வெள்ளி",
+                "color": "green"
+            }
+        ],
+        "19": [
+            {
+                "code": "OW15-6Sat",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 15ஆம் வாரம் - சனி",
+                "color": "green"
+            },
+            {
+                "code": "Mem-Mary-Sat",
+                "rank": 10.3,
+                "type": "Mem-Mary-Sat",
+                "name": "சனிக்கிழமையில் கன்னிமரியாவின் நினைவு",
+                "color": "white"
+            }
+        ],
+        "20": {
+            "0": {
+                "code": "OW16-0Sun",
+                "rank": 6,
+                "name": "பொதுக்காலம் 16ஆம் வாரம் - ஞாயிறு",
+                "color": "green"
+            },
+            "other": [
+                {
+                    "code": "Saint Apollinaris, bishop and martyr",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "புனித அப்போலினாரிஸ் - ஆயர், மறைச்சாட்சி",
+                    "color": "red"
+                }
+            ]
+        },
+        "21": [
+            {
+                "code": "OW16-1Mon",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 16ஆம் வாரம் - திங்கள்",
+                "color": "green"
+            },
+            {
+                "code": "Saint Lawrence of Brindisi, priest and doctor",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித பிரிந்திசி நகர் லாரன்ஸ் - மறைப்பணியாளர், மறைவல்லுநர்",
+                "color": "white"
+            }
+        ],
+        "22": {
+            "0": {
+                "code": "Saint Mary Magdalene",
+                "rank": 7,
+                "type": "Feast",
+                "name": "புனித மகதலா மரியா",
+                "color": "white"
+            },
+            "other": [
+                {
+                    "code": "OW16-2Tue",
+                    "rank": 12.5,
+                    "name": "பொதுக்காலம் 16ஆம் வாரம் - செவ்வாய்",
+                    "color": "green"
+                }
+            ]
+        },
+        "23": [
+            {
+                "code": "OW16-3Wed",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 16ஆம் வாரம் - புதன்",
+                "color": "green"
+            },
+            {
+                "code": "Saint Birgitta, religious",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித பிரிசித்தா - துறவி",
+                "color": "white"
+            }
+        ],
+        "24": [
+            {
+                "code": "OW16-4Thu",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 16ஆம் வாரம் - வியாழன்",
+                "color": "green"
+            },
+            {
+                "code": "Saint Sharbel Makhluf, hermit",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித சார்பெல் மாக்லுப் - மறைப்பணியாளர்",
+                "color": "white"
+            }
+        ],
+        "25": {
+            "0": {
+                "code": "Saint James, apostle",
+                "rank": 7,
+                "type": "Feast",
+                "name": "புனித யாக்கோபு - திருத்தூதர்",
+                "color": "red"
+            },
+            "other": [
+                {
+                    "code": "OW16-5Fri",
+                    "rank": 12.5,
+                    "name": "பொதுக்காலம் 16ஆம் வாரம் - வெள்ளி",
+                    "color": "green"
+                }
+            ]
+        },
+        "26": [
+            {
+                "code": "OW16-6Sat",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 16ஆம் வாரம் - சனி",
+                "color": "white"
+            },
+            {
+                "code": "Saints Joachim and Anne",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனிதர்கள் சுவக்கீம், அன்னா - தூய மரியாவின் பெற்றோர்",
+                "color": "white"
+            }
+        ],
+        "27": [
+            {
+                "code": "OW17-0Sun",
+                "rank": 6,
+                "name": "பொதுக்காலம் 17ஆம் வாரம் - ஞாயிறு",
+                "color": "green"
+            }
+        ],
+        "28": [
+            {
+                "code": "OW17-1Mon",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 17ஆம் வாரம் - திங்கள்",
+                "color": "white"
+            },
+            {
+                "code": "IN Saint Alphonsa of the Immaculate Conception (Alphonsa Muttathupadathu), virgin",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "அமலோற்பவத்தின் புனித அல்போன்சா முட்டாத்துபாடாத் - கன்னியர்",
+                "color": "white"
+            }
+        ],
+        "29": [
+            {
+                "code": "OW17-2Tue",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 17ஆம் வாரம் - செவ்வாய்",
+                "color": "white"
+            },
+            {
+                "code": "Saints Martha, Mary and Lazarus",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனிதர்கள் மார்த்தா, மரியா, இலாசர்",
+                "color": "white"
+            }
+        ],
+        "30": [
+            {
+                "code": "OW17-3Wed",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 17ஆம் வாரம் - புதன்",
+                "color": "green"
+            },
+            {
+                "code": "Saint Peter Chrysologus, bishop and doctor",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித பீட்டர் கிறிசோலோகு - ஆயர், மறைவல்லுநர்",
+                "color": "white"
+            }
+        ],
+        "31": [
+            {
+                "code": "OW17-4Thu",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 17ஆம் வாரம் - வியாழன்",
+                "color": "white"
+            },
+            {
+                "code": "Saint Ignatius of Loyola, priest",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனித லொயோலா இஞ்ஞாசி - மறைப்பணியாளர்",
+                "color": "white"
+            }
+        ]
+    },
+    "8": {
+        "1": [
+            {
+                "code": "OW17-5Fri",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 17ஆம் வாரம் - வெள்ளி",
+                "color": "white"
+            },
+            {
+                "code": "Saint Alphonsus Maria de Liguori, bishop and doctor of the Church",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனித அல்போன்ஸ் மரிய லிகோரி - ஆயர், மறைவல்லுநர்",
+                "color": "white"
+            }
+        ],
+        "2": [
+            {
+                "code": "OW17-6Sat",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 17ஆம் வாரம் - சனி",
+                "color": "green"
+            },
+            {
+                "code": "Saint Eusebius of Vercelli, bishop",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "வெர்செல்லி நகர் புனித யுசேபியு - ஆயர்",
+                "color": "white"
+            },
+            {
+                "code": "Saint Peter Julian Eymard, priest",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித பீட்டர் ஜூலியன் எய்மார்ட் - மறைப்பணியாளர்",
+                "color": "white"
+            }
+        ],
+        "3": [
+            {
+                "code": "OW18-0Sun",
+                "rank": 6,
+                "name": "பொதுக்காலம் 18ஆம் வாரம் - ஞாயிறு",
+                "color": "green"
+            }
+        ],
+        "4": [
+            {
+                "code": "OW18-1Mon",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 18ஆம் வாரம் - திங்கள்",
+                "color": "white"
+            },
+            {
+                "code": "Saint Jean Vianney (the Curé of Ars), priest",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனித ஜான் மரிய வியான்னி - மறைப்பணியாளர்",
+                "color": "white"
+            }
+        ],
+        "5": [
+            {
+                "code": "OW18-2Tue",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 18ஆம் வாரம் - செவ்வாய்",
+                "color": "green"
+            },
+            {
+                "code": "Dedication of the Basilica of Saint Mary Major",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "தூய கன்னி மரியாவின் பேராலய நேர்ந்தளிப்பு (பனிமய அன்னை)",
+                "color": "white"
+            }
+        ],
+        "6": {
+            "0": {
+                "code": "Transfiguration of the Lord",
+                "rank": 5,
+                "type": "Feast-Lord",
+                "name": "ஆண்டவரின் தோற்றமாற்றம்",
+                "color": "white"
+            },
+            "other": [
+                {
+                    "code": "OW18-3Wed",
+                    "rank": 12.5,
+                    "name": "பொதுக்காலம் 18ஆம் வாரம் - புதன்",
+                    "color": "green"
+                }
+            ]
+        },
+        "7": [
+            {
+                "code": "OW18-4Thu",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 18ஆம் வாரம் - வியாழன்",
+                "color": "green"
+            },
+            {
+                "code": "Saint Cajetan, priest",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித கயத்தான் - மறைப்பணியாளர்",
+                "color": "white"
+            },
+            {
+                "code": "Saint Sixtus II, pope, and companions, martyrs",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனிதர்கள் திருத்தந்தை இரண்டாம் சிக்ஸ்து, தோழர்கள் - மறைச்சாட்சியர்",
+                "color": "red"
+            }
+        ],
+        "8": [
+            {
+                "code": "OW18-5Fri",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 18ஆம் வாரம் - வெள்ளி",
+                "color": "white"
+            },
+            {
+                "code": "Saint Dominic, priest",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனித தோமினிக் - மறைப்பணியாளர்",
+                "color": "white"
+            }
+        ],
+        "9": [
+            {
+                "code": "OW18-6Sat",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 18ஆம் வாரம் - சனி",
+                "color": "green"
+            },
+            {
+                "code": "Saint Teresa Benedicta of the Cross (Edith Stein), virgin and martyr",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "திருச்சிலுவையின் புனித தெரெசா பெனடிக்டா - கன்னியர், மறைச்சாட்சி",
+                "color": "red"
+            }
+        ],
+        "10": {
+            "0": {
+                "code": "OW19-0Sun",
+                "rank": 6,
+                "name": "பொதுக்காலம் 19ஆம் வாரம் - ஞாயிறு",
+                "color": "green"
+            },
+            "other": [
+                {
+                    "code": "Saint Lawrence, deacon and martyr",
+                    "rank": 7,
+                    "type": "Feast",
+                    "name": "புனித லாரன்ஸ் - திருத்தொண்டர், மறைச்சாட்சி",
+                    "color": "red"
+                }
+            ]
+        },
+        "11": [
+            {
+                "code": "OW19-1Mon",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 19ஆம் வாரம் - திங்கள்",
+                "color": "white"
+            },
+            {
+                "code": "Saint Clare, virgin",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனித கிளாரா - கன்னியர்",
+                "color": "white"
+            }
+        ],
+        "12": [
+            {
+                "code": "OW19-2Tue",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 19ஆம் வாரம் - செவ்வாய்",
+                "color": "green"
+            },
+            {
+                "code": "Saint Jane Frances de Chantal, religious",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "சாந்தால் நகர் புனித ஜான் பிரான்சிஸ்கா - துறவி",
+                "color": "white"
+            }
+        ],
+        "13": [
+            {
+                "code": "OW19-3Wed",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 19ஆம் வாரம் - புதன்",
+                "color": "green"
+            },
+            {
+                "code": "Saints Pontian, pope, and Hippolytus, priest, martyrs",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனிதர்கள் திருத்தந்தை போன்சியானு, மறைப்பணியாளர் இப்போலித்து - மறைச்சாட்சியர்",
+                "color": "red"
+            }
+        ],
+        "14": [
+            {
+                "code": "OW19-4Thu",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 19ஆம் வாரம் - வியாழன்",
+                "color": "red"
+            },
+            {
+                "code": "Saint Maximilian Mary Kolbe, priest and martyr",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனித மாக்சிமிலியன் மரிய கோல்பே - மறைப்பணியாளர், மறைச்சாட்சி",
+                "color": "red"
+            }
+        ],
+        "15": {
+            "0": {
+                "code": "Assumption of the Blessed Virgin Mary",
+                "rank": 3.1,
+                "type": "Solemnity",
+                "name": "தூய கன்னி மரியாவின் விண்ணேற்பு",
+                "color": "white"
+            },
+            "other": [
+                {
+                    "code": "OW19-5Fri",
+                    "rank": 12.5,
+                    "name": "பொதுக்காலம் 19ஆம் வாரம் - வெள்ளி",
+                    "color": "green"
+                }
+            ]
+        },
+        "16": [
+            {
+                "code": "OW19-6Sat",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 19ஆம் வாரம் - சனி",
+                "color": "green"
+            },
+            {
+                "code": "Saint Stephen of Hungary",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "அங்கேரி புனித ஸ்தேவான்",
+                "color": "white"
+            }
+        ],
+        "17": [
+            {
+                "code": "OW20-0Sun",
+                "rank": 6,
+                "name": "பொதுக்காலம் 20ஆம் வாரம் - ஞாயிறு",
+                "color": "green"
+            }
+        ],
+        "18": [
+            {
+                "code": "OW20-1Mon",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 20ஆம் வாரம் - திங்கள்",
+                "color": "green"
+            }
+        ],
+        "19": [
+            {
+                "code": "OW20-2Tue",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 20ஆம் வாரம் - செவ்வாய்",
+                "color": "green"
+            },
+            {
+                "code": "Saint John Eudes, priest",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித ஜான் யூட்ஸ் - மறைப்பணியாளர்",
+                "color": "white"
+            }
+        ],
+        "20": [
+            {
+                "code": "OW20-3Wed",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 20ஆம் வாரம் - புதன்",
+                "color": "white"
+            },
+            {
+                "code": "Saint Bernard of Clairvaux, abbot and doctor of the Church",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனித பெர்நார்ட் - ஆதீனத் தலைவர், மறைவல்லுநர்",
+                "color": "white"
+            }
+        ],
+        "21": [
+            {
+                "code": "OW20-4Thu",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 20ஆம் வாரம் - வியாழன்",
+                "color": "white"
+            },
+            {
+                "code": "Saint Pius X, pope",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனித பத்தாம் பயஸ் - திருத்தந்தை",
+                "color": "white"
+            }
+        ],
+        "22": [
+            {
+                "code": "OW20-5Fri",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 20ஆம் வாரம் - வெள்ளி",
+                "color": "white"
+            },
+            {
+                "code": "Queenship of Blessed Virgin Mary",
+                "rank": 10.1,
+                "type": "Mem-Mary",
+                "name": "அரசியான தூய கன்னி மரியா",
+                "color": "white"
+            }
+        ],
+        "23": [
+            {
+                "code": "OW20-6Sat",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 20ஆம் வாரம் - சனி",
+                "color": "green"
+            },
+            {
+                "code": "Saint Rose of Lima, virgin",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "லீமா நகர் புனித ரோசா - கன்னியர்",
+                "color": "white"
+            }
+        ],
+        "24": {
+            "0": {
+                "code": "OW21-0Sun",
+                "rank": 6,
+                "name": "பொதுக்காலம் 21ஆம் வாரம் - ஞாயிறு",
+                "color": "green"
+            },
+            "other": [
+                {
+                    "code": "Saint Bartholomew the Apostle",
+                    "rank": 7,
+                    "type": "Feast",
+                    "name": "புனித பர்த்தலமேயு - திருத்தூதர்",
+                    "color": "red"
+                }
+            ]
+        },
+        "25": [
+            {
+                "code": "OW21-1Mon",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 21ஆம் வாரம் - திங்கள்",
+                "color": "green"
+            },
+            {
+                "code": "Saint Joseph of Calasanz, priest",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "கலசான்ஸ் நகர் புனித யோசேப்பு - மறைப்பணியாளர்",
+                "color": "white"
+            },
+            {
+                "code": "Saint Louis",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித லூயி - மறைப்பணியாளர்",
+                "color": "white"
+            }
+        ],
+        "26": [
+            {
+                "code": "OW21-2Tue",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 21ஆம் வாரம் - செவ்வாய்",
+                "color": "green"
+            }
+        ],
+        "27": [
+            {
+                "code": "OW21-3Wed",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 21ஆம் வாரம் - புதன்",
+                "color": "white"
+            },
+            {
+                "code": "Saint Monica",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனித மோனிக்கா",
+                "color": "white"
+            }
+        ],
+        "28": [
+            {
+                "code": "OW21-4Thu",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 21ஆம் வாரம் - வியாழன்",
+                "color": "white"
+            },
+            {
+                "code": "Saint Augustine of Hippo, bishop and doctor of the Church",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனித அகுஸ்தீன் - ஆயர், மறைவல்லுநர்",
+                "color": "white"
+            }
+        ],
+        "29": [
+            {
+                "code": "OW21-5Fri",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 21ஆம் வாரம் - வெள்ளி",
+                "color": "red"
+            },
+            {
+                "code": "The Beheading of Saint John the Baptist, martyr",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனித திருமுழுக்கு யோவானின் பாடுகள்",
+                "color": "red"
+            }
+        ],
+        "30": [
+            {
+                "code": "OW21-6Sat",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 21ஆம் வாரம் - சனி",
+                "color": "green"
+            },
+            {
+                "code": "IN Saint Euphrasia, virgin",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித யூப்ரேசியா, கன்னியர்",
+                "color": "white"
+            }
+        ],
+        "31": [
+            {
+                "code": "OW22-0Sun",
+                "rank": 6,
+                "name": "பொதுக்காலம் 22ஆம் வாரம் - ஞாயிறு",
+                "color": "green"
+            }
+        ]
+    },
+    "9": {
+        "1": [
+            {
+                "code": "OW22-1Mon",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 22ஆம் வாரம் - திங்கள்",
+                "color": "green"
+            }
+        ],
+        "2": [
+            {
+                "code": "OW22-2Tue",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 22ஆம் வாரம் - செவ்வாய்",
+                "color": "green"
+            }
+        ],
+        "3": [
+            {
+                "code": "OW22-3Wed",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 22ஆம் வாரம் - புதன்",
+                "color": "white"
+            },
+            {
+                "code": "Saint Gregory the Great, pope and doctor",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனித பெரிய கிரகோரி - திருத்தந்தை, மறைவல்லுநர்",
+                "color": "white"
+            }
+        ],
+        "4": [
+            {
+                "code": "OW22-4Thu",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 22ஆம் வாரம் - வியாழன்",
+                "color": "green"
+            }
+        ],
+        "5": {
+            "0": {
+                "code": "OW22-5Fri",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 22ஆம் வாரம் - வெள்ளி",
+                "color": "white"
+            },
+            "1": {
+                "code": "IN Saint Teresa of Calcutta, virgin",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனித அன்னை தெரேசா - கன்னியர்",
+                "color": "white"
+            },
+            "other": [
+                {
+                    "code": "Saint Teresa of Calcutta, virgin",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "புனித அன்னை தெரேசா - கன்னியர்",
+                    "color": "white"
+                }
+            ]
+        },
+        "6": [
+            {
+                "code": "OW22-6Sat",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 22ஆம் வாரம் - சனி",
+                "color": "green"
+            },
+            {
+                "code": "Mem-Mary-Sat",
+                "rank": 10.3,
+                "type": "Mem-Mary-Sat",
+                "name": "சனிக்கிழமையில் கன்னிமரியாவின் நினைவு",
+                "color": "white"
+            }
+        ],
+        "7": [
+            {
+                "code": "OW23-0Sun",
+                "rank": 6,
+                "name": "பொதுக்காலம் 23ஆம் வாரம் - ஞாயிறு",
+                "color": "green"
+            }
+        ],
+        "8": {
+            "0": {
+                "code": "Birth of the Blessed Virgin Mary",
+                "rank": 7,
+                "type": "Feast",
+                "name": "தூய கன்னி மரியாவின் பிறப்பு (ஆரோக்கிய அன்னை)",
+                "color": "white"
+            },
+            "other": [
+                {
+                    "code": "OW23-1Mon",
+                    "rank": 12.5,
+                    "name": "பொதுக்காலம் 23ஆம் வாரம் - திங்கள்",
+                    "color": "green"
+                }
+            ]
+        },
+        "9": [
+            {
+                "code": "OW23-2Tue",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 23ஆம் வாரம் - செவ்வாய்",
+                "color": "green"
+            },
+            {
+                "code": "Saint Peter Claver, priest",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித பீட்டர் கிளாவர் - மறைப்பணியாளர்",
+                "color": "white"
+            }
+        ],
+        "10": [
+            {
+                "code": "OW23-3Wed",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 23ஆம் வாரம் - புதன்",
+                "color": "green"
+            }
+        ],
+        "11": [
+            {
+                "code": "OW23-4Thu",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 23ஆம் வாரம் - வியாழன்",
+                "color": "green"
+            }
+        ],
+        "12": [
+            {
+                "code": "OW23-5Fri",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 23ஆம் வாரம் - வெள்ளி",
+                "color": "green"
+            },
+            {
+                "code": "Holy Name of the Blessed Virgin Mary",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "மரியாவின் திருப்பெயர்",
+                "color": "white"
+            }
+        ],
+        "13": [
+            {
+                "code": "OW23-6Sat",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 23ஆம் வாரம் - சனி",
+                "color": "white"
+            },
+            {
+                "code": "Saint John Chrysostom, bishop and doctor",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனித யோவான் கிறிசோஸ்தோம் - ஆயர்",
+                "color": "white"
+            }
+        ],
+        "14": {
+            "0": {
+                "code": "Exaltation of the Holy Cross",
+                "rank": 5,
+                "type": "Feast-Lord",
+                "name": "திருச்சிலுவையின் மகிமை",
+                "color": "red"
+            },
+            "other": [
+                {
+                    "code": "OW24-0Sun",
+                    "rank": 6,
+                    "name": "பொதுக்காலம் 24ஆம் வாரம் - ஞாயிறு",
+                    "color": "green"
+                }
+            ]
+        },
+        "15": [
+            {
+                "code": "OW24-1Mon",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 24ஆம் வாரம் - திங்கள்",
+                "color": "white"
+            },
+            {
+                "code": "Our Lady of Sorrows",
+                "rank": 10.1,
+                "type": "Mem-Mary",
+                "name": "புனித மரியாவின் துயரங்கள் (தூய வியாகுல அன்னை)",
+                "color": "white"
+            }
+        ],
+        "16": [
+            {
+                "code": "OW24-2Tue",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 24ஆம் வாரம் - செவ்வாய்",
+                "color": "red"
+            },
+            {
+                "code": "Saints Cornelius, pope, and Cyprian, bishop, martyrs",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனிதர்கள் திருத்தந்தை கொர்னேலியு, ஆயர் சிப்பிரியன் - மறைச்சாட்சியர்",
+                "color": "red"
+            }
+        ],
+        "17": [
+            {
+                "code": "OW24-3Wed",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 24ஆம் வாரம் - புதன்",
+                "color": "green"
+            },
+            {
+                "code": "Saint Hildegard of Bingen, Virgin and Doctor",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "பிங்கென் நகர் புனித ஹில்டெகார்ட் - கன்னியர், மறைவல்லுநர்",
+                "color": "white"
+            },
+            {
+                "code": "Saint Robert Bellarmine, bishop and doctor",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித ராபர்ட் பெல்லார்மின் - ஆயர், மறைவல்லுநர்",
+                "color": "white"
+            }
+        ],
+        "18": [
+            {
+                "code": "OW24-4Thu",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 24ஆம் வாரம் - வியாழன்",
+                "color": "green"
+            }
+        ],
+        "19": [
+            {
+                "code": "OW24-5Fri",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 24ஆம் வாரம் - வெள்ளி",
+                "color": "green"
+            },
+            {
+                "code": "Saint Januarius, bishop and martyr",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித சனுவாரியு - ஆயர், மறைச்சாட்சி",
+                "color": "red"
+            }
+        ],
+        "20": [
+            {
+                "code": "OW24-6Sat",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 24ஆம் வாரம் - சனி",
+                "color": "red"
+            },
+            {
+                "code": "Saint Andrew Kim Taegon, priest, and Paul Chong Hasang and companions, martyrs",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனிதர்கள் மறைப்பணியாளர் ஆன்ரு கிம் தே கோன், பவுல் சோங் காசாங், தோழர்கள் - மறைச்சாட்சியர்",
+                "color": "red"
+            }
+        ],
+        "21": {
+            "0": {
+                "code": "OW25-0Sun",
+                "rank": 6,
+                "name": "பொதுக்காலம் 25ஆம் வாரம் - ஞாயிறு",
+                "color": "green"
+            },
+            "other": [
+                {
+                    "code": "Saint Matthew the Evangelist, Apostle, Evangelist",
+                    "rank": 7,
+                    "type": "Feast",
+                    "name": "புனித மத்தேயு - திருத்தூதர், நற்செய்தியாளர்",
+                    "color": "red"
+                }
+            ]
+        },
+        "22": [
+            {
+                "code": "OW25-1Mon",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 25ஆம் வாரம் - திங்கள்",
+                "color": "green"
+            }
+        ],
+        "23": [
+            {
+                "code": "OW25-2Tue",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 25ஆம் வாரம் - செவ்வாய்",
+                "color": "white"
+            },
+            {
+                "code": "Saint Pio of Pietrelcina (Padre Pio), priest",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனித பியோ, மறைப்பணியாளர்",
+                "color": "white"
+            }
+        ],
+        "24": [
+            {
+                "code": "OW25-3Wed",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 25ஆம் வாரம் - புதன்",
+                "color": "green"
+            }
+        ],
+        "25": [
+            {
+                "code": "OW25-4Thu",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 25ஆம் வாரம் - வியாழன்",
+                "color": "green"
+            }
+        ],
+        "26": [
+            {
+                "code": "OW25-5Fri",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 25ஆம் வாரம் - வெள்ளி",
+                "color": "green"
+            },
+            {
+                "code": "Saints Cosmas and Damian, martyrs",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனிதர்கள் கோஸ்மாஸ், தமியான் - மறைச்சாட்சியர்",
+                "color": "red"
+            }
+        ],
+        "27": [
+            {
+                "code": "OW25-6Sat",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 25ஆம் வாரம் - சனி",
+                "color": "white"
+            },
+            {
+                "code": "Saint Vincent de Paul, priest",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனித வின்சென்ட் தே பவுல் - மறைப்பணியாளர்",
+                "color": "white"
+            }
+        ],
+        "28": {
+            "0": {
+                "code": "OW26-0Sun",
+                "rank": 6,
+                "name": "பொதுக்காலம் 26ஆம் வாரம் - ஞாயிறு",
+                "color": "green"
+            },
+            "other": [
+                {
+                    "code": "Saint Wenceslaus, martyr",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "புனித வென்செஸ்லாஸ் - மறைச்சாட்சி",
+                    "color": "red"
+                },
+                {
+                    "code": "Saints Lawrence Ruiz and companions, martyrs",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "புனிதர்கள் லாரன்ஸ் ரூய்ஸ், தோழர்கள் - மறைச்சாட்சியர்",
+                    "color": "red"
+                }
+            ]
+        },
+        "29": {
+            "0": {
+                "code": "Saints Michael, Gabriel and Raphael, Archangels",
+                "rank": 7,
+                "type": "Feast",
+                "name": "தூய மிக்கேல், கபிரியேல், ரபேல் - அதிதூதர்கள்",
+                "color": "white"
+            },
+            "other": [
+                {
+                    "code": "OW26-1Mon",
+                    "rank": 12.5,
+                    "name": "பொதுக்காலம் 26ஆம் வாரம் - திங்கள்",
+                    "color": "green"
+                }
+            ]
+        },
+        "30": [
+            {
+                "code": "OW26-2Tue",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 26ஆம் வாரம் - செவ்வாய்",
+                "color": "white"
+            },
+            {
+                "code": "Saint Jerome, priest and doctor",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனித எரோணிமுஸ் (ஜெரோம்) - மறைப்பணியாளர், மறைவல்லுநர்",
+                "color": "white"
+            }
+        ]
+    },
+    "10": {
+        "1": [
+            {
+                "code": "OW26-3Wed",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 26ஆம் வாரம் - புதன்",
+                "color": "white"
+            },
+            {
+                "code": "Saint Thérèse of the Child Jesus, virgin and doctor",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "குழந்தை இயேசுவின் புனித தெரேசா - கன்னியர்",
+                "color": "white"
+            }
+        ],
+        "2": [
+            {
+                "code": "OW26-4Thu",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 26ஆம் வாரம் - வியாழன்",
+                "color": "white"
+            },
+            {
+                "code": "Guardian Angels",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "தூய காவல் தூதர்கள்",
+                "color": "white"
+            }
+        ],
+        "3": [
+            {
+                "code": "OW26-5Fri",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 26ஆம் வாரம் - வெள்ளி",
+                "color": "green"
+            }
+        ],
+        "4": [
+            {
+                "code": "OW26-6Sat",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 26ஆம் வாரம் - சனி",
+                "color": "white"
+            },
+            {
+                "code": "Saint Francis of Assisi",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "அசிசி நகர் புனித பிரான்சிஸ்",
+                "color": "white"
+            }
+        ],
+        "5": {
+            "0": {
+                "code": "OW27-0Sun",
+                "rank": 6,
+                "name": "பொதுக்காலம் 27ஆம் வாரம் - ஞாயிறு",
+                "color": "green"
+            },
+            "other": [
+                {
+                    "code": "Saint Maria Faustina Kowalska, virgin",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "புனித மரியா பவுஸ்தீனா கோவால்ஸ்கா",
+                    "color": "white"
+                }
+            ]
+        },
+        "6": [
+            {
+                "code": "OW27-1Mon",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 27ஆம் வாரம் - திங்கள்",
+                "color": "green"
+            },
+            {
+                "code": "Saint Bruno, priest",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித புரூனோ - மறைப்பணியாளர்",
+                "color": "white"
+            }
+        ],
+        "7": [
+            {
+                "code": "OW27-2Tue",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 27ஆம் வாரம் - செவ்வாய்",
+                "color": "white"
+            },
+            {
+                "code": "Our Lady of the Rosary",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "தூய செபமாலை அன்னை",
+                "color": "white"
+            }
+        ],
+        "8": [
+            {
+                "code": "OW27-3Wed",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 27ஆம் வாரம் - புதன்",
+                "color": "green"
+            }
+        ],
+        "9": [
+            {
+                "code": "OW27-4Thu",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 27ஆம் வாரம் - வியாழன்",
+                "color": "green"
+            },
+            {
+                "code": "Saint Denis and companions, martyrs",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனிதர்கள் ஆயர் தியோனியுசு, தோழர்கள் - மறைச்சாட்சியர்",
+                "color": "red"
+            },
+            {
+                "code": "Saint John Leonardi, priest",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித யோவான் லெயோனார்ட் - மறைப்பணியாளர்",
+                "color": "white"
+            }
+        ],
+        "10": [
+            {
+                "code": "OW27-5Fri",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 27ஆம் வாரம் - வெள்ளி",
+                "color": "green"
+            }
+        ],
+        "11": [
+            {
+                "code": "OW27-6Sat",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 27ஆம் வாரம் - சனி",
+                "color": "green"
+            },
+            {
+                "code": "Saint John XXIII, pope",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித இருபத்தி மூன்றாம் யோவான், திருத்தந்தை",
+                "color": "white"
+            }
+        ],
+        "12": [
+            {
+                "code": "OW28-0Sun",
+                "rank": 6,
+                "name": "பொதுக்காலம் 28ஆம் வாரம் - ஞாயிறு",
+                "color": "green"
+            }
+        ],
+        "13": [
+            {
+                "code": "OW28-1Mon",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 28ஆம் வாரம் - திங்கள்",
+                "color": "green"
+            }
+        ],
+        "14": [
+            {
+                "code": "OW28-2Tue",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 28ஆம் வாரம் - செவ்வாய்",
+                "color": "green"
+            },
+            {
+                "code": "Saint Callistus I, pope and martyr",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித முதலாம் கலிஸ்து - திருத்தந்தை, மறைச்சாட்சி",
+                "color": "red"
+            }
+        ],
+        "15": [
+            {
+                "code": "OW28-3Wed",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 28ஆம் வாரம் - புதன்",
+                "color": "white"
+            },
+            {
+                "code": "Saint Teresa of Jesus, virgin and doctor",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "இயேசுவின் (அவிலா நகர்) புனித தெரேசா - கன்னியர், மறைவல்லுநர்",
+                "color": "white"
+            }
+        ],
+        "16": [
+            {
+                "code": "OW28-4Thu",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 28ஆம் வாரம் - வியாழன்",
+                "color": "green"
+            },
+            {
+                "code": "Saint Hedwig, religious",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித எட்விஜ் - துறவி",
+                "color": "white"
+            },
+            {
+                "code": "Saint Margaret Mary Alacoque, virgin",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித மார்கரீத் மரியா அலக்கோக்கு - கன்னியர்",
+                "color": "white"
+            },
+            {
+                "code": "IN Blessed Augustine Thevarparambil, priest",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "முத்தி. அகுஸ்தின் தேவர்பரம்பில் - மறைப்பணியாளர்",
+                "color": "white"
+            }
+        ],
+        "17": [
+            {
+                "code": "OW28-5Fri",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 28ஆம் வாரம் - வெள்ளி",
+                "color": "red"
+            },
+            {
+                "code": "Saint Ignatius of Antioch, bishop and martyr",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "அந்தியோக்கு நகர் புனித இஞ்ஞாசி - ஆயர், மறைச்சாட்சி",
+                "color": "red"
+            }
+        ],
+        "18": {
+            "0": {
+                "code": "Saint Luke the Evangelist",
+                "rank": 7,
+                "type": "Feast",
+                "name": "புனித லூக்கா - நற்செய்தியாளர்",
+                "color": "red"
+            },
+            "other": [
+                {
+                    "code": "OW28-6Sat",
+                    "rank": 12.5,
+                    "name": "பொதுக்காலம் 28ஆம் வாரம் - சனி",
+                    "color": "green"
+                }
+            ]
+        },
+        "19": {
+            "0": {
+                "code": "OW29-0Sun",
+                "rank": 6,
+                "name": "பொதுக்காலம் 29ஆம் வாரம் - ஞாயிறு",
+                "color": "green"
+            },
+            "other": [
+                {
+                    "code": "Saint Paul of the Cross, priest",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "சிலுவையின் புனித பவுல் - மறைப்பணியாளர்",
+                    "color": "white"
+                },
+                {
+                    "code": "Saints Jean de Brébeuf, Isaac Jogues, priests and martyrs; and their companions, martyrs",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "புனிதர்கள் மறைப்பணியாளர்கள் பிரபூபு ஜான், ஈசாக்கு ஜோகு, தோழர்கள் - மறைச்சாட்சியர்",
+                    "color": "red"
+                }
+            ]
+        },
+        "20": [
+            {
+                "code": "OW29-1Mon",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 29ஆம் வாரம் - திங்கள்",
+                "color": "green"
+            }
+        ],
+        "21": [
+            {
+                "code": "OW29-2Tue",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 29ஆம் வாரம் - செவ்வாய்",
+                "color": "green"
+            }
+        ],
+        "22": [
+            {
+                "code": "OW29-3Wed",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 29ஆம் வாரம் - புதன்",
+                "color": "green"
+            },
+            {
+                "code": "Saint John Paul II, pope",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித இரண்டாம் அருள் சின்னப்பர், திருத்தந்தை",
+                "color": "white"
+            }
+        ],
+        "23": [
+            {
+                "code": "OW29-4Thu",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 29ஆம் வாரம் - வியாழன்",
+                "color": "green"
+            },
+            {
+                "code": "Saint John of Capistrano, priest",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "கப்பெஸ்த்தரானோ நகர் புனித யோவான் - மறைப்பணியாளர்",
+                "color": "white"
+            }
+        ],
+        "24": [
+            {
+                "code": "OW29-5Fri",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 29ஆம் வாரம் - வெள்ளி",
+                "color": "green"
+            },
+            {
+                "code": "Saint Anthony Mary Claret, bishop",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித அந்தோனி மரிய கிளாரட் - ஆயர்",
+                "color": "white"
+            }
+        ],
+        "25": [
+            {
+                "code": "OW29-6Sat",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 29ஆம் வாரம் - சனி",
+                "color": "green"
+            },
+            {
+                "code": "Mem-Mary-Sat",
+                "rank": 10.3,
+                "type": "Mem-Mary-Sat",
+                "name": "சனிக்கிழமையில் கன்னிமரியாவின் நினைவு",
+                "color": "white"
+            }
+        ],
+        "26": [
+            {
+                "code": "OW30-0Sun",
+                "rank": 6,
+                "name": "பொதுக்காலம் 30ஆம் வாரம் - ஞாயிறு",
+                "color": "green"
+            }
+        ],
+        "27": [
+            {
+                "code": "OW30-1Mon",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 30ஆம் வாரம் - திங்கள்",
+                "color": "green"
+            }
+        ],
+        "28": {
+            "0": {
+                "code": "Saint Simon and Saint Jude, apostles",
+                "rank": 7,
+                "type": "Feast",
+                "name": "புனிதர்கள் சீமோன், யூதா - திருத்தூதர்கள்",
+                "color": "red"
+            },
+            "other": [
+                {
+                    "code": "OW30-2Tue",
+                    "rank": 12.5,
+                    "name": "பொதுக்காலம் 30ஆம் வாரம் - செவ்வாய்",
+                    "color": "green"
+                }
+            ]
+        },
+        "29": [
+            {
+                "code": "OW30-3Wed",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 30ஆம் வாரம் - புதன்",
+                "color": "green"
+            }
+        ],
+        "30": [
+            {
+                "code": "OW30-4Thu",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 30ஆம் வாரம் - வியாழன்",
+                "color": "green"
+            }
+        ],
+        "31": [
+            {
+                "code": "OW30-5Fri",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 30ஆம் வாரம் - வெள்ளி",
+                "color": "green"
+            }
+        ]
+    },
+    "11": {
+        "1": {
+            "0": {
+                "code": "All Saints",
+                "rank": 3.1,
+                "type": "Solemnity",
+                "name": "புனிதர் அனைவர்",
+                "color": "white"
+            },
+            "other": [
+                {
+                    "code": "OW30-6Sat",
+                    "rank": 12.5,
+                    "name": "பொதுக்காலம் 30ஆம் வாரம் - சனி",
+                    "color": "green"
+                }
+            ]
+        },
+        "2": {
+            "0": {
+                "code": "All Souls",
+                "rank": 3.2,
+                "type": "All Souls",
+                "name": "இறந்த விசுவாசிகள் அனைவர்",
+                "color": "purple"
+            },
+            "other": [
+                {
+                    "code": "OW31-0Sun",
+                    "rank": 6,
+                    "name": "பொதுக்காலம் 31ஆம் வாரம் - ஞாயிறு",
+                    "color": "green"
+                }
+            ]
+        },
+        "3": [
+            {
+                "code": "OW31-1Mon",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 31ஆம் வாரம் - திங்கள்",
+                "color": "green"
+            },
+            {
+                "code": "Saint Martin de Porres, religious",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித மார்ட்டின் தெ போரஸ் - துறவி",
+                "color": "white"
+            }
+        ],
+        "4": [
+            {
+                "code": "OW31-2Tue",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 31ஆம் வாரம் - செவ்வாய்",
+                "color": "white"
+            },
+            {
+                "code": "Saint Charles Borromeo, bishop",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனித சார்லஸ் பொரோமியோ - ஆயர்",
+                "color": "white"
+            }
+        ],
+        "5": [
+            {
+                "code": "OW31-3Wed",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 31ஆம் வாரம் - புதன்",
+                "color": "green"
+            }
+        ],
+        "6": [
+            {
+                "code": "OW31-4Thu",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 31ஆம் வாரம் - வியாழன்",
+                "color": "green"
+            }
+        ],
+        "7": [
+            {
+                "code": "OW31-5Fri",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 31ஆம் வாரம் - வெள்ளி",
+                "color": "green"
+            }
+        ],
+        "8": [
+            {
+                "code": "OW31-6Sat",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 31ஆம் வாரம் - சனி",
+                "color": "green"
+            },
+            {
+                "code": "Mem-Mary-Sat",
+                "rank": 10.3,
+                "type": "Mem-Mary-Sat",
+                "name": "சனிக்கிழமையில் கன்னிமரியாவின் நினைவு",
+                "color": "white"
+            }
+        ],
+        "9": {
+            "0": {
+                "code": "Dedication of the Lateran basilica",
+                "rank": 5,
+                "type": "Feast-Lord",
+                "name": "இலாத்தரன் பேராலய நேர்ந்தளிப்பு",
+                "color": "white"
+            },
+            "other": [
+                {
+                    "code": "OW32-0Sun",
+                    "rank": 6,
+                    "name": "பொதுக்காலம் 32ஆம் வாரம் - ஞாயிறு",
+                    "color": "green"
+                }
+            ]
+        },
+        "10": [
+            {
+                "code": "OW32-1Mon",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 32ஆம் வாரம் - திங்கள்",
+                "color": "white"
+            },
+            {
+                "code": "Saint Leo the Great, pope and doctor",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனித பெரிய லெயோ - திருத்தந்தை, மறைவல்லுநர்",
+                "color": "white"
+            }
+        ],
+        "11": [
+            {
+                "code": "OW32-2Tue",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 32ஆம் வாரம் - செவ்வாய்",
+                "color": "white"
+            },
+            {
+                "code": "Saint Martin of Tours, bishop",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "தூரின் நகர் புனித மார்ட்டின் - ஆயர்",
+                "color": "white"
+            }
+        ],
+        "12": [
+            {
+                "code": "OW32-3Wed",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 32ஆம் வாரம் - புதன்",
+                "color": "red"
+            },
+            {
+                "code": "Saint Josaphat, bishop and martyr",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனித யோசபாத்து - ஆயர், மறைச்சாட்சி",
+                "color": "red"
+            }
+        ],
+        "13": [
+            {
+                "code": "OW32-4Thu",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 32ஆம் வாரம் - வியாழன்",
+                "color": "green"
+            }
+        ],
+        "14": [
+            {
+                "code": "OW32-5Fri",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 32ஆம் வாரம் - வெள்ளி",
+                "color": "green"
+            }
+        ],
+        "15": [
+            {
+                "code": "OW32-6Sat",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 32ஆம் வாரம் - சனி",
+                "color": "green"
+            },
+            {
+                "code": "Saint Albert the Great, bishop and doctor",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித பெரிய ஆல்பர்ட் - ஆயர், மறைவல்லுநர்",
+                "color": "white"
+            }
+        ],
+        "16": {
+            "0": {
+                "code": "OW33-0Sun",
+                "rank": 6,
+                "name": "பொதுக்காலம் 33ஆம் வாரம் - ஞாயிறு",
+                "color": "green"
+            },
+            "other": [
+                {
+                    "code": "Saint Gertrude the Great, virgin",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "புனித ஜெர்த்ரூது - கன்னியர்",
+                    "color": "white"
+                },
+                {
+                    "code": "Saint Margaret of Scotland",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "ஸ்காட்லாந்து புனித மார்கரீத்",
+                    "color": "white"
+                }
+            ]
+        },
+        "17": [
+            {
+                "code": "OW33-1Mon",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 33ஆம் வாரம் - திங்கள்",
+                "color": "white"
+            },
+            {
+                "code": "Saint Elizabeth of Hungary, religious",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "அங்கேரி புனித எலிசபெத்து - துறவி",
+                "color": "white"
+            }
+        ],
+        "18": [
+            {
+                "code": "OW33-2Tue",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 33ஆம் வாரம் - செவ்வாய்",
+                "color": "green"
+            },
+            {
+                "code": "Dedication of the basilicas of Saints Peter and Paul, Apostles",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "திருத்தூதர்கள் பேதுரு, பவுல் பேராலயங்களின் நேர்ந்தளிப்பு",
+                "color": "red"
+            }
+        ],
+        "19": [
+            {
+                "code": "OW33-3Wed",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 33ஆம் வாரம் - புதன்",
+                "color": "green"
+            }
+        ],
+        "20": [
+            {
+                "code": "OW33-4Thu",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 33ஆம் வாரம் - வியாழன்",
+                "color": "green"
+            }
+        ],
+        "21": [
+            {
+                "code": "OW33-5Fri",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 33ஆம் வாரம் - வெள்ளி",
+                "color": "white"
+            },
+            {
+                "code": "Presentation of the Blessed Virgin Mary",
+                "rank": 10.1,
+                "type": "Mem-Mary",
+                "name": "தூய கன்னி மரியாவைக் காணிக்கையாக அர்ப்பணித்தல்",
+                "color": "white"
+            }
+        ],
+        "22": [
+            {
+                "code": "OW33-6Sat",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 33ஆம் வாரம் - சனி",
+                "color": "white"
+            },
+            {
+                "code": "Saint Cecilia",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனித செசிலியா - கன்னியர், மறைச்சாட்சி",
+                "color": "white"
+            }
+        ],
+        "23": {
+            "0": {
+                "code": "OW34-0Sun",
+                "rank": 3.1,
+                "type": "Solemnity",
+                "name": "இயேசு கிறிஸ்து அனைத்துலக அரசர்",
+                "color": "white"
+            },
+            "other": [
+                {
+                    "code": "Saint Clement I, pope and martyr",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "புனித முதலாம் கிளமெண்ட், திருத்தந்தை, மறைச்சாட்சி",
+                    "color": "red"
+                },
+                {
+                    "code": "Saint Columban, religious",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "புனித கொலும்பன் - ஆதீனத் தலைவர்",
+                    "color": "white"
+                }
+            ]
+        },
+        "24": [
+            {
+                "code": "OW34-1Mon",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 34ஆம் வாரம் - திங்கள்",
+                "color": "red"
+            },
+            {
+                "code": "Saint Andrew Dung-Lac and his companions, martyrs",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனிதர்கள் மறைப்பணியாளர் ஆன்ரு டுங் லாக், தோழர்கள் - மறைச்சாட்சியர்",
+                "color": "red"
+            }
+        ],
+        "25": [
+            {
+                "code": "OW34-2Tue",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 34ஆம் வாரம் - செவ்வாய்",
+                "color": "green"
+            },
+            {
+                "code": "Saint Catherine of Alexandria",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "அலெக்சாந்திரியா நகர் புனித கேத்தரின் - கன்னியர், மறைச்சாட்சி",
+                "color": "white"
+            }
+        ],
+        "26": [
+            {
+                "code": "OW34-3Wed",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 34ஆம் வாரம் - புதன்",
+                "color": "green"
+            }
+        ],
+        "27": [
+            {
+                "code": "OW34-4Thu",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 34ஆம் வாரம் - வியாழன்",
+                "color": "green"
+            }
+        ],
+        "28": [
+            {
+                "code": "OW34-5Fri",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 34ஆம் வாரம் - வெள்ளி",
+                "color": "green"
+            }
+        ],
+        "29": [
+            {
+                "code": "OW34-6Sat",
+                "rank": 12.5,
+                "name": "பொதுக்காலம் 34ஆம் வாரம் - சனி",
+                "color": "green"
+            },
+            {
+                "code": "Mem-Mary-Sat",
+                "rank": 10.3,
+                "type": "Mem-Mary-Sat",
+                "name": "சனிக்கிழமையில் கன்னிமரியாவின் நினைவு",
+                "color": "white"
+            }
+        ],
+        "30": {
+            "0": {
+                "code": "AW01-0Sun",
+                "rank": 2.1,
+                "name": "திருவருகைக்காலம் 1ஆம் வாரம் - ஞாயிறு",
+                "color": "purple"
+            },
+            "other": [
+                {
+                    "code": "Saint Andrew the Apostle",
+                    "rank": 7,
+                    "type": "Feast",
+                    "name": "புனித அந்திரேயா, திருத்தூதர்",
+                    "color": "red"
+                }
+            ]
+        }
+    },
+    "12": {
+        "1": [
+            {
+                "code": "AW01-1Mon",
+                "rank": 12.2,
+                "name": "திருவருகைக்காலம் 1ஆம் வாரம் - திங்கள்",
+                "color": "purple"
+            }
+        ],
+        "2": [
+            {
+                "code": "AW01-2Tue",
+                "rank": 12.2,
+                "name": "திருவருகைக்காலம் 1ஆம் வாரம் - செவ்வாய்",
+                "color": "purple"
+            }
+        ],
+        "3": {
+            "0": {
+                "code": "IN Saint Francis Xavier, priest",
+                "rank": 4.1,
+                "type": "Solemnity-PrincipalPartron-Place",
+                "name": "புனித பிரான்சிஸ் சவேரியார் - மறைப்பணியாளர், இந்தியாவின் பாதுகாவலர்",
+                "color": "white"
+            },
+            "other": [
+                {
+                    "code": "AW01-3Wed",
+                    "rank": 12.2,
+                    "name": "திருவருகைக்காலம் 1ஆம் வாரம் - புதன்",
+                    "color": "purple"
+                },
+                {
+                    "code": "Saint Francis Xavier, priest",
+                    "rank": 10.2,
+                    "type": "Mem",
+                    "name": "புனித பிரான்சிஸ் சவேரியார் - மறைப்பணியாளர்",
+                    "color": "white"
+                }
+            ]
+        },
+        "4": [
+            {
+                "code": "AW01-4Thu",
+                "rank": 12.2,
+                "name": "திருவருகைக்காலம் 1ஆம் வாரம் - வியாழன்",
+                "color": "purple"
+            },
+            {
+                "code": "Saint John Damascene, priest and doctor",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித யோவான் தமசேன் - மறைப்பணியாளர், மறைவல்லுநர்",
+                "color": "white"
+            }
+        ],
+        "5": [
+            {
+                "code": "AW01-5Fri",
+                "rank": 12.2,
+                "name": "திருவருகைக்காலம் 1ஆம் வாரம் - வெள்ளி",
+                "color": "purple"
+            }
+        ],
+        "6": [
+            {
+                "code": "AW01-6Sat",
+                "rank": 12.2,
+                "name": "திருவருகைக்காலம் 1ஆம் வாரம் - சனி",
+                "color": "purple"
+            },
+            {
+                "code": "Saint Nicholas, bishop",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித நிக்கோலாஸ் - ஆயர்",
+                "color": "white"
+            }
+        ],
+        "7": {
+            "0": {
+                "code": "AW02-0Sun",
+                "rank": 2.1,
+                "name": "திருவருகைக்காலம் 2ஆம் வாரம் - ஞாயிறு",
+                "color": "purple"
+            },
+            "other": [
+                {
+                    "code": "Saint Ambrose, bishop and doctor",
+                    "rank": 10.2,
+                    "type": "Mem",
+                    "name": "புனித அம்புரோஸ் - ஆயர், மறைவல்லுநர்",
+                    "color": "white"
+                }
+            ]
+        },
+        "8": {
+            "0": {
+                "code": "Immaculate Conception of the Blessed Virgin Mary",
+                "rank": 3.1,
+                "type": "Solemnity",
+                "name": "தூய கன்னி மரியாவின் அமலோற்பவம்",
+                "color": "white"
+            },
+            "other": [
+                {
+                    "code": "AW02-1Mon",
+                    "rank": 12.2,
+                    "name": "திருவருகைக்காலம் 2ஆம் வாரம் - திங்கள்",
+                    "color": "purple"
+                }
+            ]
+        },
+        "9": [
+            {
+                "code": "AW02-2Tue",
+                "rank": 12.2,
+                "name": "திருவருகைக்காலம் 2ஆம் வாரம் - செவ்வாய்",
+                "color": "purple"
+            },
+            {
+                "code": "Saint Juan Diego",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித ஜான் தியேகோ",
+                "color": "white"
+            }
+        ],
+        "10": [
+            {
+                "code": "AW02-3Wed",
+                "rank": 12.2,
+                "name": "திருவருகைக்காலம் 2ஆம் வாரம் - புதன்",
+                "color": "purple"
+            },
+            {
+                "code": "Our Lady of Loreto",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "லொரேட்டோ அன்னை",
+                "color": "white"
+            }
+        ],
+        "11": [
+            {
+                "code": "AW02-4Thu",
+                "rank": 12.2,
+                "name": "திருவருகைக்காலம் 2ஆம் வாரம் - வியாழன்",
+                "color": "purple"
+            },
+            {
+                "code": "Saint Damasus I, pope",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித முதலாம் தமசுஸ் - திருத்தந்தை",
+                "color": "white"
+            }
+        ],
+        "12": [
+            {
+                "code": "AW02-5Fri",
+                "rank": 12.2,
+                "name": "திருவருகைக்காலம் 2ஆம் வாரம் - வெள்ளி",
+                "color": "purple"
+            },
+            {
+                "code": "Our Lady of Guadalupe",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித குவாதெலுப் அன்னை",
+                "color": "white"
+            }
+        ],
+        "13": [
+            {
+                "code": "AW02-6Sat",
+                "rank": 12.2,
+                "name": "திருவருகைக்காலம் 2ஆம் வாரம் - சனி",
+                "color": "red"
+            },
+            {
+                "code": "Saint Lucy of Syracuse, virgin and martyr",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "புனித லூசியா - கன்னியர், மறைச்சாட்சி",
+                "color": "red"
+            }
+        ],
+        "14": {
+            "0": {
+                "code": "AW03-0Sun",
+                "rank": 2.1,
+                "name": "திருவருகைக்காலம் 3ஆம் வாரம் - ஞாயிறு",
+                "color": "rose"
+            },
+            "other": [
+                {
+                    "code": "Saint John of the Cross, priest and doctor",
+                    "rank": 10.2,
+                    "type": "Mem",
+                    "name": "சிலுவையின் புனித யோவான் - மறைப்பணியாளர், மறைவல்லுநர்",
+                    "color": "white"
+                }
+            ]
+        },
+        "15": [
+            {
+                "code": "AW03-1Mon",
+                "rank": 12.2,
+                "name": "திருவருகைக்காலம் 3ஆம் வாரம் - திங்கள்",
+                "color": "purple"
+            }
+        ],
+        "16": [
+            {
+                "code": "AW03-2Tue",
+                "rank": 12.2,
+                "name": "திருவருகைக்காலம் 3ஆம் வாரம் - செவ்வாய்",
+                "color": "purple"
+            }
+        ],
+        "17": [
+            {
+                "code": "AW05-Dec17",
+                "rank": 9.1,
+                "name": "திருவருகைக் கால வார நாள்கள் - டிசம்பர் 17",
+                "color": "purple"
+            }
+        ],
+        "18": [
+            {
+                "code": "AW05-Dec18",
+                "rank": 9.1,
+                "name": "திருவருகைக் கால வார நாள்கள் - டிசம்பர் 18",
+                "color": "purple"
+            }
+        ],
+        "19": [
+            {
+                "code": "AW05-Dec19",
+                "rank": 9.1,
+                "name": "திருவருகைக் கால வார நாள்கள் - டிசம்பர் 19",
+                "color": "purple"
+            }
+        ],
+        "20": [
+            {
+                "code": "AW05-Dec20",
+                "rank": 9.1,
+                "name": "திருவருகைக் கால வார நாள்கள் - டிசம்பர் 20",
+                "color": "purple"
+            }
+        ],
+        "21": {
+            "0": {
+                "code": "AW04-0Sun",
+                "rank": 2.1,
+                "name": "திருவருகைக்காலம் 4ஆம் வாரம் - ஞாயிறு",
+                "color": "purple"
+            },
+            "other": [
+                {
+                    "code": "Saint Peter Canisius, priest and doctor",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "புனித பீட்டர் கனீசியு - மறைப்பணியாளர், மறைவல்லுநர்",
+                    "color": "white"
+                }
+            ]
+        },
+        "22": [
+            {
+                "code": "AW05-Dec22",
+                "rank": 9.1,
+                "name": "திருவருகைக் கால வார நாள்கள் - டிசம்பர் 22",
+                "color": "purple"
+            }
+        ],
+        "23": [
+            {
+                "code": "AW05-Dec23",
+                "rank": 9.1,
+                "name": "திருவருகைக் கால வார நாள்கள் - டிசம்பர் 23",
+                "color": "purple"
+            },
+            {
+                "code": "Saint John of Kanty, priest",
+                "rank": 12.1,
+                "type": "OpMem-Commemoration",
+                "name": "கான்டி நகர் புனித யோவான் - மறைப்பணியாளர்",
+                "color": "white"
+            }
+        ],
+        "24": [
+            {
+                "code": "AW05-Dec24",
+                "rank": 9.1,
+                "name": "திருவருகைக் கால வார நாள்கள் - டிசம்பர் 24",
+                "color": "purple"
+            }
+        ],
+        "25": [
+            {
+                "code": "Nativity of the Lord",
+                "rank": 3.1,
+                "type": "Solemnity",
+                "name": "கிறிஸ்து பிறப்பு",
+                "color": "white"
+            }
+        ],
+        "26": [
+            {
+                "code": "Saint Stephen, the first martyr",
+                "rank": 7,
+                "type": "Feast",
+                "name": "புனித ஸ்தேவான் - முதல் மறைச்சாட்சி",
+                "color": "red"
+            }
+        ],
+        "27": [
+            {
+                "code": "Saint John the Apostle and evangelist",
+                "rank": 7,
+                "type": "Feast",
+                "name": "புனித யோவான் - திருத்தூதர், நற்செய்தியாளர்",
+                "color": "white"
+            }
+        ],
+        "28": {
+            "0": {
+                "code": "CW01-HolyFamily",
+                "rank": 5,
+                "type": "Feast-Lord",
+                "name": "இயேசு, மரியா, யோசேப்பின் திருக்குடும்பம்",
+                "color": "white"
+            },
+            "other": [
+                {
+                    "code": "Holy Innocents, martyrs",
+                    "rank": 7,
+                    "type": "Feast",
+                    "name": "புனித மாசில்லாக் குழந்தைகள் - மறைச்சாட்சியர்",
+                    "color": "red"
+                }
+            ]
+        },
+        "29": [
+            {
+                "code": "CW01-Dec29",
+                "rank": 9.2,
+                "name": " கிறிஸ்து பிறப்பின் எண்கிழமையில் 5ஆம் நாள் - டிசம்பர் 29",
+                "color": "white"
+            },
+            {
+                "code": "Saint Thomas Becket, bishop and martyr",
+                "rank": 12.1,
+                "type": "OpMem-Commemoration",
+                "name": "புனித தாமஸ் பெக்கட் - ஆயர் மறைச்சாட்சி",
+                "color": "red"
+            }
+        ],
+        "30": [
+            {
+                "code": "CW01-Dec30",
+                "rank": 9.2,
+                "name": " கிறிஸ்து பிறப்பின் எண்கிழமையில் 6ஆம் நாள் - டிசம்பர் 30",
+                "color": "white"
+            }
+        ],
+        "31": [
+            {
+                "code": "CW01-Dec31",
+                "rank": 9.2,
+                "name": " கிறிஸ்து பிறப்பின் எண்கிழமையில் 7ஆம் நாள் - டிசம்பர் 31",
+                "color": "white"
+            },
+            {
+                "code": "Saint Sylvester I, pope",
+                "rank": 12.1,
+                "type": "OpMem-Commemoration",
+                "name": "புனித முதலாம் சில்வெஸ்தர் - திருத்தந்தை",
+                "color": "white"
+            }
+        ]
+    }
+}
