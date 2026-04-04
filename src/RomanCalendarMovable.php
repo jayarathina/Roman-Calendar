@@ -226,11 +226,14 @@ class RomanCalendarMovable{
 		$this->fullYear[$mth][$day][0]['rank'] = (new RomanCalendarRanks)->getRank($cd);
 
 		$this->fullYear[$mth][$day][0]['type'] = match ($this->fullYear[$mth][$day][0]['rank']) {
-			1, 2, 2.4, 3.1, 4.1, 4.2, 4.3 => 'Solemnity',
+			2, 2.4, 3.1, 4.1, 4.2, 4.3 => 'Solemnity',
 			5 => 'Feast-Lord',
 			7 => 'Feast',
 			default => false
 		};
+		if($this->fullYear[$mth][$day][0]['code'] == 'EW01-0Sun'){
+			$this->fullYear[$mth][$day][0]['type'] = 'Solemnity';
+		}
 		if ($this->fullYear[$mth][$day][0]['type'] === false)
 			unset($this->fullYear[$mth][$day][0]['type']);
 	}

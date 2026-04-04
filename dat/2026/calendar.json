@@ -48,14 +48,6 @@
         ],
         "4": [
             {
-                "code": "CW02-Jan4",
-                "rank": 12.3,
-                "name": "Christmas Weekday: January 04",
-                "color": "white"
-            }
-        ],
-        "5": [
-            {
                 "code": "CW03-Epiphany",
                 "rank": 2,
                 "type": "Solemnity",
@@ -63,7 +55,7 @@
                 "color": "white"
             }
         ],
-        "6": [
+        "5": [
             {
                 "code": "CW03-Day1",
                 "rank": 12.3,
@@ -71,11 +63,19 @@
                 "color": "white"
             }
         ],
-        "7": [
+        "6": [
             {
                 "code": "CW03-Day2",
                 "rank": 12.3,
                 "name": "Tuesday after Epiphany",
+                "color": "white"
+            }
+        ],
+        "7": [
+            {
+                "code": "CW03-Day3",
+                "rank": 12.3,
+                "name": "Wednesday after Epiphany",
                 "color": "white"
             },
             {
@@ -88,21 +88,13 @@
         ],
         "8": [
             {
-                "code": "CW03-Day3",
-                "rank": 12.3,
-                "name": "Wednesday after Epiphany",
-                "color": "white"
-            }
-        ],
-        "9": [
-            {
                 "code": "CW03-Day4",
                 "rank": 12.3,
                 "name": "Thursday after Epiphany",
                 "color": "white"
             }
         ],
-        "10": [
+        "9": [
             {
                 "code": "CW03-Day5",
                 "rank": 12.3,
@@ -110,7 +102,7 @@
                 "color": "white"
             }
         ],
-        "11": [
+        "10": [
             {
                 "code": "CW03-Day6",
                 "rank": 12.3,
@@ -118,7 +110,7 @@
                 "color": "white"
             }
         ],
-        "12": [
+        "11": [
             {
                 "code": "CW04-Baptism",
                 "rank": 5,
@@ -127,11 +119,19 @@
                 "color": "white"
             }
         ],
-        "13": [
+        "12": [
             {
                 "code": "OW01-1Mon",
                 "rank": 12.5,
                 "name": "Monday of the 1<sup>st<\/sup> Week in Ordinary Time",
+                "color": "green"
+            }
+        ],
+        "13": [
+            {
+                "code": "OW01-2Tue",
+                "rank": 12.5,
+                "name": "Tuesday of the 1<sup>st<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
@@ -144,9 +144,9 @@
         ],
         "14": [
             {
-                "code": "OW01-2Tue",
+                "code": "OW01-3Wed",
                 "rank": 12.5,
-                "name": "Tuesday of the 1<sup>st<\/sup> Week in Ordinary Time",
+                "name": "Wednesday of the 1<sup>st<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
@@ -159,17 +159,17 @@
         ],
         "15": [
             {
-                "code": "OW01-3Wed",
+                "code": "OW01-4Thu",
                 "rank": 12.5,
-                "name": "Wednesday of the 1<sup>st<\/sup> Week in Ordinary Time",
+                "name": "Thursday of the 1<sup>st<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
         "16": [
             {
-                "code": "OW01-4Thu",
+                "code": "OW01-5Fri",
                 "rank": 12.5,
-                "name": "Thursday of the 1<sup>st<\/sup> Week in Ordinary Time",
+                "name": "Friday of the 1<sup>st<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
@@ -182,9 +182,9 @@
         ],
         "17": [
             {
-                "code": "OW01-5Fri",
+                "code": "OW01-6Sat",
                 "rank": 12.5,
-                "name": "Friday of the 1<sup>st<\/sup> Week in Ordinary Time",
+                "name": "Saturday of the 1<sup>st<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
@@ -197,32 +197,25 @@
         ],
         "18": [
             {
-                "code": "OW01-6Sat",
-                "rank": 12.5,
-                "name": "Saturday of the 1<sup>st<\/sup> Week in Ordinary Time",
-                "color": "green"
-            },
-            {
-                "code": "Mem-Mary-Sat",
-                "rank": 10.3,
-                "type": "Mem-Mary-Sat",
-                "name": "Saturday Memorial of the Blessed Virgin Mary",
-                "color": "white"
-            }
-        ],
-        "19": [
-            {
                 "code": "OW02-0Sun",
                 "rank": 6,
                 "name": "Sunday of the 2<sup>nd<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
-        "20": [
+        "19": [
             {
                 "code": "OW02-1Mon",
                 "rank": 12.5,
                 "name": "Monday of the 2<sup>nd<\/sup> Week in Ordinary Time",
+                "color": "green"
+            }
+        ],
+        "20": [
+            {
+                "code": "OW02-2Tue",
+                "rank": 12.5,
+                "name": "Tuesday of the 2<sup>nd<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
@@ -242,9 +235,9 @@
         ],
         "21": [
             {
-                "code": "OW02-2Tue",
+                "code": "OW02-3Wed",
                 "rank": 12.5,
-                "name": "Tuesday of the 2<sup>nd<\/sup> Week in Ordinary Time",
+                "name": "Wednesday of the 2<sup>nd<\/sup> Week in Ordinary Time",
                 "color": "red"
             },
             {
@@ -257,9 +250,9 @@
         ],
         "22": [
             {
-                "code": "OW02-3Wed",
+                "code": "OW02-4Thu",
                 "rank": 12.5,
-                "name": "Wednesday of the 2<sup>nd<\/sup> Week in Ordinary Time",
+                "name": "Thursday of the 2<sup>nd<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
@@ -272,17 +265,17 @@
         ],
         "23": [
             {
-                "code": "OW02-4Thu",
+                "code": "OW02-5Fri",
                 "rank": 12.5,
-                "name": "Thursday of the 2<sup>nd<\/sup> Week in Ordinary Time",
+                "name": "Friday of the 2<sup>nd<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
         "24": [
             {
-                "code": "OW02-5Fri",
+                "code": "OW02-6Sat",
                 "rank": 12.5,
-                "name": "Friday of the 2<sup>nd<\/sup> Week in Ordinary Time",
+                "name": "Saturday of the 2<sup>nd<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
@@ -295,23 +288,6 @@
         ],
         "25": {
             "0": {
-                "code": "The Conversion of Saint Paul, apostle",
-                "rank": 7,
-                "type": "Feast",
-                "name": "The Conversion of Saint Paul, apostle",
-                "color": "white"
-            },
-            "other": [
-                {
-                    "code": "OW02-6Sat",
-                    "rank": 12.5,
-                    "name": "Saturday of the 2<sup>nd<\/sup> Week in Ordinary Time",
-                    "color": "green"
-                }
-            ]
-        },
-        "26": {
-            "0": {
                 "code": "OW03-0Sun",
                 "rank": 6,
                 "name": "Sunday of the 3<sup>rd<\/sup> Week in Ordinary Time",
@@ -319,19 +295,34 @@
             },
             "other": [
                 {
-                    "code": "Saints Timothy and Titus, bishops",
-                    "rank": 10.2,
-                    "type": "Mem",
-                    "name": "Saints Timothy and Titus, bishops",
+                    "code": "The Conversion of Saint Paul, apostle",
+                    "rank": 7,
+                    "type": "Feast",
+                    "name": "The Conversion of Saint Paul, apostle",
                     "color": "white"
                 }
             ]
         },
-        "27": [
+        "26": [
             {
                 "code": "OW03-1Mon",
                 "rank": 12.5,
                 "name": "Monday of the 3<sup>rd<\/sup> Week in Ordinary Time",
+                "color": "white"
+            },
+            {
+                "code": "Saints Timothy and Titus, bishops",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "Saints Timothy and Titus, bishops",
+                "color": "white"
+            }
+        ],
+        "27": [
+            {
+                "code": "OW03-2Tue",
+                "rank": 12.5,
+                "name": "Tuesday of the 3<sup>rd<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
@@ -344,9 +335,9 @@
         ],
         "28": [
             {
-                "code": "OW03-2Tue",
+                "code": "OW03-3Wed",
                 "rank": 12.5,
-                "name": "Tuesday of the 3<sup>rd<\/sup> Week in Ordinary Time",
+                "name": "Wednesday of the 3<sup>rd<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
@@ -359,25 +350,25 @@
         ],
         "29": [
             {
-                "code": "OW03-3Wed",
-                "rank": 12.5,
-                "name": "Wednesday of the 3<sup>rd<\/sup> Week in Ordinary Time",
-                "color": "green"
-            }
-        ],
-        "30": [
-            {
                 "code": "OW03-4Thu",
                 "rank": 12.5,
                 "name": "Thursday of the 3<sup>rd<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
-        "31": [
+        "30": [
             {
                 "code": "OW03-5Fri",
                 "rank": 12.5,
                 "name": "Friday of the 3<sup>rd<\/sup> Week in Ordinary Time",
+                "color": "green"
+            }
+        ],
+        "31": [
+            {
+                "code": "OW03-6Sat",
+                "rank": 12.5,
+                "name": "Saturday of the 3<sup>rd<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
@@ -392,17 +383,10 @@
     "2": {
         "1": [
             {
-                "code": "OW03-6Sat",
-                "rank": 12.5,
-                "name": "Saturday of the 3<sup>rd<\/sup> Week in Ordinary Time",
+                "code": "OW04-0Sun",
+                "rank": 6,
+                "name": "Sunday of the 4<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
-            },
-            {
-                "code": "Mem-Mary-Sat",
-                "rank": 10.3,
-                "type": "Mem-Mary-Sat",
-                "name": "Saturday Memorial of the Blessed Virgin Mary",
-                "color": "white"
             }
         ],
         "2": {
@@ -415,18 +399,18 @@
             },
             "other": [
                 {
-                    "code": "OW04-0Sun",
-                    "rank": 6,
-                    "name": "Sunday of the 4<sup>th<\/sup> Week in Ordinary Time",
+                    "code": "OW04-1Mon",
+                    "rank": 12.5,
+                    "name": "Monday of the 4<sup>th<\/sup> Week in Ordinary Time",
                     "color": "green"
                 }
             ]
         },
         "3": [
             {
-                "code": "OW04-1Mon",
+                "code": "OW04-2Tue",
                 "rank": 12.5,
-                "name": "Monday of the 4<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Tuesday of the 4<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
@@ -446,9 +430,9 @@
         ],
         "4": [
             {
-                "code": "OW04-2Tue",
+                "code": "OW04-3Wed",
                 "rank": 12.5,
-                "name": "Tuesday of the 4<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Wednesday of the 4<sup>th<\/sup> Week in Ordinary Time",
                 "color": "red"
             },
             {
@@ -461,9 +445,9 @@
         ],
         "5": [
             {
-                "code": "OW04-3Wed",
+                "code": "OW04-4Thu",
                 "rank": 12.5,
-                "name": "Wednesday of the 4<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Thursday of the 4<sup>th<\/sup> Week in Ordinary Time",
                 "color": "red"
             },
             {
@@ -476,9 +460,9 @@
         ],
         "6": [
             {
-                "code": "OW04-4Thu",
+                "code": "OW04-5Fri",
                 "rank": 12.5,
-                "name": "Thursday of the 4<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Friday of the 4<sup>th<\/sup> Week in Ordinary Time",
                 "color": "red"
             },
             {
@@ -498,47 +482,56 @@
         ],
         "7": [
             {
-                "code": "OW04-5Fri",
-                "rank": 12.5,
-                "name": "Friday of the 4<sup>th<\/sup> Week in Ordinary Time",
-                "color": "green"
-            }
-        ],
-        "8": [
-            {
                 "code": "OW04-6Sat",
                 "rank": 12.5,
                 "name": "Saturday of the 4<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
-                "code": "Saint Jerome Emiliani, priest",
-                "rank": 12.1,
-                "type": "OpMem",
-                "name": "Saint Jerome Emiliani, priest",
-                "color": "white"
-            },
-            {
-                "code": "Saint Josephine Bakhita, virgin",
-                "rank": 12.1,
-                "type": "OpMem",
-                "name": "Saint Josephine Bakhita, virgin",
+                "code": "Mem-Mary-Sat",
+                "rank": 10.3,
+                "type": "Mem-Mary-Sat",
+                "name": "Saturday Memorial of the Blessed Virgin Mary",
                 "color": "white"
             }
         ],
-        "9": [
-            {
+        "8": {
+            "0": {
                 "code": "OW05-0Sun",
                 "rank": 6,
                 "name": "Sunday of the 5<sup>th<\/sup> Week in Ordinary Time",
+                "color": "green"
+            },
+            "other": [
+                {
+                    "code": "Saint Jerome Emiliani, priest",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "Saint Jerome Emiliani, priest",
+                    "color": "white"
+                },
+                {
+                    "code": "Saint Josephine Bakhita, virgin",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "Saint Josephine Bakhita, virgin",
+                    "color": "white"
+                }
+            ]
+        },
+        "9": [
+            {
+                "code": "OW05-1Mon",
+                "rank": 12.5,
+                "name": "Monday of the 5<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
         "10": [
             {
-                "code": "OW05-1Mon",
+                "code": "OW05-2Tue",
                 "rank": 12.5,
-                "name": "Monday of the 5<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Tuesday of the 5<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
@@ -551,9 +544,9 @@
         ],
         "11": [
             {
-                "code": "OW05-2Tue",
+                "code": "OW05-3Wed",
                 "rank": 12.5,
-                "name": "Tuesday of the 5<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Wednesday of the 5<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
@@ -566,25 +559,25 @@
         ],
         "12": [
             {
-                "code": "OW05-3Wed",
-                "rank": 12.5,
-                "name": "Wednesday of the 5<sup>th<\/sup> Week in Ordinary Time",
-                "color": "green"
-            }
-        ],
-        "13": [
-            {
                 "code": "OW05-4Thu",
                 "rank": 12.5,
                 "name": "Thursday of the 5<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
-        "14": [
+        "13": [
             {
                 "code": "OW05-5Fri",
                 "rank": 12.5,
                 "name": "Friday of the 5<sup>th<\/sup> Week in Ordinary Time",
+                "color": "green"
+            }
+        ],
+        "14": [
+            {
+                "code": "OW05-6Sat",
+                "rank": 12.5,
+                "name": "Saturday of the 5<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
@@ -597,32 +590,25 @@
         ],
         "15": [
             {
-                "code": "OW05-6Sat",
-                "rank": 12.5,
-                "name": "Saturday of the 5<sup>th<\/sup> Week in Ordinary Time",
-                "color": "green"
-            },
-            {
-                "code": "Mem-Mary-Sat",
-                "rank": 10.3,
-                "type": "Mem-Mary-Sat",
-                "name": "Saturday Memorial of the Blessed Virgin Mary",
-                "color": "white"
-            }
-        ],
-        "16": [
-            {
                 "code": "OW06-0Sun",
                 "rank": 6,
                 "name": "Sunday of the 6<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
-        "17": [
+        "16": [
             {
                 "code": "OW06-1Mon",
                 "rank": 12.5,
                 "name": "Monday of the 6<sup>th<\/sup> Week in Ordinary Time",
+                "color": "green"
+            }
+        ],
+        "17": [
+            {
+                "code": "OW06-2Tue",
+                "rank": 12.5,
+                "name": "Tuesday of the 6<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
@@ -635,188 +621,13 @@
         ],
         "18": [
             {
-                "code": "OW06-2Tue",
-                "rank": 12.5,
-                "name": "Tuesday of the 6<sup>th<\/sup> Week in Ordinary Time",
-                "color": "green"
-            }
-        ],
-        "19": [
-            {
-                "code": "OW06-3Wed",
-                "rank": 12.5,
-                "name": "Wednesday of the 6<sup>th<\/sup> Week in Ordinary Time",
-                "color": "green"
-            }
-        ],
-        "20": [
-            {
-                "code": "OW06-4Thu",
-                "rank": 12.5,
-                "name": "Thursday of the 6<sup>th<\/sup> Week in Ordinary Time",
-                "color": "green"
-            }
-        ],
-        "21": [
-            {
-                "code": "OW06-5Fri",
-                "rank": 12.5,
-                "name": "Friday of the 6<sup>th<\/sup> Week in Ordinary Time",
-                "color": "green"
-            },
-            {
-                "code": "Saint Peter Damian, bishop and doctor of the Church",
-                "rank": 12.1,
-                "type": "OpMem",
-                "name": "Saint Peter Damian, bishop and doctor of the Church",
-                "color": "white"
-            }
-        ],
-        "22": {
-            "0": {
-                "code": "Chair of Saint Peter, apostle",
-                "rank": 7,
-                "type": "Feast",
-                "name": "Chair of Saint Peter, apostle",
-                "color": "white"
-            },
-            "other": [
-                {
-                    "code": "OW06-6Sat",
-                    "rank": 12.5,
-                    "name": "Saturday of the 6<sup>th<\/sup> Week in Ordinary Time",
-                    "color": "green"
-                }
-            ]
-        },
-        "23": {
-            "0": {
-                "code": "OW07-0Sun",
-                "rank": 6,
-                "name": "Sunday of the 7<sup>th<\/sup> Week in Ordinary Time",
-                "color": "green"
-            },
-            "other": [
-                {
-                    "code": "Saint Polycarp, bishop and martyr",
-                    "rank": 10.2,
-                    "type": "Mem",
-                    "name": "Saint Polycarp, bishop and martyr",
-                    "color": "red"
-                }
-            ]
-        },
-        "24": [
-            {
-                "code": "OW07-1Mon",
-                "rank": 12.5,
-                "name": "Monday of the 7<sup>th<\/sup> Week in Ordinary Time",
-                "color": "green"
-            }
-        ],
-        "25": [
-            {
-                "code": "OW07-2Tue",
-                "rank": 12.5,
-                "name": "Tuesday of the 7<sup>th<\/sup> Week in Ordinary Time",
-                "color": "green"
-            },
-            {
-                "code": "IN Blessed Rani Maria, virgin, martyr",
-                "rank": 12.1,
-                "type": "OpMem",
-                "name": "IN Blessed Rani Maria, virgin, martyr",
-                "color": "red"
-            }
-        ],
-        "26": [
-            {
-                "code": "OW07-3Wed",
-                "rank": 12.5,
-                "name": "Wednesday of the 7<sup>th<\/sup> Week in Ordinary Time",
-                "color": "green"
-            }
-        ],
-        "27": [
-            {
-                "code": "OW07-4Thu",
-                "rank": 12.5,
-                "name": "Thursday of the 7<sup>th<\/sup> Week in Ordinary Time",
-                "color": "green"
-            },
-            {
-                "code": "Saint Gregory of Narek, abbot and doctor of the Church",
-                "rank": 12.1,
-                "type": "OpMem",
-                "name": "Saint Gregory of Narek, abbot and doctor of the Church",
-                "color": "white"
-            }
-        ],
-        "28": [
-            {
-                "code": "OW07-5Fri",
-                "rank": 12.5,
-                "name": "Friday of the 7<sup>th<\/sup> Week in Ordinary Time",
-                "color": "green"
-            }
-        ]
-    },
-    "3": {
-        "1": [
-            {
-                "code": "OW07-6Sat",
-                "rank": 12.5,
-                "name": "Saturday of the 7<sup>th<\/sup> Week in Ordinary Time",
-                "color": "green"
-            },
-            {
-                "code": "Mem-Mary-Sat",
-                "rank": 10.3,
-                "type": "Mem-Mary-Sat",
-                "name": "Saturday Memorial of the Blessed Virgin Mary",
-                "color": "white"
-            }
-        ],
-        "2": [
-            {
-                "code": "OW08-0Sun",
-                "rank": 6,
-                "name": "Sunday of the 8<sup>th<\/sup> Week in Ordinary Time",
-                "color": "green"
-            }
-        ],
-        "3": [
-            {
-                "code": "OW08-1Mon",
-                "rank": 12.5,
-                "name": "Monday of the 8<sup>th<\/sup> Week in Ordinary Time",
-                "color": "green"
-            }
-        ],
-        "4": [
-            {
-                "code": "OW08-2Tue",
-                "rank": 12.5,
-                "name": "Tuesday of the 8<sup>th<\/sup> Week in Ordinary Time",
-                "color": "green"
-            },
-            {
-                "code": "Saint Casimir",
-                "rank": 12.1,
-                "type": "OpMem",
-                "name": "Saint Casimir",
-                "color": "white"
-            }
-        ],
-        "5": [
-            {
                 "code": "LW00-3Wed",
                 "rank": 2.2,
                 "name": "Ash Wednesday",
                 "color": "purple"
             }
         ],
-        "6": [
+        "19": [
             {
                 "code": "LW00-4Thu",
                 "rank": 9.3,
@@ -824,11 +635,177 @@
                 "color": "purple"
             }
         ],
-        "7": [
+        "20": [
             {
                 "code": "LW00-5Fri",
                 "rank": 9.3,
                 "name": "Friday after Ash Wednesday",
+                "color": "purple"
+            }
+        ],
+        "21": [
+            {
+                "code": "LW00-6Sat",
+                "rank": 9.3,
+                "name": "Saturday after Ash Wednesday",
+                "color": "purple"
+            },
+            {
+                "code": "Saint Peter Damian, bishop and doctor of the Church",
+                "rank": 12.1,
+                "type": "OpMem-Commemoration",
+                "name": "Saint Peter Damian, bishop and doctor of the Church",
+                "color": "white"
+            }
+        ],
+        "22": {
+            "0": {
+                "code": "LW01-0Sun",
+                "rank": 2.1,
+                "name": "Sunday of the 1<sup>st<\/sup> Week of Lent",
+                "color": "purple"
+            },
+            "other": [
+                {
+                    "code": "Chair of Saint Peter, apostle",
+                    "rank": 7,
+                    "type": "Feast",
+                    "name": "Chair of Saint Peter, apostle",
+                    "color": "white"
+                }
+            ]
+        },
+        "23": [
+            {
+                "code": "LW01-1Mon",
+                "rank": 9.3,
+                "name": "Monday of the 1<sup>st<\/sup> Week of Lent",
+                "color": "purple"
+            },
+            {
+                "code": "Saint Polycarp, bishop and martyr",
+                "rank": 12.1,
+                "type": "OpMem-Commemoration",
+                "name": "Saint Polycarp, bishop and martyr",
+                "color": "red"
+            }
+        ],
+        "24": [
+            {
+                "code": "LW01-2Tue",
+                "rank": 9.3,
+                "name": "Tuesday of the 1<sup>st<\/sup> Week of Lent",
+                "color": "purple"
+            }
+        ],
+        "25": [
+            {
+                "code": "LW01-3Wed",
+                "rank": 9.3,
+                "name": "Wednesday of the 1<sup>st<\/sup> Week of Lent",
+                "color": "purple"
+            },
+            {
+                "code": "IN Blessed Rani Maria, virgin, martyr",
+                "rank": 12.1,
+                "type": "OpMem-Commemoration",
+                "name": "IN Blessed Rani Maria, virgin, martyr",
+                "color": "red"
+            }
+        ],
+        "26": [
+            {
+                "code": "LW01-4Thu",
+                "rank": 9.3,
+                "name": "Thursday of the 1<sup>st<\/sup> Week of Lent",
+                "color": "purple"
+            }
+        ],
+        "27": [
+            {
+                "code": "LW01-5Fri",
+                "rank": 9.3,
+                "name": "Friday of the 1<sup>st<\/sup> Week of Lent",
+                "color": "purple"
+            },
+            {
+                "code": "Saint Gregory of Narek, abbot and doctor of the Church",
+                "rank": 12.1,
+                "type": "OpMem-Commemoration",
+                "name": "Saint Gregory of Narek, abbot and doctor of the Church",
+                "color": "white"
+            }
+        ],
+        "28": [
+            {
+                "code": "LW01-6Sat",
+                "rank": 9.3,
+                "name": "Saturday of the 1<sup>st<\/sup> Week of Lent",
+                "color": "purple"
+            }
+        ]
+    },
+    "3": {
+        "1": [
+            {
+                "code": "LW02-0Sun",
+                "rank": 2.1,
+                "name": "Sunday of the 2<sup>nd<\/sup> Week of Lent",
+                "color": "purple"
+            }
+        ],
+        "2": [
+            {
+                "code": "LW02-1Mon",
+                "rank": 9.3,
+                "name": "Monday of the 2<sup>nd<\/sup> Week of Lent",
+                "color": "purple"
+            }
+        ],
+        "3": [
+            {
+                "code": "LW02-2Tue",
+                "rank": 9.3,
+                "name": "Tuesday of the 2<sup>nd<\/sup> Week of Lent",
+                "color": "purple"
+            }
+        ],
+        "4": [
+            {
+                "code": "LW02-3Wed",
+                "rank": 9.3,
+                "name": "Wednesday of the 2<sup>nd<\/sup> Week of Lent",
+                "color": "purple"
+            },
+            {
+                "code": "Saint Casimir",
+                "rank": 12.1,
+                "type": "OpMem-Commemoration",
+                "name": "Saint Casimir",
+                "color": "white"
+            }
+        ],
+        "5": [
+            {
+                "code": "LW02-4Thu",
+                "rank": 9.3,
+                "name": "Thursday of the 2<sup>nd<\/sup> Week of Lent",
+                "color": "purple"
+            }
+        ],
+        "6": [
+            {
+                "code": "LW02-5Fri",
+                "rank": 9.3,
+                "name": "Friday of the 2<sup>nd<\/sup> Week of Lent",
+                "color": "purple"
+            }
+        ],
+        "7": [
+            {
+                "code": "LW02-6Sat",
+                "rank": 9.3,
+                "name": "Saturday of the 2<sup>nd<\/sup> Week of Lent",
                 "color": "purple"
             },
             {
@@ -839,99 +816,99 @@
                 "color": "red"
             }
         ],
-        "8": [
-            {
-                "code": "LW00-6Sat",
-                "rank": 9.3,
-                "name": "Saturday after Ash Wednesday",
-                "color": "purple"
-            },
-            {
-                "code": "Saint John of God, religious",
-                "rank": 12.1,
-                "type": "OpMem-Commemoration",
-                "name": "Saint John of God, religious",
-                "color": "white"
-            }
-        ],
-        "9": {
+        "8": {
             "0": {
-                "code": "LW01-0Sun",
+                "code": "LW03-0Sun",
                 "rank": 2.1,
-                "name": "Sunday of the 1<sup>st<\/sup> Week of Lent",
+                "name": "Sunday of the 3<sup>rd<\/sup> Week of Lent",
                 "color": "purple"
             },
             "other": [
                 {
-                    "code": "Saint Frances of Rome, religious",
+                    "code": "Saint John of God, religious",
                     "rank": 12.1,
                     "type": "OpMem",
-                    "name": "Saint Frances of Rome, religious",
+                    "name": "Saint John of God, religious",
                     "color": "white"
                 }
             ]
         },
+        "9": [
+            {
+                "code": "LW03-1Mon",
+                "rank": 9.3,
+                "name": "Monday of the 3<sup>rd<\/sup> Week of Lent",
+                "color": "purple"
+            },
+            {
+                "code": "Saint Frances of Rome, religious",
+                "rank": 12.1,
+                "type": "OpMem-Commemoration",
+                "name": "Saint Frances of Rome, religious",
+                "color": "white"
+            }
+        ],
         "10": [
             {
-                "code": "LW01-1Mon",
+                "code": "LW03-2Tue",
                 "rank": 9.3,
-                "name": "Monday of the 1<sup>st<\/sup> Week of Lent",
+                "name": "Tuesday of the 3<sup>rd<\/sup> Week of Lent",
                 "color": "purple"
             }
         ],
         "11": [
             {
-                "code": "LW01-2Tue",
+                "code": "LW03-3Wed",
                 "rank": 9.3,
-                "name": "Tuesday of the 1<sup>st<\/sup> Week of Lent",
+                "name": "Wednesday of the 3<sup>rd<\/sup> Week of Lent",
                 "color": "purple"
             }
         ],
         "12": [
             {
-                "code": "LW01-3Wed",
+                "code": "LW03-4Thu",
                 "rank": 9.3,
-                "name": "Wednesday of the 1<sup>st<\/sup> Week of Lent",
+                "name": "Thursday of the 3<sup>rd<\/sup> Week of Lent",
                 "color": "purple"
             }
         ],
         "13": [
             {
-                "code": "LW01-4Thu",
+                "code": "LW03-5Fri",
                 "rank": 9.3,
-                "name": "Thursday of the 1<sup>st<\/sup> Week of Lent",
+                "name": "Friday of the 3<sup>rd<\/sup> Week of Lent",
                 "color": "purple"
             }
         ],
         "14": [
             {
-                "code": "LW01-5Fri",
+                "code": "LW03-6Sat",
                 "rank": 9.3,
-                "name": "Friday of the 1<sup>st<\/sup> Week of Lent",
+                "name": "Saturday of the 3<sup>rd<\/sup> Week of Lent",
                 "color": "purple"
             }
         ],
         "15": [
             {
-                "code": "LW01-6Sat",
-                "rank": 9.3,
-                "name": "Saturday of the 1<sup>st<\/sup> Week of Lent",
-                "color": "purple"
+                "code": "LW04-0Sun",
+                "rank": 2.1,
+                "name": "Sunday of the 4<sup>th<\/sup> Week of Lent",
+                "color": "rose"
             }
         ],
         "16": [
             {
-                "code": "LW02-0Sun",
-                "rank": 2.1,
-                "name": "Sunday of the 2<sup>nd<\/sup> Week of Lent",
+                "code": "LW04-1Mon",
+                "rank": 9.3,
+                "name": "Monday of the 4<sup>th<\/sup> Week of Lent",
                 "color": "purple"
             }
         ],
         "17": [
             {
-                "code": "LW02-1Mon",
+                "code": "LW04-2Tue",
                 "rank": 9.3,
-                "name": "Monday of the 2<sup>nd<\/sup> Week of Lent",
+                "name": "Tuesday of the 4<sup>th<\/sup> Week of Lent",
                 "color": "purple"
             },
             {
@@ -944,9 +921,9 @@
         ],
         "18": [
             {
-                "code": "LW02-2Tue",
+                "code": "LW04-3Wed",
                 "rank": 9.3,
-                "name": "Tuesday of the 2<sup>nd<\/sup> Week of Lent",
+                "name": "Wednesday of the 4<sup>th<\/sup> Week of Lent",
                 "color": "purple"
             },
             {
@@ -967,59 +944,57 @@
             },
             "other": [
                 {
-                    "code": "LW02-3Wed",
+                    "code": "LW04-4Thu",
                     "rank": 9.3,
-                    "name": "Wednesday of the 2<sup>nd<\/sup> Week of Lent",
+                    "name": "Thursday of the 4<sup>th<\/sup> Week of Lent",
                     "color": "purple"
                 }
             ]
         },
         "20": [
             {
-                "code": "LW02-4Thu",
+                "code": "LW04-5Fri",
                 "rank": 9.3,
-                "name": "Thursday of the 2<sup>nd<\/sup> Week of Lent",
+                "name": "Friday of the 4<sup>th<\/sup> Week of Lent",
                 "color": "purple"
             }
         ],
         "21": [
             {
-                "code": "LW02-5Fri",
+                "code": "LW04-6Sat",
                 "rank": 9.3,
-                "name": "Friday of the 2<sup>nd<\/sup> Week of Lent",
+                "name": "Saturday of the 4<sup>th<\/sup> Week of Lent",
                 "color": "purple"
             }
         ],
         "22": [
             {
-                "code": "LW02-6Sat",
-                "rank": 9.3,
-                "name": "Saturday of the 2<sup>nd<\/sup> Week of Lent",
+                "code": "LW05-0Sun",
+                "rank": 2.1,
+                "name": "Sunday of the 5<sup>th<\/sup> Week of Lent",
                 "color": "purple"
             }
         ],
-        "23": {
-            "0": {
-                "code": "LW03-0Sun",
-                "rank": 2.1,
-                "name": "Sunday of the 3<sup>rd<\/sup> Week of Lent",
+        "23": [
+            {
+                "code": "LW05-1Mon",
+                "rank": 9.3,
+                "name": "Monday of the 5<sup>th<\/sup> Week of Lent",
                 "color": "purple"
             },
-            "other": [
-                {
-                    "code": "Saint Turibius of Mogrovejo, bishop",
-                    "rank": 12.1,
-                    "type": "OpMem",
-                    "name": "Saint Turibius of Mogrovejo, bishop",
-                    "color": "white"
-                }
-            ]
-        },
+            {
+                "code": "Saint Turibius of Mogrovejo, bishop",
+                "rank": 12.1,
+                "type": "OpMem-Commemoration",
+                "name": "Saint Turibius of Mogrovejo, bishop",
+                "color": "white"
+            }
+        ],
         "24": [
             {
-                "code": "LW03-1Mon",
+                "code": "LW05-2Tue",
                 "rank": 9.3,
-                "name": "Monday of the 3<sup>rd<\/sup> Week of Lent",
+                "name": "Tuesday of the 5<sup>th<\/sup> Week of Lent",
                 "color": "purple"
             }
         ],
@@ -1033,164 +1008,14 @@
             },
             "other": [
                 {
-                    "code": "LW03-2Tue",
+                    "code": "LW05-3Wed",
                     "rank": 9.3,
-                    "name": "Tuesday of the 3<sup>rd<\/sup> Week of Lent",
+                    "name": "Wednesday of the 5<sup>th<\/sup> Week of Lent",
                     "color": "purple"
                 }
             ]
         },
         "26": [
-            {
-                "code": "LW03-3Wed",
-                "rank": 9.3,
-                "name": "Wednesday of the 3<sup>rd<\/sup> Week of Lent",
-                "color": "purple"
-            }
-        ],
-        "27": [
-            {
-                "code": "LW03-4Thu",
-                "rank": 9.3,
-                "name": "Thursday of the 3<sup>rd<\/sup> Week of Lent",
-                "color": "purple"
-            }
-        ],
-        "28": [
-            {
-                "code": "LW03-5Fri",
-                "rank": 9.3,
-                "name": "Friday of the 3<sup>rd<\/sup> Week of Lent",
-                "color": "purple"
-            }
-        ],
-        "29": [
-            {
-                "code": "LW03-6Sat",
-                "rank": 9.3,
-                "name": "Saturday of the 3<sup>rd<\/sup> Week of Lent",
-                "color": "purple"
-            }
-        ],
-        "30": [
-            {
-                "code": "LW04-0Sun",
-                "rank": 2.1,
-                "name": "Sunday of the 4<sup>th<\/sup> Week of Lent",
-                "color": "rose"
-            }
-        ],
-        "31": [
-            {
-                "code": "LW04-1Mon",
-                "rank": 9.3,
-                "name": "Monday of the 4<sup>th<\/sup> Week of Lent",
-                "color": "purple"
-            }
-        ]
-    },
-    "4": {
-        "1": [
-            {
-                "code": "LW04-2Tue",
-                "rank": 9.3,
-                "name": "Tuesday of the 4<sup>th<\/sup> Week of Lent",
-                "color": "purple"
-            }
-        ],
-        "2": [
-            {
-                "code": "LW04-3Wed",
-                "rank": 9.3,
-                "name": "Wednesday of the 4<sup>th<\/sup> Week of Lent",
-                "color": "purple"
-            },
-            {
-                "code": "Saint Francis of Paola, hermit",
-                "rank": 12.1,
-                "type": "OpMem-Commemoration",
-                "name": "Saint Francis of Paola, hermit",
-                "color": "white"
-            }
-        ],
-        "3": [
-            {
-                "code": "LW04-4Thu",
-                "rank": 9.3,
-                "name": "Thursday of the 4<sup>th<\/sup> Week of Lent",
-                "color": "purple"
-            }
-        ],
-        "4": [
-            {
-                "code": "LW04-5Fri",
-                "rank": 9.3,
-                "name": "Friday of the 4<sup>th<\/sup> Week of Lent",
-                "color": "purple"
-            },
-            {
-                "code": "Saint Isidore, bishop and doctor of the Church",
-                "rank": 12.1,
-                "type": "OpMem-Commemoration",
-                "name": "Saint Isidore, bishop and doctor of the Church",
-                "color": "white"
-            }
-        ],
-        "5": [
-            {
-                "code": "LW04-6Sat",
-                "rank": 9.3,
-                "name": "Saturday of the 4<sup>th<\/sup> Week of Lent",
-                "color": "purple"
-            },
-            {
-                "code": "Saint Vincent Ferrer, priest",
-                "rank": 12.1,
-                "type": "OpMem-Commemoration",
-                "name": "Saint Vincent Ferrer, priest",
-                "color": "white"
-            }
-        ],
-        "6": [
-            {
-                "code": "LW05-0Sun",
-                "rank": 2.1,
-                "name": "Sunday of the 5<sup>th<\/sup> Week of Lent",
-                "color": "purple"
-            }
-        ],
-        "7": [
-            {
-                "code": "LW05-1Mon",
-                "rank": 9.3,
-                "name": "Monday of the 5<sup>th<\/sup> Week of Lent",
-                "color": "purple"
-            },
-            {
-                "code": "Saint John Baptist de la Salle, priest",
-                "rank": 12.1,
-                "type": "OpMem-Commemoration",
-                "name": "Saint John Baptist de la Salle, priest",
-                "color": "white"
-            }
-        ],
-        "8": [
-            {
-                "code": "LW05-2Tue",
-                "rank": 9.3,
-                "name": "Tuesday of the 5<sup>th<\/sup> Week of Lent",
-                "color": "purple"
-            }
-        ],
-        "9": [
-            {
-                "code": "LW05-3Wed",
-                "rank": 9.3,
-                "name": "Wednesday of the 5<sup>th<\/sup> Week of Lent",
-                "color": "purple"
-            }
-        ],
-        "10": [
             {
                 "code": "LW05-4Thu",
                 "rank": 9.3,
@@ -1198,22 +1023,15 @@
                 "color": "purple"
             }
         ],
-        "11": [
+        "27": [
             {
                 "code": "LW05-5Fri",
                 "rank": 9.3,
                 "name": "Friday of the 5<sup>th<\/sup> Week of Lent",
                 "color": "purple"
-            },
-            {
-                "code": "Saint Stanislaus, bishop and martyr",
-                "rank": 12.1,
-                "type": "OpMem-Commemoration",
-                "name": "Saint Stanislaus, bishop and martyr",
-                "color": "red"
             }
         ],
-        "12": [
+        "28": [
             {
                 "code": "LW05-6Sat",
                 "rank": 9.3,
@@ -1221,24 +1039,15 @@
                 "color": "purple"
             }
         ],
-        "13": {
-            "0": {
+        "29": [
+            {
                 "code": "LW06-0Sun",
                 "rank": 2.1,
                 "name": "Palm Sunday of The Passion Of The Lord",
                 "color": "red"
-            },
-            "other": [
-                {
-                    "code": "Saint Martin I, pope and martyr",
-                    "rank": 12.1,
-                    "type": "OpMem",
-                    "name": "Saint Martin I, pope and martyr",
-                    "color": "red"
-                }
-            ]
-        },
-        "14": [
+            }
+        ],
+        "30": [
             {
                 "code": "LW06-1Mon",
                 "rank": 2.3,
@@ -1246,15 +1055,17 @@
                 "color": "purple"
             }
         ],
-        "15": [
+        "31": [
             {
                 "code": "LW06-2Tue",
                 "rank": 2.3,
                 "name": "Tuesday of Holy Week",
                 "color": "purple"
             }
-        ],
-        "16": [
+        ]
+    },
+    "4": {
+        "1": [
             {
                 "code": "LW06-3Wed",
                 "rank": 2.3,
@@ -1262,15 +1073,24 @@
                 "color": "purple"
             }
         ],
-        "17": [
-            {
+        "2": {
+            "0": {
                 "code": "LW06-4Thu",
                 "rank": 2.3,
                 "name": "Thursday of Holy Week (Holy Thursday)",
                 "color": "white"
-            }
-        ],
-        "18": [
+            },
+            "other": [
+                {
+                    "code": "Saint Francis of Paola, hermit",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "Saint Francis of Paola, hermit",
+                    "color": "white"
+                }
+            ]
+        },
+        "3": [
             {
                 "code": "LW06-5Fri",
                 "rank": 1,
@@ -1278,121 +1098,114 @@
                 "color": "red"
             }
         ],
-        "19": [
-            {
+        "4": {
+            "0": {
                 "code": "LW06-6Sat",
                 "rank": 1,
                 "name": "Holy Saturday",
                 "color": "white"
-            }
-        ],
-        "20": [
-            {
+            },
+            "other": [
+                {
+                    "code": "Saint Isidore, bishop and doctor of the Church",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "Saint Isidore, bishop and doctor of the Church",
+                    "color": "white"
+                }
+            ]
+        },
+        "5": {
+            "0": {
                 "code": "EW01-0Sun",
                 "rank": 1,
                 "type": "Solemnity",
                 "name": "Easter Sunday of The Resurrection of The Lord",
                 "color": "white"
-            }
-        ],
-        "21": {
-            "0": {
+            },
+            "other": [
+                {
+                    "code": "Saint Vincent Ferrer, priest",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "Saint Vincent Ferrer, priest",
+                    "color": "white"
+                }
+            ]
+        },
+        "6": [
+            {
                 "code": "EW01-1Mon",
                 "rank": 2.4,
                 "type": "Solemnity",
                 "name": "Monday in the Octave of Easter",
                 "color": "white"
-            },
-            "other": [
-                {
-                    "code": "Saint Anselm of Canterbury, bishop and doctor of the Church",
-                    "rank": 12.1,
-                    "type": "OpMem",
-                    "name": "Saint Anselm of Canterbury, bishop and doctor of the Church",
-                    "color": "white"
-                }
-            ]
-        },
-        "22": [
-            {
+            }
+        ],
+        "7": {
+            "0": {
                 "code": "EW01-2Tue",
                 "rank": 2.4,
                 "type": "Solemnity",
                 "name": "Tuesday in the Octave of Easter",
                 "color": "white"
-            }
-        ],
-        "23": {
-            "0": {
+            },
+            "other": [
+                {
+                    "code": "Saint John Baptist de la Salle, priest",
+                    "rank": 10.2,
+                    "type": "Mem",
+                    "name": "Saint John Baptist de la Salle, priest",
+                    "color": "white"
+                }
+            ]
+        },
+        "8": [
+            {
                 "code": "EW01-3Wed",
                 "rank": 2.4,
                 "type": "Solemnity",
                 "name": "Wednesday in the Octave of Easter",
                 "color": "white"
-            },
-            "other": [
-                {
-                    "code": "Saint Adalbert, bishop and martyr",
-                    "rank": 12.1,
-                    "type": "OpMem",
-                    "name": "Saint Adalbert, bishop and martyr",
-                    "color": "red"
-                },
-                {
-                    "code": "Saint George, martyr",
-                    "rank": 12.1,
-                    "type": "OpMem",
-                    "name": "Saint George, martyr",
-                    "color": "red"
-                }
-            ]
-        },
-        "24": {
-            "0": {
+            }
+        ],
+        "9": [
+            {
                 "code": "EW01-4Thu",
                 "rank": 2.4,
                 "type": "Solemnity",
                 "name": "Thursday in the Octave of Easter",
                 "color": "white"
-            },
-            "other": [
-                {
-                    "code": "Saint Fidelis of Sigmaringen, priest and martyr",
-                    "rank": 12.1,
-                    "type": "OpMem",
-                    "name": "Saint Fidelis of Sigmaringen, priest and martyr",
-                    "color": "red"
-                }
-            ]
-        },
-        "25": {
-            "0": {
+            }
+        ],
+        "10": [
+            {
                 "code": "EW01-5Fri",
                 "rank": 2.4,
                 "type": "Solemnity",
                 "name": "Friday in the Octave of Easter",
                 "color": "white"
-            },
-            "other": [
-                {
-                    "code": "Saint Mark the Evangelist",
-                    "rank": 7,
-                    "type": "Feast",
-                    "name": "Saint Mark the Evangelist",
-                    "color": "red"
-                }
-            ]
-        },
-        "26": [
-            {
+            }
+        ],
+        "11": {
+            "0": {
                 "code": "EW01-6Sat",
                 "rank": 2.4,
                 "type": "Solemnity",
                 "name": "Saturday in the Octave of Easter",
                 "color": "white"
-            }
-        ],
-        "27": [
+            },
+            "other": [
+                {
+                    "code": "Saint Stanislaus, bishop and martyr",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "Saint Stanislaus, bishop and martyr",
+                    "color": "red"
+                }
+            ]
+        },
+        "12": [
             {
                 "code": "EW02-0Sun",
                 "rank": 2.1,
@@ -1400,11 +1213,175 @@
                 "color": "white"
             }
         ],
-        "28": [
+        "13": [
             {
                 "code": "EW02-1Mon",
                 "rank": 12.4,
                 "name": "Monday of the 2<sup>nd<\/sup> Week of Easter",
+                "color": "white"
+            },
+            {
+                "code": "Saint Martin I, pope and martyr",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "Saint Martin I, pope and martyr",
+                "color": "red"
+            }
+        ],
+        "14": [
+            {
+                "code": "EW02-2Tue",
+                "rank": 12.4,
+                "name": "Tuesday of the 2<sup>nd<\/sup> Week of Easter",
+                "color": "white"
+            }
+        ],
+        "15": [
+            {
+                "code": "EW02-3Wed",
+                "rank": 12.4,
+                "name": "Wednesday of the 2<sup>nd<\/sup> Week of Easter",
+                "color": "white"
+            }
+        ],
+        "16": [
+            {
+                "code": "EW02-4Thu",
+                "rank": 12.4,
+                "name": "Thursday of the 2<sup>nd<\/sup> Week of Easter",
+                "color": "white"
+            }
+        ],
+        "17": [
+            {
+                "code": "EW02-5Fri",
+                "rank": 12.4,
+                "name": "Friday of the 2<sup>nd<\/sup> Week of Easter",
+                "color": "white"
+            }
+        ],
+        "18": [
+            {
+                "code": "EW02-6Sat",
+                "rank": 12.4,
+                "name": "Saturday of the 2<sup>nd<\/sup> Week of Easter",
+                "color": "white"
+            }
+        ],
+        "19": [
+            {
+                "code": "EW03-0Sun",
+                "rank": 2.1,
+                "name": "Sunday of the 3<sup>rd<\/sup> Week of Easter",
+                "color": "white"
+            }
+        ],
+        "20": [
+            {
+                "code": "EW03-1Mon",
+                "rank": 12.4,
+                "name": "Monday of the 3<sup>rd<\/sup> Week of Easter",
+                "color": "white"
+            }
+        ],
+        "21": [
+            {
+                "code": "EW03-2Tue",
+                "rank": 12.4,
+                "name": "Tuesday of the 3<sup>rd<\/sup> Week of Easter",
+                "color": "white"
+            },
+            {
+                "code": "Saint Anselm of Canterbury, bishop and doctor of the Church",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "Saint Anselm of Canterbury, bishop and doctor of the Church",
+                "color": "white"
+            }
+        ],
+        "22": [
+            {
+                "code": "EW03-3Wed",
+                "rank": 12.4,
+                "name": "Wednesday of the 3<sup>rd<\/sup> Week of Easter",
+                "color": "white"
+            }
+        ],
+        "23": [
+            {
+                "code": "EW03-4Thu",
+                "rank": 12.4,
+                "name": "Thursday of the 3<sup>rd<\/sup> Week of Easter",
+                "color": "white"
+            },
+            {
+                "code": "Saint Adalbert, bishop and martyr",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "Saint Adalbert, bishop and martyr",
+                "color": "red"
+            },
+            {
+                "code": "Saint George, martyr",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "Saint George, martyr",
+                "color": "red"
+            }
+        ],
+        "24": [
+            {
+                "code": "EW03-5Fri",
+                "rank": 12.4,
+                "name": "Friday of the 3<sup>rd<\/sup> Week of Easter",
+                "color": "white"
+            },
+            {
+                "code": "Saint Fidelis of Sigmaringen, priest and martyr",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "Saint Fidelis of Sigmaringen, priest and martyr",
+                "color": "red"
+            }
+        ],
+        "25": {
+            "0": {
+                "code": "Saint Mark the Evangelist",
+                "rank": 7,
+                "type": "Feast",
+                "name": "Saint Mark the Evangelist",
+                "color": "red"
+            },
+            "other": [
+                {
+                    "code": "EW03-6Sat",
+                    "rank": 12.4,
+                    "name": "Saturday of the 3<sup>rd<\/sup> Week of Easter",
+                    "color": "white"
+                }
+            ]
+        },
+        "26": [
+            {
+                "code": "EW04-0Sun",
+                "rank": 2.1,
+                "name": "Sunday of the 4<sup>th<\/sup> Week of Easter",
+                "color": "white"
+            }
+        ],
+        "27": [
+            {
+                "code": "EW04-1Mon",
+                "rank": 12.4,
+                "name": "Monday of the 4<sup>th<\/sup> Week of Easter",
+                "color": "white"
+            }
+        ],
+        "28": [
+            {
+                "code": "EW04-2Tue",
+                "rank": 12.4,
+                "name": "Tuesday of the 4<sup>th<\/sup> Week of Easter",
                 "color": "white"
             },
             {
@@ -1424,9 +1401,9 @@
         ],
         "29": [
             {
-                "code": "EW02-2Tue",
+                "code": "EW04-3Wed",
                 "rank": 12.4,
-                "name": "Tuesday of the 2<sup>nd<\/sup> Week of Easter",
+                "name": "Wednesday of the 4<sup>th<\/sup> Week of Easter",
                 "color": "white"
             },
             {
@@ -1439,9 +1416,9 @@
         ],
         "30": [
             {
-                "code": "EW02-3Wed",
+                "code": "EW04-4Thu",
                 "rank": 12.4,
-                "name": "Wednesday of the 2<sup>nd<\/sup> Week of Easter",
+                "name": "Thursday of the 4<sup>th<\/sup> Week of Easter",
                 "color": "white"
             },
             {
@@ -1456,9 +1433,9 @@
     "5": {
         "1": [
             {
-                "code": "EW02-4Thu",
+                "code": "EW04-5Fri",
                 "rank": 12.4,
-                "name": "Thursday of the 2<sup>nd<\/sup> Week of Easter",
+                "name": "Friday of the 4<sup>th<\/sup> Week of Easter",
                 "color": "white"
             },
             {
@@ -1471,9 +1448,9 @@
         ],
         "2": [
             {
-                "code": "EW02-5Fri",
+                "code": "EW04-6Sat",
                 "rank": 12.4,
-                "name": "Friday of the 2<sup>nd<\/sup> Week of Easter",
+                "name": "Saturday of the 4<sup>th<\/sup> Week of Easter",
                 "color": "white"
             },
             {
@@ -1486,97 +1463,99 @@
         ],
         "3": {
             "0": {
-                "code": "Saints Philip and James, Apostles",
-                "rank": 7,
-                "type": "Feast",
-                "name": "Saints Philip and James, Apostles",
-                "color": "red"
+                "code": "EW05-0Sun",
+                "rank": 2.1,
+                "name": "Sunday of the 5<sup>th<\/sup> Week of Easter",
+                "color": "white"
             },
             "other": [
                 {
-                    "code": "EW02-6Sat",
-                    "rank": 12.4,
-                    "name": "Saturday of the 2<sup>nd<\/sup> Week of Easter",
-                    "color": "white"
+                    "code": "Saints Philip and James, Apostles",
+                    "rank": 7,
+                    "type": "Feast",
+                    "name": "Saints Philip and James, Apostles",
+                    "color": "red"
                 }
             ]
         },
         "4": [
             {
-                "code": "EW03-0Sun",
-                "rank": 2.1,
-                "name": "Sunday of the 3<sup>rd<\/sup> Week of Easter",
+                "code": "EW05-1Mon",
+                "rank": 12.4,
+                "name": "Monday of the 5<sup>th<\/sup> Week of Easter",
                 "color": "white"
             }
         ],
         "5": [
             {
-                "code": "EW03-1Mon",
+                "code": "EW05-2Tue",
                 "rank": 12.4,
-                "name": "Monday of the 3<sup>rd<\/sup> Week of Easter",
+                "name": "Tuesday of the 5<sup>th<\/sup> Week of Easter",
                 "color": "white"
             }
         ],
         "6": [
             {
-                "code": "EW03-2Tue",
+                "code": "EW05-3Wed",
                 "rank": 12.4,
-                "name": "Tuesday of the 3<sup>rd<\/sup> Week of Easter",
+                "name": "Wednesday of the 5<sup>th<\/sup> Week of Easter",
                 "color": "white"
             }
         ],
         "7": [
             {
-                "code": "EW03-3Wed",
+                "code": "EW05-4Thu",
                 "rank": 12.4,
-                "name": "Wednesday of the 3<sup>rd<\/sup> Week of Easter",
+                "name": "Thursday of the 5<sup>th<\/sup> Week of Easter",
                 "color": "white"
             }
         ],
         "8": [
             {
-                "code": "EW03-4Thu",
+                "code": "EW05-5Fri",
                 "rank": 12.4,
-                "name": "Thursday of the 3<sup>rd<\/sup> Week of Easter",
+                "name": "Friday of the 5<sup>th<\/sup> Week of Easter",
                 "color": "white"
             }
         ],
         "9": [
             {
-                "code": "EW03-5Fri",
+                "code": "EW05-6Sat",
                 "rank": 12.4,
-                "name": "Friday of the 3<sup>rd<\/sup> Week of Easter",
+                "name": "Saturday of the 5<sup>th<\/sup> Week of Easter",
                 "color": "white"
             }
         ],
-        "10": [
-            {
-                "code": "EW03-6Sat",
-                "rank": 12.4,
-                "name": "Saturday of the 3<sup>rd<\/sup> Week of Easter",
+        "10": {
+            "0": {
+                "code": "EW06-0Sun",
+                "rank": 2.1,
+                "name": "Sunday of the 6<sup>th<\/sup> Week of Easter",
                 "color": "white"
             },
-            {
-                "code": "Saint John of Avila, priest and doctor",
-                "rank": 12.1,
-                "type": "OpMem",
-                "name": "Saint John of Avila, priest and doctor",
-                "color": "white"
-            }
-        ],
+            "other": [
+                {
+                    "code": "Saint John of Avila, priest and doctor",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "Saint John of Avila, priest and doctor",
+                    "color": "white"
+                }
+            ]
+        },
         "11": [
             {
-                "code": "EW04-0Sun",
-                "rank": 2.1,
-                "name": "Sunday of the 4<sup>th<\/sup> Week of Easter",
+                "code": "EW06-1Mon",
+                "rank": 12.4,
+                "name": "Monday of the 6<sup>th<\/sup> Week of Easter",
                 "color": "white"
             }
         ],
         "12": [
             {
-                "code": "EW04-1Mon",
+                "code": "EW06-2Tue",
                 "rank": 12.4,
-                "name": "Monday of the 4<sup>th<\/sup> Week of Easter",
+                "name": "Tuesday of the 6<sup>th<\/sup> Week of Easter",
                 "color": "white"
             },
             {
@@ -1596,9 +1575,9 @@
         ],
         "13": [
             {
-                "code": "EW04-2Tue",
+                "code": "EW06-3Wed",
                 "rank": 12.4,
-                "name": "Tuesday of the 4<sup>th<\/sup> Week of Easter",
+                "name": "Wednesday of the 6<sup>th<\/sup> Week of Easter",
                 "color": "white"
             },
             {
@@ -1619,67 +1598,66 @@
             },
             "other": [
                 {
-                    "code": "EW04-3Wed",
+                    "code": "EW06-4Thu",
                     "rank": 12.4,
-                    "name": "Wednesday of the 4<sup>th<\/sup> Week of Easter",
+                    "name": "Thursday of the 6<sup>th<\/sup> Week of Easter",
                     "color": "white"
                 }
             ]
         },
         "15": [
             {
-                "code": "EW04-4Thu",
+                "code": "EW06-5Fri",
                 "rank": 12.4,
-                "name": "Thursday of the 4<sup>th<\/sup> Week of Easter",
+                "name": "Friday of the 6<sup>th<\/sup> Week of Easter",
                 "color": "white"
             }
         ],
         "16": [
             {
-                "code": "EW04-5Fri",
+                "code": "EW06-6Sat",
                 "rank": 12.4,
-                "name": "Friday of the 4<sup>th<\/sup> Week of Easter",
+                "name": "Saturday of the 6<sup>th<\/sup> Week of Easter",
                 "color": "white"
             }
         ],
         "17": [
             {
-                "code": "EW04-6Sat",
-                "rank": 12.4,
-                "name": "Saturday of the 4<sup>th<\/sup> Week of Easter",
+                "code": "EW07-Ascension",
+                "rank": 2,
+                "type": "Solemnity",
+                "name": "The Ascension of the Lord",
                 "color": "white"
             }
         ],
-        "18": {
-            "0": {
-                "code": "EW05-0Sun",
-                "rank": 2.1,
-                "name": "Sunday of the 5<sup>th<\/sup> Week of Easter",
+        "18": [
+            {
+                "code": "EW07-1Mon",
+                "rank": 12.4,
+                "name": "Monday of the 7<sup>th<\/sup> Week of Easter",
                 "color": "white"
             },
-            "other": [
-                {
-                    "code": "Saint John I, pope and martyr",
-                    "rank": 12.1,
-                    "type": "OpMem",
-                    "name": "Saint John I, pope and martyr",
-                    "color": "red"
-                }
-            ]
-        },
+            {
+                "code": "Saint John I, pope and martyr",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "Saint John I, pope and martyr",
+                "color": "red"
+            }
+        ],
         "19": [
             {
-                "code": "EW05-1Mon",
+                "code": "EW07-2Tue",
                 "rank": 12.4,
-                "name": "Monday of the 5<sup>th<\/sup> Week of Easter",
+                "name": "Tuesday of the 7<sup>th<\/sup> Week of Easter",
                 "color": "white"
             }
         ],
         "20": [
             {
-                "code": "EW05-2Tue",
+                "code": "EW07-3Wed",
                 "rank": 12.4,
-                "name": "Tuesday of the 5<sup>th<\/sup> Week of Easter",
+                "name": "Wednesday of the 7<sup>th<\/sup> Week of Easter",
                 "color": "white"
             },
             {
@@ -1692,9 +1670,9 @@
         ],
         "21": [
             {
-                "code": "EW05-3Wed",
+                "code": "EW07-4Thu",
                 "rank": 12.4,
-                "name": "Wednesday of the 5<sup>th<\/sup> Week of Easter",
+                "name": "Thursday of the 7<sup>th<\/sup> Week of Easter",
                 "color": "white"
             },
             {
@@ -1707,9 +1685,9 @@
         ],
         "22": [
             {
-                "code": "EW05-4Thu",
+                "code": "EW07-5Fri",
                 "rank": 12.4,
-                "name": "Thursday of the 5<sup>th<\/sup> Week of Easter",
+                "name": "Friday of the 7<sup>th<\/sup> Week of Easter",
                 "color": "white"
             },
             {
@@ -1722,25 +1700,33 @@
         ],
         "23": [
             {
-                "code": "EW05-5Fri",
+                "code": "EW07-6Sat",
                 "rank": 12.4,
-                "name": "Friday of the 5<sup>th<\/sup> Week of Easter",
+                "name": "Saturday of the 7<sup>th<\/sup> Week of Easter",
                 "color": "white"
             }
         ],
         "24": [
             {
-                "code": "EW05-6Sat",
-                "rank": 12.4,
-                "name": "Saturday of the 5<sup>th<\/sup> Week of Easter",
-                "color": "white"
+                "code": "EW08-Pentecost",
+                "rank": 2,
+                "type": "Solemnity",
+                "name": "Pentecost Sunday",
+                "color": "red"
             }
         ],
         "25": {
             "0": {
-                "code": "EW06-0Sun",
-                "rank": 2.1,
-                "name": "Sunday of the 6<sup>th<\/sup> Week of Easter",
+                "code": "OW08-1Mon",
+                "rank": 12.5,
+                "name": "Monday of the 8<sup>th<\/sup> Week in Ordinary Time",
+                "color": "white"
+            },
+            "1": {
+                "code": "OW00-MaryMotherofChurch",
+                "rank": 10.1,
+                "type": "Mem-Mary",
+                "name": "Mary, Mother of the Church",
                 "color": "white"
             },
             "other": [
@@ -1769,9 +1755,9 @@
         },
         "26": [
             {
-                "code": "EW06-1Mon",
-                "rank": 12.4,
-                "name": "Monday of the 6<sup>th<\/sup> Week of Easter",
+                "code": "OW08-2Tue",
+                "rank": 12.5,
+                "name": "Tuesday of the 8<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
@@ -1784,10 +1770,10 @@
         ],
         "27": [
             {
-                "code": "EW06-2Tue",
-                "rank": 12.4,
-                "name": "Tuesday of the 6<sup>th<\/sup> Week of Easter",
-                "color": "white"
+                "code": "OW08-3Wed",
+                "rank": 12.5,
+                "name": "Wednesday of the 8<sup>th<\/sup> Week in Ordinary Time",
+                "color": "green"
             },
             {
                 "code": "Saint Augustine (Austin) of Canterbury, bishop",
@@ -1799,18 +1785,18 @@
         ],
         "28": [
             {
-                "code": "EW06-3Wed",
-                "rank": 12.4,
-                "name": "Wednesday of the 6<sup>th<\/sup> Week of Easter",
-                "color": "white"
+                "code": "OW08-4Thu",
+                "rank": 12.5,
+                "name": "Thursday of the 8<sup>th<\/sup> Week in Ordinary Time",
+                "color": "green"
             }
         ],
         "29": [
             {
-                "code": "EW06-4Thu",
-                "rank": 12.4,
-                "name": "Thursday of the 6<sup>th<\/sup> Week of Easter",
-                "color": "white"
+                "code": "OW08-5Fri",
+                "rank": 12.5,
+                "name": "Friday of the 8<sup>th<\/sup> Week in Ordinary Time",
+                "color": "green"
             },
             {
                 "code": "Saint Paul VI, pope",
@@ -1822,55 +1808,60 @@
         ],
         "30": [
             {
-                "code": "EW06-5Fri",
-                "rank": 12.4,
-                "name": "Friday of the 6<sup>th<\/sup> Week of Easter",
+                "code": "OW08-6Sat",
+                "rank": 12.5,
+                "name": "Saturday of the 8<sup>th<\/sup> Week in Ordinary Time",
+                "color": "green"
+            },
+            {
+                "code": "Mem-Mary-Sat",
+                "rank": 10.3,
+                "type": "Mem-Mary-Sat",
+                "name": "Saturday Memorial of the Blessed Virgin Mary",
                 "color": "white"
             }
         ],
         "31": {
             "0": {
-                "code": "Visitation of the Blessed Virgin Mary",
-                "rank": 7,
-                "type": "Feast",
-                "name": "Visitation of the Blessed Virgin Mary",
+                "code": "OW00-Trinity",
+                "rank": 3.1,
+                "type": "Solemnity",
+                "name": "The Most Holy Trinity",
                 "color": "white"
             },
             "other": [
                 {
-                    "code": "EW06-6Sat",
-                    "rank": 12.4,
-                    "name": "Saturday of the 6<sup>th<\/sup> Week of Easter",
+                    "code": "Visitation of the Blessed Virgin Mary",
+                    "rank": 7,
+                    "type": "Feast",
+                    "name": "Visitation of the Blessed Virgin Mary",
                     "color": "white"
                 }
             ]
         }
     },
     "6": {
-        "1": {
-            "0": {
-                "code": "EW07-Ascension",
-                "rank": 2,
-                "type": "Solemnity",
-                "name": "The Ascension of the Lord",
-                "color": "white"
+        "1": [
+            {
+                "code": "OW09-1Mon",
+                "rank": 12.5,
+                "name": "Monday of the 9<sup>th<\/sup> Week in Ordinary Time",
+                "color": "red"
             },
-            "other": [
-                {
-                    "code": "Saint Justin Martyr",
-                    "rank": 10.2,
-                    "type": "Mem",
-                    "name": "Saint Justin Martyr",
-                    "color": "red"
-                }
-            ]
-        },
+            {
+                "code": "Saint Justin Martyr",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "Saint Justin Martyr",
+                "color": "red"
+            }
+        ],
         "2": [
             {
-                "code": "EW07-1Mon",
-                "rank": 12.4,
-                "name": "Monday of the 7<sup>th<\/sup> Week of Easter",
-                "color": "white"
+                "code": "OW09-2Tue",
+                "rank": 12.5,
+                "name": "Tuesday of the 9<sup>th<\/sup> Week in Ordinary Time",
+                "color": "green"
             },
             {
                 "code": "Saints Marcellinus and Peter, martyrs",
@@ -1882,9 +1873,9 @@
         ],
         "3": [
             {
-                "code": "EW07-2Tue",
-                "rank": 12.4,
-                "name": "Tuesday of the 7<sup>th<\/sup> Week of Easter",
+                "code": "OW09-3Wed",
+                "rank": 12.5,
+                "name": "Wednesday of the 9<sup>th<\/sup> Week in Ordinary Time",
                 "color": "red"
             },
             {
@@ -1897,17 +1888,17 @@
         ],
         "4": [
             {
-                "code": "EW07-3Wed",
-                "rank": 12.4,
-                "name": "Wednesday of the 7<sup>th<\/sup> Week of Easter",
-                "color": "white"
+                "code": "OW09-4Thu",
+                "rank": 12.5,
+                "name": "Thursday of the 9<sup>th<\/sup> Week in Ordinary Time",
+                "color": "green"
             }
         ],
         "5": [
             {
-                "code": "EW07-4Thu",
-                "rank": 12.4,
-                "name": "Thursday of the 7<sup>th<\/sup> Week of Easter",
+                "code": "OW09-5Fri",
+                "rank": 12.5,
+                "name": "Friday of the 9<sup>th<\/sup> Week in Ordinary Time",
                 "color": "red"
             },
             {
@@ -1920,10 +1911,10 @@
         ],
         "6": [
             {
-                "code": "EW07-5Fri",
-                "rank": 12.4,
-                "name": "Friday of the 7<sup>th<\/sup> Week of Easter",
-                "color": "white"
+                "code": "OW09-6Sat",
+                "rank": 12.5,
+                "name": "Saturday of the 9<sup>th<\/sup> Week in Ordinary Time",
+                "color": "green"
             },
             {
                 "code": "Saint Norbert, bishop",
@@ -1935,67 +1926,56 @@
         ],
         "7": [
             {
-                "code": "EW07-6Sat",
-                "rank": 12.4,
-                "name": "Saturday of the 7<sup>th<\/sup> Week of Easter",
+                "code": "OW00-CorpusChristi",
+                "rank": 3.1,
+                "type": "Solemnity",
+                "name": "The Most Holy Body and Blood of Christ (Corpus Christi)",
                 "color": "white"
             }
         ],
-        "8": {
-            "0": {
-                "code": "EW08-Pentecost",
-                "rank": 2,
-                "type": "Solemnity",
-                "name": "Pentecost Sunday",
-                "color": "red"
-            },
-            "other": [
-                {
-                    "code": "IN Blessed Maria Theresa Chiramel, virgin",
-                    "rank": 12.1,
-                    "type": "OpMem",
-                    "name": "IN Blessed Maria Theresa Chiramel, virgin",
-                    "color": "white"
-                }
-            ]
-        },
-        "9": {
-            "0": {
+        "8": [
+            {
                 "code": "OW10-1Mon",
                 "rank": 12.5,
                 "name": "Monday of the 10<sup>th<\/sup> Week in Ordinary Time",
-                "color": "white"
+                "color": "green"
             },
-            "1": {
-                "code": "OW00-MaryMotherofChurch",
-                "rank": 10.1,
-                "type": "Mem-Mary",
-                "name": "Mary, Mother of the Church",
+            {
+                "code": "IN Blessed Maria Theresa Chiramel, virgin",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "IN Blessed Maria Theresa Chiramel, virgin",
                 "color": "white"
-            },
-            "other": [
-                {
-                    "code": "Saint Ephrem, deacon and doctor",
-                    "rank": 12.1,
-                    "type": "OpMem",
-                    "name": "Saint Ephrem, deacon and doctor",
-                    "color": "white"
-                }
-            ]
-        },
-        "10": [
+            }
+        ],
+        "9": [
             {
                 "code": "OW10-2Tue",
                 "rank": 12.5,
                 "name": "Tuesday of the 10<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
+            },
+            {
+                "code": "Saint Ephrem, deacon and doctor",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "Saint Ephrem, deacon and doctor",
+                "color": "white"
             }
         ],
-        "11": [
+        "10": [
             {
                 "code": "OW10-3Wed",
                 "rank": 12.5,
                 "name": "Wednesday of the 10<sup>th<\/sup> Week in Ordinary Time",
+                "color": "green"
+            }
+        ],
+        "11": [
+            {
+                "code": "OW10-4Thu",
+                "rank": 12.5,
+                "name": "Thursday of the 10<sup>th<\/sup> Week in Ordinary Time",
                 "color": "red"
             },
             {
@@ -2008,28 +1988,14 @@
         ],
         "12": [
             {
-                "code": "OW10-4Thu",
-                "rank": 12.5,
-                "name": "Thursday of the 10<sup>th<\/sup> Week in Ordinary Time",
-                "color": "green"
+                "code": "OW00-SacredHeart",
+                "rank": 3.1,
+                "type": "Solemnity",
+                "name": "The Most Sacred Heart of Jesus",
+                "color": "white"
             }
         ],
         "13": [
-            {
-                "code": "OW10-5Fri",
-                "rank": 12.5,
-                "name": "Friday of the 10<sup>th<\/sup> Week in Ordinary Time",
-                "color": "white"
-            },
-            {
-                "code": "Saint Anthony of Padua, priest and doctor",
-                "rank": 10.2,
-                "type": "Mem",
-                "name": "Saint Anthony of Padua, priest and doctor",
-                "color": "white"
-            }
-        ],
-        "14": [
             {
                 "code": "OW10-6Sat",
                 "rank": 12.5,
@@ -2037,23 +2003,29 @@
                 "color": "green"
             },
             {
-                "code": "Mem-Mary-Sat",
-                "rank": 10.3,
-                "type": "Mem-Mary-Sat",
-                "name": "Saturday Memorial of the Blessed Virgin Mary",
+                "code": "Saint Anthony of Padua, priest and doctor",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "Saint Anthony of Padua, priest and doctor",
                 "color": "white"
+            },
+            {
+                "code": "OW00-ImmaculateHeart",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "Immaculate Heart of the Blessed Virgin Mary",
+                "color": "white"
+            }
+        ],
+        "14": [
+            {
+                "code": "OW11-0Sun",
+                "rank": 6,
+                "name": "Sunday of the 11<sup>th<\/sup> Week in Ordinary Time",
+                "color": "green"
             }
         ],
         "15": [
-            {
-                "code": "OW00-Trinity",
-                "rank": 3.1,
-                "type": "Solemnity",
-                "name": "The Most Holy Trinity",
-                "color": "white"
-            }
-        ],
-        "16": [
             {
                 "code": "OW11-1Mon",
                 "rank": 12.5,
@@ -2061,7 +2033,7 @@
                 "color": "green"
             }
         ],
-        "17": [
+        "16": [
             {
                 "code": "OW11-2Tue",
                 "rank": 12.5,
@@ -2069,7 +2041,7 @@
                 "color": "green"
             }
         ],
-        "18": [
+        "17": [
             {
                 "code": "OW11-3Wed",
                 "rank": 12.5,
@@ -2077,11 +2049,19 @@
                 "color": "green"
             }
         ],
-        "19": [
+        "18": [
             {
                 "code": "OW11-4Thu",
                 "rank": 12.5,
                 "name": "Thursday of the 11<sup>th<\/sup> Week in Ordinary Time",
+                "color": "green"
+            }
+        ],
+        "19": [
+            {
+                "code": "OW11-5Fri",
+                "rank": 12.5,
+                "name": "Friday of the 11<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
@@ -2094,57 +2074,63 @@
         ],
         "20": [
             {
-                "code": "OW11-5Fri",
-                "rank": 12.5,
-                "name": "Friday of the 11<sup>th<\/sup> Week in Ordinary Time",
-                "color": "green"
-            }
-        ],
-        "21": [
-            {
                 "code": "OW11-6Sat",
                 "rank": 12.5,
                 "name": "Saturday of the 11<sup>th<\/sup> Week in Ordinary Time",
-                "color": "white"
+                "color": "green"
             },
             {
-                "code": "Saint Aloysius Gonzaga, religious",
-                "rank": 10.2,
-                "type": "Mem",
-                "name": "Saint Aloysius Gonzaga, religious",
+                "code": "Mem-Mary-Sat",
+                "rank": 10.3,
+                "type": "Mem-Mary-Sat",
+                "name": "Saturday Memorial of the Blessed Virgin Mary",
                 "color": "white"
             }
         ],
-        "22": {
+        "21": {
             "0": {
-                "code": "OW00-CorpusChristi",
-                "rank": 3.1,
-                "type": "Solemnity",
-                "name": "The Most Holy Body and Blood of Christ (Corpus Christi)",
-                "color": "white"
+                "code": "OW12-0Sun",
+                "rank": 6,
+                "name": "Sunday of the 12<sup>th<\/sup> Week in Ordinary Time",
+                "color": "green"
             },
             "other": [
                 {
-                    "code": "Saint Paulinus of Nola, bishop",
-                    "rank": 12.1,
-                    "type": "OpMem",
-                    "name": "Saint Paulinus of Nola, bishop",
+                    "code": "Saint Aloysius Gonzaga, religious",
+                    "rank": 10.2,
+                    "type": "Mem",
+                    "name": "Saint Aloysius Gonzaga, religious",
                     "color": "white"
-                },
-                {
-                    "code": "Saints John Fisher, bishop and martyr and Thomas More, martyr",
-                    "rank": 12.1,
-                    "type": "OpMem",
-                    "name": "Saints John Fisher, bishop and martyr and Thomas More, martyr",
-                    "color": "red"
                 }
             ]
         },
-        "23": [
+        "22": [
             {
                 "code": "OW12-1Mon",
                 "rank": 12.5,
                 "name": "Monday of the 12<sup>th<\/sup> Week in Ordinary Time",
+                "color": "green"
+            },
+            {
+                "code": "Saint Paulinus of Nola, bishop",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "Saint Paulinus of Nola, bishop",
+                "color": "white"
+            },
+            {
+                "code": "Saints John Fisher, bishop and martyr and Thomas More, martyr",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "Saints John Fisher, bishop and martyr and Thomas More, martyr",
+                "color": "red"
+            }
+        ],
+        "23": [
+            {
+                "code": "OW12-2Tue",
+                "rank": 12.5,
+                "name": "Tuesday of the 12<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -2158,22 +2144,14 @@
             },
             "other": [
                 {
-                    "code": "OW12-2Tue",
+                    "code": "OW12-3Wed",
                     "rank": 12.5,
-                    "name": "Tuesday of the 12<sup>th<\/sup> Week in Ordinary Time",
+                    "name": "Wednesday of the 12<sup>th<\/sup> Week in Ordinary Time",
                     "color": "green"
                 }
             ]
         },
         "25": [
-            {
-                "code": "OW12-3Wed",
-                "rank": 12.5,
-                "name": "Wednesday of the 12<sup>th<\/sup> Week in Ordinary Time",
-                "color": "green"
-            }
-        ],
-        "26": [
             {
                 "code": "OW12-4Thu",
                 "rank": 12.5,
@@ -2181,25 +2159,15 @@
                 "color": "green"
             }
         ],
-        "27": {
-            "0": {
-                "code": "OW00-SacredHeart",
-                "rank": 3.1,
-                "type": "Solemnity",
-                "name": "The Most Sacred Heart of Jesus",
-                "color": "white"
-            },
-            "other": [
-                {
-                    "code": "Saint Cyril of Alexandria, bishop and doctor",
-                    "rank": 12.1,
-                    "type": "OpMem",
-                    "name": "Saint Cyril of Alexandria, bishop and doctor",
-                    "color": "white"
-                }
-            ]
-        },
-        "28": [
+        "26": [
+            {
+                "code": "OW12-5Fri",
+                "rank": 12.5,
+                "name": "Friday of the 12<sup>th<\/sup> Week in Ordinary Time",
+                "color": "green"
+            }
+        ],
+        "27": [
             {
                 "code": "OW12-6Sat",
                 "rank": 12.5,
@@ -2207,20 +2175,30 @@
                 "color": "green"
             },
             {
-                "code": "Saint Irenaeus, bishop, martyr and Doctor of the Church",
+                "code": "Saint Cyril of Alexandria, bishop and doctor",
                 "rank": 12.1,
                 "type": "OpMem",
-                "name": "Saint Irenaeus, bishop, martyr and Doctor of the Church",
-                "color": "red"
-            },
-            {
-                "code": "OW00-ImmaculateHeart",
-                "rank": 12.1,
-                "type": "OpMem",
-                "name": "Immaculate Heart of the Blessed Virgin Mary",
+                "name": "Saint Cyril of Alexandria, bishop and doctor",
                 "color": "white"
             }
         ],
+        "28": {
+            "0": {
+                "code": "OW13-0Sun",
+                "rank": 6,
+                "name": "Sunday of the 13<sup>th<\/sup> Week in Ordinary Time",
+                "color": "green"
+            },
+            "other": [
+                {
+                    "code": "Saint Irenaeus, bishop, martyr and Doctor of the Church",
+                    "rank": 10.2,
+                    "type": "Mem",
+                    "name": "Saint Irenaeus, bishop, martyr and Doctor of the Church",
+                    "color": "red"
+                }
+            ]
+        },
         "29": {
             "0": {
                 "code": "Saints Peter and Paul, Apostles",
@@ -2231,18 +2209,18 @@
             },
             "other": [
                 {
-                    "code": "OW13-0Sun",
-                    "rank": 6,
-                    "name": "Sunday of the 13<sup>th<\/sup> Week in Ordinary Time",
+                    "code": "OW13-1Mon",
+                    "rank": 12.5,
+                    "name": "Monday of the 13<sup>th<\/sup> Week in Ordinary Time",
                     "color": "green"
                 }
             ]
         },
         "30": [
             {
-                "code": "OW13-1Mon",
+                "code": "OW13-2Tue",
                 "rank": 12.5,
-                "name": "Monday of the 13<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Tuesday of the 13<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
@@ -2257,17 +2235,17 @@
     "7": {
         "1": [
             {
-                "code": "OW13-2Tue",
+                "code": "OW13-3Wed",
                 "rank": 12.5,
-                "name": "Tuesday of the 13<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Wednesday of the 13<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
         "2": [
             {
-                "code": "OW13-3Wed",
+                "code": "OW13-4Thu",
                 "rank": 12.5,
-                "name": "Wednesday of the 13<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Thursday of the 13<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -2281,9 +2259,9 @@
             },
             "other": [
                 {
-                    "code": "OW13-4Thu",
+                    "code": "OW13-5Fri",
                     "rank": 12.5,
-                    "name": "Thursday of the 13<sup>th<\/sup> Week in Ordinary Time",
+                    "name": "Friday of the 13<sup>th<\/sup> Week in Ordinary Time",
                     "color": "green"
                 },
                 {
@@ -2297,9 +2275,9 @@
         },
         "4": [
             {
-                "code": "OW13-5Fri",
+                "code": "OW13-6Sat",
                 "rank": 12.5,
-                "name": "Friday of the 13<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Saturday of the 13<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
@@ -2310,22 +2288,7 @@
                 "color": "white"
             }
         ],
-        "5": [
-            {
-                "code": "OW13-6Sat",
-                "rank": 12.5,
-                "name": "Saturday of the 13<sup>th<\/sup> Week in Ordinary Time",
-                "color": "green"
-            },
-            {
-                "code": "Saint Anthony Zaccaria, priest",
-                "rank": 12.1,
-                "type": "OpMem",
-                "name": "Saint Anthony Zaccaria, priest",
-                "color": "white"
-            }
-        ],
-        "6": {
+        "5": {
             "0": {
                 "code": "OW14-0Sun",
                 "rank": 6,
@@ -2334,23 +2297,30 @@
             },
             "other": [
                 {
-                    "code": "Saint Maria Goretti, virgin and martyr",
+                    "code": "Saint Anthony Zaccaria, priest",
                     "rank": 12.1,
                     "type": "OpMem",
-                    "name": "Saint Maria Goretti, virgin and martyr",
-                    "color": "red"
+                    "name": "Saint Anthony Zaccaria, priest",
+                    "color": "white"
                 }
             ]
         },
-        "7": [
+        "6": [
             {
                 "code": "OW14-1Mon",
                 "rank": 12.5,
                 "name": "Monday of the 14<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
+            },
+            {
+                "code": "Saint Maria Goretti, virgin and martyr",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "Saint Maria Goretti, virgin and martyr",
+                "color": "red"
             }
         ],
-        "8": [
+        "7": [
             {
                 "code": "OW14-2Tue",
                 "rank": 12.5,
@@ -2358,11 +2328,19 @@
                 "color": "green"
             }
         ],
-        "9": [
+        "8": [
             {
                 "code": "OW14-3Wed",
                 "rank": 12.5,
                 "name": "Wednesday of the 14<sup>th<\/sup> Week in Ordinary Time",
+                "color": "green"
+            }
+        ],
+        "9": [
+            {
+                "code": "OW14-4Thu",
+                "rank": 12.5,
+                "name": "Thursday of the 14<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
@@ -2375,17 +2353,17 @@
         ],
         "10": [
             {
-                "code": "OW14-4Thu",
+                "code": "OW14-5Fri",
                 "rank": 12.5,
-                "name": "Thursday of the 14<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Friday of the 14<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
         "11": [
             {
-                "code": "OW14-5Fri",
+                "code": "OW14-6Sat",
                 "rank": 12.5,
-                "name": "Friday of the 14<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Saturday of the 14<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
@@ -2398,41 +2376,32 @@
         ],
         "12": [
             {
-                "code": "OW14-6Sat",
-                "rank": 12.5,
-                "name": "Saturday of the 14<sup>th<\/sup> Week in Ordinary Time",
-                "color": "green"
-            },
-            {
-                "code": "Mem-Mary-Sat",
-                "rank": 10.3,
-                "type": "Mem-Mary-Sat",
-                "name": "Saturday Memorial of the Blessed Virgin Mary",
-                "color": "white"
-            }
-        ],
-        "13": {
-            "0": {
                 "code": "OW15-0Sun",
                 "rank": 6,
                 "name": "Sunday of the 15<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
-            },
-            "other": [
-                {
-                    "code": "Saint Henry",
-                    "rank": 12.1,
-                    "type": "OpMem",
-                    "name": "Saint Henry",
-                    "color": "white"
-                }
-            ]
-        },
-        "14": [
+            }
+        ],
+        "13": [
             {
                 "code": "OW15-1Mon",
                 "rank": 12.5,
                 "name": "Monday of the 15<sup>th<\/sup> Week in Ordinary Time",
+                "color": "green"
+            },
+            {
+                "code": "Saint Henry",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "Saint Henry",
+                "color": "white"
+            }
+        ],
+        "14": [
+            {
+                "code": "OW15-2Tue",
+                "rank": 12.5,
+                "name": "Tuesday of the 15<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
@@ -2445,9 +2414,9 @@
         ],
         "15": [
             {
-                "code": "OW15-2Tue",
+                "code": "OW15-3Wed",
                 "rank": 12.5,
-                "name": "Tuesday of the 15<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Wednesday of the 15<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
@@ -2460,9 +2429,9 @@
         ],
         "16": [
             {
-                "code": "OW15-3Wed",
+                "code": "OW15-4Thu",
                 "rank": 12.5,
-                "name": "Wednesday of the 15<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Thursday of the 15<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
@@ -2475,21 +2444,13 @@
         ],
         "17": [
             {
-                "code": "OW15-4Thu",
-                "rank": 12.5,
-                "name": "Thursday of the 15<sup>th<\/sup> Week in Ordinary Time",
-                "color": "green"
-            }
-        ],
-        "18": [
-            {
                 "code": "OW15-5Fri",
                 "rank": 12.5,
                 "name": "Friday of the 15<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
-        "19": [
+        "18": [
             {
                 "code": "OW15-6Sat",
                 "rank": 12.5,
@@ -2504,28 +2465,34 @@
                 "color": "white"
             }
         ],
-        "20": {
-            "0": {
+        "19": [
+            {
                 "code": "OW16-0Sun",
                 "rank": 6,
                 "name": "Sunday of the 16<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
-            },
-            "other": [
-                {
-                    "code": "Saint Apollinaris, bishop and martyr",
-                    "rank": 12.1,
-                    "type": "OpMem",
-                    "name": "Saint Apollinaris, bishop and martyr",
-                    "color": "red"
-                }
-            ]
-        },
-        "21": [
+            }
+        ],
+        "20": [
             {
                 "code": "OW16-1Mon",
                 "rank": 12.5,
                 "name": "Monday of the 16<sup>th<\/sup> Week in Ordinary Time",
+                "color": "green"
+            },
+            {
+                "code": "Saint Apollinaris, bishop and martyr",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "Saint Apollinaris, bishop and martyr",
+                "color": "red"
+            }
+        ],
+        "21": [
+            {
+                "code": "OW16-2Tue",
+                "rank": 12.5,
+                "name": "Tuesday of the 16<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
@@ -2546,18 +2513,18 @@
             },
             "other": [
                 {
-                    "code": "OW16-2Tue",
+                    "code": "OW16-3Wed",
                     "rank": 12.5,
-                    "name": "Tuesday of the 16<sup>th<\/sup> Week in Ordinary Time",
+                    "name": "Wednesday of the 16<sup>th<\/sup> Week in Ordinary Time",
                     "color": "green"
                 }
             ]
         },
         "23": [
             {
-                "code": "OW16-3Wed",
+                "code": "OW16-4Thu",
                 "rank": 12.5,
-                "name": "Wednesday of the 16<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Thursday of the 16<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
@@ -2570,9 +2537,9 @@
         ],
         "24": [
             {
-                "code": "OW16-4Thu",
+                "code": "OW16-5Fri",
                 "rank": 12.5,
-                "name": "Thursday of the 16<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Friday of the 16<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
@@ -2593,41 +2560,43 @@
             },
             "other": [
                 {
-                    "code": "OW16-5Fri",
+                    "code": "OW16-6Sat",
                     "rank": 12.5,
-                    "name": "Friday of the 16<sup>th<\/sup> Week in Ordinary Time",
+                    "name": "Saturday of the 16<sup>th<\/sup> Week in Ordinary Time",
                     "color": "green"
                 }
             ]
         },
-        "26": [
-            {
-                "code": "OW16-6Sat",
-                "rank": 12.5,
-                "name": "Saturday of the 16<sup>th<\/sup> Week in Ordinary Time",
-                "color": "white"
-            },
-            {
-                "code": "Saints Joachim and Anne",
-                "rank": 10.2,
-                "type": "Mem",
-                "name": "Saints Joachim and Anne",
-                "color": "white"
-            }
-        ],
-        "27": [
-            {
+        "26": {
+            "0": {
                 "code": "OW17-0Sun",
                 "rank": 6,
                 "name": "Sunday of the 17<sup>th<\/sup> Week in Ordinary Time",
+                "color": "green"
+            },
+            "other": [
+                {
+                    "code": "Saints Joachim and Anne",
+                    "rank": 10.2,
+                    "type": "Mem",
+                    "name": "Saints Joachim and Anne",
+                    "color": "white"
+                }
+            ]
+        },
+        "27": [
+            {
+                "code": "OW17-1Mon",
+                "rank": 12.5,
+                "name": "Monday of the 17<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
         "28": [
             {
-                "code": "OW17-1Mon",
+                "code": "OW17-2Tue",
                 "rank": 12.5,
-                "name": "Monday of the 17<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Tuesday of the 17<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
@@ -2640,9 +2609,9 @@
         ],
         "29": [
             {
-                "code": "OW17-2Tue",
+                "code": "OW17-3Wed",
                 "rank": 12.5,
-                "name": "Tuesday of the 17<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Wednesday of the 17<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
@@ -2655,9 +2624,9 @@
         ],
         "30": [
             {
-                "code": "OW17-3Wed",
+                "code": "OW17-4Thu",
                 "rank": 12.5,
-                "name": "Wednesday of the 17<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Thursday of the 17<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
@@ -2670,9 +2639,9 @@
         ],
         "31": [
             {
-                "code": "OW17-4Thu",
+                "code": "OW17-5Fri",
                 "rank": 12.5,
-                "name": "Thursday of the 17<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Friday of the 17<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
@@ -2687,9 +2656,9 @@
     "8": {
         "1": [
             {
-                "code": "OW17-5Fri",
+                "code": "OW17-6Sat",
                 "rank": 12.5,
-                "name": "Friday of the 17<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Saturday of the 17<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
@@ -2700,41 +2669,43 @@
                 "color": "white"
             }
         ],
-        "2": [
-            {
-                "code": "OW17-6Sat",
-                "rank": 12.5,
-                "name": "Saturday of the 17<sup>th<\/sup> Week in Ordinary Time",
-                "color": "green"
-            },
-            {
-                "code": "Saint Eusebius of Vercelli, bishop",
-                "rank": 12.1,
-                "type": "OpMem",
-                "name": "Saint Eusebius of Vercelli, bishop",
-                "color": "white"
-            },
-            {
-                "code": "Saint Peter Julian Eymard, priest",
-                "rank": 12.1,
-                "type": "OpMem",
-                "name": "Saint Peter Julian Eymard, priest",
-                "color": "white"
-            }
-        ],
-        "3": [
-            {
+        "2": {
+            "0": {
                 "code": "OW18-0Sun",
                 "rank": 6,
                 "name": "Sunday of the 18<sup>th<\/sup> Week in Ordinary Time",
+                "color": "green"
+            },
+            "other": [
+                {
+                    "code": "Saint Eusebius of Vercelli, bishop",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "Saint Eusebius of Vercelli, bishop",
+                    "color": "white"
+                },
+                {
+                    "code": "Saint Peter Julian Eymard, priest",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "Saint Peter Julian Eymard, priest",
+                    "color": "white"
+                }
+            ]
+        },
+        "3": [
+            {
+                "code": "OW18-1Mon",
+                "rank": 12.5,
+                "name": "Monday of the 18<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
         "4": [
             {
-                "code": "OW18-1Mon",
+                "code": "OW18-2Tue",
                 "rank": 12.5,
-                "name": "Monday of the 18<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Tuesday of the 18<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
@@ -2747,9 +2718,9 @@
         ],
         "5": [
             {
-                "code": "OW18-2Tue",
+                "code": "OW18-3Wed",
                 "rank": 12.5,
-                "name": "Tuesday of the 18<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Wednesday of the 18<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
@@ -2770,18 +2741,18 @@
             },
             "other": [
                 {
-                    "code": "OW18-3Wed",
+                    "code": "OW18-4Thu",
                     "rank": 12.5,
-                    "name": "Wednesday of the 18<sup>th<\/sup> Week in Ordinary Time",
+                    "name": "Thursday of the 18<sup>th<\/sup> Week in Ordinary Time",
                     "color": "green"
                 }
             ]
         },
         "7": [
             {
-                "code": "OW18-4Thu",
+                "code": "OW18-5Fri",
                 "rank": 12.5,
-                "name": "Thursday of the 18<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Friday of the 18<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
@@ -2801,9 +2772,9 @@
         ],
         "8": [
             {
-                "code": "OW18-5Fri",
+                "code": "OW18-6Sat",
                 "rank": 12.5,
-                "name": "Friday of the 18<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Saturday of the 18<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
@@ -2814,22 +2785,7 @@
                 "color": "white"
             }
         ],
-        "9": [
-            {
-                "code": "OW18-6Sat",
-                "rank": 12.5,
-                "name": "Saturday of the 18<sup>th<\/sup> Week in Ordinary Time",
-                "color": "green"
-            },
-            {
-                "code": "Saint Teresa Benedicta of the Cross (Edith Stein), virgin and martyr",
-                "rank": 12.1,
-                "type": "OpMem",
-                "name": "Saint Teresa Benedicta of the Cross (Edith Stein), virgin and martyr",
-                "color": "red"
-            }
-        ],
-        "10": {
+        "9": {
             "0": {
                 "code": "OW19-0Sun",
                 "rank": 6,
@@ -2838,19 +2794,36 @@
             },
             "other": [
                 {
-                    "code": "Saint Lawrence, deacon and martyr",
-                    "rank": 7,
-                    "type": "Feast",
-                    "name": "Saint Lawrence, deacon and martyr",
+                    "code": "Saint Teresa Benedicta of the Cross (Edith Stein), virgin and martyr",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "Saint Teresa Benedicta of the Cross (Edith Stein), virgin and martyr",
                     "color": "red"
+                }
+            ]
+        },
+        "10": {
+            "0": {
+                "code": "Saint Lawrence, deacon and martyr",
+                "rank": 7,
+                "type": "Feast",
+                "name": "Saint Lawrence, deacon and martyr",
+                "color": "red"
+            },
+            "other": [
+                {
+                    "code": "OW19-1Mon",
+                    "rank": 12.5,
+                    "name": "Monday of the 19<sup>th<\/sup> Week in Ordinary Time",
+                    "color": "green"
                 }
             ]
         },
         "11": [
             {
-                "code": "OW19-1Mon",
+                "code": "OW19-2Tue",
                 "rank": 12.5,
-                "name": "Monday of the 19<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Tuesday of the 19<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
@@ -2863,9 +2836,9 @@
         ],
         "12": [
             {
-                "code": "OW19-2Tue",
+                "code": "OW19-3Wed",
                 "rank": 12.5,
-                "name": "Tuesday of the 19<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Wednesday of the 19<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
@@ -2878,9 +2851,9 @@
         ],
         "13": [
             {
-                "code": "OW19-3Wed",
+                "code": "OW19-4Thu",
                 "rank": 12.5,
-                "name": "Wednesday of the 19<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Thursday of the 19<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
@@ -2893,9 +2866,9 @@
         ],
         "14": [
             {
-                "code": "OW19-4Thu",
+                "code": "OW19-5Fri",
                 "rank": 12.5,
-                "name": "Thursday of the 19<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Friday of the 19<sup>th<\/sup> Week in Ordinary Time",
                 "color": "red"
             },
             {
@@ -2916,37 +2889,31 @@
             },
             "other": [
                 {
-                    "code": "OW19-5Fri",
+                    "code": "OW19-6Sat",
                     "rank": 12.5,
-                    "name": "Friday of the 19<sup>th<\/sup> Week in Ordinary Time",
+                    "name": "Saturday of the 19<sup>th<\/sup> Week in Ordinary Time",
                     "color": "green"
                 }
             ]
         },
-        "16": [
-            {
-                "code": "OW19-6Sat",
-                "rank": 12.5,
-                "name": "Saturday of the 19<sup>th<\/sup> Week in Ordinary Time",
-                "color": "green"
-            },
-            {
-                "code": "Saint Stephen of Hungary",
-                "rank": 12.1,
-                "type": "OpMem",
-                "name": "Saint Stephen of Hungary",
-                "color": "white"
-            }
-        ],
-        "17": [
-            {
+        "16": {
+            "0": {
                 "code": "OW20-0Sun",
                 "rank": 6,
                 "name": "Sunday of the 20<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
-            }
-        ],
-        "18": [
+            },
+            "other": [
+                {
+                    "code": "Saint Stephen of Hungary",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "Saint Stephen of Hungary",
+                    "color": "white"
+                }
+            ]
+        },
+        "17": [
             {
                 "code": "OW20-1Mon",
                 "rank": 12.5,
@@ -2954,11 +2921,19 @@
                 "color": "green"
             }
         ],
-        "19": [
+        "18": [
             {
                 "code": "OW20-2Tue",
                 "rank": 12.5,
                 "name": "Tuesday of the 20<sup>th<\/sup> Week in Ordinary Time",
+                "color": "green"
+            }
+        ],
+        "19": [
+            {
+                "code": "OW20-3Wed",
+                "rank": 12.5,
+                "name": "Wednesday of the 20<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
@@ -2971,9 +2946,9 @@
         ],
         "20": [
             {
-                "code": "OW20-3Wed",
+                "code": "OW20-4Thu",
                 "rank": 12.5,
-                "name": "Wednesday of the 20<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Thursday of the 20<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
@@ -2986,9 +2961,9 @@
         ],
         "21": [
             {
-                "code": "OW20-4Thu",
+                "code": "OW20-5Fri",
                 "rank": 12.5,
-                "name": "Thursday of the 20<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Friday of the 20<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
@@ -3001,9 +2976,9 @@
         ],
         "22": [
             {
-                "code": "OW20-5Fri",
+                "code": "OW20-6Sat",
                 "rank": 12.5,
-                "name": "Friday of the 20<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Saturday of the 20<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
@@ -3014,22 +2989,7 @@
                 "color": "white"
             }
         ],
-        "23": [
-            {
-                "code": "OW20-6Sat",
-                "rank": 12.5,
-                "name": "Saturday of the 20<sup>th<\/sup> Week in Ordinary Time",
-                "color": "green"
-            },
-            {
-                "code": "Saint Rose of Lima, virgin",
-                "rank": 12.1,
-                "type": "OpMem",
-                "name": "Saint Rose of Lima, virgin",
-                "color": "white"
-            }
-        ],
-        "24": {
+        "23": {
             "0": {
                 "code": "OW21-0Sun",
                 "rank": 6,
@@ -3038,19 +2998,36 @@
             },
             "other": [
                 {
-                    "code": "Saint Bartholomew the Apostle",
-                    "rank": 7,
-                    "type": "Feast",
-                    "name": "Saint Bartholomew the Apostle",
-                    "color": "red"
+                    "code": "Saint Rose of Lima, virgin",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "Saint Rose of Lima, virgin",
+                    "color": "white"
+                }
+            ]
+        },
+        "24": {
+            "0": {
+                "code": "Saint Bartholomew the Apostle",
+                "rank": 7,
+                "type": "Feast",
+                "name": "Saint Bartholomew the Apostle",
+                "color": "red"
+            },
+            "other": [
+                {
+                    "code": "OW21-1Mon",
+                    "rank": 12.5,
+                    "name": "Monday of the 21<sup>st<\/sup> Week in Ordinary Time",
+                    "color": "green"
                 }
             ]
         },
         "25": [
             {
-                "code": "OW21-1Mon",
+                "code": "OW21-2Tue",
                 "rank": 12.5,
-                "name": "Monday of the 21<sup>st<\/sup> Week in Ordinary Time",
+                "name": "Tuesday of the 21<sup>st<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
@@ -3070,17 +3047,17 @@
         ],
         "26": [
             {
-                "code": "OW21-2Tue",
+                "code": "OW21-3Wed",
                 "rank": 12.5,
-                "name": "Tuesday of the 21<sup>st<\/sup> Week in Ordinary Time",
+                "name": "Wednesday of the 21<sup>st<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
         "27": [
             {
-                "code": "OW21-3Wed",
+                "code": "OW21-4Thu",
                 "rank": 12.5,
-                "name": "Wednesday of the 21<sup>st<\/sup> Week in Ordinary Time",
+                "name": "Thursday of the 21<sup>st<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
@@ -3093,9 +3070,9 @@
         ],
         "28": [
             {
-                "code": "OW21-4Thu",
+                "code": "OW21-5Fri",
                 "rank": 12.5,
-                "name": "Thursday of the 21<sup>st<\/sup> Week in Ordinary Time",
+                "name": "Friday of the 21<sup>st<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
@@ -3108,9 +3085,9 @@
         ],
         "29": [
             {
-                "code": "OW21-5Fri",
+                "code": "OW21-6Sat",
                 "rank": 12.5,
-                "name": "Friday of the 21<sup>st<\/sup> Week in Ordinary Time",
+                "name": "Saturday of the 21<sup>st<\/sup> Week in Ordinary Time",
                 "color": "red"
             },
             {
@@ -3121,26 +3098,28 @@
                 "color": "red"
             }
         ],
-        "30": [
-            {
-                "code": "OW21-6Sat",
-                "rank": 12.5,
-                "name": "Saturday of the 21<sup>st<\/sup> Week in Ordinary Time",
-                "color": "green"
-            },
-            {
-                "code": "IN Saint Euphrasia, virgin",
-                "rank": 12.1,
-                "type": "OpMem",
-                "name": "IN Saint Euphrasia, virgin",
-                "color": "white"
-            }
-        ],
-        "31": [
-            {
+        "30": {
+            "0": {
                 "code": "OW22-0Sun",
                 "rank": 6,
                 "name": "Sunday of the 22<sup>nd<\/sup> Week in Ordinary Time",
+                "color": "green"
+            },
+            "other": [
+                {
+                    "code": "IN Saint Euphrasia, virgin",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "IN Saint Euphrasia, virgin",
+                    "color": "white"
+                }
+            ]
+        },
+        "31": [
+            {
+                "code": "OW22-1Mon",
+                "rank": 12.5,
+                "name": "Monday of the 22<sup>nd<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ]
@@ -3148,25 +3127,25 @@
     "9": {
         "1": [
             {
-                "code": "OW22-1Mon",
-                "rank": 12.5,
-                "name": "Monday of the 22<sup>nd<\/sup> Week in Ordinary Time",
-                "color": "green"
-            }
-        ],
-        "2": [
-            {
                 "code": "OW22-2Tue",
                 "rank": 12.5,
                 "name": "Tuesday of the 22<sup>nd<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
-        "3": [
+        "2": [
             {
                 "code": "OW22-3Wed",
                 "rank": 12.5,
                 "name": "Wednesday of the 22<sup>nd<\/sup> Week in Ordinary Time",
+                "color": "green"
+            }
+        ],
+        "3": [
+            {
+                "code": "OW22-4Thu",
+                "rank": 12.5,
+                "name": "Thursday of the 22<sup>nd<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
@@ -3179,17 +3158,17 @@
         ],
         "4": [
             {
-                "code": "OW22-4Thu",
+                "code": "OW22-5Fri",
                 "rank": 12.5,
-                "name": "Thursday of the 22<sup>nd<\/sup> Week in Ordinary Time",
+                "name": "Friday of the 22<sup>nd<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
         "5": {
             "0": {
-                "code": "OW22-5Fri",
+                "code": "OW22-6Sat",
                 "rank": 12.5,
-                "name": "Friday of the 22<sup>nd<\/sup> Week in Ordinary Time",
+                "name": "Saturday of the 22<sup>nd<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             "1": {
@@ -3211,24 +3190,17 @@
         },
         "6": [
             {
-                "code": "OW22-6Sat",
-                "rank": 12.5,
-                "name": "Saturday of the 22<sup>nd<\/sup> Week in Ordinary Time",
+                "code": "OW23-0Sun",
+                "rank": 6,
+                "name": "Sunday of the 23<sup>rd<\/sup> Week in Ordinary Time",
                 "color": "green"
-            },
-            {
-                "code": "Mem-Mary-Sat",
-                "rank": 10.3,
-                "type": "Mem-Mary-Sat",
-                "name": "Saturday Memorial of the Blessed Virgin Mary",
-                "color": "white"
             }
         ],
         "7": [
             {
-                "code": "OW23-0Sun",
-                "rank": 6,
-                "name": "Sunday of the 23<sup>rd<\/sup> Week in Ordinary Time",
+                "code": "OW23-1Mon",
+                "rank": 12.5,
+                "name": "Monday of the 23<sup>rd<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -3242,18 +3214,18 @@
             },
             "other": [
                 {
-                    "code": "OW23-1Mon",
+                    "code": "OW23-2Tue",
                     "rank": 12.5,
-                    "name": "Monday of the 23<sup>rd<\/sup> Week in Ordinary Time",
+                    "name": "Tuesday of the 23<sup>rd<\/sup> Week in Ordinary Time",
                     "color": "green"
                 }
             ]
         },
         "9": [
             {
-                "code": "OW23-2Tue",
+                "code": "OW23-3Wed",
                 "rank": 12.5,
-                "name": "Tuesday of the 23<sup>rd<\/sup> Week in Ordinary Time",
+                "name": "Wednesday of the 23<sup>rd<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
@@ -3266,25 +3238,25 @@
         ],
         "10": [
             {
-                "code": "OW23-3Wed",
-                "rank": 12.5,
-                "name": "Wednesday of the 23<sup>rd<\/sup> Week in Ordinary Time",
-                "color": "green"
-            }
-        ],
-        "11": [
-            {
                 "code": "OW23-4Thu",
                 "rank": 12.5,
                 "name": "Thursday of the 23<sup>rd<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
-        "12": [
+        "11": [
             {
                 "code": "OW23-5Fri",
                 "rank": 12.5,
                 "name": "Friday of the 23<sup>rd<\/sup> Week in Ordinary Time",
+                "color": "green"
+            }
+        ],
+        "12": [
+            {
+                "code": "OW23-6Sat",
+                "rank": 12.5,
+                "name": "Saturday of the 23<sup>rd<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
@@ -3295,21 +3267,23 @@
                 "color": "white"
             }
         ],
-        "13": [
-            {
-                "code": "OW23-6Sat",
-                "rank": 12.5,
-                "name": "Saturday of the 23<sup>rd<\/sup> Week in Ordinary Time",
-                "color": "white"
+        "13": {
+            "0": {
+                "code": "OW24-0Sun",
+                "rank": 6,
+                "name": "Sunday of the 24<sup>th<\/sup> Week in Ordinary Time",
+                "color": "green"
             },
-            {
-                "code": "Saint John Chrysostom, bishop and doctor",
-                "rank": 10.2,
-                "type": "Mem",
-                "name": "Saint John Chrysostom, bishop and doctor",
-                "color": "white"
-            }
-        ],
+            "other": [
+                {
+                    "code": "Saint John Chrysostom, bishop and doctor",
+                    "rank": 10.2,
+                    "type": "Mem",
+                    "name": "Saint John Chrysostom, bishop and doctor",
+                    "color": "white"
+                }
+            ]
+        },
         "14": {
             "0": {
                 "code": "Exaltation of the Holy Cross",
@@ -3320,18 +3294,18 @@
             },
             "other": [
                 {
-                    "code": "OW24-0Sun",
-                    "rank": 6,
-                    "name": "Sunday of the 24<sup>th<\/sup> Week in Ordinary Time",
+                    "code": "OW24-1Mon",
+                    "rank": 12.5,
+                    "name": "Monday of the 24<sup>th<\/sup> Week in Ordinary Time",
                     "color": "green"
                 }
             ]
         },
         "15": [
             {
-                "code": "OW24-1Mon",
+                "code": "OW24-2Tue",
                 "rank": 12.5,
-                "name": "Monday of the 24<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Tuesday of the 24<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
@@ -3344,9 +3318,9 @@
         ],
         "16": [
             {
-                "code": "OW24-2Tue",
+                "code": "OW24-3Wed",
                 "rank": 12.5,
-                "name": "Tuesday of the 24<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Wednesday of the 24<sup>th<\/sup> Week in Ordinary Time",
                 "color": "red"
             },
             {
@@ -3359,9 +3333,9 @@
         ],
         "17": [
             {
-                "code": "OW24-3Wed",
+                "code": "OW24-4Thu",
                 "rank": 12.5,
-                "name": "Wednesday of the 24<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Thursday of the 24<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
@@ -3381,17 +3355,17 @@
         ],
         "18": [
             {
-                "code": "OW24-4Thu",
+                "code": "OW24-5Fri",
                 "rank": 12.5,
-                "name": "Thursday of the 24<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Friday of the 24<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
         "19": [
             {
-                "code": "OW24-5Fri",
+                "code": "OW24-6Sat",
                 "rank": 12.5,
-                "name": "Friday of the 24<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Saturday of the 24<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
@@ -3402,22 +3376,7 @@
                 "color": "red"
             }
         ],
-        "20": [
-            {
-                "code": "OW24-6Sat",
-                "rank": 12.5,
-                "name": "Saturday of the 24<sup>th<\/sup> Week in Ordinary Time",
-                "color": "red"
-            },
-            {
-                "code": "Saint Andrew Kim Taegon, priest, and Paul Chong Hasang and companions, martyrs",
-                "rank": 10.2,
-                "type": "Mem",
-                "name": "Saint Andrew Kim Taegon, priest, and Paul Chong Hasang and companions, martyrs",
-                "color": "red"
-            }
-        ],
-        "21": {
+        "20": {
             "0": {
                 "code": "OW25-0Sun",
                 "rank": 6,
@@ -3426,27 +3385,44 @@
             },
             "other": [
                 {
-                    "code": "Saint Matthew the Evangelist, Apostle, Evangelist",
-                    "rank": 7,
-                    "type": "Feast",
-                    "name": "Saint Matthew the Evangelist, Apostle, Evangelist",
+                    "code": "Saint Andrew Kim Taegon, priest, and Paul Chong Hasang and companions, martyrs",
+                    "rank": 10.2,
+                    "type": "Mem",
+                    "name": "Saint Andrew Kim Taegon, priest, and Paul Chong Hasang and companions, martyrs",
                     "color": "red"
+                }
+            ]
+        },
+        "21": {
+            "0": {
+                "code": "Saint Matthew the Evangelist, Apostle, Evangelist",
+                "rank": 7,
+                "type": "Feast",
+                "name": "Saint Matthew the Evangelist, Apostle, Evangelist",
+                "color": "red"
+            },
+            "other": [
+                {
+                    "code": "OW25-1Mon",
+                    "rank": 12.5,
+                    "name": "Monday of the 25<sup>th<\/sup> Week in Ordinary Time",
+                    "color": "green"
                 }
             ]
         },
         "22": [
             {
-                "code": "OW25-1Mon",
+                "code": "OW25-2Tue",
                 "rank": 12.5,
-                "name": "Monday of the 25<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Tuesday of the 25<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
         "23": [
             {
-                "code": "OW25-2Tue",
+                "code": "OW25-3Wed",
                 "rank": 12.5,
-                "name": "Tuesday of the 25<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Wednesday of the 25<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
@@ -3459,25 +3435,25 @@
         ],
         "24": [
             {
-                "code": "OW25-3Wed",
-                "rank": 12.5,
-                "name": "Wednesday of the 25<sup>th<\/sup> Week in Ordinary Time",
-                "color": "green"
-            }
-        ],
-        "25": [
-            {
                 "code": "OW25-4Thu",
                 "rank": 12.5,
                 "name": "Thursday of the 25<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
-        "26": [
+        "25": [
             {
                 "code": "OW25-5Fri",
                 "rank": 12.5,
                 "name": "Friday of the 25<sup>th<\/sup> Week in Ordinary Time",
+                "color": "green"
+            }
+        ],
+        "26": [
+            {
+                "code": "OW25-6Sat",
+                "rank": 12.5,
+                "name": "Saturday of the 25<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
@@ -3488,22 +3464,7 @@
                 "color": "red"
             }
         ],
-        "27": [
-            {
-                "code": "OW25-6Sat",
-                "rank": 12.5,
-                "name": "Saturday of the 25<sup>th<\/sup> Week in Ordinary Time",
-                "color": "white"
-            },
-            {
-                "code": "Saint Vincent de Paul, priest",
-                "rank": 10.2,
-                "type": "Mem",
-                "name": "Saint Vincent de Paul, priest",
-                "color": "white"
-            }
-        ],
-        "28": {
+        "27": {
             "0": {
                 "code": "OW26-0Sun",
                 "rank": 6,
@@ -3512,21 +3473,36 @@
             },
             "other": [
                 {
-                    "code": "Saint Wenceslaus, martyr",
-                    "rank": 12.1,
-                    "type": "OpMem",
-                    "name": "Saint Wenceslaus, martyr",
-                    "color": "red"
-                },
-                {
-                    "code": "Saints Lawrence Ruiz and companions, martyrs",
-                    "rank": 12.1,
-                    "type": "OpMem",
-                    "name": "Saints Lawrence Ruiz and companions, martyrs",
-                    "color": "red"
+                    "code": "Saint Vincent de Paul, priest",
+                    "rank": 10.2,
+                    "type": "Mem",
+                    "name": "Saint Vincent de Paul, priest",
+                    "color": "white"
                 }
             ]
         },
+        "28": [
+            {
+                "code": "OW26-1Mon",
+                "rank": 12.5,
+                "name": "Monday of the 26<sup>th<\/sup> Week in Ordinary Time",
+                "color": "green"
+            },
+            {
+                "code": "Saint Wenceslaus, martyr",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "Saint Wenceslaus, martyr",
+                "color": "red"
+            },
+            {
+                "code": "Saints Lawrence Ruiz and companions, martyrs",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "Saints Lawrence Ruiz and companions, martyrs",
+                "color": "red"
+            }
+        ],
         "29": {
             "0": {
                 "code": "Saints Michael, Gabriel and Raphael, Archangels",
@@ -3537,18 +3513,18 @@
             },
             "other": [
                 {
-                    "code": "OW26-1Mon",
+                    "code": "OW26-2Tue",
                     "rank": 12.5,
-                    "name": "Monday of the 26<sup>th<\/sup> Week in Ordinary Time",
+                    "name": "Tuesday of the 26<sup>th<\/sup> Week in Ordinary Time",
                     "color": "green"
                 }
             ]
         },
         "30": [
             {
-                "code": "OW26-2Tue",
+                "code": "OW26-3Wed",
                 "rank": 12.5,
-                "name": "Tuesday of the 26<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Wednesday of the 26<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
@@ -3563,9 +3539,9 @@
     "10": {
         "1": [
             {
-                "code": "OW26-3Wed",
+                "code": "OW26-4Thu",
                 "rank": 12.5,
-                "name": "Wednesday of the 26<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Thursday of the 26<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
@@ -3578,9 +3554,9 @@
         ],
         "2": [
             {
-                "code": "OW26-4Thu",
+                "code": "OW26-5Fri",
                 "rank": 12.5,
-                "name": "Thursday of the 26<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Friday of the 26<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
@@ -3593,28 +3569,20 @@
         ],
         "3": [
             {
-                "code": "OW26-5Fri",
-                "rank": 12.5,
-                "name": "Friday of the 26<sup>th<\/sup> Week in Ordinary Time",
-                "color": "green"
-            }
-        ],
-        "4": [
-            {
                 "code": "OW26-6Sat",
                 "rank": 12.5,
                 "name": "Saturday of the 26<sup>th<\/sup> Week in Ordinary Time",
-                "color": "white"
+                "color": "green"
             },
             {
-                "code": "Saint Francis of Assisi",
-                "rank": 10.2,
-                "type": "Mem",
-                "name": "Saint Francis of Assisi",
+                "code": "Mem-Mary-Sat",
+                "rank": 10.3,
+                "type": "Mem-Mary-Sat",
+                "name": "Saturday Memorial of the Blessed Virgin Mary",
                 "color": "white"
             }
         ],
-        "5": {
+        "4": {
             "0": {
                 "code": "OW27-0Sun",
                 "rank": 6,
@@ -3623,19 +3591,34 @@
             },
             "other": [
                 {
-                    "code": "Saint Maria Faustina Kowalska, virgin",
-                    "rank": 12.1,
-                    "type": "OpMem",
-                    "name": "Saint Maria Faustina Kowalska, virgin",
+                    "code": "Saint Francis of Assisi",
+                    "rank": 10.2,
+                    "type": "Mem",
+                    "name": "Saint Francis of Assisi",
                     "color": "white"
                 }
             ]
         },
-        "6": [
+        "5": [
             {
                 "code": "OW27-1Mon",
                 "rank": 12.5,
                 "name": "Monday of the 27<sup>th<\/sup> Week in Ordinary Time",
+                "color": "green"
+            },
+            {
+                "code": "Saint Maria Faustina Kowalska, virgin",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "Saint Maria Faustina Kowalska, virgin",
+                "color": "white"
+            }
+        ],
+        "6": [
+            {
+                "code": "OW27-2Tue",
+                "rank": 12.5,
+                "name": "Tuesday of the 27<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
@@ -3648,9 +3631,9 @@
         ],
         "7": [
             {
-                "code": "OW27-2Tue",
+                "code": "OW27-3Wed",
                 "rank": 12.5,
-                "name": "Tuesday of the 27<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Wednesday of the 27<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
@@ -3663,17 +3646,17 @@
         ],
         "8": [
             {
-                "code": "OW27-3Wed",
+                "code": "OW27-4Thu",
                 "rank": 12.5,
-                "name": "Wednesday of the 27<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Thursday of the 27<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
         "9": [
             {
-                "code": "OW27-4Thu",
+                "code": "OW27-5Fri",
                 "rank": 12.5,
-                "name": "Thursday of the 27<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Friday of the 27<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
@@ -3693,36 +3676,37 @@
         ],
         "10": [
             {
-                "code": "OW27-5Fri",
-                "rank": 12.5,
-                "name": "Friday of the 27<sup>th<\/sup> Week in Ordinary Time",
-                "color": "green"
-            }
-        ],
-        "11": [
-            {
                 "code": "OW27-6Sat",
                 "rank": 12.5,
                 "name": "Saturday of the 27<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
-                "code": "Saint John XXIII, pope",
-                "rank": 12.1,
-                "type": "OpMem",
-                "name": "Saint John XXIII, pope",
+                "code": "Mem-Mary-Sat",
+                "rank": 10.3,
+                "type": "Mem-Mary-Sat",
+                "name": "Saturday Memorial of the Blessed Virgin Mary",
                 "color": "white"
             }
         ],
-        "12": [
-            {
+        "11": {
+            "0": {
                 "code": "OW28-0Sun",
                 "rank": 6,
                 "name": "Sunday of the 28<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
-            }
-        ],
-        "13": [
+            },
+            "other": [
+                {
+                    "code": "Saint John XXIII, pope",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "Saint John XXIII, pope",
+                    "color": "white"
+                }
+            ]
+        },
+        "12": [
             {
                 "code": "OW28-1Mon",
                 "rank": 12.5,
@@ -3730,11 +3714,19 @@
                 "color": "green"
             }
         ],
-        "14": [
+        "13": [
             {
                 "code": "OW28-2Tue",
                 "rank": 12.5,
                 "name": "Tuesday of the 28<sup>th<\/sup> Week in Ordinary Time",
+                "color": "green"
+            }
+        ],
+        "14": [
+            {
+                "code": "OW28-3Wed",
+                "rank": 12.5,
+                "name": "Wednesday of the 28<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
@@ -3747,9 +3739,9 @@
         ],
         "15": [
             {
-                "code": "OW28-3Wed",
+                "code": "OW28-4Thu",
                 "rank": 12.5,
-                "name": "Wednesday of the 28<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Thursday of the 28<sup>th<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
@@ -3762,9 +3754,9 @@
         ],
         "16": [
             {
-                "code": "OW28-4Thu",
+                "code": "OW28-5Fri",
                 "rank": 12.5,
-                "name": "Thursday of the 28<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Friday of the 28<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
@@ -3791,9 +3783,9 @@
         ],
         "17": [
             {
-                "code": "OW28-5Fri",
+                "code": "OW28-6Sat",
                 "rank": 12.5,
-                "name": "Friday of the 28<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Saturday of the 28<sup>th<\/sup> Week in Ordinary Time",
                 "color": "red"
             },
             {
@@ -3806,23 +3798,6 @@
         ],
         "18": {
             "0": {
-                "code": "Saint Luke the Evangelist",
-                "rank": 7,
-                "type": "Feast",
-                "name": "Saint Luke the Evangelist",
-                "color": "red"
-            },
-            "other": [
-                {
-                    "code": "OW28-6Sat",
-                    "rank": 12.5,
-                    "name": "Saturday of the 28<sup>th<\/sup> Week in Ordinary Time",
-                    "color": "green"
-                }
-            ]
-        },
-        "19": {
-            "0": {
                 "code": "OW29-0Sun",
                 "rank": 6,
                 "name": "Sunday of the 29<sup>th<\/sup> Week in Ordinary Time",
@@ -3830,30 +3805,37 @@
             },
             "other": [
                 {
-                    "code": "Saint Paul of the Cross, priest",
-                    "rank": 12.1,
-                    "type": "OpMem",
-                    "name": "Saint Paul of the Cross, priest",
-                    "color": "white"
-                },
-                {
-                    "code": "Saints Jean de Brébeuf, Isaac Jogues, priests and martyrs; and their companions, martyrs",
-                    "rank": 12.1,
-                    "type": "OpMem",
-                    "name": "Saints Jean de Brébeuf, Isaac Jogues, priests and martyrs; and their companions, martyrs",
+                    "code": "Saint Luke the Evangelist",
+                    "rank": 7,
+                    "type": "Feast",
+                    "name": "Saint Luke the Evangelist",
                     "color": "red"
                 }
             ]
         },
-        "20": [
+        "19": [
             {
                 "code": "OW29-1Mon",
                 "rank": 12.5,
                 "name": "Monday of the 29<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
+            },
+            {
+                "code": "Saint Paul of the Cross, priest",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "Saint Paul of the Cross, priest",
+                "color": "white"
+            },
+            {
+                "code": "Saints Jean de Brébeuf, Isaac Jogues, priests and martyrs; and their companions, martyrs",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "Saints Jean de Brébeuf, Isaac Jogues, priests and martyrs; and their companions, martyrs",
+                "color": "red"
             }
         ],
-        "21": [
+        "20": [
             {
                 "code": "OW29-2Tue",
                 "rank": 12.5,
@@ -3861,11 +3843,19 @@
                 "color": "green"
             }
         ],
-        "22": [
+        "21": [
             {
                 "code": "OW29-3Wed",
                 "rank": 12.5,
                 "name": "Wednesday of the 29<sup>th<\/sup> Week in Ordinary Time",
+                "color": "green"
+            }
+        ],
+        "22": [
+            {
+                "code": "OW29-4Thu",
+                "rank": 12.5,
+                "name": "Thursday of the 29<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
@@ -3878,9 +3868,9 @@
         ],
         "23": [
             {
-                "code": "OW29-4Thu",
+                "code": "OW29-5Fri",
                 "rank": 12.5,
-                "name": "Thursday of the 29<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Friday of the 29<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
@@ -3893,9 +3883,9 @@
         ],
         "24": [
             {
-                "code": "OW29-5Fri",
+                "code": "OW29-6Sat",
                 "rank": 12.5,
-                "name": "Friday of the 29<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Saturday of the 29<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
@@ -3908,32 +3898,25 @@
         ],
         "25": [
             {
-                "code": "OW29-6Sat",
-                "rank": 12.5,
-                "name": "Saturday of the 29<sup>th<\/sup> Week in Ordinary Time",
-                "color": "green"
-            },
-            {
-                "code": "Mem-Mary-Sat",
-                "rank": 10.3,
-                "type": "Mem-Mary-Sat",
-                "name": "Saturday Memorial of the Blessed Virgin Mary",
-                "color": "white"
-            }
-        ],
-        "26": [
-            {
                 "code": "OW30-0Sun",
                 "rank": 6,
                 "name": "Sunday of the 30<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
-        "27": [
+        "26": [
             {
                 "code": "OW30-1Mon",
                 "rank": 12.5,
                 "name": "Monday of the 30<sup>th<\/sup> Week in Ordinary Time",
+                "color": "green"
+            }
+        ],
+        "27": [
+            {
+                "code": "OW30-2Tue",
+                "rank": 12.5,
+                "name": "Tuesday of the 30<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
@@ -3947,22 +3930,14 @@
             },
             "other": [
                 {
-                    "code": "OW30-2Tue",
+                    "code": "OW30-3Wed",
                     "rank": 12.5,
-                    "name": "Tuesday of the 30<sup>th<\/sup> Week in Ordinary Time",
+                    "name": "Wednesday of the 30<sup>th<\/sup> Week in Ordinary Time",
                     "color": "green"
                 }
             ]
         },
         "29": [
-            {
-                "code": "OW30-3Wed",
-                "rank": 12.5,
-                "name": "Wednesday of the 30<sup>th<\/sup> Week in Ordinary Time",
-                "color": "green"
-            }
-        ],
-        "30": [
             {
                 "code": "OW30-4Thu",
                 "rank": 12.5,
@@ -3970,12 +3945,27 @@
                 "color": "green"
             }
         ],
-        "31": [
+        "30": [
             {
                 "code": "OW30-5Fri",
                 "rank": 12.5,
                 "name": "Friday of the 30<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
+            }
+        ],
+        "31": [
+            {
+                "code": "OW30-6Sat",
+                "rank": 12.5,
+                "name": "Saturday of the 30<sup>th<\/sup> Week in Ordinary Time",
+                "color": "green"
+            },
+            {
+                "code": "Mem-Mary-Sat",
+                "rank": 10.3,
+                "type": "Mem-Mary-Sat",
+                "name": "Saturday Memorial of the Blessed Virgin Mary",
+                "color": "white"
             }
         ]
     },
@@ -3990,9 +3980,9 @@
             },
             "other": [
                 {
-                    "code": "OW30-6Sat",
-                    "rank": 12.5,
-                    "name": "Saturday of the 30<sup>th<\/sup> Week in Ordinary Time",
+                    "code": "OW31-0Sun",
+                    "rank": 6,
+                    "name": "Sunday of the 31<sup>st<\/sup> Week in Ordinary Time",
                     "color": "green"
                 }
             ]
@@ -4007,18 +3997,18 @@
             },
             "other": [
                 {
-                    "code": "OW31-0Sun",
-                    "rank": 6,
-                    "name": "Sunday of the 31<sup>st<\/sup> Week in Ordinary Time",
+                    "code": "OW31-1Mon",
+                    "rank": 12.5,
+                    "name": "Monday of the 31<sup>st<\/sup> Week in Ordinary Time",
                     "color": "green"
                 }
             ]
         },
         "3": [
             {
-                "code": "OW31-1Mon",
+                "code": "OW31-2Tue",
                 "rank": 12.5,
-                "name": "Monday of the 31<sup>st<\/sup> Week in Ordinary Time",
+                "name": "Tuesday of the 31<sup>st<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
@@ -4031,9 +4021,9 @@
         ],
         "4": [
             {
-                "code": "OW31-2Tue",
+                "code": "OW31-3Wed",
                 "rank": 12.5,
-                "name": "Tuesday of the 31<sup>st<\/sup> Week in Ordinary Time",
+                "name": "Wednesday of the 31<sup>st<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
@@ -4046,21 +4036,13 @@
         ],
         "5": [
             {
-                "code": "OW31-3Wed",
-                "rank": 12.5,
-                "name": "Wednesday of the 31<sup>st<\/sup> Week in Ordinary Time",
-                "color": "green"
-            }
-        ],
-        "6": [
-            {
                 "code": "OW31-4Thu",
                 "rank": 12.5,
                 "name": "Thursday of the 31<sup>st<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
-        "7": [
+        "6": [
             {
                 "code": "OW31-5Fri",
                 "rank": 12.5,
@@ -4068,7 +4050,7 @@
                 "color": "green"
             }
         ],
-        "8": [
+        "7": [
             {
                 "code": "OW31-6Sat",
                 "rank": 12.5,
@@ -4083,6 +4065,14 @@
                 "color": "white"
             }
         ],
+        "8": [
+            {
+                "code": "OW32-0Sun",
+                "rank": 6,
+                "name": "Sunday of the 32<sup>nd<\/sup> Week in Ordinary Time",
+                "color": "green"
+            }
+        ],
         "9": {
             "0": {
                 "code": "Dedication of the Lateran basilica",
@@ -4093,18 +4083,18 @@
             },
             "other": [
                 {
-                    "code": "OW32-0Sun",
-                    "rank": 6,
-                    "name": "Sunday of the 32<sup>nd<\/sup> Week in Ordinary Time",
+                    "code": "OW32-1Mon",
+                    "rank": 12.5,
+                    "name": "Monday of the 32<sup>nd<\/sup> Week in Ordinary Time",
                     "color": "green"
                 }
             ]
         },
         "10": [
             {
-                "code": "OW32-1Mon",
+                "code": "OW32-2Tue",
                 "rank": 12.5,
-                "name": "Monday of the 32<sup>nd<\/sup> Week in Ordinary Time",
+                "name": "Tuesday of the 32<sup>nd<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
@@ -4117,9 +4107,9 @@
         ],
         "11": [
             {
-                "code": "OW32-2Tue",
+                "code": "OW32-3Wed",
                 "rank": 12.5,
-                "name": "Tuesday of the 32<sup>nd<\/sup> Week in Ordinary Time",
+                "name": "Wednesday of the 32<sup>nd<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
@@ -4132,9 +4122,9 @@
         ],
         "12": [
             {
-                "code": "OW32-3Wed",
+                "code": "OW32-4Thu",
                 "rank": 12.5,
-                "name": "Wednesday of the 32<sup>nd<\/sup> Week in Ordinary Time",
+                "name": "Thursday of the 32<sup>nd<\/sup> Week in Ordinary Time",
                 "color": "red"
             },
             {
@@ -4147,21 +4137,13 @@
         ],
         "13": [
             {
-                "code": "OW32-4Thu",
-                "rank": 12.5,
-                "name": "Thursday of the 32<sup>nd<\/sup> Week in Ordinary Time",
-                "color": "green"
-            }
-        ],
-        "14": [
-            {
                 "code": "OW32-5Fri",
                 "rank": 12.5,
                 "name": "Friday of the 32<sup>nd<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
-        "15": [
+        "14": [
             {
                 "code": "OW32-6Sat",
                 "rank": 12.5,
@@ -4169,14 +4151,14 @@
                 "color": "green"
             },
             {
-                "code": "Saint Albert the Great, bishop and doctor",
-                "rank": 12.1,
-                "type": "OpMem",
-                "name": "Saint Albert the Great, bishop and doctor",
+                "code": "Mem-Mary-Sat",
+                "rank": 10.3,
+                "type": "Mem-Mary-Sat",
+                "name": "Saturday Memorial of the Blessed Virgin Mary",
                 "color": "white"
             }
         ],
-        "16": {
+        "15": {
             "0": {
                 "code": "OW33-0Sun",
                 "rank": 6,
@@ -4185,26 +4167,41 @@
             },
             "other": [
                 {
-                    "code": "Saint Gertrude the Great, virgin",
+                    "code": "Saint Albert the Great, bishop and doctor",
                     "rank": 12.1,
                     "type": "OpMem",
-                    "name": "Saint Gertrude the Great, virgin",
-                    "color": "white"
-                },
-                {
-                    "code": "Saint Margaret of Scotland",
-                    "rank": 12.1,
-                    "type": "OpMem",
-                    "name": "Saint Margaret of Scotland",
+                    "name": "Saint Albert the Great, bishop and doctor",
                     "color": "white"
                 }
             ]
         },
-        "17": [
+        "16": [
             {
                 "code": "OW33-1Mon",
                 "rank": 12.5,
                 "name": "Monday of the 33<sup>rd<\/sup> Week in Ordinary Time",
+                "color": "green"
+            },
+            {
+                "code": "Saint Gertrude the Great, virgin",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "Saint Gertrude the Great, virgin",
+                "color": "white"
+            },
+            {
+                "code": "Saint Margaret of Scotland",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "Saint Margaret of Scotland",
+                "color": "white"
+            }
+        ],
+        "17": [
+            {
+                "code": "OW33-2Tue",
+                "rank": 12.5,
+                "name": "Tuesday of the 33<sup>rd<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
@@ -4217,9 +4214,9 @@
         ],
         "18": [
             {
-                "code": "OW33-2Tue",
+                "code": "OW33-3Wed",
                 "rank": 12.5,
-                "name": "Tuesday of the 33<sup>rd<\/sup> Week in Ordinary Time",
+                "name": "Wednesday of the 33<sup>rd<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
@@ -4232,25 +4229,25 @@
         ],
         "19": [
             {
-                "code": "OW33-3Wed",
-                "rank": 12.5,
-                "name": "Wednesday of the 33<sup>rd<\/sup> Week in Ordinary Time",
-                "color": "green"
-            }
-        ],
-        "20": [
-            {
                 "code": "OW33-4Thu",
                 "rank": 12.5,
                 "name": "Thursday of the 33<sup>rd<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
-        "21": [
+        "20": [
             {
                 "code": "OW33-5Fri",
                 "rank": 12.5,
                 "name": "Friday of the 33<sup>rd<\/sup> Week in Ordinary Time",
+                "color": "green"
+            }
+        ],
+        "21": [
+            {
+                "code": "OW33-6Sat",
+                "rank": 12.5,
+                "name": "Saturday of the 33<sup>rd<\/sup> Week in Ordinary Time",
                 "color": "white"
             },
             {
@@ -4261,22 +4258,7 @@
                 "color": "white"
             }
         ],
-        "22": [
-            {
-                "code": "OW33-6Sat",
-                "rank": 12.5,
-                "name": "Saturday of the 33<sup>rd<\/sup> Week in Ordinary Time",
-                "color": "white"
-            },
-            {
-                "code": "Saint Cecilia",
-                "rank": 10.2,
-                "type": "Mem",
-                "name": "Saint Cecilia",
-                "color": "white"
-            }
-        ],
-        "23": {
+        "22": {
             "0": {
                 "code": "OW34-0Sun",
                 "rank": 3.1,
@@ -4286,26 +4268,41 @@
             },
             "other": [
                 {
-                    "code": "Saint Clement I, pope and martyr",
-                    "rank": 12.1,
-                    "type": "OpMem",
-                    "name": "Saint Clement I, pope and martyr",
-                    "color": "red"
-                },
-                {
-                    "code": "Saint Columban, religious",
-                    "rank": 12.1,
-                    "type": "OpMem",
-                    "name": "Saint Columban, religious",
+                    "code": "Saint Cecilia",
+                    "rank": 10.2,
+                    "type": "Mem",
+                    "name": "Saint Cecilia",
                     "color": "white"
                 }
             ]
         },
-        "24": [
+        "23": [
             {
                 "code": "OW34-1Mon",
                 "rank": 12.5,
                 "name": "Monday of the 34<sup>th<\/sup> Week in Ordinary Time",
+                "color": "green"
+            },
+            {
+                "code": "Saint Clement I, pope and martyr",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "Saint Clement I, pope and martyr",
+                "color": "red"
+            },
+            {
+                "code": "Saint Columban, religious",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "Saint Columban, religious",
+                "color": "white"
+            }
+        ],
+        "24": [
+            {
+                "code": "OW34-2Tue",
+                "rank": 12.5,
+                "name": "Tuesday of the 34<sup>th<\/sup> Week in Ordinary Time",
                 "color": "red"
             },
             {
@@ -4318,9 +4315,9 @@
         ],
         "25": [
             {
-                "code": "OW34-2Tue",
+                "code": "OW34-3Wed",
                 "rank": 12.5,
-                "name": "Tuesday of the 34<sup>th<\/sup> Week in Ordinary Time",
+                "name": "Wednesday of the 34<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             },
             {
@@ -4333,21 +4330,13 @@
         ],
         "26": [
             {
-                "code": "OW34-3Wed",
-                "rank": 12.5,
-                "name": "Wednesday of the 34<sup>th<\/sup> Week in Ordinary Time",
-                "color": "green"
-            }
-        ],
-        "27": [
-            {
                 "code": "OW34-4Thu",
                 "rank": 12.5,
                 "name": "Thursday of the 34<sup>th<\/sup> Week in Ordinary Time",
                 "color": "green"
             }
         ],
-        "28": [
+        "27": [
             {
                 "code": "OW34-5Fri",
                 "rank": 12.5,
@@ -4355,7 +4344,7 @@
                 "color": "green"
             }
         ],
-        "29": [
+        "28": [
             {
                 "code": "OW34-6Sat",
                 "rank": 12.5,
@@ -4370,20 +4359,28 @@
                 "color": "white"
             }
         ],
-        "30": {
-            "0": {
+        "29": [
+            {
                 "code": "AW01-0Sun",
                 "rank": 2.1,
                 "name": "Sunday of the 1<sup>st<\/sup> Week of Advent",
                 "color": "purple"
+            }
+        ],
+        "30": {
+            "0": {
+                "code": "Saint Andrew the Apostle",
+                "rank": 7,
+                "type": "Feast",
+                "name": "Saint Andrew the Apostle",
+                "color": "red"
             },
             "other": [
                 {
-                    "code": "Saint Andrew the Apostle",
-                    "rank": 7,
-                    "type": "Feast",
-                    "name": "Saint Andrew the Apostle",
-                    "color": "red"
+                    "code": "AW01-1Mon",
+                    "rank": 12.2,
+                    "name": "Monday of the 1<sup>st<\/sup> Week of Advent",
+                    "color": "purple"
                 }
             ]
         }
@@ -4391,17 +4388,17 @@
     "12": {
         "1": [
             {
-                "code": "AW01-1Mon",
+                "code": "AW01-2Tue",
                 "rank": 12.2,
-                "name": "Monday of the 1<sup>st<\/sup> Week of Advent",
+                "name": "Tuesday of the 1<sup>st<\/sup> Week of Advent",
                 "color": "purple"
             }
         ],
         "2": [
             {
-                "code": "AW01-2Tue",
+                "code": "AW01-3Wed",
                 "rank": 12.2,
-                "name": "Tuesday of the 1<sup>st<\/sup> Week of Advent",
+                "name": "Wednesday of the 1<sup>st<\/sup> Week of Advent",
                 "color": "purple"
             }
         ],
@@ -4415,9 +4412,9 @@
             },
             "other": [
                 {
-                    "code": "AW01-3Wed",
+                    "code": "AW01-4Thu",
                     "rank": 12.2,
-                    "name": "Wednesday of the 1<sup>st<\/sup> Week of Advent",
+                    "name": "Thursday of the 1<sup>st<\/sup> Week of Advent",
                     "color": "purple"
                 },
                 {
@@ -4431,9 +4428,9 @@
         },
         "4": [
             {
-                "code": "AW01-4Thu",
+                "code": "AW01-5Fri",
                 "rank": 12.2,
-                "name": "Thursday of the 1<sup>st<\/sup> Week of Advent",
+                "name": "Friday of the 1<sup>st<\/sup> Week of Advent",
                 "color": "purple"
             },
             {
@@ -4446,28 +4443,13 @@
         ],
         "5": [
             {
-                "code": "AW01-5Fri",
-                "rank": 12.2,
-                "name": "Friday of the 1<sup>st<\/sup> Week of Advent",
-                "color": "purple"
-            }
-        ],
-        "6": [
-            {
                 "code": "AW01-6Sat",
                 "rank": 12.2,
                 "name": "Saturday of the 1<sup>st<\/sup> Week of Advent",
                 "color": "purple"
-            },
-            {
-                "code": "Saint Nicholas, bishop",
-                "rank": 12.1,
-                "type": "OpMem",
-                "name": "Saint Nicholas, bishop",
-                "color": "white"
             }
         ],
-        "7": {
+        "6": {
             "0": {
                 "code": "AW02-0Sun",
                 "rank": 2.1,
@@ -4476,14 +4458,29 @@
             },
             "other": [
                 {
-                    "code": "Saint Ambrose, bishop and doctor",
-                    "rank": 10.2,
-                    "type": "Mem",
-                    "name": "Saint Ambrose, bishop and doctor",
+                    "code": "Saint Nicholas, bishop",
+                    "rank": 12.1,
+                    "type": "OpMem",
+                    "name": "Saint Nicholas, bishop",
                     "color": "white"
                 }
             ]
         },
+        "7": [
+            {
+                "code": "AW02-1Mon",
+                "rank": 12.2,
+                "name": "Monday of the 2<sup>nd<\/sup> Week of Advent",
+                "color": "white"
+            },
+            {
+                "code": "Saint Ambrose, bishop and doctor",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "Saint Ambrose, bishop and doctor",
+                "color": "white"
+            }
+        ],
         "8": {
             "0": {
                 "code": "Immaculate Conception of the Blessed Virgin Mary",
@@ -4494,18 +4491,18 @@
             },
             "other": [
                 {
-                    "code": "AW02-1Mon",
+                    "code": "AW02-2Tue",
                     "rank": 12.2,
-                    "name": "Monday of the 2<sup>nd<\/sup> Week of Advent",
+                    "name": "Tuesday of the 2<sup>nd<\/sup> Week of Advent",
                     "color": "purple"
                 }
             ]
         },
         "9": [
             {
-                "code": "AW02-2Tue",
+                "code": "AW02-3Wed",
                 "rank": 12.2,
-                "name": "Tuesday of the 2<sup>nd<\/sup> Week of Advent",
+                "name": "Wednesday of the 2<sup>nd<\/sup> Week of Advent",
                 "color": "purple"
             },
             {
@@ -4518,9 +4515,9 @@
         ],
         "10": [
             {
-                "code": "AW02-3Wed",
+                "code": "AW02-4Thu",
                 "rank": 12.2,
-                "name": "Wednesday of the 2<sup>nd<\/sup> Week of Advent",
+                "name": "Thursday of the 2<sup>nd<\/sup> Week of Advent",
                 "color": "purple"
             },
             {
@@ -4533,9 +4530,9 @@
         ],
         "11": [
             {
-                "code": "AW02-4Thu",
+                "code": "AW02-5Fri",
                 "rank": 12.2,
-                "name": "Thursday of the 2<sup>nd<\/sup> Week of Advent",
+                "name": "Friday of the 2<sup>nd<\/sup> Week of Advent",
                 "color": "purple"
             },
             {
@@ -4548,9 +4545,9 @@
         ],
         "12": [
             {
-                "code": "AW02-5Fri",
+                "code": "AW02-6Sat",
                 "rank": 12.2,
-                "name": "Friday of the 2<sup>nd<\/sup> Week of Advent",
+                "name": "Saturday of the 2<sup>nd<\/sup> Week of Advent",
                 "color": "purple"
             },
             {
@@ -4561,22 +4558,7 @@
                 "color": "white"
             }
         ],
-        "13": [
-            {
-                "code": "AW02-6Sat",
-                "rank": 12.2,
-                "name": "Saturday of the 2<sup>nd<\/sup> Week of Advent",
-                "color": "red"
-            },
-            {
-                "code": "Saint Lucy of Syracuse, virgin and martyr",
-                "rank": 10.2,
-                "type": "Mem",
-                "name": "Saint Lucy of Syracuse, virgin and martyr",
-                "color": "red"
-            }
-        ],
-        "14": {
+        "13": {
             "0": {
                 "code": "AW03-0Sun",
                 "rank": 2.1,
@@ -4585,27 +4567,42 @@
             },
             "other": [
                 {
-                    "code": "Saint John of the Cross, priest and doctor",
+                    "code": "Saint Lucy of Syracuse, virgin and martyr",
                     "rank": 10.2,
                     "type": "Mem",
-                    "name": "Saint John of the Cross, priest and doctor",
-                    "color": "white"
+                    "name": "Saint Lucy of Syracuse, virgin and martyr",
+                    "color": "red"
                 }
             ]
         },
-        "15": [
+        "14": [
             {
                 "code": "AW03-1Mon",
                 "rank": 12.2,
                 "name": "Monday of the 3<sup>rd<\/sup> Week of Advent",
+                "color": "white"
+            },
+            {
+                "code": "Saint John of the Cross, priest and doctor",
+                "rank": 10.2,
+                "type": "Mem",
+                "name": "Saint John of the Cross, priest and doctor",
+                "color": "white"
+            }
+        ],
+        "15": [
+            {
+                "code": "AW03-2Tue",
+                "rank": 12.2,
+                "name": "Tuesday of the 3<sup>rd<\/sup> Week of Advent",
                 "color": "purple"
             }
         ],
         "16": [
             {
-                "code": "AW03-2Tue",
+                "code": "AW03-3Wed",
                 "rank": 12.2,
-                "name": "Tuesday of the 3<sup>rd<\/sup> Week of Advent",
+                "name": "Wednesday of the 3<sup>rd<\/sup> Week of Advent",
                 "color": "purple"
             }
         ],
@@ -4635,29 +4632,27 @@
         ],
         "20": [
             {
-                "code": "AW05-Dec20",
-                "rank": 9.1,
-                "name": "Advent Weekday: December - 20",
-                "color": "purple"
-            }
-        ],
-        "21": {
-            "0": {
                 "code": "AW04-0Sun",
                 "rank": 2.1,
                 "name": "Sunday of the 4<sup>th<\/sup> Week of Advent",
                 "color": "purple"
+            }
+        ],
+        "21": [
+            {
+                "code": "AW05-Dec21",
+                "rank": 9.1,
+                "name": "Advent Weekday: December - 21",
+                "color": "purple"
             },
-            "other": [
-                {
-                    "code": "Saint Peter Canisius, priest and doctor",
-                    "rank": 12.1,
-                    "type": "OpMem",
-                    "name": "Saint Peter Canisius, priest and doctor",
-                    "color": "white"
-                }
-            ]
-        },
+            {
+                "code": "Saint Peter Canisius, priest and doctor",
+                "rank": 12.1,
+                "type": "OpMem-Commemoration",
+                "name": "Saint Peter Canisius, priest and doctor",
+                "color": "white"
+            }
+        ],
         "22": [
             {
                 "code": "AW05-Dec22",
@@ -4707,16 +4702,7 @@
                 "color": "red"
             }
         ],
-        "27": [
-            {
-                "code": "Saint John the Apostle and evangelist",
-                "rank": 7,
-                "type": "Feast",
-                "name": "Saint John the Apostle and evangelist",
-                "color": "white"
-            }
-        ],
-        "28": {
+        "27": {
             "0": {
                 "code": "CW01-HolyFamily",
                 "rank": 5,
@@ -4726,14 +4712,23 @@
             },
             "other": [
                 {
-                    "code": "Holy Innocents, martyrs",
+                    "code": "Saint John the Apostle and evangelist",
                     "rank": 7,
                     "type": "Feast",
-                    "name": "Holy Innocents, martyrs",
-                    "color": "red"
+                    "name": "Saint John the Apostle and evangelist",
+                    "color": "white"
                 }
             ]
         },
+        "28": [
+            {
+                "code": "Holy Innocents, martyrs",
+                "rank": 7,
+                "type": "Feast",
+                "name": "Holy Innocents, martyrs",
+                "color": "red"
+            }
+        ],
         "29": [
             {
                 "code": "CW01-Dec29",
