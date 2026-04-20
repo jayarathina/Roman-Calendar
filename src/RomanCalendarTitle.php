@@ -78,9 +78,9 @@ class RomanCalendarTitle{
 		if (is_null($fTitle))
 			switch (substr($dayCode, 0, 2)) {
 				case 'AW':
-					$fTitle = match ($wkNo) {
-						4 => 'Advent Weekday: December - ' . substr($dayCode, -2),
-						default => $dayEnglishFull[$wkDay] . ' of the ' . self::addOrdinalNumberSuffix($wkNo) . ' Week of Advent'
+					$fTitle = match (true) {
+						$dayCode === 'AW04-0Sun' || $wkNo !== 4 => $dayEnglishFull[$wkDay] . ' of the ' . self::addOrdinalNumberSuffix($wkNo) . ' Week of Advent',
+						default => 'Advent Weekday: December - ' . substr($dayCode, -2),
 					};
 					break;
 				case 'CW':

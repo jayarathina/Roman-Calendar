@@ -128,9 +128,9 @@ class RomanCalendarRenderHTML_Tamil {
 		if (is_null($fTitle))
 			switch (substr($dayCode, 0, 2)) {
 				case 'AW':
-					$fTitle = match ($wkNo) {
-						4 => 'திருவருகைக் கால வார நாள்கள் - டிசம்பர் ' . substr ( $dayCode, - 2 ),
-						default => 'திருவருகைக்காலம் ' . $wkNo . 'ஆம் வாரம் - ' . $this->tamilDayFull [$wkDay]
+					$fTitle = match (true) {
+						$dayCode === 'AW04-0Sun' || $wkNo !== 4 => 'திருவருகைக்காலம் ' . $wkNo . 'ஆம் வாரம் - ' . $this->tamilDayFull [$wkDay],
+						default => 'திருவருகைக் கால வார நாள்கள் - டிசம்பர் ' . substr($dayCode, -2),
 					};
 					break;
 
