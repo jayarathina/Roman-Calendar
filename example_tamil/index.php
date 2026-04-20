@@ -42,5 +42,21 @@ use RomanCalendar\RomanCalendar;
 
 		$rHTML->printYearHTML($year, $fullYear);
 	?>
+<!-- script>
+ //Just for debugging purposes... render a decade work of data
+    const start = 2020;
+    const end   = 2030;
+    const url   = new URL(window.location.href);
+    const year  = parseInt(url.searchParams.get('year')) || start;
+
+    if (year <= end) {
+        setTimeout(() => {
+            url.searchParams.set('year', year + 1);
+            window.location.href = url.toString();
+        }, 500);
+    }
+</script -->
+
+
 </body>
 </html>

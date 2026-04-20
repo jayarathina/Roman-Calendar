@@ -46,8 +46,8 @@ class RomanCalendarUtility {
 	public static function getSeasonLimits(int $year, bool $epiphany_on_sunday): array {
 		$seasonLimits = [];
 
-		// Sunday after last thur of Nov is Advent
-		$seasonLimits['advent'] = new \DateTimeImmutable("last thu of Nov $year next sunday");
+		// Sunday after 26 Nov is Advent
+		$seasonLimits['advent'] = (new \DateTimeImmutable("$year-11-26"))->modify('next Sunday');
 		$seasonLimits['christmastide1'] = new \DateTimeImmutable($year . '-12-25');
 		$seasonLimits['christmastide2'] = new \DateTimeImmutable($year . '-01-01');
 

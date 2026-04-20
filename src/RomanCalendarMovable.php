@@ -63,15 +63,15 @@ class RomanCalendarMovable{
 		// We are filling upto the christmas (and not just upto 17 dec) because sundays have to be filled properly. There can be atmost two sundays after dec 16.
 		$this->fillInWeek($this->seasonLimits['advent'], $this->seasonLimits['christmastide1'], $code);
 
-		// Final week of Advent Dec 17-24; For Programming sake we call it the 5th week
-		$AW05 = new \DateTime($this->year . '-12-17');
-		while ($AW05 < $this->seasonLimits['christmastide1']) {
-			if ($AW05->format('w') != 0) { 
-				// If it is not a Sunday, set the code
-				// Sundays in this week are not counted as a week 5, but as week 4.
-				$this->setDayCode($AW05, $code . $AW05->format('04-Mj'));
+		// Advent Part - II: Dec 17-24
+		// For Programming sake we call it the 4th week. But it may occour in both 3rd and 4th week.
+		$A2 = new \DateTime($this->year . '-12-17');
+		while ($A2 < $this->seasonLimits['christmastide1']) {
+			if ($A2->format('w') != 0) {
+				// If it is not a Sunday, change the code to AW04-Dec18 etc.,
+				$this->setDayCode($A2, $code . $A2->format('04-Mj'));
 			}
-			$AW05->modify('+1 day');
+			$A2->modify('+1 day');
 		}
 	}
 
