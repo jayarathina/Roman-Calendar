@@ -69,7 +69,7 @@ class RomanCalendarMovable{
 			if ($AW05->format('w') != 0) { 
 				// If it is not a Sunday, set the code
 				// Sundays in this week are not counted as a week 5, but as week 4.
-				$this->setDayCode($AW05, $code . $AW05->format('05-Mj'));
+				$this->setDayCode($AW05, $code . $AW05->format('04-Mj'));
 			}
 			$AW05->modify('+1 day');
 		}

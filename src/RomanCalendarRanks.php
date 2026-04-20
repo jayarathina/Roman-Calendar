@@ -139,7 +139,7 @@ namespace RomanCalendar;
 		'Feast-OwnChurch' => 8.5, // Other feasts proper to one's own church
 		'Feast-Other' => 8.6, // Other feasts listed in the calendar of the diocese, order, or congregation
 
-		'AW05' => 9.1, // Weekdays of Advent from December 17 to December 24 inclusive
+		'AW04-Dec' => 9.1, // Weekdays of Advent from December 17 to December 24 inclusive
 		'CW01' => 9.2, // Days within the octave of Christmas - Jan 1 is ranked as solemnity
 		'LW' => 9.3, // Weekdays of Lent
 

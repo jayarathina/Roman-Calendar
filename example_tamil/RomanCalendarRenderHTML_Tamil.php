@@ -129,7 +129,7 @@ class RomanCalendarRenderHTML_Tamil {
 			switch (substr($dayCode, 0, 2)) {
 				case 'AW':
 					$fTitle = match ($wkNo) {
-						5 => 'திருவருகைக் கால வார நாள்கள் - டிசம்பர் ' . substr ( $dayCode, - 2 ),
+						4 => 'திருவருகைக் கால வார நாள்கள் - டிசம்பர் ' . substr ( $dayCode, - 2 ),
 						default => 'திருவருகைக்காலம் ' . $wkNo . 'ஆம் வாரம் - ' . $this->tamilDayFull [$wkDay]
 					};
 					break;
