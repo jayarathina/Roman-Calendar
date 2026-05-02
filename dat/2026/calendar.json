@@ -3672,6 +3672,13 @@
                 "type": "OpMem",
                 "name": "Saint John Leonardi, priest",
                 "color": "white"
+            },
+            {
+                "code": "Saint John Henry Newman, Priest and Doctor of the Church",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "Saint John Henry Newman, Priest and Doctor of the Church",
+                "color": "white"
             }
         ],
         "10": [

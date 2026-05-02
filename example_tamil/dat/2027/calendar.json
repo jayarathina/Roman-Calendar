@@ -3713,6 +3713,13 @@
                 "type": "OpMem",
                 "name": "புனித யோவான் லெயோனார்ட் - மறைப்பணியாளர்",
                 "color": "white"
+            },
+            {
+                "code": "Saint John Henry Newman, Priest and Doctor of the Church",
+                "rank": 12.1,
+                "type": "OpMem",
+                "name": "புனித ஜான் ஹென்றி நியூமன் - மறைப்பணியாளர், மறைவல்லுநர்",
+                "color": "white"
             }
         ],
         "10": [
